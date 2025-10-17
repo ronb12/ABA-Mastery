@@ -14,6 +14,7 @@
     "ignore": [
       "firebase.json",
       "**/.*",
+      "**/.*/**",
       "**/node_modules/**",
       "**/*.md",
       "!README.md",
@@ -23,21 +24,13 @@
       "firestore.indexes.json",
       "database.rules.json",
       "storage.rules",
-      "*.log",
-      "*test*.js",
-      "*test*.html",
-      "*test*.json",
-      "test-screenshots/**",
-      "login-test-screenshots/**",
-      "button-test-screenshots/**",
-      "button-tests/**",
-      "comprehensive-test-screenshots/**",
+      "**/*.log",
+      "*test*",
       "add-firebase-users.js",
       "create-test-users.js",
       "package.json",
       "package-lock.json",
-      "firebase-service-account-INSTRUCTIONS.txt",
-      "server.log"
+      "firebase-service-account-INSTRUCTIONS.txt"
     ],
     "rewrites": [
       {
