@@ -1,0 +1,105 @@
+rules_version = '2';
+
+// Firestore Security Rules for ABA Mastery
+// A product of Bradley Virtual Solutions, LLC
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // User profiles - users can only read/write their own data
+    match /users/{userId} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId);
+      
+      // User progress data
+      match /progress/{progressId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+      
+      // User quiz results
+      match /quizResults/{quizId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+      
+      // User study sessions
+      match /studySessions/{sessionId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+      
+      // User flashcard progress
+      match /flashcardProgress/{cardId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+    }
+    
+    // Public content - read-only for all users
+    match /content/{document=**} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Categories - read-only for all users
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Topics - read-only for all users
+    match /topics/{topicId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Practice questions - read-only for all users
+    match /practiceQuestions/{questionId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Flashcards - read-only for all users
+    match /flashcards/{cardId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Global statistics (aggregated, anonymous)
+    match /statistics/{statId} {
+      allow read: if true;
+      allow write: if false; // Updated via Cloud Functions
+    }
+    
+    // Leaderboard (if implemented - anonymous)
+    match /leaderboard/{entryId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update, delete: if false;
+    }
+    
+    // Community features (if implemented)
+    match /community/{postId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update, delete: if isAuthenticated() 
+        && request.auth.uid == resource.data.authorId;
+    }
+    
+    // Default deny all other paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

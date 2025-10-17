@@ -1,0 +1,83 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid",
+        
+        "profile": {
+          ".validate": "newData.hasChildren(['displayName', 'email', 'createdAt'])"
+        },
+        
+        "progress": {
+          ".read": "$uid === auth.uid",
+          ".write": "$uid === auth.uid",
+          ".indexOn": ["lastUpdated", "categoryId"]
+        },
+        
+        "quizResults": {
+          ".read": "$uid === auth.uid",
+          ".write": "$uid === auth.uid",
+          ".indexOn": ["timestamp", "category", "score"]
+        },
+        
+        "studySessions": {
+          ".read": "$uid === auth.uid",
+          ".write": "$uid === auth.uid",
+          ".indexOn": ["startTime", "endTime"]
+        },
+        
+        "flashcardProgress": {
+          ".read": "$uid === auth.uid",
+          ".write": "$uid === auth.uid",
+          ".indexOn": ["lastReviewed", "nextReview"]
+        }
+      }
+    },
+    
+    "content": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": ["categoryId", "difficulty"]
+    },
+    
+    "categories": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": ["order"]
+    },
+    
+    "topics": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": ["categoryId"]
+    },
+    
+    "practiceQuestions": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": ["category", "difficulty"]
+    },
+    
+    "flashcards": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": ["category"]
+    },
+    
+    "statistics": {
+      ".read": true,
+      ".write": false
+    },
+    
+    "leaderboard": {
+      ".read": true,
+      ".write": "auth != null",
+      ".indexOn": ["category", "score", "timestamp"]
+    }
+  }
+}
+
