@@ -1,0 +1,1007 @@
+{
+  "categories": [
+    {
+      "id": "foundations",
+      "name": "Foundations of ABA",
+      "icon": "🎓",
+      "description": "Core principles and theoretical foundations of Applied Behavior Analysis",
+      "topics": [
+        {
+          "id": "foundations-1",
+          "title": "History and Philosophy of Behaviorism",
+          "content": "Applied Behavior Analysis (ABA) has its roots in the experimental work of B.F. Skinner and the philosophical foundations of behaviorism. Behaviorism focuses on observable and measurable behavior, rejecting mentalistic explanations. The field has evolved from basic laboratory research to applied settings, with pioneers like Baer, Wolf, and Risley establishing the seven dimensions of ABA in 1968: applied, behavioral, analytic, technological, conceptually systematic, effective, and capable of appropriately generalized outcomes.",
+          "keyPoints": [
+            "Behaviorism emerged as a reaction to introspective psychology",
+            "B.F. Skinner's operant conditioning is foundational to ABA",
+            "Seven dimensions of ABA define the field's characteristics",
+            "Evidence-based practice is central to ABA methodology"
+          ]
+        },
+        {
+          "id": "foundations-2",
+          "title": "Basic Principles of Behavior",
+          "content": "Understanding reinforcement, punishment, extinction, and stimulus control forms the foundation of behavior analysis. Reinforcement increases behavior frequency (positive adds a stimulus, negative removes a stimulus). Punishment decreases behavior (positive adds aversive, negative removes preferred). Extinction involves withholding reinforcement. These principles are universal and apply across species and settings.",
+          "keyPoints": [
+            "Reinforcement increases future probability of behavior",
+            "Punishment decreases future probability of behavior",
+            "Extinction results from withholding reinforcement",
+            "Stimulus control determines when behaviors occur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assessment",
+      "name": "Assessment & Evaluation",
+      "icon": "📋",
+      "description": "Methods for measuring, assessing, and evaluating behavior",
+      "topics": [
+        {
+          "id": "assessment-1",
+          "title": "Functional Behavior Assessment (FBA)",
+          "content": "FBA is a systematic process for identifying the function or purpose of problem behavior. It involves indirect assessment (interviews, rating scales), descriptive assessment (ABC data, scatterplots), and functional analysis (experimental manipulation). The four main functions of behavior are: attention, escape/avoidance, access to tangibles, and automatic/sensory reinforcement. Understanding function is critical for developing effective interventions.",
+          "keyPoints": [
+            "FBA identifies why behaviors occur, not just what happens",
+            "Four main functions: attention, escape, tangible, automatic",
+            "Multiple assessment methods provide comprehensive understanding",
+            "Function-based interventions are most effective"
+          ]
+        },
+        {
+          "id": "assessment-2",
+          "title": "Measurement Systems",
+          "content": "Accurate measurement is essential in ABA. Common measurement systems include: frequency/count (number of occurrences), rate (frequency per unit time), duration (how long behavior occurs), latency (time between antecedent and behavior), inter-response time (time between responses), and percentage (proportion of opportunities). Selection depends on the behavior's characteristics and treatment goals.",
+          "keyPoints": [
+            "Frequency counts discrete instances of behavior",
+            "Rate provides standardized measure across time periods",
+            "Duration measures temporal extent of behavior",
+            "Measurement selection depends on behavior topography"
+          ]
+        },
+        {
+          "id": "assessment-3",
+          "title": "Data Collection Methods",
+          "content": "Data collection methods include continuous recording (every instance), discontinuous recording (sampling), and permanent product recording. Discontinuous methods include whole interval (behavior throughout), partial interval (behavior any time during), and momentary time sampling (behavior at specific moments). Each method has advantages and limitations regarding accuracy, feasibility, and applicability to different behaviors.",
+          "keyPoints": [
+            "Continuous recording provides complete picture but is resource-intensive",
+            "Interval recording samples behavior systematically",
+            "Whole interval may underestimate, partial may overestimate",
+            "Method selection balances accuracy and practicality"
+          ]
+        },
+        {
+          "id": "assessment-4",
+          "title": "Skill Acquisition Assessment",
+          "content": "Assessing current skill levels involves standardized assessments (VB-MAPP, ABLLS-R, AFLS), curriculum-based assessments, and criterion-referenced testing. These tools identify strengths, deficits, and priorities for intervention. Assessment should be ongoing, measuring progress toward individualized goals and informing program modifications.",
+          "keyPoints": [
+            "Standardized assessments provide norm-referenced comparison",
+            "Criterion-referenced tools measure against specific standards",
+            "Assessment guides treatment planning and priorities",
+            "Regular reassessment monitors progress and informs modifications"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intervention",
+      "name": "Intervention Strategies",
+      "icon": "🎯",
+      "description": "Evidence-based intervention procedures and techniques",
+      "topics": [
+        {
+          "id": "intervention-1",
+          "title": "Reinforcement Procedures",
+          "content": "Effective reinforcement requires immediacy, consistency, and appropriate schedule. Schedules include continuous (every response) and intermittent (fixed/variable ratio/interval). Variable schedules produce more resistant responding. Reinforcer assessment identifies effective consequences. Differential reinforcement procedures (DRA, DRI, DRO, DRL) reinforce alternative or incompatible behaviors while withholding reinforcement for problem behavior.",
+          "keyPoints": [
+            "Immediacy and consistency enhance reinforcement effectiveness",
+            "Variable schedules create more durable behavior change",
+            "Differential reinforcement reduces problem behavior functionally",
+            "Reinforcer preferences should be regularly reassessed"
+          ]
+        },
+        {
+          "id": "intervention-2",
+          "title": "Prompting and Prompt Fading",
+          "content": "Prompts are supplementary antecedent stimuli that increase likelihood of correct responding. Types include verbal, gestural, model, physical (full/partial). Prompt hierarchies can be most-to-least or least-to-most intrusive. Fading strategies include graduated guidance, time delay (constant/progressive), and stimulus fading. Goal is independent responding without prompts.",
+          "keyPoints": [
+            "Prompts temporarily increase correct responding during acquisition",
+            "Least-to-most prompting promotes independence",
+            "Most-to-least reduces errors during learning",
+            "Systematic fading prevents prompt dependency"
+          ]
+        },
+        {
+          "id": "intervention-3",
+          "title": "Discrete Trial Training (DTT)",
+          "content": "DTT is a structured teaching method with clear beginning and end. Components include: discriminative stimulus (SD), response, consequence, and inter-trial interval. Trials are massed or distributed. Effective DTT involves clear instructions, immediate consequences, systematic prompting/fading, and data collection. Best for teaching discrete, easily defined skills.",
+          "keyPoints": [
+            "DTT provides structured, intensive teaching opportunities",
+            "Clear SD-Response-Consequence contingency",
+            "Requires high rates of reinforcement initially",
+            "Effective for acquisition of discrete skills"
+          ]
+        },
+        {
+          "id": "intervention-4",
+          "title": "Natural Environment Teaching (NET)",
+          "content": "NET capitalizes on naturally occurring teaching opportunities in the learner's environment. It is child-led, uses natural reinforcers, and promotes generalization. Incidental teaching waits for learner initiation then provides instruction. NET complements DTT by promoting maintenance and generalization in natural contexts.",
+          "keyPoints": [
+            "NET follows learner's motivation and interests",
+            "Natural reinforcers enhance generalization",
+            "Instruction occurs in context where skills are needed",
+            "Balancing DTT and NET optimizes outcomes"
+          ]
+        },
+        {
+          "id": "intervention-5",
+          "title": "Behavior Reduction Procedures",
+          "content": "Function-based interventions address why behavior occurs. Antecedent interventions prevent problem behavior (NCR, environmental modifications). Consequence-based include extinction, differential reinforcement, and timeout. Punishment should be last resort, with ethical considerations. Crisis management procedures ensure safety while maintaining therapeutic relationship.",
+          "keyPoints": [
+            "Function-based approach is most effective and ethical",
+            "Antecedent strategies proactively prevent problem behavior",
+            "Extinction requires consistency and extinction burst management",
+            "Positive approaches prioritized over punishment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbal-behavior",
+      "name": "Verbal Behavior",
+      "icon": "💬",
+      "description": "Language and communication from a behavioral perspective",
+      "topics": [
+        {
+          "id": "verbal-1",
+          "title": "Skinner's Analysis of Verbal Behavior",
+          "content": "Skinner's functional analysis categorizes verbal operants by their controlling variables: mand (request, motivated by EO), tact (label, controlled by nonverbal stimulus), echoic (vocal imitation), intraverbal (conversational), textual (reading), transcription (writing), and listener behavior (following instructions). Each serves different communicative functions.",
+          "keyPoints": [
+            "Verbal behavior is behavior reinforced through mediation of others",
+            "Each verbal operant has unique controlling variables",
+            "Mands are critical for functional communication",
+            "Multiple operants needed for comprehensive language"
+          ]
+        },
+        {
+          "id": "verbal-2",
+          "title": "Teaching Mands",
+          "content": "Manding is requesting and is the only verbal operant that directly benefits the speaker. Teaching involves creating motivation (establishing operations), transferring stimulus control from prompts, and fading to independence. Start with high-preference items, use time delay or mand models, and reinforce immediately with the requested item. Generalize across people, settings, and stimuli.",
+          "keyPoints": [
+            "Mands are reinforced by specific consequences they specify",
+            "Establishing operations create motivation for manding",
+            "Begin with highly preferred items and activities",
+            "Immediate reinforcement with requested item is critical"
+          ]
+        },
+        {
+          "id": "verbal-3",
+          "title": "Teaching Tacts",
+          "content": "Tacts are labels controlled by nonverbal stimuli (objects, actions, properties). Teaching involves presenting stimulus, prompting response, providing generalized reinforcement (praise, not item itself). Expand tact repertoire systematically, teach multiple exemplars, and program for generalization. Include nouns, verbs, adjectives, prepositions, and abstract concepts.",
+          "keyPoints": [
+            "Tacts are controlled by nonverbal discriminative stimuli",
+            "Generalized conditioned reinforcement maintains tacting",
+            "Multiple exemplar training promotes generalization",
+            "Comprehensive tact repertoire enables descriptive language"
+          ]
+        },
+        {
+          "id": "verbal-4",
+          "title": "Intraverbal Behavior",
+          "content": "Intraverbals are verbal responses to verbal stimuli without point-to-point correspondence (conversations, answering questions, singing songs). Critical for social interaction and academic success. Teaching involves presenting verbal SD, prompting response, fading prompts, and providing reinforcement. Build from simple fill-ins to complex conversations.",
+          "keyPoints": [
+            "Intraverbals controlled by prior verbal behavior",
+            "Essential for conversation and social interaction",
+            "No point-to-point correspondence with stimulus",
+            "Progression from simple to complex exchanges"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "name": "Ethics & Professional Conduct",
+      "icon": "⚖️",
+      "description": "Ethical principles and professional responsibilities in ABA practice",
+      "topics": [
+        {
+          "id": "ethics-1",
+          "title": "BACB Ethics Code Overview",
+          "content": "The BACB Professional and Ethical Compliance Code establishes standards for behavior analysts. Core principles include: competence, integrity, professional relationships, responsibility to clients, confidentiality, maintaining records, and disseminating behavior analysis. Violations can result in sanctions including certification suspension or revocation.",
+          "keyPoints": [
+            "Ethics code protects clients and maintains field integrity",
+            "Competence requires practicing within scope of training",
+            "Multiple relationships must be carefully managed",
+            "Confidentiality is paramount with limited exceptions"
+          ]
+        },
+        {
+          "id": "ethics-2",
+          "title": "Informed Consent and Assent",
+          "content": "Informed consent requires providing information about services in understandable language, ensuring voluntary agreement, and documenting consent. For minors, obtain parent/guardian consent and child assent when appropriate. Consent is ongoing; clients can withdraw at any time. Explain assessment procedures, intervention methods, expected outcomes, risks/benefits, and alternatives.",
+          "keyPoints": [
+            "Consent must be truly informed and voluntary",
+            "Information provided in understandable language",
+            "Both guardian consent and client assent when possible",
+            "Consent is ongoing process, not one-time event"
+          ]
+        },
+        {
+          "id": "ethics-3",
+          "title": "Confidentiality and Privacy",
+          "content": "Protect client information, sharing only with appropriate authorization or legal requirement. Use de-identified data when possible. Discuss confidentiality limits upfront (mandated reporting, danger to self/others). Secure storage of records, proper disposal. HIPAA compliance when applicable. Special considerations for minors and individuals with guardians.",
+          "keyPoints": [
+            "Protect client information with limited exceptions",
+            "Discuss confidentiality limits before services begin",
+            "Secure storage and proper disposal of records",
+            "Balance confidentiality with mandatory reporting duties"
+          ]
+        },
+        {
+          "id": "ethics-4",
+          "title": "Professional Boundaries",
+          "content": "Maintain professional relationships, avoiding multiple relationships that could impair objectivity or harm clients. Don't exploit clients financially, sexually, or otherwise. Gift-giving should be culturally sensitive and not create conflicts. Social media requires careful boundary maintenance. Recognize power differential in therapeutic relationships.",
+          "keyPoints": [
+            "Professional boundaries protect clients from exploitation",
+            "Multiple relationships carefully evaluated for potential harm",
+            "Power differential requires heightened awareness",
+            "Social media interactions require professional boundaries"
+          ]
+        },
+        {
+          "id": "ethics-5",
+          "title": "Supervision and Training",
+          "content": "Supervisors ensure supervisees practice competently and ethically. Provide adequate oversight, feedback, and training. Document supervision activities. Supervisees practice only within competence and seek guidance. RBTs must work under BCBA supervision. Supervision includes reviewing client data, observing sessions, and addressing ethical issues.",
+          "keyPoints": [
+            "Supervisors responsible for supervisee performance",
+            "Adequate oversight ensures client protection",
+            "Documentation of supervision is required",
+            "Supervisees must practice within scope of competence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research Methods",
+      "icon": "🔬",
+      "description": "Research designs and experimental methodology in behavior analysis",
+      "topics": [
+        {
+          "id": "research-1",
+          "title": "Single-Subject Design Basics",
+          "content": "Single-subject designs demonstrate experimental control through repeated measurement and systematic manipulation. Visual analysis examines level, trend, variability, immediacy of effect, overlap, and consistency across phases. Advantages include individualized analysis, continuous measurement, and applicability to applied settings. Baseline establishes pre-intervention pattern.",
+          "keyPoints": [
+            "Repeated measurement of individual over time",
+            "Each participant serves as own control",
+            "Visual analysis determines treatment effects",
+            "Applicable to clinical and educational settings"
+          ]
+        },
+        {
+          "id": "research-2",
+          "title": "Reversal and Withdrawal Designs",
+          "content": "ABAB designs demonstrate functional relationship by introducing (B) and removing (A) intervention. Withdrawal shows behavior changes when intervention removed and returns when reintroduced. Reversal actively uses differential reinforcement to reverse behavior. Ethical considerations when withdrawing effective treatment. DRI/DRA variations more acceptable than complete withdrawal.",
+          "keyPoints": [
+            "Demonstrates functional control through replication",
+            "Withdrawal removes intervention; reversal actively reverses",
+            "Ethical concerns with removing effective treatment",
+            "Not appropriate for skills that won't reverse"
+          ]
+        },
+        {
+          "id": "research-3",
+          "title": "Multiple Baseline Designs",
+          "content": "Multiple baseline designs demonstrate control without reversing treatment. Apply intervention sequentially across behaviors, settings, or participants while maintaining baseline for others. Control demonstrated when behavior changes only when intervention introduced. Useful when reversal unethical or impractical. Requires independent baselines and systematic staggering.",
+          "keyPoints": [
+            "No withdrawal or reversal required",
+            "Sequential introduction across baselines",
+            "Control shown through temporal relationship",
+            "Useful for irreversible behaviors or skills"
+          ]
+        },
+        {
+          "id": "research-4",
+          "title": "Changing Criterion Design",
+          "content": "Baseline followed by treatment with stepwise criterion changes. Each phase requires increasingly stringent performance. Control demonstrated when behavior matches changing criterion. Useful for shaping and gradual behavior change. Criteria should be achievable but require behavior change from previous phase.",
+          "keyPoints": [
+            "Gradual criterion increases demonstrate control",
+            "Behavior tracks criterion changes",
+            "Useful for shaping and DRL procedures",
+            "Criteria must be systematically planned"
+          ]
+        },
+        {
+          "id": "research-5",
+          "title": "Alternating Treatments Design",
+          "content": "Rapidly alternates two or more treatments while measuring same behavior. Demonstrates which treatment more effective. Controls for sequence effects through counterbalancing. Discrimination required between conditions. Useful for comparing interventions or identifying effective components. Multi-element design variation.",
+          "keyPoints": [
+            "Compares multiple treatments simultaneously",
+            "Rapid alternation with discrimination training",
+            "Counterbalancing controls sequence effects",
+            "Identifies most effective intervention quickly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skill-acquisition",
+      "name": "Skill Acquisition",
+      "icon": "📈",
+      "description": "Teaching new skills and promoting learning",
+      "topics": [
+        {
+          "id": "skill-1",
+          "title": "Task Analysis",
+          "content": "Breaking complex skills into teachable steps. Methods include watching competent person, performing task yourself, consulting experts, or reviewing literature. Forward chaining teaches first step to mastery then adds next; backward chaining teaches last step first; total task presents entire sequence. Selection depends on task characteristics and learner needs.",
+          "keyPoints": [
+            "Task analysis identifies all component steps",
+            "Steps should be observable and measurable",
+            "Forward chaining starts at beginning",
+            "Backward chaining ensures natural reinforcement"
+          ]
+        },
+        {
+          "id": "skill-2",
+          "title": "Shaping",
+          "content": "Differential reinforcement of successive approximations toward target behavior. Reinforce responses closer to goal while extinguishing previous approximations. Requires clear target, appropriate starting point, and systematic progression. Criteria for advancing should be planned but flexible based on learner performance. Useful when target behavior not in repertoire.",
+          "keyPoints": [
+            "Reinforces successive approximations to terminal behavior",
+            "Requires clear definition of target behavior",
+            "Balance between too rapid and too slow progression",
+            "Used when behavior not currently emitted"
+          ]
+        },
+        {
+          "id": "skill-3",
+          "title": "Generalization and Maintenance",
+          "content": "Generalization is responding in presence of novel but similar stimuli (stimulus generalization) or in untrained contexts (setting/situation generalization). Maintenance is continued responding over time. Program for generalization: teach sufficient exemplars, train loosely, use common stimuli, mediate generalization. Maintenance requires intermittent reinforcement, natural reinforcers, and booster sessions.",
+          "keyPoints": [
+            "Generalization must be actively programmed",
+            "Teach multiple exemplars across varied contexts",
+            "Natural reinforcers promote maintenance",
+            "Intermittent schedules enhance durability"
+          ]
+        },
+        {
+          "id": "skill-4",
+          "title": "Stimulus Control and Discrimination Training",
+          "content": "Behavior occurs in presence of discriminative stimulus (SD) and not in its absence (S-delta). Discrimination training involves differential reinforcement in presence of SD and extinction in presence of S-delta. Stimulus control demonstrated when behavior reliably occurs to SD and not S-delta. Match-to-sample teaches conditional discrimination.",
+          "keyPoints": [
+            "Stimulus control when SD reliably evokes response",
+            "Differential reinforcement establishes discrimination",
+            "Errorless learning reduces frustration",
+            "Conditional discriminations involve if-then relations"
+          ]
+        },
+        {
+          "id": "skill-5",
+          "title": "Teaching Complex Skills",
+          "content": "Complex skills require combining multiple procedures: task analysis, chaining, prompting, shaping, and discrimination training. Examples include self-care, academic skills, social skills, and vocational tasks. Systematic instruction with data-based decision making. Balance structure with naturalistic teaching. Incorporate learner preferences and motivation.",
+          "keyPoints": [
+            "Complex skills require multiple teaching strategies",
+            "Combine structured and naturalistic approaches",
+            "Data guide instructional decisions",
+            "Consider learner motivation and preferences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autism",
+      "name": "Autism Spectrum Disorder",
+      "icon": "🧩",
+      "description": "Understanding and supporting individuals with autism",
+      "topics": [
+        {
+          "id": "autism-1",
+          "title": "Autism Characteristics and Diagnosis",
+          "content": "Autism Spectrum Disorder (ASD) is neurodevelopmental condition characterized by deficits in social communication and restricted, repetitive behaviors. Diagnosis based on DSM-5 criteria. Presentation varies widely (spectrum concept). Early identification and intervention critical. Prevalence approximately 1 in 36 children. Genetic and environmental factors contribute to etiology.",
+          "keyPoints": [
+            "Core deficits in social communication and restricted behaviors",
+            "Highly heterogeneous presentation",
+            "Early intervention improves outcomes",
+            "Multifactorial etiology with genetic components"
+          ]
+        },
+        {
+          "id": "autism-2",
+          "title": "Evidence-Based Practices for Autism",
+          "content": "ABA is well-established, evidence-based treatment for autism. Other evidence-based practices include visual supports, structured teaching, social narratives, video modeling, and peer-mediated interventions. Comprehensive treatment addresses communication, social skills, adaptive behavior, and challenging behavior. Individualized to learner needs, preferences, and family priorities. Cultural responsiveness essential.",
+          "keyPoints": [
+            "ABA has strongest evidence base for autism intervention",
+            "Comprehensive programming addresses multiple domains",
+            "Individualization based on assessment and preferences",
+            "Family involvement enhances outcomes"
+          ]
+        },
+        {
+          "id": "autism-3",
+          "title": "Social Skills Intervention",
+          "content": "Social skills deficits common in autism. Intervention includes direct instruction, modeling, role-playing, reinforcement, and in-vivo practice. Video modeling shows peer engaging in target skill. Social narratives describe social situations and appropriate responses. Peer-mediated interventions involve typically developing peers as intervention agents. Generalization requires natural context practice.",
+          "keyPoints": [
+            "Direct instruction combined with naturalistic practice",
+            "Video modeling demonstrates skills visually",
+            "Peer involvement enhances generalization",
+            "Skills taught in relevant social contexts"
+          ]
+        },
+        {
+          "id": "autism-4",
+          "title": "Sensory Issues and Autism",
+          "content": "Many individuals with autism experience atypical sensory processing (hyper- or hypo-sensitivity). Can affect all sensory systems. May contribute to challenging behavior or interfere with learning. Assessment identifies sensory preferences and sensitivities. Interventions include environmental modifications, sensory diets, and systematic desensitization. Collaborate with occupational therapists when appropriate.",
+          "keyPoints": [
+            "Sensory processing differences common in autism",
+            "Both hyper- and hypo-sensitivity occur",
+            "Environmental modifications reduce sensory overload",
+            "Interdisciplinary collaboration beneficial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "name": "Systems & Service Delivery",
+      "icon": "🏥",
+      "description": "Service delivery models and systems of support",
+      "topics": [
+        {
+          "id": "systems-1",
+          "title": "Service Delivery Models",
+          "content": "ABA services delivered through various models: center-based, home-based, school-based, or telehealth. Intensity ranges from comprehensive (25-40 hours/week) to focused (5-10 hours/week). Comprehensive for young children with autism; focused for specific skills or older learners. Consider family needs, resources, and preferences. Hybrid models combine settings.",
+          "keyPoints": [
+            "Service intensity based on individual needs",
+            "Multiple settings available for service delivery",
+            "Family preferences and resources considered",
+            "Comprehensive early intervention shows best outcomes"
+          ]
+        },
+        {
+          "id": "systems-2",
+          "title": "Interdisciplinary Collaboration",
+          "content": "Effective intervention requires collaboration across disciplines: speech-language pathology, occupational therapy, psychology, education, medicine. Share information, coordinate goals, and integrate approaches. Behavior analyst may consult with other professionals or integrate their recommendations. Team meetings, shared documentation, and unified approach benefit client.",
+          "keyPoints": [
+            "Collaborative approach addresses comprehensive needs",
+            "Communication and coordination across team",
+            "Integrated goals and complementary strategies",
+            "Family as central team member"
+          ]
+        },
+        {
+          "id": "systems-3",
+          "title": "Cultural Responsiveness",
+          "content": "Cultural competence requires understanding how culture influences behavior, values, and family dynamics. Assess own biases, learn about client's culture, adapt interventions appropriately. Consider communication styles, family structure, discipline practices, and reinforcer preferences. Involve family in goal selection and intervention design. Use interpreters when needed; ensure materials culturally appropriate.",
+          "keyPoints": [
+            "Culture shapes behavior and family practices",
+            "Self-awareness of biases essential",
+            "Adaptation of interventions to cultural context",
+            "Family collaboration in culturally responsive way"
+          ]
+        },
+        {
+          "id": "systems-4",
+          "title": "Transition Planning",
+          "content": "Transitions (early intervention to preschool, school to adult services) require systematic planning. Assess skills needed in next environment, teach prerequisite skills, facilitate communication between settings, fade supports gradually, and provide follow-up. Include family and receiving program in planning. Prepare individual and environment for transition.",
+          "keyPoints": [
+            "Proactive planning for successful transitions",
+            "Teach skills needed in next environment",
+            "Communication between sending and receiving programs",
+            "Gradual fading of supports"
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceQuestions": [
+    {
+      "id": "q1",
+      "category": "foundations",
+      "difficulty": "beginner",
+      "question": "Which of the following best describes positive reinforcement?",
+      "options": [
+        "Removing an aversive stimulus following a behavior",
+        "Adding a stimulus following a behavior that increases future probability of that behavior",
+        "Adding an aversive stimulus following a behavior to decrease it",
+        "Withholding reinforcement to decrease behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Positive reinforcement involves adding (positive) a stimulus following a behavior that increases (reinforcement) the future probability of that behavior occurring. The 'positive' refers to adding something, and 'reinforcement' means the behavior increases."
+    },
+    {
+      "id": "q2",
+      "category": "foundations",
+      "difficulty": "beginner",
+      "question": "What is the main difference between negative reinforcement and punishment?",
+      "options": [
+        "Negative reinforcement decreases behavior, punishment increases it",
+        "Negative reinforcement increases behavior by removing a stimulus, punishment decreases behavior",
+        "They are the same thing",
+        "Negative reinforcement is always unethical, punishment is not"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Negative reinforcement INCREASES behavior by removing an aversive stimulus, while punishment DECREASES behavior. The key distinction is the effect on behavior: reinforcement increases, punishment decreases."
+    },
+    {
+      "id": "q3",
+      "category": "assessment",
+      "difficulty": "intermediate",
+      "question": "What are the four main functions of behavior identified through functional assessment?",
+      "options": [
+        "Happy, sad, angry, confused",
+        "Attention, escape, tangible, automatic",
+        "Positive, negative, neutral, mixed",
+        "Cognitive, emotional, behavioral, social"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The four main functions are: attention-seeking, escape/avoidance, access to tangibles (objects/activities), and automatic/sensory reinforcement. Understanding function is critical for developing effective interventions."
+    },
+    {
+      "id": "q4",
+      "category": "assessment",
+      "difficulty": "advanced",
+      "question": "In which measurement system would you record the time from the presentation of a discriminative stimulus to the initiation of a response?",
+      "options": [
+        "Duration",
+        "Frequency",
+        "Latency",
+        "Inter-response time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Latency measures the time between the presentation of a stimulus (SD) and the beginning of the response. Duration measures how long a behavior lasts, frequency counts occurrences, and IRT measures time between responses."
+    },
+    {
+      "id": "q5",
+      "category": "assessment",
+      "difficulty": "intermediate",
+      "question": "Which recording method would likely overestimate the occurrence of behavior?",
+      "options": [
+        "Whole interval recording",
+        "Partial interval recording",
+        "Momentary time sampling",
+        "Frequency recording"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Partial interval recording marks an interval if the behavior occurs at ANY time during it, which tends to overestimate behavior. Whole interval recording (behavior must occur throughout) tends to underestimate."
+    },
+    {
+      "id": "q6",
+      "category": "intervention",
+      "difficulty": "beginner",
+      "question": "What is the primary goal of prompt fading?",
+      "options": [
+        "To increase the number of prompts used",
+        "To achieve independent responding without prompts",
+        "To make prompts more intrusive",
+        "To eliminate all reinforcement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The goal of prompt fading is to systematically reduce and eventually eliminate prompts so the learner can respond independently to the natural discriminative stimulus without artificial support."
+    },
+    {
+      "id": "q7",
+      "category": "intervention",
+      "difficulty": "advanced",
+      "question": "DRO (Differential Reinforcement of Other Behavior) involves:",
+      "options": [
+        "Reinforcing any behavior except the target problem behavior",
+        "Only reinforcing the target behavior",
+        "Reinforcing a specific alternative behavior",
+        "Never providing reinforcement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DRO reinforces the absence of the problem behavior - essentially any 'other' behavior. If the problem behavior doesn't occur during an interval, reinforcement is delivered. DRA reinforces a specific alternative."
+    },
+    {
+      "id": "q8",
+      "category": "intervention",
+      "difficulty": "intermediate",
+      "question": "What is a key advantage of Natural Environment Teaching (NET) over Discrete Trial Training (DTT)?",
+      "options": [
+        "NET uses more artificial reinforcers",
+        "NET promotes better generalization to natural contexts",
+        "NET is always more structured than DTT",
+        "NET eliminates the need for data collection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NET uses naturalistic teaching opportunities and natural reinforcers in the learner's environment, which promotes better generalization and maintenance compared to structured DTT sessions. Both approaches have value."
+    },
+    {
+      "id": "q9",
+      "category": "verbal-behavior",
+      "difficulty": "intermediate",
+      "question": "A child sees a dog and says 'dog.' This is an example of what verbal operant?",
+      "options": [
+        "Mand",
+        "Tact",
+        "Echoic",
+        "Intraverbal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A tact is labeling controlled by a nonverbal stimulus (the actual dog). Mands are requests, echoics are vocal imitations, and intraverbals are verbal responses to verbal stimuli."
+    },
+    {
+      "id": "q10",
+      "category": "verbal-behavior",
+      "difficulty": "advanced",
+      "question": "What makes a mand functionally different from other verbal operants?",
+      "options": [
+        "It is always vocal",
+        "It directly benefits the speaker by producing specific reinforcement",
+        "It requires echoic skills first",
+        "It cannot be taught to nonvocal individuals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mands are unique because they directly benefit the speaker - the speaker gets what they asked for. Other verbal operants like tacts produce generalized social reinforcement. Mands can be vocal or nonvocal (signs, pictures)."
+    },
+    {
+      "id": "q11",
+      "category": "verbal-behavior",
+      "difficulty": "beginner",
+      "question": "When a child imitates the word 'ball' after an adult says 'ball,' this is a(n):",
+      "options": [
+        "Tact",
+        "Mand",
+        "Echoic",
+        "Intraverbal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An echoic is a verbal response that has point-to-point correspondence with the verbal stimulus - vocal imitation. The child is repeating what was heard."
+    },
+    {
+      "id": "q12",
+      "category": "ethics",
+      "difficulty": "intermediate",
+      "question": "According to the BACB Ethics Code, when can you share confidential client information without consent?",
+      "options": [
+        "Whenever you want",
+        "Only with mandated reporting or when there is imminent danger",
+        "With anyone who asks nicely",
+        "Never under any circumstances"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Confidentiality has limited exceptions: mandated reporting (suspected abuse/neglect), imminent danger to self or others, or court order. Otherwise, client consent is required to share information."
+    },
+    {
+      "id": "q13",
+      "category": "ethics",
+      "difficulty": "advanced",
+      "question": "Which situation represents a multiple relationship that should likely be avoided?",
+      "options": [
+        "Providing services to a family at their home",
+        "Becoming best friends and going on vacation with a current client's family",
+        "Collaborating with a client's teacher",
+        "Supervising an RBT who works with your clients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiple relationships that could impair objectivity or risk exploitation should be avoided. A close personal friendship with current clients creates boundary issues. Professional collaborations (teachers, supervised RBTs) are expected and appropriate."
+    },
+    {
+      "id": "q14",
+      "category": "ethics",
+      "difficulty": "beginner",
+      "question": "Informed consent must be:",
+      "options": [
+        "Obtained only at the start of services",
+        "Written in highly technical language",
+        "Voluntary and based on understanding of the information provided",
+        "Required only for research, not clinical services"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Informed consent must be truly informed (understandable information about services, risks, benefits), voluntary (no coercion), and ongoing (can be withdrawn). It's required for both clinical and research services."
+    },
+    {
+      "id": "q15",
+      "category": "research",
+      "difficulty": "intermediate",
+      "question": "What is the main advantage of a multiple baseline design over a reversal design?",
+      "options": [
+        "It requires fewer participants",
+        "It doesn't require withdrawing an effective intervention",
+        "It's easier to implement",
+        "It provides stronger experimental control"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiple baseline designs demonstrate control without withdrawing intervention, making them more ethical for effective treatments and appropriate for behaviors unlikely to reverse (learned skills). Reversal designs require removing intervention."
+    },
+    {
+      "id": "q16",
+      "category": "research",
+      "difficulty": "advanced",
+      "question": "In visual analysis of single-subject data, which is NOT a primary characteristic examined?",
+      "options": [
+        "Level",
+        "Trend",
+        "Statistical significance",
+        "Immediacy of effect"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Visual analysis examines level (mean), trend (direction), variability, immediacy of effect, overlap, and consistency. Single-subject research traditionally relies on visual rather than statistical analysis, though statistics can supplement."
+    },
+    {
+      "id": "q17",
+      "category": "research",
+      "difficulty": "intermediate",
+      "question": "An alternating treatments design is most useful for:",
+      "options": [
+        "Comparing the effectiveness of two or more interventions",
+        "Gradually shaping a behavior",
+        "Demonstrating reversal of treatment effects",
+        "Establishing baseline stability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alternating treatments (multi-element) designs rapidly alternate between two or more conditions to compare their effectiveness. The intervention producing better outcomes is identified and can be continued exclusively."
+    },
+    {
+      "id": "q18",
+      "category": "skill-acquisition",
+      "difficulty": "beginner",
+      "question": "What is task analysis?",
+      "options": [
+        "Breaking a complex skill into smaller, teachable steps",
+        "Analyzing why a behavior occurs",
+        "Testing a student's knowledge",
+        "Collecting baseline data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Task analysis involves breaking down a complex skill into its component steps so each step can be taught systematically. This is foundational for chaining procedures and teaching multi-step skills."
+    },
+    {
+      "id": "q19",
+      "category": "skill-acquisition",
+      "difficulty": "intermediate",
+      "question": "In forward chaining, you would:",
+      "options": [
+        "Teach the last step first",
+        "Teach all steps simultaneously",
+        "Teach the first step to mastery, then add the next step",
+        "Use only verbal prompts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Forward chaining teaches steps in order from first to last. The first step is taught to mastery, then the second is added, and so on. Backward chaining teaches the last step first."
+    },
+    {
+      "id": "q20",
+      "category": "skill-acquisition",
+      "difficulty": "advanced",
+      "question": "Teaching multiple exemplars across different settings, people, and materials is a strategy to promote:",
+      "options": [
+        "Extinction",
+        "Generalization",
+        "Discrimination",
+        "Punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Teaching multiple exemplars (sufficient exemplar training) is a key strategy for programming generalization. It ensures the skill isn't tied to one specific context but transfers across relevant situations."
+    },
+    {
+      "id": "q21",
+      "category": "autism",
+      "difficulty": "beginner",
+      "question": "According to the DSM-5, the two core symptom domains of Autism Spectrum Disorder are:",
+      "options": [
+        "Aggression and self-injury",
+        "Social communication deficits and restricted, repetitive behaviors",
+        "Hyperactivity and inattention",
+        "Anxiety and depression"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The DSM-5 defines autism by two core domains: (1) persistent deficits in social communication and social interaction, and (2) restricted, repetitive patterns of behavior, interests, or activities."
+    },
+    {
+      "id": "q22",
+      "category": "autism",
+      "difficulty": "intermediate",
+      "question": "Which of the following is considered an evidence-based practice for teaching social skills to individuals with autism?",
+      "options": [
+        "Facilitated communication",
+        "Video modeling",
+        "Sensory integration therapy alone",
+        "Holding therapy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Video modeling is an evidence-based practice where individuals watch videos of peers or adults demonstrating target skills. Facilitated communication and holding therapy lack empirical support and are not recommended."
+    },
+    {
+      "id": "q23",
+      "category": "systems",
+      "difficulty": "intermediate",
+      "question": "Cultural competence in ABA practice requires:",
+      "options": [
+        "Using the same approach for all families regardless of background",
+        "Understanding how culture influences behavior and adapting interventions accordingly",
+        "Avoiding work with families from different cultural backgrounds",
+        "Ignoring cultural differences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cultural competence involves recognizing how culture shapes behavior, values, and family practices, then adapting assessment and intervention to be culturally responsive while involving families in collaborative decision-making."
+    },
+    {
+      "id": "q24",
+      "category": "systems",
+      "difficulty": "beginner",
+      "question": "Why is interdisciplinary collaboration important in ABA service delivery?",
+      "options": [
+        "It's not important; behavior analysts should work independently",
+        "It addresses the comprehensive needs of the individual across multiple domains",
+        "It reduces the behavior analyst's workload",
+        "It's only needed in school settings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Individuals often need support across multiple domains (communication, motor, cognitive, behavioral). Collaboration with SLPs, OTs, educators, and others provides comprehensive, integrated support addressing all needs."
+    },
+    {
+      "id": "q25",
+      "category": "intervention",
+      "difficulty": "advanced",
+      "question": "What is the difference between forward and backward chaining?",
+      "options": [
+        "Forward chaining teaches steps in reverse order",
+        "Backward chaining provides natural reinforcement at the end of each session",
+        "Forward chaining teaches from first to last step; backward chaining teaches last to first",
+        "There is no difference"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Forward chaining teaches steps in chronological order (first step, then second, etc.). Backward chaining teaches the last step first, then second-to-last, working backward. Backward chaining has the advantage of natural task completion."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "category": "foundations",
+      "question": "Define positive reinforcement",
+      "answer": "Adding a stimulus following a behavior that increases the future probability of that behavior occurring in similar circumstances."
+    },
+    {
+      "id": "fc2",
+      "category": "foundations",
+      "question": "Define negative reinforcement",
+      "answer": "Removing an aversive stimulus following a behavior that increases the future probability of that behavior occurring in similar circumstances."
+    },
+    {
+      "id": "fc3",
+      "category": "foundations",
+      "question": "What is extinction?",
+      "answer": "Withholding reinforcement for a previously reinforced behavior, resulting in decrease of that behavior over time."
+    },
+    {
+      "id": "fc4",
+      "category": "assessment",
+      "question": "What are the four functions of behavior?",
+      "answer": "1. Attention (social positive reinforcement), 2. Escape/Avoidance (negative reinforcement), 3. Access to tangibles (positive reinforcement), 4. Automatic/Sensory (reinforcement independent of social mediation)"
+    },
+    {
+      "id": "fc5",
+      "category": "assessment",
+      "question": "Define frequency/count measurement",
+      "answer": "Counting the number of times a behavior occurs during an observation period. Best for discrete behaviors with clear beginning and end."
+    },
+    {
+      "id": "fc6",
+      "category": "assessment",
+      "question": "Define duration measurement",
+      "answer": "Measuring the total amount of time a behavior occurs, from onset to offset. Used for behaviors that occur for extended periods."
+    },
+    {
+      "id": "fc7",
+      "category": "assessment",
+      "question": "Define latency measurement",
+      "answer": "The time between the presentation of a discriminative stimulus (SD) and the initiation of the response."
+    },
+    {
+      "id": "fc8",
+      "category": "intervention",
+      "question": "What is a discriminative stimulus (SD)?",
+      "answer": "An antecedent stimulus that signals that reinforcement is available for a particular behavior. The SD sets the occasion for the behavior to occur."
+    },
+    {
+      "id": "fc9",
+      "category": "intervention",
+      "question": "List the hierarchy of prompts from most to least intrusive",
+      "answer": "1. Full physical, 2. Partial physical, 3. Model, 4. Gestural, 5. Verbal, 6. Independent (no prompt)"
+    },
+    {
+      "id": "fc10",
+      "category": "intervention",
+      "question": "What is DRA?",
+      "answer": "Differential Reinforcement of Alternative behavior - reinforcing a specific alternative behavior while withholding reinforcement for the problem behavior."
+    },
+    {
+      "id": "fc11",
+      "category": "intervention",
+      "question": "What is DRI?",
+      "answer": "Differential Reinforcement of Incompatible behavior - reinforcing a behavior that cannot occur simultaneously with the problem behavior."
+    },
+    {
+      "id": "fc12",
+      "category": "intervention",
+      "question": "What is DRO?",
+      "answer": "Differential Reinforcement of Other behavior - providing reinforcement when the problem behavior does NOT occur during a specified time interval."
+    },
+    {
+      "id": "fc13",
+      "category": "verbal-behavior",
+      "question": "Define mand",
+      "answer": "A verbal operant controlled by a motivating operation and reinforced by characteristic consequences (getting what was requested). Example: saying 'cookie' when wanting a cookie."
+    },
+    {
+      "id": "fc14",
+      "category": "verbal-behavior",
+      "question": "Define tact",
+      "answer": "A verbal operant controlled by a nonverbal discriminative stimulus and maintained by generalized conditioned reinforcement. Example: labeling objects, actions, or properties."
+    },
+    {
+      "id": "fc15",
+      "category": "verbal-behavior",
+      "question": "Define echoic",
+      "answer": "A verbal operant with point-to-point correspondence between the verbal stimulus and the response. Example: vocal imitation - saying 'ball' after someone says 'ball.'"
+    },
+    {
+      "id": "fc16",
+      "category": "verbal-behavior",
+      "question": "Define intraverbal",
+      "answer": "A verbal operant controlled by a verbal discriminative stimulus without point-to-point correspondence. Examples: conversations, answering questions, completing phrases."
+    },
+    {
+      "id": "fc17",
+      "category": "ethics",
+      "question": "What are the limits to confidentiality?",
+      "answer": "Confidentiality must be broken when there is: 1) Mandated reporting of suspected abuse/neglect, 2) Imminent danger to self or others, 3) Court order, or 4) Client provides informed consent to share information."
+    },
+    {
+      "id": "fc18",
+      "category": "ethics",
+      "question": "What is informed consent?",
+      "answer": "The process of providing clients/guardians with understandable information about services, risks, benefits, and alternatives, and obtaining their voluntary agreement to proceed with services."
+    },
+    {
+      "id": "fc19",
+      "category": "research",
+      "question": "What is an ABAB design?",
+      "answer": "A reversal design with baseline (A), intervention (B), return to baseline (A), and reintroduction of intervention (B). Demonstrates functional relationship by showing behavior changes when IV is manipulated."
+    },
+    {
+      "id": "fc20",
+      "category": "research",
+      "question": "What is a multiple baseline design?",
+      "answer": "A design demonstrating experimental control by sequentially introducing intervention across different baselines (behaviors, settings, or participants) while keeping others in baseline."
+    },
+    {
+      "id": "fc21",
+      "category": "skill-acquisition",
+      "question": "Define shaping",
+      "answer": "Differential reinforcement of successive approximations toward a terminal behavior. Reinforcing responses that are increasingly similar to the target behavior."
+    },
+    {
+      "id": "fc22",
+      "category": "skill-acquisition",
+      "question": "What is stimulus generalization?",
+      "answer": "When a behavior occurs in the presence of stimuli that are similar to the discriminative stimulus present during training."
+    },
+    {
+      "id": "fc23",
+      "category": "skill-acquisition",
+      "question": "What is response generalization?",
+      "answer": "When behaviors other than the trained response occur in the presence of the discriminative stimulus. The occurrence of functionally equivalent but untrained behaviors."
+    },
+    {
+      "id": "fc24",
+      "category": "skill-acquisition",
+      "question": "Define maintenance",
+      "answer": "The extent to which a learned behavior persists over time after intervention has been withdrawn or reduced."
+    },
+    {
+      "id": "fc25",
+      "category": "autism",
+      "question": "What are the two core diagnostic criteria for Autism Spectrum Disorder?",
+      "answer": "1) Persistent deficits in social communication and social interaction across contexts, 2) Restricted, repetitive patterns of behavior, interests, or activities."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-10-17",
+    "totalTopics": 38,
+    "totalQuestions": 25,
+    "totalFlashcards": 25,
+    "developer": "Bradley Virtual Solutions, LLC"
+  }
+}
+
