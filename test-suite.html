@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABA Mastery - Test Suite</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0f172a;
+            color: #10b981;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #3b82f6;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .test-section {
+            background: #1e293b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+        }
+        .test-section h2 {
+            color: #60a5fa;
+            margin-top: 0;
+        }
+        .test-case {
+            margin: 10px 0;
+            padding: 10px;
+            background: #0f172a;
+            border-radius: 4px;
+        }
+        .pass {
+            color: #10b981;
+        }
+        .fail {
+            color: #ef4444;
+        }
+        .warn {
+            color: #f59e0b;
+        }
+        .info {
+            color: #3b82f6;
+        }
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+        #console-output {
+            background: #000;
+            color: #10b981;
+            padding: 15px;
+            border-radius: 8px;
+            max-height: 400px;
+            overflow-y: auto;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        .summary {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .summary h2 {
+            color: #60a5fa;
+        }
+        .stat {
+            display: inline-block;
+            margin: 0 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 ABA Mastery - Comprehensive Test Suite</h1>
+        
+        <div style="text-align: center; margin-bottom: 30px;">
+            <button onclick="runAllTests()">▶️ Run All Tests</button>
+            <button onclick="clearResults()">🗑️ Clear Results</button>
+            <button onclick="exportResults()">📥 Export Results</button>
+        </div>
+
+        <div id="test-results"></div>
+        
+        <div class="summary" id="summary" style="display: none;">
+            <h2>Test Summary</h2>
+            <div>
+                <span class="stat pass">✅ Passed: <span id="pass-count">0</span></span>
+                <span class="stat fail">❌ Failed: <span id="fail-count">0</span></span>
+                <span class="stat warn">⚠️ Warnings: <span id="warn-count">0</span></span>
+            </div>
+        </div>
+
+        <h2 style="color: #60a5fa; margin-top: 40px;">Console Output:</h2>
+        <div id="console-output"></div>
+    </div>
+
+    <script>
+        let testResults = {
+            passed: 0,
+            failed: 0,
+            warnings: 0,
+            tests: []
+        };
+
+        let consoleOutput = [];
+
+        // Capture console logs
+        const originalConsoleLog = console.log;
+        const originalConsoleError = console.error;
+        const originalConsoleWarn = console.warn;
+
+        console.log = function(...args) {
+            consoleOutput.push({ type: 'log', message: args.join(' ') });
+            updateConsoleDisplay();
+            originalConsoleLog.apply(console, args);
+        };
+
+        console.error = function(...args) {
+            consoleOutput.push({ type: 'error', message: args.join(' ') });
+            updateConsoleDisplay();
+            originalConsoleError.apply(console, args);
+        };
+
+        console.warn = function(...args) {
+            consoleOutput.push({ type: 'warn', message: args.join(' ') });
+            updateConsoleDisplay();
+            originalConsoleWarn.apply(console, args);
+        };
+
+        function updateConsoleDisplay() {
+            const output = document.getElementById('console-output');
+            output.innerHTML = consoleOutput.map(log => {
+                const className = log.type === 'error' ? 'fail' : log.type === 'warn' ? 'warn' : 'info';
+                return `<div class="${className}">[${log.type.toUpperCase()}] ${escapeHtml(log.message)}</div>`;
+            }).join('');
+            output.scrollTop = output.scrollHeight;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function logTest(name, status, message) {
+            testResults.tests.push({ name, status, message });
+            
+            if (status === 'pass') testResults.passed++;
+            else if (status === 'fail') testResults.failed++;
+            else if (status === 'warn') testResults.warnings++;
+
+            const resultsDiv = document.getElementById('test-results');
+            const testCase = document.createElement('div');
+            testCase.className = 'test-case';
+            
+            const statusIcon = status === 'pass' ? '✅' : status === 'fail' ? '❌' : '⚠️';
+            const statusClass = status === 'pass' ? 'pass' : status === 'fail' ? 'fail' : 'warn';
+            
+            testCase.innerHTML = `
+                <span class="${statusClass}">${statusIcon} ${name}</span>
+                ${message ? `<div style="margin-left: 25px; color: #94a3b8;">${message}</div>` : ''}
+            `;
+            
+            resultsDiv.appendChild(testCase);
+            updateSummary();
+        }
+
+        function updateSummary() {
+            document.getElementById('summary').style.display = 'block';
+            document.getElementById('pass-count').textContent = testResults.passed;
+            document.getElementById('fail-count').textContent = testResults.failed;
+            document.getElementById('warn-count').textContent = testResults.warnings;
+        }
+
+        function clearResults() {
+            testResults = { passed: 0, failed: 0, warnings: 0, tests: [] };
+            consoleOutput = [];
+            document.getElementById('test-results').innerHTML = '';
+            document.getElementById('console-output').innerHTML = '';
+            document.getElementById('summary').style.display = 'none';
+        }
+
+        function exportResults() {
+            const data = JSON.stringify(testResults, null, 2);
+            const blob = new Blob([data], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `aba-mastery-test-results-${new Date().toISOString()}.json`;
+            a.click();
+        }
+
+        // Test functions
+        async function runAllTests() {
+            clearResults();
+            console.log('🚀 Starting comprehensive test suite...');
+            
+            const resultsDiv = document.getElementById('test-results');
+            
+            // Test 1: File Structure
+            const section1 = document.createElement('div');
+            section1.className = 'test-section';
+            section1.innerHTML = '<h2>📁 File Structure Tests</h2>';
+            resultsDiv.appendChild(section1);
+            await testFileStructure();
+            
+            // Test 2: Content Loading
+            const section2 = document.createElement('div');
+            section2.className = 'test-section';
+            section2.innerHTML = '<h2>📄 Content Loading Tests</h2>';
+            resultsDiv.appendChild(section2);
+            await testContentLoading();
+            
+            // Test 3: Data Structures
+            const section3 = document.createElement('div');
+            section3.className = 'test-section';
+            section3.innerHTML = '<h2>🗃️ Data Structure Tests</h2>';
+            resultsDiv.appendChild(section3);
+            await testDataStructures();
+            
+            // Test 4: LocalStorage
+            const section4 = document.createElement('div');
+            section4.className = 'test-section';
+            section4.innerHTML = '<h2>💾 LocalStorage Tests</h2>';
+            resultsDiv.appendChild(section4);
+            await testLocalStorage();
+            
+            // Test 5: Quiz Functionality
+            const section5 = document.createElement('div');
+            section5.className = 'test-section';
+            section5.innerHTML = '<h2>✍️ Quiz Functionality Tests</h2>';
+            resultsDiv.appendChild(section5);
+            await testQuizFunctionality();
+            
+            // Test 6: Flashcard Functionality
+            const section6 = document.createElement('div');
+            section6.className = 'test-section';
+            section6.innerHTML = '<h2>🎴 Flashcard Tests</h2>';
+            resultsDiv.appendChild(section6);
+            await testFlashcards();
+            
+            // Test 7: UI Components
+            const section7 = document.createElement('div');
+            section7.className = 'test-section';
+            section7.innerHTML = '<h2>🎨 UI Component Tests</h2>';
+            resultsDiv.appendChild(section7);
+            await testUIComponents();
+            
+            // Test 8: Progressive Web App
+            const section8 = document.createElement('div');
+            section8.className = 'test-section';
+            section8.innerHTML = '<h2>📱 PWA Tests</h2>';
+            resultsDiv.appendChild(section8);
+            await testPWAFeatures();
+            
+            console.log('✅ All tests completed!');
+        }
+
+        // Test File Structure
+        async function testFileStructure() {
+            try {
+                const response = await fetch('index.html');
+                logTest('index.html exists', response.ok ? 'pass' : 'fail', `Status: ${response.status}`);
+            } catch (e) {
+                logTest('index.html exists', 'fail', e.message);
+            }
+
+            try {
+                const response = await fetch('landing.html');
+                logTest('landing.html exists', response.ok ? 'pass' : 'fail', `Status: ${response.status}`);
+            } catch (e) {
+                logTest('landing.html exists', 'fail', e.message);
+            }
+
+            try {
+                const response = await fetch('styles.css');
+                logTest('styles.css exists', response.ok ? 'pass' : 'fail', `Status: ${response.status}`);
+            } catch (e) {
+                logTest('styles.css exists', 'fail', e.message);
+            }
+
+            try {
+                const response = await fetch('app.js');
+                logTest('app.js exists', response.ok ? 'pass' : 'fail', `Status: ${response.status}`);
+            } catch (e) {
+                logTest('app.js exists', 'fail', e.message);
+            }
+
+            try {
+                const response = await fetch('manifest.json');
+                logTest('manifest.json exists', response.ok ? 'pass' : 'fail', `Status: ${response.status}`);
+            } catch (e) {
+                logTest('manifest.json exists', 'fail', e.message);
+            }
+
+            try {
+                const response = await fetch('sw.js');
+                logTest('sw.js exists', response.ok ? 'pass' : 'fail', `Status: ${response.status}`);
+            } catch (e) {
+                logTest('sw.js exists', 'fail', e.message);
+            }
+        }
+
+        // Test Content Loading
+        async function testContentLoading() {
+            try {
+                const response = await fetch('content.json');
+                const content = await response.json();
+                
+                logTest('content.json loads', 'pass', 'JSON parsed successfully');
+                
+                // Test categories
+                if (content.categories && Array.isArray(content.categories)) {
+                    logTest('Categories array exists', 'pass', `Found ${content.categories.length} categories`);
+                    
+                    if (content.categories.length === 9) {
+                        logTest('Correct number of categories', 'pass', '9 categories found');
+                    } else {
+                        logTest('Correct number of categories', 'warn', `Expected 9, found ${content.categories.length}`);
+                    }
+                } else {
+                    logTest('Categories array exists', 'fail', 'Categories missing or invalid');
+                }
+
+                // Test topics
+                let totalTopics = 0;
+                content.categories.forEach(cat => {
+                    if (cat.topics) totalTopics += cat.topics.length;
+                });
+                
+                if (totalTopics >= 38) {
+                    logTest('Topic count', 'pass', `${totalTopics} topics found`);
+                } else {
+                    logTest('Topic count', 'warn', `Expected 38+, found ${totalTopics}`);
+                }
+
+                // Test practice questions
+                if (content.practiceQuestions && content.practiceQuestions.length >= 25) {
+                    logTest('Practice questions', 'pass', `${content.practiceQuestions.length} questions found`);
+                } else {
+                    logTest('Practice questions', 'warn', `Expected 25+, found ${content.practiceQuestions?.length || 0}`);
+                }
+
+                // Test flashcards
+                if (content.flashcards && content.flashcards.length >= 25) {
+                    logTest('Flashcards', 'pass', `${content.flashcards.length} flashcards found`);
+                } else {
+                    logTest('Flashcards', 'warn', `Expected 25+, found ${content.flashcards?.length || 0}`);
+                }
+
+            } catch (e) {
+                logTest('content.json loads', 'fail', e.message);
+            }
+        }
+
+        // Test Data Structures
+        async function testDataStructures() {
+            try {
+                const response = await fetch('content.json');
+                const content = await response.json();
+
+                // Test category structure
+                const category = content.categories[0];
+                const hasRequiredFields = category.id && category.name && category.icon && category.description;
+                logTest('Category structure', hasRequiredFields ? 'pass' : 'fail', 
+                    hasRequiredFields ? 'All required fields present' : 'Missing required fields');
+
+                // Test topic structure
+                const topic = category.topics[0];
+                const topicValid = topic.id && topic.title && topic.content && topic.keyPoints;
+                logTest('Topic structure', topicValid ? 'pass' : 'fail',
+                    topicValid ? 'All required fields present' : 'Missing required fields');
+
+                // Test question structure
+                const question = content.practiceQuestions[0];
+                const questionValid = question.id && question.category && question.question && 
+                                    question.options && question.correctAnswer !== undefined && question.explanation;
+                logTest('Question structure', questionValid ? 'pass' : 'fail',
+                    questionValid ? 'All required fields present' : 'Missing required fields');
+
+                // Test flashcard structure
+                const flashcard = content.flashcards[0];
+                const flashcardValid = flashcard.id && flashcard.category && flashcard.question && flashcard.answer;
+                logTest('Flashcard structure', flashcardValid ? 'pass' : 'fail',
+                    flashcardValid ? 'All required fields present' : 'Missing required fields');
+
+            } catch (e) {
+                logTest('Data structure validation', 'fail', e.message);
+            }
+        }
+
+        // Test LocalStorage
+        async function testLocalStorage() {
+            try {
+                // Test write
+                const testData = {
+                    questionsAnswered: 10,
+                    correctAnswers: 8,
+                    studyTime: 30,
+                    topicsStudied: ['topic1', 'topic2']
+                };
+
+                localStorage.setItem('abaUserDataTest', JSON.stringify(testData));
+                logTest('LocalStorage write', 'pass', 'Data written successfully');
+
+                // Test read
+                const retrieved = JSON.parse(localStorage.getItem('abaUserDataTest'));
+                const dataMatches = retrieved.questionsAnswered === 10 && retrieved.correctAnswers === 8;
+                logTest('LocalStorage read', dataMatches ? 'pass' : 'fail',
+                    dataMatches ? 'Data retrieved correctly' : 'Data mismatch');
+
+                // Test delete
+                localStorage.removeItem('abaUserDataTest');
+                const deleted = localStorage.getItem('abaUserDataTest');
+                logTest('LocalStorage delete', deleted === null ? 'pass' : 'fail',
+                    deleted === null ? 'Data deleted successfully' : 'Delete failed');
+
+                // Test size limit
+                try {
+                    const largeData = 'x'.repeat(1000000); // 1MB
+                    localStorage.setItem('abaLargeTest', largeData);
+                    logTest('LocalStorage capacity', 'pass', 'Can store 1MB');
+                    localStorage.removeItem('abaLargeTest');
+                } catch (e) {
+                    logTest('LocalStorage capacity', 'warn', 'Storage limit reached');
+                }
+
+            } catch (e) {
+                logTest('LocalStorage functionality', 'fail', e.message);
+            }
+        }
+
+        // Test Quiz Functionality
+        async function testQuizFunctionality() {
+            try {
+                const response = await fetch('content.json');
+                const content = await response.json();
+
+                // Test question filtering by category
+                const foundationsQuestions = content.practiceQuestions.filter(q => q.category === 'foundations');
+                logTest('Question filtering by category', foundationsQuestions.length > 0 ? 'pass' : 'fail',
+                    `Found ${foundationsQuestions.length} foundations questions`);
+
+                // Test question filtering by difficulty
+                const beginnerQuestions = content.practiceQuestions.filter(q => q.difficulty === 'beginner');
+                logTest('Question filtering by difficulty', beginnerQuestions.length > 0 ? 'pass' : 'fail',
+                    `Found ${beginnerQuestions.length} beginner questions`);
+
+                // Test answer validation
+                const testQ = content.practiceQuestions[0];
+                const correctAnswerExists = testQ.options[testQ.correctAnswer] !== undefined;
+                logTest('Answer validation', correctAnswerExists ? 'pass' : 'fail',
+                    correctAnswerExists ? 'Correct answer index is valid' : 'Invalid answer index');
+
+                // Test all questions have explanations
+                const allHaveExplanations = content.practiceQuestions.every(q => q.explanation && q.explanation.length > 0);
+                logTest('Question explanations', allHaveExplanations ? 'pass' : 'fail',
+                    allHaveExplanations ? 'All questions have explanations' : 'Some questions missing explanations');
+
+                // Test shuffle algorithm
+                const original = [1, 2, 3, 4, 5];
+                const shuffled = shuffleArray([...original]);
+                const isDifferent = JSON.stringify(original) !== JSON.stringify(shuffled);
+                logTest('Shuffle algorithm', isDifferent ? 'pass' : 'warn',
+                    isDifferent ? 'Shuffle working (arrays differ)' : 'Shuffle may not be working');
+
+            } catch (e) {
+                logTest('Quiz functionality', 'fail', e.message);
+            }
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        // Test Flashcards
+        async function testFlashcards() {
+            try {
+                const response = await fetch('content.json');
+                const content = await response.json();
+
+                // Test flashcard categories
+                const categories = [...new Set(content.flashcards.map(fc => fc.category))];
+                logTest('Flashcard categories', categories.length > 0 ? 'pass' : 'fail',
+                    `${categories.length} unique categories`);
+
+                // Test flashcard content
+                const allHaveContent = content.flashcards.every(fc => 
+                    fc.question && fc.question.length > 0 && fc.answer && fc.answer.length > 0
+                );
+                logTest('Flashcard content', allHaveContent ? 'pass' : 'fail',
+                    allHaveContent ? 'All flashcards have content' : 'Some flashcards missing content');
+
+                // Test category filtering
+                const foundationsCards = content.flashcards.filter(fc => fc.category === 'foundations');
+                logTest('Flashcard filtering', foundationsCards.length > 0 ? 'pass' : 'fail',
+                    `Found ${foundationsCards.length} foundations flashcards`);
+
+            } catch (e) {
+                logTest('Flashcard functionality', 'fail', e.message);
+            }
+        }
+
+        // Test UI Components
+        async function testUIComponents() {
+            try {
+                // Test manifest
+                const manifestResponse = await fetch('manifest.json');
+                const manifest = await manifestResponse.json();
+                
+                const hasName = manifest.name && manifest.short_name;
+                logTest('Manifest name fields', hasName ? 'pass' : 'fail',
+                    hasName ? 'Name and short_name present' : 'Missing name fields');
+
+                const hasIcons = manifest.icons && manifest.icons.length >= 8;
+                logTest('Manifest icons', hasIcons ? 'pass' : 'fail',
+                    hasIcons ? `${manifest.icons.length} icons defined` : 'Insufficient icons');
+
+                const hasDisplay = manifest.display === 'standalone';
+                logTest('Manifest display mode', hasDisplay ? 'pass' : 'fail',
+                    `Display mode: ${manifest.display}`);
+
+                // Test service worker registration
+                if ('serviceWorker' in navigator) {
+                    logTest('Service Worker support', 'pass', 'Browser supports Service Workers');
+                } else {
+                    logTest('Service Worker support', 'fail', 'Browser does not support Service Workers');
+                }
+
+            } catch (e) {
+                logTest('UI components', 'fail', e.message);
+            }
+        }
+
+        // Test PWA Features
+        async function testPWAFeatures() {
+            // Test HTTPS
+            const isHttps = window.location.protocol === 'https:' || window.location.hostname === 'localhost';
+            logTest('HTTPS/localhost', isHttps ? 'pass' : 'warn',
+                isHttps ? 'Secure connection' : 'HTTPS recommended for PWA');
+
+            // Test manifest link
+            const manifestLink = document.querySelector('link[rel="manifest"]');
+            logTest('Manifest link', manifestLink ? 'pass' : 'fail',
+                manifestLink ? 'Manifest linked in HTML' : 'Manifest link missing');
+
+            // Test icons
+            const iconLink = document.querySelector('link[rel="icon"]');
+            logTest('Icon links', iconLink ? 'pass' : 'fail',
+                iconLink ? 'Icons linked in HTML' : 'Icon links missing');
+
+            // Test offline capability
+            if ('caches' in window) {
+                logTest('Cache API support', 'pass', 'Browser supports Cache API');
+            } else {
+                logTest('Cache API support', 'warn', 'Cache API not supported');
+            }
+
+            // Test localStorage availability
+            try {
+                localStorage.setItem('test', 'test');
+                localStorage.removeItem('test');
+                logTest('LocalStorage availability', 'pass', 'LocalStorage available');
+            } catch (e) {
+                logTest('LocalStorage availability', 'fail', 'LocalStorage not available');
+            }
+        }
+
+        console.log('🧪 Test suite loaded. Click "Run All Tests" to begin.');
+    </script>
+</body>
+</html>
+
