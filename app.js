@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Load content from JSON
 async function loadContent() {
     try {
-        const response = await fetch('content.json?v=1.0.0');
+        const response = await fetch('content.json?v=1.1.0');
         appData.content = await response.json();
         populateTopics();
         populateCategorySelects();
@@ -88,6 +88,7 @@ function setupEventListeners() {
     });
 
     // Practice exam setup
+    document.getElementById('exam-mode')?.addEventListener('change', handleExamModeChange);
     document.getElementById('start-practice')?.addEventListener('click', startPracticeExam);
     document.getElementById('submit-answer')?.addEventListener('click', submitAnswer);
     document.getElementById('next-question')?.addEventListener('click', nextQuestion);
@@ -318,30 +319,74 @@ function populateCategorySelects() {
     });
 }
 
+// Handle exam mode change
+function handleExamModeChange() {
+    const examMode = document.getElementById('exam-mode').value;
+    const customSettings = document.getElementById('custom-settings');
+    const helpText = document.getElementById('exam-mode-help');
+    const startBtn = document.getElementById('start-practice');
+    
+    if (examMode === 'practice') {
+        customSettings.style.display = 'block';
+        helpText.textContent = 'Create a custom practice quiz with your preferred settings';
+        startBtn.textContent = 'Start Practice Quiz';
+    } else if (examMode === 'bcba') {
+        customSettings.style.display = 'none';
+        helpText.textContent = 'Full-length BCBA simulation: 100 questions, 2-hour timer, all difficulty levels';
+        startBtn.textContent = 'Start BCBA Exam';
+    } else if (examMode === 'bcaba') {
+        customSettings.style.display = 'none';
+        helpText.textContent = 'Full-length BCaBA simulation: 65 questions, 1.5-hour timer, all difficulty levels';
+        startBtn.textContent = 'Start BCaBA Exam';
+    }
+}
+
 // Start practice exam
 function startPracticeExam() {
-    const category = document.getElementById('practice-category').value;
-    const count = parseInt(document.getElementById('question-count').value);
-    const difficulty = document.getElementById('difficulty-level').value;
-    
+    const examMode = document.getElementById('exam-mode').value;
     let questions = [...appData.content.practiceQuestions];
+    let count, examDuration, isFullExam = false;
     
-    // Filter by category
-    if (category !== 'all') {
-        questions = questions.filter(q => q.category === category);
+    if (examMode === 'bcba') {
+        // Full-length BCBA exam: 100 questions, 2 hours
+        count = 100;
+        examDuration = 120 * 60 * 1000; // 2 hours in milliseconds
+        isFullExam = true;
+        questions = shuffle(questions).slice(0, count);
+    } else if (examMode === 'bcaba') {
+        // Full-length BCaBA exam: 65 questions, 1.5 hours
+        count = 65;
+        examDuration = 90 * 60 * 1000; // 1.5 hours in milliseconds
+        isFullExam = true;
+        questions = shuffle(questions).slice(0, count);
+    } else {
+        // Custom practice quiz
+        const category = document.getElementById('practice-category').value;
+        count = parseInt(document.getElementById('question-count').value);
+        const difficulty = document.getElementById('difficulty-level').value;
+        
+        // Filter by category
+        if (category !== 'all') {
+            questions = questions.filter(q => q.category === category);
+        }
+        
+        // Filter by difficulty
+        if (difficulty !== 'all') {
+            questions = questions.filter(q => q.difficulty === difficulty);
+        }
+        
+        // Shuffle and limit
+        questions = shuffle(questions).slice(0, Math.min(count, questions.length));
+        examDuration = null; // No time limit for practice
     }
-    
-    // Filter by difficulty
-    if (difficulty !== 'all') {
-        questions = questions.filter(q => q.difficulty === difficulty);
-    }
-    
-    // Shuffle and limit
-    questions = shuffle(questions).slice(0, Math.min(count, questions.length));
     
     if (questions.length === 0) {
         alert('No questions available for selected criteria. Please adjust your selection.');
         return;
+    }
+    
+    if (questions.length < count && isFullExam) {
+        alert(`Note: Only ${questions.length} questions available in the question bank. The exam will use all available questions.`);
     }
     
     appData.quizState = {
@@ -349,7 +394,10 @@ function startPracticeExam() {
         currentIndex: 0,
         answers: new Array(questions.length).fill(null),
         correctCount: 0,
-        startTime: Date.now()
+        startTime: Date.now(),
+        examMode,
+        examDuration,
+        isFullExam
     };
     
     document.getElementById('practice-setup').style.display = 'none';
@@ -477,13 +525,16 @@ function finishQuiz() {
     const state = appData.quizState;
     const duration = Math.floor((Date.now() - state.startTime) / 1000 / 60);
     const score = Math.round((state.correctCount / state.questions.length) * 100);
+    const isFullExam = state.isFullExam;
+    const examMode = state.examMode;
     
     appData.userData.studyTime += duration;
     appData.userData.recentActivity.unshift({
-        type: 'quiz',
+        type: isFullExam ? 'exam' : 'quiz',
         date: new Date().toISOString(),
         score,
-        questions: state.questions.length
+        questions: state.questions.length,
+        examMode
     });
     if (appData.userData.recentActivity.length > 10) {
         appData.userData.recentActivity = appData.userData.recentActivity.slice(0, 10);
@@ -492,22 +543,79 @@ function finishQuiz() {
     
     document.getElementById('practice-quiz').style.display = 'none';
     const resultsDiv = document.getElementById('practice-results');
+    
+    // Calculate section breakdown
+    const sectionBreakdown = {};
+    state.questions.forEach((q, idx) => {
+        const section = q.section || 'General';
+        if (!sectionBreakdown[section]) {
+            sectionBreakdown[section] = { correct: 0, total: 0 };
+        }
+        sectionBreakdown[section].total++;
+        if (state.answers[idx] === q.correctAnswer) {
+            sectionBreakdown[section].correct++;
+        }
+    });
+    
+    let sectionHTML = '';
+    if (isFullExam && Object.keys(sectionBreakdown).length > 1) {
+        sectionHTML = '<div class="section-breakdown"><h3>Performance by Section</h3><div class="section-grid">';
+        Object.entries(sectionBreakdown).sort().forEach(([section, data]) => {
+            const sectionScore = Math.round((data.correct / data.total) * 100);
+            sectionHTML += `
+                <div class="section-card">
+                    <div class="section-name">Section ${section}</div>
+                    <div class="section-score">${sectionScore}%</div>
+                    <div class="section-detail">${data.correct}/${data.total} correct</div>
+                </div>
+            `;
+        });
+        sectionHTML += '</div></div>';
+    }
+    
+    // Pass/fail status for full exams (typically 70% to pass)
+    const passingScore = 70;
+    const passed = score >= passingScore;
+    let passFailHTML = '';
+    
+    if (isFullExam) {
+        const examTitle = examMode === 'bcba' ? 'BCBA' : 'BCaBA';
+        passFailHTML = `
+            <div class="pass-fail-banner ${passed ? 'passed' : 'failed'}">
+                ${passed ? '✅ PASS' : '❌ NOT PASSING'} 
+                <span class="pass-fail-detail">(${passingScore}% required)</span>
+            </div>
+            <p class="exam-note">
+                <strong>${examTitle} Practice Exam Results</strong><br>
+                Note: This is a practice exam. Actual exam pass scores are determined by the BACB using scaled scoring.
+            </p>
+        `;
+    }
+    
     resultsDiv.innerHTML = `
-        <h2>Quiz Complete!</h2>
-        <div class="results-score">${score}%</div>
+        <h2>${isFullExam ? 'Exam' : 'Quiz'} Complete!</h2>
+        ${passFailHTML}
+        <div class="results-score ${passed && isFullExam ? 'passing' : ''}">${score}%</div>
         <div class="results-breakdown">
             <div class="stat-card">
                 <div class="stat-value">${state.correctCount}/${state.questions.length}</div>
-                <div class="stat-label">Correct</div>
+                <div class="stat-label">Questions Correct</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">${duration}m</div>
-                <div class="stat-label">Duration</div>
+                <div class="stat-value">${duration} min</div>
+                <div class="stat-label">Time Taken</div>
             </div>
+            ${isFullExam ? `
+                <div class="stat-card">
+                    <div class="stat-value">${Math.round((state.correctCount / state.questions.length) * 100)}</div>
+                    <div class="stat-label">Percentile</div>
+                </div>
+            ` : ''}
         </div>
+        ${sectionHTML}
         <div class="quiz-actions">
             <button class="btn btn-secondary" onclick="reviewQuiz()">Review Answers</button>
-            <button class="btn btn-primary" onclick="resetPracticeView()">New Quiz</button>
+            <button class="btn btn-primary" onclick="resetPracticeView()">New ${isFullExam ? 'Exam' : 'Quiz'}</button>
             <button class="btn btn-secondary" onclick="switchView('home')">Home</button>
         </div>
     `;
@@ -741,19 +849,69 @@ let timerInterval;
 
 function startTimer() {
     const timerEl = document.getElementById('timer');
-    let seconds = 0;
+    const quizState = appData.quizState;
+    let seconds;
+    let isCountdown = false;
+    
+    if (quizState && quizState.examDuration) {
+        // Countdown timer for full-length exams
+        seconds = Math.floor(quizState.examDuration / 1000);
+        isCountdown = true;
+    } else {
+        // Count up timer for practice quizzes
+        seconds = 0;
+        isCountdown = false;
+    }
+    
+    function updateTimer() {
+        const hours = Math.floor(seconds / 3600);
+        const mins = Math.floor((seconds % 3600) / 60);
+        const secs = seconds % 60;
+        
+        let display;
+        if (hours > 0) {
+            display = `${hours}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        } else {
+            display = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+        timerEl.textContent = display;
+        
+        // Color warnings for countdown
+        if (isCountdown) {
+            if (seconds <= 60) {
+                timerEl.style.color = '#ef4444';
+            } else if (seconds <= 600) {
+                timerEl.style.color = '#f59e0b';
+            } else {
+                timerEl.style.color = '';
+            }
+        }
+    }
+    
+    updateTimer();
     
     timerInterval = setInterval(() => {
-        seconds++;
-        const mins = Math.floor(seconds / 60);
-        const secs = seconds % 60;
-        timerEl.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        if (isCountdown) {
+            seconds--;
+            if (seconds <= 0) {
+                stopTimer();
+                alert('Time is up! Your exam will be automatically submitted.');
+                finishQuiz();
+                return;
+            }
+            if (seconds === 600) alert('⏰ 10 minutes remaining!');
+            if (seconds === 60) alert('⚠️ 1 minute remaining!');
+        } else {
+            seconds++;
+        }
+        updateTimer();
     }, 1000);
 }
 
 function stopTimer() {
     if (timerInterval) {
         clearInterval(timerInterval);
+        timerInterval = null;
     }
 }
 
