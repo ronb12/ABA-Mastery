@@ -9,23 +9,32 @@
         {
           "id": "foundations-1",
           "title": "History and Philosophy of Behaviorism",
-          "content": "Applied Behavior Analysis (ABA) has its roots in the experimental work of B.F. Skinner and the philosophical foundations of behaviorism. Behaviorism focuses on observable and measurable behavior, rejecting mentalistic explanations. The field has evolved from basic laboratory research to applied settings, with pioneers like Baer, Wolf, and Risley establishing the seven dimensions of ABA in 1968: applied, behavioral, analytic, technological, conceptually systematic, effective, and capable of appropriately generalized outcomes.",
+          "content": "Applied Behavior Analysis (ABA) has its roots in the experimental work of B.F. Skinner and the philosophical foundations of behaviorism.\n\nHISTORICAL FOUNDATIONS:\nBehaviorism emerged in the early 1900s as a reaction to introspective psychology, which relied on subjective reports of mental experiences. John B. Watson (1913) argued psychology should focus on observable behavior, not unobservable mental states. Ivan Pavlov's work on classical conditioning demonstrated that reflexive responses could be conditioned through environmental pairings. Edward Thorndike's Law of Effect showed that consequences influence voluntary behavior.\n\nB.F. SKINNER AND OPERANT CONDITIONING:\nB.F. Skinner (1938) expanded on Thorndike's work, developing the principles of operant conditioning. His research demonstrated that behavior is shaped and maintained by its consequences. Skinner's experimental analysis of behavior in controlled laboratory settings provided the scientific foundation for applied work. He introduced key concepts including schedules of reinforcement, stimulus control, and shaping. His radical behaviorism rejected mentalistic explanations, arguing that all behavior (including 'private events' like thoughts) could be explained through environmental variables.\n\nSEVEN DIMENSIONS OF ABA:\nBaer, Wolf, and Risley (1968) established seven dimensions that define ABA, distinguishing it from other forms of behavioral intervention:\n\n1. APPLIED: Focuses on socially significant behaviors that improve people's lives\n2. BEHAVIORAL: Studies observable, measurable behavior (not feelings or thoughts)\n3. ANALYTIC: Demonstrates functional relationships through experimental control\n4. TECHNOLOGICAL: Procedures described clearly enough for replication\n5. CONCEPTUALLY SYSTEMATIC: Based on principles of behavior analysis\n6. EFFECTIVE: Produces meaningful, practical improvements\n7. GENERALITY: Produces change that lasts over time, appears in new settings, or spreads to other behaviors\n\nPHILOSOPHICAL ASSUMPTIONS:\nBehavior analysis rests on key philosophical assumptions: Determinism (all behavior is caused by preceding events), Empiricism (knowledge comes from observation), Experimentation (testing hypotheses systematically), Replication (findings must be reproducible), Parsimony (preferring simpler explanations), and Philosophic Doubt (continual questioning of accepted facts).\n\nEVIDENCE-BASED PRACTICE:\nModern ABA emphasizes evidence-based practice: using interventions supported by scientific research, collecting data to evaluate effectiveness, making data-based decisions, and modifying approaches based on client outcomes. This commitment to empiricism and accountability distinguishes ABA from approaches based on theory or tradition alone.",
           "keyPoints": [
-            "Behaviorism emerged as a reaction to introspective psychology",
-            "B.F. Skinner's operant conditioning is foundational to ABA",
-            "Seven dimensions of ABA define the field's characteristics",
-            "Evidence-based practice is central to ABA methodology"
+            "Watson (1913) founded behaviorism, focusing on observable behavior vs. introspection",
+            "Pavlov demonstrated classical conditioning; Thorndike discovered Law of Effect",
+            "Skinner developed operant conditioning and radical behaviorism",
+            "Baer, Wolf, & Risley (1968) defined seven dimensions of ABA",
+            "Seven dimensions: Applied, Behavioral, Analytic, Technological, Conceptually Systematic, Effective, Generality",
+            "Philosophical foundations: Determinism, Empiricism, Experimentation, Replication, Parsimony, Philosophic Doubt",
+            "Evidence-based practice requires scientific support and data-based decision making",
+            "ABA evolved from laboratory research to applied settings helping real people"
           ]
         },
         {
           "id": "foundations-2",
           "title": "Basic Principles of Behavior",
-          "content": "Understanding reinforcement, punishment, extinction, and stimulus control forms the foundation of behavior analysis. Reinforcement increases behavior frequency (positive adds a stimulus, negative removes a stimulus). Punishment decreases behavior (positive adds aversive, negative removes preferred). Extinction involves withholding reinforcement. These principles are universal and apply across species and settings.",
+          "content": "Understanding reinforcement, punishment, extinction, and stimulus control forms the foundation of all behavioral interventions.\n\nREINFORCEMENT (Increases Behavior):\nReinforcement is any consequence that increases the future probability of a behavior. Two types exist:\n\nPOSITIVE REINFORCEMENT: Adding a stimulus following a behavior that increases that behavior. The 'positive' means adding something. Examples: Giving a child praise for completing homework (praise is added), giving a dog a treat for sitting (treat is added), receiving a paycheck for working (money is added). The added stimulus must actually increase the behavior to be called reinforcement - if behavior doesn't increase, it wasn't reinforcement regardless of what was presented.\n\nNEGATIVE REINFORCEMENT: Removing an aversive stimulus following a behavior that increases that behavior. The 'negative' means removing something. Examples: Taking pain medication that removes headache pain (medication-taking increases), fastening seatbelt to stop the annoying beeping (buckling increases), child completing homework to avoid nagging (homework completion increases). Common misconception: Negative reinforcement is NOT punishment - it INCREASES behavior by removing aversives.\n\nPUNISHMENT (Decreases Behavior):\nPunishment is any consequence that decreases the future probability of a behavior. Two types exist:\n\nPOSITIVE PUNISHMENT (Type I): Adding an aversive stimulus following a behavior that decreases that behavior. Examples: Receiving a speeding ticket (ticket added, speeding decreases), getting shocked by electric fence (shock added, touching decreases), receiving a reprimand for talking in class (reprimand added, talking decreases).\n\nNEGATIVE PUNISHMENT (Type II): Removing a preferred stimulus following a behavior that decreases that behavior. Examples: Taking away phone for breaking curfew (phone removed, rule-breaking decreases), response cost in token economy (tokens removed, problem behavior decreases), time-out from preferred activities (access removed, tantrum decreases).\n\nEXTINCTION:\nExtinction occurs when a previously reinforced behavior no longer produces reinforcement, resulting in decreased behavior over time. Examples: Ignoring attention-seeking behavior (attention previously reinforced it), vending machine not dispensing after payment (purchasing that machine decreases). \n\nEXTINCTION CHARACTERISTICS: Extinction burst (temporary increase when extinction begins), spontaneous recovery (temporary reappearance after extinction), increased variability, and emotional responses. Extinction is permanent only if consistently maintained.\n\nSTIMULUS CONTROL:\nBehavior occurs more frequently in the presence of certain stimuli (discriminative stimuli or SD) and less frequently in their absence (S-delta). The SD signals that reinforcement is available; S-delta signals it's not. Examples: Answering phone when it rings (ring is SD), not opening door when it's locked (locked is S-delta), slowing down when seeing police car (police presence is SD for safe driving).\n\nTHREE-TERM CONTINGENCY:\nThe basic unit of analysis: Antecedent → Behavior → Consequence (A-B-C). The antecedent sets the occasion, behavior occurs, consequence follows. Understanding these relationships is fundamental to all functional assessment and intervention development.\n\nUNIVERSAL PRINCIPLES:\nThese principles apply across all species, all settings, all cultures. They are natural laws of behavior, not opinions or theories. Understanding them is essential for effective practice.",
           "keyPoints": [
-            "Reinforcement increases future probability of behavior",
-            "Punishment decreases future probability of behavior",
-            "Extinction results from withholding reinforcement",
-            "Stimulus control determines when behaviors occur"
+            "Reinforcement (positive and negative) INCREASES behavior",
+            "Punishment (positive and negative) DECREASES behavior",
+            "Positive = adding stimulus; Negative = removing stimulus",
+            "Extinction = withholding previously delivered reinforcement",
+            "Extinction burst, spontaneous recovery, and variability are expected during extinction",
+            "SD (discriminative stimulus) signals reinforcement is available",
+            "S-delta signals reinforcement is NOT available",
+            "Three-term contingency (A-B-C) is the basic unit of analysis",
+            "These are universal principles, not theories - they apply across all contexts"
           ]
         }
       ]
@@ -2866,14 +2875,16 @@
     }
   ],
   "metadata": {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "lastUpdated": "2025-10-17",
     "totalTopics": 38,
     "totalQuestions": 135,
     "totalFlashcards": 25,
+    "enhancedTopics": 2,
     "developer": "Bradley Virtual Solutions, LLC",
     "targetQuestions": 1000,
-    "progress": "13.5%"
+    "progress": "13.5%",
+    "contentDepth": "Enhanced (2/38 topics expanded to textbook level)"
   }
 }
 
