@@ -759,7 +759,28 @@
         </div>
     </div>
 
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+
     <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBp2jOcQm7w8X9OJuHZZqQHdRrIw65lZPI",
+            authDomain: "aba-mastery-app.firebaseapp.com",
+            projectId: "aba-mastery-app",
+            storageBucket: "aba-mastery-app.firebasestorage.app",
+            messagingSenderId: "304782196897",
+            appId: "1:304782196897:web:db023c75da94b0546430e0"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+        console.log('✅ Firebase initialized');
+
         // Modal functions
         function openLoginModal() {
             document.getElementById('loginModal').classList.add('active');
@@ -798,42 +819,122 @@
             window.location.href = 'index.html';
         }
 
-        // Auth functions (to be integrated with Firebase)
+        // Auth functions with Firebase
         async function handleLogin(event) {
             event.preventDefault();
             const email = document.getElementById('loginEmail').value;
             const password = document.getElementById('loginPassword').value;
 
-            // TODO: Integrate with Firebase Auth
-            console.log('Login attempt:', email);
-            alert('Login functionality will be integrated with Firebase Authentication. For now, redirecting to app...');
-            window.location.href = 'index.html';
+            console.log('🔐 Attempting login:', email);
+
+            try {
+                const userCredential = await auth.signInWithEmailAndPassword(email, password);
+                const user = userCredential.user;
+                
+                console.log('✅ Login successful!', user.uid);
+                alert(`Welcome back! Logged in as ${user.email}`);
+                
+                // Redirect to app
+                window.location.href = 'index.html';
+            } catch (error) {
+                console.error('❌ Login error:', error.code, error.message);
+                
+                let errorMessage = 'Login failed. ';
+                if (error.code === 'auth/wrong-password') {
+                    errorMessage += 'Incorrect password.';
+                } else if (error.code === 'auth/user-not-found') {
+                    errorMessage += 'No account found with this email.';
+                } else if (error.code === 'auth/invalid-email') {
+                    errorMessage += 'Invalid email address.';
+                } else if (error.code === 'auth/too-many-requests') {
+                    errorMessage += 'Too many failed attempts. Try again later.';
+                } else {
+                    errorMessage += error.message;
+                }
+                
+                alert(errorMessage);
+            }
         }
 
         async function handleSignup(event) {
-            event.preventDefault;
+            event.preventDefault();
             const name = document.getElementById('signupName').value;
             const email = document.getElementById('signupEmail').value;
             const password = document.getElementById('signupPassword').value;
 
-            // TODO: Integrate with Firebase Auth
-            console.log('Signup attempt:', { name, email });
-            alert('Signup functionality will be integrated with Firebase Authentication. For now, redirecting to app...');
-            window.location.href = 'index.html';
+            console.log('📝 Attempting signup:', email);
+
+            try {
+                const userCredential = await auth.createUserWithEmailAndPassword(email, password);
+                const user = userCredential.user;
+                
+                // Update profile with display name
+                await user.updateProfile({
+                    displayName: name
+                });
+                
+                // Create user document in Firestore
+                await db.collection('users').doc(user.uid).set({
+                    displayName: name,
+                    email: email,
+                    role: 'student',
+                    createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+                    lastVisit: firebase.firestore.FieldValue.serverTimestamp()
+                });
+                
+                console.log('✅ Signup successful!', user.uid);
+                alert(`Welcome ${name}! Account created successfully.`);
+                
+                // Redirect to app
+                window.location.href = 'index.html';
+            } catch (error) {
+                console.error('❌ Signup error:', error.code, error.message);
+                
+                let errorMessage = 'Signup failed. ';
+                if (error.code === 'auth/email-already-in-use') {
+                    errorMessage += 'This email is already registered.';
+                } else if (error.code === 'auth/invalid-email') {
+                    errorMessage += 'Invalid email address.';
+                } else if (error.code === 'auth/weak-password') {
+                    errorMessage += 'Password should be at least 6 characters.';
+                } else {
+                    errorMessage += error.message;
+                }
+                
+                alert(errorMessage);
+            }
         }
 
         async function loginWithGoogle() {
-            // TODO: Integrate with Firebase Google Auth
-            console.log('Google login attempt');
-            alert('Google Sign-In will be integrated with Firebase Authentication. For now, redirecting to app...');
-            window.location.href = 'index.html';
+            console.log('🔍 Attempting Google login');
+            
+            try {
+                const provider = new firebase.auth.GoogleAuthProvider();
+                const result = await auth.signInWithPopup(provider);
+                const user = result.user;
+                
+                console.log('✅ Google login successful!', user.uid);
+                
+                // Create/update user document in Firestore
+                await db.collection('users').doc(user.uid).set({
+                    displayName: user.displayName,
+                    email: user.email,
+                    photoURL: user.photoURL,
+                    role: 'student',
+                    lastVisit: firebase.firestore.FieldValue.serverTimestamp()
+                }, { merge: true });
+                
+                alert(`Welcome ${user.displayName}!`);
+                window.location.href = 'index.html';
+            } catch (error) {
+                console.error('❌ Google login error:', error.code, error.message);
+                alert('Google Sign-In failed. Please try again.');
+            }
         }
 
         async function signupWithGoogle() {
-            // TODO: Integrate with Firebase Google Auth
-            console.log('Google signup attempt');
-            alert('Google Sign-Up will be integrated with Firebase Authentication. For now, redirecting to app...');
-            window.location.href = 'index.html';
+            // Same as login for Google - it creates account if doesn't exist
+            loginWithGoogle();
         }
 
         // Smooth scrolling
