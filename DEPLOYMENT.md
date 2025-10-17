@@ -146,21 +146,18 @@ Value: [domain provided by Firebase]
 2. Firebase will automatically provision SSL certificate
 3. Your app will be accessible via your custom domain
 
-## GitHub Integration (Optional)
+## Deployment Method
 
-The project includes a GitHub Actions workflow file (commented out per your preference for manual deployment).
+**This project uses MANUAL DEPLOYMENT ONLY.**
 
-To enable automatic deployment on git push:
+All deployments must be done manually using:
+```bash
+firebase deploy --only hosting
+```
 
-1. Uncomment `.github/workflows/firebase-hosting.yml`
-2. Generate a Firebase service account:
-   ```bash
-   firebase login:ci
-   ```
-3. Add the token as GitHub secret: `FIREBASE_SERVICE_ACCOUNT`
-4. Push changes - deployment will happen automatically
+**No GitHub Actions or automatic deployment is configured.**
 
-**Current Setup:** Manual deployment only (as per user preference) [[memory:8136004]]
+This gives you full control over when and what gets deployed to production.
 
 ## Updating Content
 

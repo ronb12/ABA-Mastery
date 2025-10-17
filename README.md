@@ -115,12 +115,14 @@ The app covers all major domains of ABA practice:
 
 ### Deploy to Firebase Hosting
 
-**Manual Deployment** (Recommended):
+**Manual Deployment Only:**
 ```bash
 firebase deploy --only hosting
 ```
 
 Your app will be live at: `https://aba-mastery-app.web.app`
+
+**Note:** This project uses manual deployment only. No automatic deployment on git push.
 
 ### Custom Domain (Optional)
 
