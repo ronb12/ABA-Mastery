@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "node browser-test.js",
-    "browser-test": "node browser-test.js"
+    "browser-test": "node browser-test.js",
+    "test-login": "node test-with-login.js"
   },
   "repository": {
     "type": "git",

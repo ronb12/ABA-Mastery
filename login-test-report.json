@@ -1,0 +1,13 @@
+{
+  "testDate": "2025-10-17T20:49:31.665Z",
+  "testUser": "test123@aba.com",
+  "testUrl": "http://localhost:8001",
+  "totalTests": 1,
+  "passed": 0,
+  "failed": 1,
+  "successRate": 0,
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "errors": [],
+  "warnings": []
+}
