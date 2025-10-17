@@ -1,0 +1,65 @@
+<!-- IOA Calculation Practice Module -->
+<div id="calculation-module" class="calculation-section" style="display: none;">
+    <h3>IOA Calculation Practice</h3>
+    <p class="module-description">Master the essential calculations needed for the BCBA exam</p>
+    
+    <div class="calc-type-selector">
+        <button class="calc-type-btn active" data-type="total-count">Total Count IOA</button>
+        <button class="calc-type-btn" data-type="interval">Interval-by-Interval IOA</button>
+        <button class="calc-type-btn" data-type="scored-interval">Scored-Interval IOA</button>
+        <button class="calc-type-btn" data-type="rate">Rate Calculations</button>
+    </div>
+    
+    <div class="calc-practice-area">
+        <div id="calc-problem" class="calc-problem">
+            <h4 id="calc-question"></h4>
+            <div id="calc-data" class="calc-data"></div>
+            <div class="calc-input-area">
+                <label>Your Answer:</label>
+                <input type="number" id="calc-answer" step="0.1" placeholder="Enter your answer">
+                <span id="calc-unit"></span>
+            </div>
+            <div class="calc-buttons">
+                <button id="check-calc" class="btn btn-primary">Check Answer</button>
+                <button id="show-calc-steps" class="btn btn-secondary">Show Steps</button>
+                <button id="next-calc" class="btn btn-secondary">Next Problem</button>
+            </div>
+            <div id="calc-feedback" class="calc-feedback" style="display: none;"></div>
+            <div id="calc-steps" class="calc-steps" style="display: none;"></div>
+        </div>
+        
+        <div class="calc-stats">
+            <div class="stat-item">
+                <span class="stat-label">Problems Completed:</span>
+                <span id="calc-completed">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Accuracy:</span>
+                <span id="calc-accuracy">0%</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="calc-formulas">
+        <h4>Quick Reference Formulas:</h4>
+        <div class="formula-grid">
+            <div class="formula-card">
+                <strong>Total Count IOA:</strong>
+                <code>(Smaller Count / Larger Count) × 100</code>
+            </div>
+            <div class="formula-card">
+                <strong>Interval-by-Interval IOA:</strong>
+                <code>(Agreements / Total Intervals) × 100</code>
+            </div>
+            <div class="formula-card">
+                <strong>Scored-Interval IOA:</strong>
+                <code>(Agreements / Scored Intervals) × 100</code>
+            </div>
+            <div class="formula-card">
+                <strong>Rate:</strong>
+                <code>Count / Time Period</code>
+            </div>
+        </div>
+    </div>
+</div>
+
