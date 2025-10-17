@@ -555,36 +555,51 @@ async function runTests() {
         
         const darkModeToggle = await page.$('#dark-mode-setting');
         if (darkModeToggle) {
-            // Trigger dark mode via the checkbox
+            // Trigger dark mode via the checkbox (calls toggleDarkMode function)
             await page.evaluate(() => {
                 const toggle = document.getElementById('dark-mode-setting');
                 toggle.checked = true;
                 toggle.dispatchEvent(new Event('change'));
             });
-            await sleep(1500);
+            await sleep(1000);
             await screenshot(page, '14-dark-mode');
             
-            const isDark = await page.evaluate(() => {
-                return document.body.classList.contains('dark-mode');
+            // Check for dark mode using the correct attribute (dataset.theme)
+            const darkModeData = await page.evaluate(() => {
+                return {
+                    htmlTheme: document.documentElement.dataset.theme,
+                    checkboxChecked: document.getElementById('dark-mode-setting').checked,
+                    iconText: document.getElementById('dark-mode-toggle')?.querySelector('.icon')?.textContent
+                };
             });
             
-            if (isDark) {
-                log('✅ Dark mode works', 'green');
+            log(`  Theme: ${darkModeData.htmlTheme}, Checkbox: ${darkModeData.checkboxChecked}, Icon: ${darkModeData.iconText}`, 'cyan');
+            
+            if (darkModeData.htmlTheme === 'dark') {
+                log('✅ Dark mode activated successfully', 'green');
                 testResults['Dark Mode'] = 'PASS';
                 testsPassed++;
             } else {
-                log('⚠️  Dark mode toggle found but not activating', 'yellow');
+                log('⚠️  Dark mode toggle triggered but theme not changing', 'yellow');
                 testResults['Dark Mode'] = 'FAIL';
                 testsFailed++;
             }
             
-            // Toggle back
+            // Toggle back to light mode
             await page.evaluate(() => {
                 const toggle = document.getElementById('dark-mode-setting');
                 toggle.checked = false;
                 toggle.dispatchEvent(new Event('change'));
             });
             await sleep(500);
+            
+            const backToLight = await page.evaluate(() => {
+                return document.documentElement.dataset.theme;
+            });
+            
+            if (backToLight !== 'dark') {
+                log('✅ Dark mode toggle-back works', 'green');
+            }
         } else {
             log('⚠️  Dark mode toggle not found', 'yellow');
             testResults['Dark Mode'] = 'FAIL';
