@@ -321,8 +321,8 @@ For support or inquiries:
 ## 📚 Resources
 
 - [BACB Website](https://www.bacb.com/)
-- [BACB Task List](https://www.bacb.com/bcba/bcba-task-list/)
-- [Ethics Code](https://www.bacb.com/ethics-information/ethics-code/)
+- [BCBA/BCaBA Task Lists](https://www.bacb.com/task-lists/)
+- [BACB Ethics Code](https://www.bacb.com/ethics-code/)
 
 ---
 
