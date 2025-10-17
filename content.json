@@ -841,6 +841,1281 @@
       ],
       "correctAnswer": 2,
       "explanation": "Forward chaining teaches steps in chronological order (first step, then second, etc.). Backward chaining teaches the last step first, then second-to-last, working backward. Backward chaining has the advantage of natural task completion."
+    },
+    {
+      "id": "q26",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "A behavior maintained on a variable ratio 10 (VR-10) schedule would be reinforced:",
+      "options": [
+        "After every 10 responses",
+        "On average, after every 10 responses, but varying around that number",
+        "After 10 minutes have passed",
+        "Randomly, regardless of the number of responses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Variable ratio (VR) schedules deliver reinforcement after an average number of responses, but the exact number varies unpredictably around that average. A VR-10 might reinforce after 8, 12, 9, 11 responses, averaging 10. This creates high, steady rates of responding and strong resistance to extinction. Fixed ratio (FR) reinforces after exactly the same number each time. Interval schedules are time-based, not response-based.",
+      "tags": ["schedules", "variable-ratio", "reinforcement"]
+    },
+    {
+      "id": "q27",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Which of the following is an example of unconditioned reinforcement?",
+      "options": [
+        "Money",
+        "Praise",
+        "Food",
+        "Tokens"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Food is an unconditioned (primary) reinforcer because it has biological importance and doesn't require learning to be effective. Money, praise, and tokens are conditioned (secondary) reinforcers that acquire their reinforcing properties through pairing with other reinforcers. Unconditioned reinforcers are effective without prior learning because they meet basic biological needs.",
+      "tags": ["reinforcement", "unconditioned-reinforcer", "primary-reinforcer"]
+    },
+    {
+      "id": "q28",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A child refuses to eat vegetables. The parent says 'No dessert until you eat your vegetables.' This is an example of:",
+      "options": [
+        "Positive reinforcement",
+        "The Premack Principle",
+        "Negative punishment",
+        "Extinction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Premack Principle states that a high-probability behavior (eating dessert) can be used to reinforce a low-probability behavior (eating vegetables). This is also known as 'Grandma's Rule' ('First do this, then you can do that'). It's a form of positive reinforcement where access to a preferred activity reinforces completion of a non-preferred activity. This is different from negative punishment, which would involve removing dessert that was already present.",
+      "tags": ["premack-principle", "reinforcement", "application"]
+    },
+    {
+      "id": "q29",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A student completes homework to avoid parental nagging. Over time, the parent stops nagging, and homework completion decreases. This decrease is due to:",
+      "options": [
+        "Positive punishment",
+        "Extinction of negatively reinforced behavior",
+        "Satiation",
+        "Response cost"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The homework was maintained by negative reinforcement (escape from/avoidance of nagging). When nagging stops, the reinforcement (escape/avoidance) is no longer available, resulting in extinction. The behavior decreases because it no longer produces its maintaining consequence. This demonstrates that even negatively reinforced behaviors undergo extinction when the aversive stimulus is no longer present to be removed or avoided.",
+      "tags": ["extinction", "negative-reinforcement", "behavioral-analysis"]
+    },
+    {
+      "id": "q30",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "What is the primary difference between an establishing operation (EO) and an abolishing operation (AO)?",
+      "options": [
+        "EOs decrease behavior, AOs increase behavior",
+        "EOs increase the value of a reinforcer, AOs decrease the value of a reinforcer",
+        "EOs are learned, AOs are innate",
+        "There is no difference; they are the same thing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Establishing operations (EOs) increase the value of a reinforcer and increase behaviors that have produced that reinforcer in the past (e.g., food deprivation makes food more valuable). Abolishing operations (AOs) decrease the value of a reinforcer and decrease behaviors maintained by that reinforcer (e.g., satiation makes food less valuable). Both are types of motivating operations (MOs) that alter reinforcer effectiveness and behavior frequency.",
+      "tags": ["motivating-operations", "establishing-operation", "abolishing-operation"]
+    },
+    {
+      "id": "q31",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Stimulus generalization occurs when:",
+      "options": [
+        "A behavior occurs in the presence of a stimulus different from the original discriminative stimulus",
+        "A person learns to discriminate between two similar stimuli",
+        "Reinforcement is provided for all behaviors",
+        "A behavior stops occurring in all settings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stimulus generalization occurs when a behavior that was reinforced in the presence of one stimulus begins to occur in the presence of similar stimuli. For example, if a child learns to say 'dog' when seeing their pet dog, they might also say 'dog' when seeing other dogs or even cats. This is adaptive because it allows learned behaviors to occur across similar situations without needing to be taught in every specific context.",
+      "tags": ["generalization", "stimulus-control", "discrimination"]
+    },
+    {
+      "id": "q32",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "advanced",
+      "questionType": "analysis",
+      "question": "A student receives tokens for correct answers. Initially, tokens are exchanged for preferred items immediately. Then, a delay is introduced between earning tokens and exchanging them. The student stops working. What likely occurred?",
+      "options": [
+        "The tokens lost their conditioned reinforcing properties due to delayed pairing",
+        "The student experienced satiation",
+        "Positive punishment was introduced",
+        "The behavior was never truly reinforced"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conditioned reinforcers (tokens) maintain their effectiveness through continued pairing with backup reinforcers. When a delay is introduced, especially early in token use, the pairing weakens and tokens may lose their conditioned reinforcing value. The student stops responding because the tokens are no longer functioning as effective reinforcers. This is why token systems require careful implementation with consistent, timely exchanges, particularly during initial training.",
+      "tags": ["token-economy", "conditioned-reinforcement", "pairing"]
+    },
+    {
+      "id": "q33",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A teacher provides candy after every 5 completed math problems. This is which schedule of reinforcement?",
+      "options": [
+        "Fixed interval (FI-5)",
+        "Variable ratio (VR-5)",
+        "Fixed ratio (FR-5)",
+        "Variable interval (VI-5)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a fixed ratio 5 (FR-5) schedule because reinforcement is delivered after a fixed number (5) of responses (completed problems). The schedule is based on responses, not time (ruling out interval schedules), and the number is consistent, not variable. FR schedules typically produce high rates of responding with a post-reinforcement pause after each reinforcer delivery.",
+      "tags": ["schedules", "fixed-ratio", "reinforcement"]
+    },
+    {
+      "id": "q34",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Behavioral momentum refers to:",
+      "options": [
+        "How fast a behavior occurs",
+        "The tendency of behavior to persist despite changes in environmental contingencies",
+        "The speed at which new behaviors are learned",
+        "Aggressive behavior that escalates over time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behavioral momentum describes the persistence of behavior when disruptions or changes occur. Behaviors with high momentum (those with a rich history of reinforcement) are more resistant to change and disruption. This concept is used in the high-probability request sequence (behavioral momentum strategy), where compliance with several easy requests increases the likelihood of compliance with a more difficult request.",
+      "tags": ["behavioral-momentum", "resistance-to-change", "concepts"]
+    },
+    {
+      "id": "q35",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "Which of the following best describes respondent conditioning?",
+      "options": [
+        "Behavior is strengthened by its consequences",
+        "A neutral stimulus acquires the ability to elicit a response through pairing with an unconditioned stimulus",
+        "Behavior occurs more often in the presence of discriminative stimuli",
+        "Complex behaviors are broken down into smaller steps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Respondent (classical/Pavlovian) conditioning involves pairing a neutral stimulus with an unconditioned stimulus until the neutral stimulus becomes a conditioned stimulus that elicits a conditioned response. Example: Pairing a bell (neutral) with food (unconditioned) until the bell alone elicits salivation. Option A describes operant conditioning. While both types of conditioning are important in behavior analysis, most ABA interventions focus on operant conditioning.",
+      "tags": ["respondent-conditioning", "classical-conditioning", "pavlov"]
+    },
+    {
+      "id": "q36",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "What is the three-term contingency in ABA?",
+      "options": [
+        "Antecedent, Behavior, Consequence",
+        "Assessment, Baseline, Consequence",
+        "Attention, Behavior, Change",
+        "Analysis, Baseline, Continuation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The three-term contingency (A-B-C) consists of Antecedent (what happens before), Behavior (the response), and Consequence (what follows the behavior). This is the basic unit of analysis in ABA and describes the relationship between environmental events and behavior. Understanding the three-term contingency is fundamental to conducting functional assessments and developing effective interventions.",
+      "tags": ["three-term-contingency", "abc", "foundational-concepts"]
+    },
+    {
+      "id": "q37",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A child tantrums when told 'No dessert before dinner.' The parent gives in and provides dessert, and tantrums increase. The parent's behavior of giving in is maintained by:",
+      "options": [
+        "Positive reinforcement (adding dessert)",
+        "Negative reinforcement (escaping tantrum)",
+        "Positive punishment (child's reaction)",
+        "Extinction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parent's giving-in behavior is negatively reinforced because it results in the removal of the aversive tantrum. This is a classic coercion cycle: child's tantrum is positively reinforced (gets dessert), and parent's giving-in is negatively reinforced (tantrum stops). Both behaviors increase, creating a problematic pattern. Understanding these mutual contingencies is essential for effective behavior change strategies.",
+      "tags": ["negative-reinforcement", "coercion-cycle", "application"]
+    },
+    {
+      "id": "q38",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "The matching law suggests that:",
+      "options": [
+        "Individuals match their responses to the relative rates of reinforcement available",
+        "All behaviors must be matched with appropriate consequences",
+        "Punishment should match the severity of the behavior",
+        "Teaching should match the learner's developmental level"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The matching law (Herrnstein, 1961) states that when given a choice between alternatives, the relative rate of responding matches the relative rate of reinforcement. If one alternative provides twice as much reinforcement, it will receive twice as many responses. This principle has implications for understanding choice behavior, preference, and concurrent schedules of reinforcement in applied settings.",
+      "tags": ["matching-law", "choice", "concurrent-schedules"]
+    },
+    {
+      "id": "q39",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A behavior analyst wants to decrease tantrum behavior. After assessment, they determine tantrums are maintained by access to tangibles. Which would be most appropriate?",
+      "options": [
+        "Provide the tangible before tantrum occurs (NCR)",
+        "Remove all tangibles from the environment",
+        "Use timeout when tantrums occur",
+        "Teach the child to tantrum more quietly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When behavior is maintained by access to tangibles, noncontingent reinforcement (NCR) - providing the reinforcer on a time-based schedule independent of behavior - can be effective. This removes the contingency between tantrum and tangible access while still providing the item. Combined with functional communication training, this is a function-based, positive approach. Removing all tangibles isn't practical, timeout doesn't address the function, and teaching quiet tantrums doesn't solve the problem.",
+      "tags": ["function-based-intervention", "ncr", "tangible-function"]
+    },
+    {
+      "id": "q40",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "An S-delta (SΔ) is:",
+      "options": [
+        "A stimulus in the presence of which reinforcement is available",
+        "A stimulus in the presence of which reinforcement is NOT available",
+        "The same as a discriminative stimulus",
+        "A type of reinforcer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An S-delta (SΔ) is a stimulus that signals reinforcement is NOT available for a particular behavior. It's the opposite of an SD (discriminative stimulus), which signals reinforcement IS available. Through discrimination training, individuals learn to respond in the presence of the SD and not respond in the presence of the S-delta. Example: A 'Closed' sign (S-delta) signals the store is unavailable, so approaching behavior doesn't occur.",
+      "tags": ["stimulus-control", "s-delta", "discrimination"]
+    },
+    {
+      "id": "q41",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "Derived stimulus relations (stimulus equivalence) require demonstration of:",
+      "options": [
+        "Reflexivity, symmetry, and transitivity",
+        "Generalization and discrimination",
+        "Shaping and chaining",
+        "Reinforcement and punishment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stimulus equivalence involves three properties: reflexivity (A=A), symmetry (if A=B, then B=A), and transitivity (if A=B and B=C, then A=C). This allows for the emergence of untrained relations after teaching some relations. For example, teaching 'word-picture' and 'picture-object' may result in emergent 'word-object' relations without direct training. This has important applications in language and academic instruction.",
+      "tags": ["stimulus-equivalence", "derived-relations", "advanced-concepts"]
+    },
+    {
+      "id": "q42",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A student is learning to tie shoes. The instructor physically guides their hands through the entire sequence, then gradually reduces assistance. This is:",
+      "options": [
+        "Shaping",
+        "Graduated guidance",
+        "Time delay",
+        "Stimulus fading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Graduated guidance is a prompting procedure that starts with full physical assistance and gradually reduces the amount of physical guidance as the learner becomes more independent. The instructor maintains contact but reduces pressure/guidance. This differs from shaping (reinforcing successive approximations), time delay (adding time between SD and prompt), and stimulus fading (gradually changing the stimulus to transfer control).",
+      "tags": ["prompting", "graduated-guidance", "physical-prompts"]
+    },
+    {
+      "id": "q43",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "In a token economy, tokens function as:",
+      "options": [
+        "Unconditioned reinforcers",
+        "Conditioned reinforcers",
+        "Punishers",
+        "Discriminative stimuli only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tokens are conditioned (secondary) reinforcers that acquire their reinforcing properties through pairing with backup reinforcers (items/activities they can be exchanged for). Tokens have several advantages: they can be delivered immediately, don't cause satiation, can be used across multiple individuals and settings, and bridge the delay between behavior and backup reinforcement. They are not innately reinforcing (not unconditioned reinforcers).",
+      "tags": ["token-economy", "conditioned-reinforcement", "intervention"]
+    },
+    {
+      "id": "q44",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A child screams for attention. The behavior analyst teaches the child to raise their hand instead and provides attention for hand-raising while ignoring screaming. This is:",
+      "options": [
+        "DRO (Differential Reinforcement of Other behavior)",
+        "DRA (Differential Reinforcement of Alternative behavior)",
+        "DRI (Differential Reinforcement of Incompatible behavior)",
+        "DRL (Differential Reinforcement of Low rates)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is DRA because a specific alternative behavior (hand-raising) is reinforced while the problem behavior (screaming) is placed on extinction. DRA is often combined with extinction and is especially effective when the alternative behavior serves the same function as the problem behavior. DRO reinforces the absence of problem behavior without specifying what the child should do instead. DRI requires the alternative to be physically incompatible with the problem behavior.",
+      "tags": ["differential-reinforcement", "dra", "function-based"]
+    },
+    {
+      "id": "q45",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "After implementing FCT (Functional Communication Training), the child uses the communication response frequently throughout the day for minor wants. What should be done?",
+      "options": [
+        "Stop FCT; it's not working",
+        "Continue providing the reinforcer every time",
+        "Gradually thin the schedule of reinforcement for the communication response",
+        "Return to the original problem behavior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Once FCT is established, schedule thinning is essential to make the intervention practical and sustainable. This is done by gradually increasing the delay between the communication response and reinforcer delivery, or by putting the communication response on an intermittent schedule. This prevents the child from needing constant access to the reinforcer while maintaining the appropriate communication. Abrupt thinning should be avoided as it may result in resurgence of the problem behavior.",
+      "tags": ["fct", "schedule-thinning", "maintenance"]
+    },
+    {
+      "id": "q46",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "What is the main purpose of errorless learning?",
+      "options": [
+        "To make learning faster",
+        "To minimize errors during acquisition by using prompt procedures",
+        "To eliminate the need for reinforcement",
+        "To ensure 100% accuracy on the first trial"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Errorless learning uses prompting to ensure correct responding during initial learning, minimizing the occurrence of errors. This is beneficial because errors can be learned and reinforced, and repeated errors can be frustrating for learners. Most-to-least prompting hierarchies are typically used in errorless learning. While learning may be faster and less frustrating, the primary goal is preventing error learning. Reinforcement is still necessary for learning.",
+      "tags": ["errorless-learning", "prompting", "teaching-strategies"]
+    },
+    {
+      "id": "q47",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Stimulus fading involves:",
+      "options": [
+        "Gradually transferring stimulus control from a prompt to the natural SD",
+        "Making a behavior occur less frequently",
+        "Removing all reinforcement",
+        "Teaching in multiple settings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stimulus fading is the gradual change of a stimulus controlling a response. For example, when teaching color identification, you might start with a very salient prompt (e.g., 'Touch red') and gradually fade to just asking 'What color?' The stimulus (verbal prompt) is faded while the response remains the same. This transfers control from the prompt to the natural SD. This differs from prompt fading, which involves changing the intensity or type of prompt.",
+      "tags": ["stimulus-fading", "prompt-fading", "transfer-of-control"]
+    },
+    {
+      "id": "q48",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A student engages in self-injury maintained by escape from demands. Which antecedent intervention would be most appropriate?",
+      "options": [
+        "Provide breaks noncontingently before problem behavior occurs",
+        "Remove all demands permanently",
+        "Use physical restraint when self-injury occurs",
+        "Increase task difficulty to build tolerance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Providing breaks noncontingently (NCR for negative reinforcement) removes the contingency between self-injury and escape while still providing the maintaining consequence (breaks). This can be combined with teaching an appropriate communication response to request breaks (FCT). Removing all demands isn't practical or appropriate. Physical restraint is a crisis management procedure, not an intervention. Increasing difficulty would likely increase problem behavior as it increases the motivation to escape.",
+      "tags": ["antecedent-intervention", "ncr", "escape-function"]
+    },
+    {
+      "id": "q49",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "questionType": "analysis",
+      "question": "After extinction is implemented for attention-maintained behavior, the behavior initially increases in frequency and intensity. This is called:",
+      "options": [
+        "Spontaneous recovery",
+        "Extinction burst",
+        "Response generalization",
+        "Behavioral contrast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An extinction burst is a temporary increase in the frequency, intensity, or duration of a behavior when extinction is first implemented. This occurs because the individual is testing whether the previously reinforced behavior will still produce reinforcement. Extinction bursts are expected and temporary; behavior will decrease if extinction is consistently implemented. Spontaneous recovery is the temporary reappearance of a behavior after it has been extinguished. Planning for and managing extinction bursts is critical for successful implementation.",
+      "tags": ["extinction", "extinction-burst", "behavioral-effects"]
+    },
+    {
+      "id": "q50",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "In a time-out procedure, the individual:",
+      "options": [
+        "Is removed from access to reinforcement for a brief period",
+        "Must sit in a corner for one minute per year of age",
+        "Is physically restrained",
+        "Receives a verbal reprimand"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Time-out from positive reinforcement involves removing access to reinforcement for a brief, specified period contingent on problem behavior. This makes it a Type II punishment (negative punishment) procedure. Time-out can be exclusionary (removing person from environment) or non-exclusionary (removing reinforcement while person stays). The 'one minute per year of age' is a common guideline but not a defining characteristic. Time-out is only effective if the time-in environment is reinforcing.",
+      "tags": ["timeout", "punishment", "negative-punishment"]
+    },
+    {
+      "id": "q51",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "beginner",
+      "questionType": "application",
+      "question": "A behavior analyst teaches a child to mand (request) for 'break' using a picture card. This is an example of:",
+      "options": [
+        "Punishment",
+        "Functional Communication Training (FCT)",
+        "Extinction",
+        "Discrimination training only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Functional Communication Training (FCT) involves teaching an appropriate communication response that serves the same function as the problem behavior. Teaching a child to request breaks is classic FCT for escape-maintained behavior. The communication response produces the same reinforcement (break/escape) that the problem behavior previously produced, making it a function-based, positive approach to behavior reduction. FCT is one of the most researched and effective behavior change procedures.",
+      "tags": ["fct", "functional-communication", "manding"]
+    },
+    {
+      "id": "q52",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A constant time delay procedure involves:",
+      "options": [
+        "Randomly varying the delay between SD and prompt",
+        "Using the same, fixed delay between SD and prompt across all trials",
+        "Never providing a prompt",
+        "Immediately prompting on every trial"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In constant time delay, a fixed delay (e.g., always 4 seconds) is inserted between the discriminative stimulus and the controlling prompt. Initially, the prompt is given immediately (0-second delay) to ensure errorless learning. Then, a consistent delay is introduced, giving the learner time to respond independently before the prompt. This differs from progressive time delay, where the delay gradually increases over time. Both are effective errorless learning procedures.",
+      "tags": ["time-delay", "prompting", "errorless-learning"]
+    },
+    {
+      "id": "q53",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "Response cost differs from other forms of punishment because it:",
+      "options": [
+        "Involves removing a specific amount of reinforcement already earned",
+        "Involves adding an aversive stimulus",
+        "Is always more effective than other punishment",
+        "Cannot be used with token economies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Response cost is a Type II punishment (negative punishment) procedure involving removal of a specific amount of reinforcement contingent on problem behavior. Examples include losing tokens, points, or privileges already earned. Response cost is often used in token economies and behavioral contracts. It differs from time-out (which removes access to reinforcement) and positive punishment (which adds aversive stimuli). Effectiveness depends on implementation and function of behavior.",
+      "tags": ["response-cost", "punishment", "token-economy"]
+    },
+    {
+      "id": "q54",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A teacher wants to reduce the frequency of calling out but not eliminate it completely, as occasional questions are appropriate. Which procedure is most suitable?",
+      "options": [
+        "DRO",
+        "DRL (Differential Reinforcement of Low rates)",
+        "Extinction",
+        "DRI"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Differential Reinforcement of Low rates (DRL) is appropriate when the goal is to reduce but not eliminate a behavior. With DRL, reinforcement is provided if the behavior occurs at or below a criterion rate. This is ideal for behaviors that are acceptable at low frequencies but problematic at high rates (e.g., asking questions, requesting help). DRO reinforces absence, extinction would eliminate it, and DRI requires an incompatible behavior.",
+      "tags": ["drl", "differential-reinforcement", "rate-reduction"]
+    },
+    {
+      "id": "q55",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Noncontingent reinforcement (NCR) involves:",
+      "options": [
+        "Never providing reinforcement",
+        "Providing reinforcement contingent on appropriate behavior",
+        "Providing reinforcement on a time-based schedule independent of behavior",
+        "Providing reinforcement only after problem behavior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Noncontingent reinforcement (NCR) provides the maintaining reinforcer on a fixed or variable time schedule, regardless of whether problem behavior occurs. This removes the contingency between problem behavior and reinforcement, leading to behavior reduction through extinction. NCR is particularly effective when combined with functional communication training. The schedule should initially be dense enough to provide more reinforcement than the problem behavior was producing.",
+      "tags": ["ncr", "noncontingent-reinforcement", "antecedent-intervention"]
+    },
+    {
+      "id": "q56",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A behavior plan includes teaching the child to identify when they are becoming frustrated and to request a break before engaging in aggression. This is an example of:",
+      "options": [
+        "Punishment",
+        "Self-management/self-monitoring",
+        "Extinction",
+        "Response blocking only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This describes self-management or self-monitoring, where the individual learns to discriminate their own behavior (internal states of frustration) and engage in appropriate alternative behavior (requesting break). Self-management procedures teach individuals to control their own behavior and are important for promoting independence and generalization. This is proactive and function-based, teaching the individual to recognize antecedents and respond appropriately before problem behavior occurs.",
+      "tags": ["self-management", "self-monitoring", "independence"]
+    },
+    {
+      "id": "q57",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "calculation",
+      "question": "Observer 1 records 20 instances of a behavior. Observer 2 records 25 instances. What is the total count IOA?",
+      "options": [
+        "45%",
+        "80%",
+        "83%",
+        "125%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total Count IOA is calculated as (Smaller count / Larger count) × 100 = (20 / 25) × 100 = 80%. This is the simplest form of IOA and only considers the total number of occurrences recorded by each observer, not whether they agreed on which specific instances occurred. Total Count IOA is most appropriate for behaviors that occur at high rates where interval-by-interval agreement is impractical. IOA of 80% or higher is generally considered acceptable.",
+      "tags": ["ioa", "interobserver-agreement", "calculation"]
+    },
+    {
+      "id": "q58",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Which measurement system is most appropriate for a behavior that occurs at different durations each time?",
+      "options": [
+        "Frequency",
+        "Duration",
+        "Latency",
+        "Trials to criterion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Duration recording measures how long a behavior lasts from onset to offset, making it ideal for behaviors that occur for extended or varying periods of time (e.g., tantrums, time on-task, engagement). Frequency only captures how many times the behavior occurred, missing important duration information. Latency measures time between stimulus presentation and response initiation. Duration is reported as total duration, average duration per occurrence, or percentage of time.",
+      "tags": ["measurement", "duration", "data-collection"]
+    },
+    {
+      "id": "q59",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "When using partial interval recording, the observer:",
+      "options": [
+        "Records whether the behavior occurred throughout the entire interval",
+        "Records whether the behavior occurred at any point during the interval",
+        "Records only at the end of each interval",
+        "Records the exact frequency of the behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In partial interval recording, the interval is scored as occurrence if the behavior happens at any point during that interval, even briefly. This method tends to overestimate occurrence because brief instances count the same as longer occurrences. It's useful for behaviors that occur at high rates or when continuous recording isn't feasible. Partial interval is appropriate for behaviors you want to decrease, as the overestimation provides a conservative measure of progress.",
+      "tags": ["interval-recording", "partial-interval", "data-collection"]
+    },
+    {
+      "id": "q60",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "advanced",
+      "questionType": "analysis",
+      "question": "A graph shows stable baseline data at high levels, followed by an immediate decrease when intervention begins, with low, stable intervention data. This demonstrates:",
+      "options": [
+        "No experimental control",
+        "Strong experimental control with immediacy of effect",
+        "Delayed effect only",
+        "The behavior would have decreased without intervention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Immediacy of effect (rapid change when IV is introduced) is a key indicator of experimental control in visual analysis. Combined with stable baseline, low overlap between phases, and stable intervention data, this strongly suggests the intervention caused the behavior change. If the change was delayed or gradual, alternative explanations (maturation, history) would be more plausible. The described pattern is exactly what we want to see to demonstrate a functional relationship.",
+      "tags": ["visual-analysis", "experimental-control", "immediacy"]
+    },
+    {
+      "id": "q61",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Rate is a better measure than frequency when:",
+      "options": [
+        "Observation periods vary in length",
+        "The behavior is continuous",
+        "You want to measure duration",
+        "The behavior never occurs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rate (frequency per unit time, e.g., responses per minute) standardizes measurement across different observation periods, allowing for valid comparisons. If you observe for 30 minutes one day and 60 minutes the next, frequency counts can't be directly compared, but rates can. Rate is calculated as: number of occurrences ÷ time period. Rate is ideal for discrete behaviors that occur at countable frequencies and when observation periods may vary.",
+      "tags": ["rate", "measurement", "frequency"]
+    },
+    {
+      "id": "q62",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Inter-response time (IRT) measures:",
+      "options": [
+        "Time from SD to response",
+        "Time the behavior lasts",
+        "Time between consecutive responses",
+        "Time between sessions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inter-response time (IRT) is the elapsed time between two consecutive responses. For example, the time between one instance of hand-raising and the next. IRT provides information about response patterns and can be useful for behaviors occurring in bursts or clusters. Short IRTs suggest rapid responding, while long IRTs suggest slower rates. DRL procedures often target increasing IRTs (making responses occur less frequently).",
+      "tags": ["irt", "inter-response-time", "measurement"]
+    },
+    {
+      "id": "q63",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Momentary time sampling involves:",
+      "options": [
+        "Recording behavior throughout an interval",
+        "Recording behavior if it occurs at any point in an interval",
+        "Recording whether behavior is occurring at the precise moment the interval ends",
+        "Recording every instance of the behavior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Momentary time sampling (MTS) records whether the behavior is occurring at a specific moment (usually the end of an interval). The observer only looks at the moment the timer signals, not throughout the interval. MTS is efficient and provides a reasonable estimate of the proportion of time behavior occurs if intervals are short enough and representative. It's particularly useful for continuous or high-rate behaviors and when continuous observation isn't feasible.",
+      "tags": ["momentary-time-sampling", "mts", "data-collection"]
+    },
+    {
+      "id": "q64",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "advanced",
+      "questionType": "calculation",
+      "question": "A behavior occurs 30 times during a 15-minute observation. What is the rate per minute?",
+      "options": [
+        "0.5 responses per minute",
+        "2 responses per minute",
+        "15 responses per minute",
+        "30 responses per minute"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rate is calculated as: Count ÷ Time = 30 responses ÷ 15 minutes = 2 responses per minute. Rate provides a standardized measure that can be compared across different observation periods. In this example, we could also express this as 120 responses per hour (2 × 60). Always ensure the time unit is clear when reporting rate data. Rate is most meaningful for discrete, countable behaviors.",
+      "tags": ["rate", "calculation", "measurement"]
+    },
+    {
+      "id": "q65",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "What is the primary purpose of collecting baseline data?",
+      "options": [
+        "To determine if intervention is needed and measure pre-intervention levels",
+        "To identify the function of behavior",
+        "To train staff on procedures",
+        "To complete required paperwork"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Baseline data serves multiple critical purposes: 1) Establishes the pre-intervention level of behavior for comparison, 2) Helps determine if intervention is needed, 3) Provides a basis for evaluating intervention effectiveness, 4) Aids in treatment planning, and 5) Demonstrates experimental control in research designs. Baseline should be stable before introducing intervention, though this isn't always possible in clinical settings where behavior poses risk.",
+      "tags": ["baseline", "data-collection", "assessment"]
+    },
+    {
+      "id": "q66",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "advanced",
+      "questionType": "analysis",
+      "question": "In visual analysis, which combination suggests the STRONGEST experimental control?",
+      "options": [
+        "Variable baseline, gradual change, high overlap",
+        "Stable baseline, immediate change, no overlap, consistent across replications",
+        "Trending baseline, delayed change, moderate overlap",
+        "No baseline, immediate change"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Strong experimental control is demonstrated by: 1) Stable baseline (predictable pattern), 2) Immediate change when IV introduced (eliminates confounds), 3) Little/no overlap between phases (clear effect), 4) Consistency across replications (rules out coincidence), 5) Substantial change from baseline level/trend. All six characteristics of visual analysis (level, trend, variability, immediacy, overlap, consistency) should be considered together when evaluating experimental control.",
+      "tags": ["visual-analysis", "experimental-control", "graph-interpretation"]
+    },
+    {
+      "id": "q67",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Permanent product recording involves:",
+      "options": [
+        "Directly observing behavior as it occurs",
+        "Measuring tangible outcomes or products of behavior",
+        "Recording only at specific intervals",
+        "Using video recording for all sessions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Permanent product recording measures the tangible results or outcomes of a behavior rather than observing the behavior directly. Examples include completed worksheets, items assembled, trash collected, beds made, or lawn mowed. Advantages include: no need to observe behavior as it occurs, objective measurement, and efficiency. However, it doesn't provide information about how the behavior was performed or how long it took unless that's measurable from the product.",
+      "tags": ["permanent-product", "measurement", "data-collection"]
+    },
+    {
+      "id": "q68",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Which graph type is most commonly used in single-subject research?",
+      "options": [
+        "Pie chart",
+        "Bar graph",
+        "Line graph",
+        "Scatter plot"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Line graphs are standard in single-subject research because they show changes in behavior over time clearly. The x-axis represents time (sessions, days), and the y-axis represents the dependent variable (behavior measure). Lines connect data points within phases, with phase change lines separating experimental conditions. This format facilitates visual analysis of level, trend, variability, and other characteristics essential for evaluating intervention effects.",
+      "tags": ["graphing", "line-graph", "visual-display"]
+    },
+    {
+      "id": "q69",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Whole interval recording would be most appropriate for measuring:",
+      "options": [
+        "Discrete hitting responses",
+        "On-task behavior (continuous engagement)",
+        "Verbal outbursts",
+        "Number of problems completed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Whole interval recording requires the behavior to occur throughout the entire interval to be scored as an occurrence. This is most appropriate for continuous behaviors like on-task, engagement, or sitting, where the goal is to measure sustained occurrence. Whole interval tends to underestimate behavior because any break in the behavior, even brief, means the interval is not scored. It's useful for behaviors you want to increase, as the underestimation provides a conservative measure of progress.",
+      "tags": ["whole-interval", "interval-recording", "continuous-behavior"]
+    },
+    {
+      "id": "q70",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "Treatment integrity (fidelity) refers to:",
+      "options": [
+        "The honesty of the treatment provider",
+        "The degree to which an intervention is implemented as planned",
+        "The ethical standards followed during treatment",
+        "The quality of the therapeutic relationship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Treatment integrity (also called procedural fidelity or treatment fidelity) is the extent to which an intervention is implemented as designed and intended. High integrity means procedures are followed correctly and consistently. Poor integrity threatens the validity of your conclusions—if the intervention isn't implemented correctly, you can't determine whether the intervention itself was ineffective or whether poor implementation caused lack of results. Measuring and ensuring integrity is essential for ethical and effective practice.",
+      "tags": ["treatment-integrity", "fidelity", "quality-assurance"]
+    },
+    {
+      "id": "q71",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "The primary purpose of a functional behavior assessment (FBA) is to:",
+      "options": [
+        "Determine how severe the behavior is",
+        "Identify the function or purpose the behavior serves",
+        "Punish problem behavior",
+        "Document all instances of the behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The primary purpose of an FBA is to identify why the behavior occurs—its function or purpose. Understanding function is essential because effective interventions must address the reason the behavior is occurring. The four main functions are: attention, escape/avoidance, tangible access, and automatic/sensory. Function-based interventions that teach alternative ways to access the same reinforcer are most effective and ethical. Simply knowing how often or how severe behavior is doesn't tell us how to change it.",
+      "tags": ["fba", "function", "assessment"]
+    },
+    {
+      "id": "q72",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Which is an example of indirect functional assessment?",
+      "options": [
+        "Conducting ABC observations in the classroom",
+        "Implementing a functional analysis with test conditions",
+        "Interviewing the teacher about when problem behavior occurs",
+        "Measuring frequency of behavior across a week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Indirect assessment gathers information through interviews, questionnaires, rating scales, and record reviews—not through direct observation. Examples include the Functional Assessment Interview (FAI), Motivation Assessment Scale (MAS), and record reviews. Indirect methods are efficient and can provide valuable historical context, but rely on others' memories and interpretations. They should typically be followed by direct observation or functional analysis to validate hypotheses.",
+      "tags": ["indirect-assessment", "interview", "fba-methods"]
+    },
+    {
+      "id": "q73",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "During ABC observations, you note that the child throws materials when given difficult tasks, and the teacher removes the task. The behavior is likely maintained by:",
+      "options": [
+        "Attention",
+        "Escape/avoidance",
+        "Access to tangibles",
+        "Automatic reinforcement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This pattern suggests an escape/avoidance function (negative reinforcement). The antecedent (difficult task) is aversive, the behavior (throwing materials) occurs, and the consequence (task removal) removes the aversive stimulus. The behavior is reinforced by escape from the task. This hypothesis would need to be tested through functional analysis to confirm. Interventions would focus on teaching appropriate escape-requesting and possibly modifying task difficulty or providing additional support.",
+      "tags": ["abc-data", "escape-function", "functional-assessment"]
+    },
+    {
+      "id": "q74",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "In a functional analysis, what is the primary difference between the test condition and the control condition?",
+      "options": [
+        "The test condition provides the hypothesized reinforcer contingently; control provides it noncontingently",
+        "The test condition is longer than the control condition",
+        "The test condition uses punishment; control uses reinforcement",
+        "There is no difference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Functional analysis uses experimental manipulation to test hypotheses about function. In test conditions, the hypothesized reinforcer is provided contingent on problem behavior (e.g., attention for hitting). In control conditions, the same reinforcer is provided noncontingently (freely available) with no programmed consequence for problem behavior. If behavior is higher in test versus control, it suggests that reinforcer maintains the behavior. Multiple test-control pairings demonstrate experimental control.",
+      "tags": ["functional-analysis", "experimental-control", "assessment"]
+    },
+    {
+      "id": "q75",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "A preference assessment that presents all items simultaneously and allows the individual to select one is called:",
+      "options": [
+        "Single stimulus preference assessment",
+        "Paired stimulus (forced choice) preference assessment",
+        "Multiple stimulus without replacement (MSWO)",
+        "Free operant preference assessment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiple Stimulus Without Replacement (MSWO) presents an array of items, the individual selects one, that item is removed (without replacement), and the process continues with remaining items. This provides a rank ordering of preferences. Similar is Multiple Stimulus With Replacement (MSW), where selected items remain available. Free operant allows unrestricted access to all items. Paired stimulus presents only two items at a time. MSWO is efficient and provides good information about relative preferences.",
+      "tags": ["preference-assessment", "mswo", "reinforcer-assessment"]
+    },
+    {
+      "id": "q76",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "ABC data stands for:",
+      "options": [
+        "Assessment, Behavior, Consequence",
+        "Antecedent, Behavior, Consequence",
+        "Analysis, Baseline, Change",
+        "Attention, Behavior, Communication"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ABC (Antecedent-Behavior-Consequence) data collection is a descriptive assessment method that records what happens immediately before the behavior (antecedent), the behavior itself, and what happens immediately after (consequence). This provides information about environmental events that may be triggering or maintaining the behavior. ABC data helps generate hypotheses about function that can be tested through functional analysis. It's a fundamental tool in functional behavior assessment.",
+      "tags": ["abc-data", "descriptive-assessment", "three-term-contingency"]
+    },
+    {
+      "id": "q77",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A behavior plan uses a most-to-least prompting hierarchy. Which prompt would be used FIRST?",
+      "options": [
+        "Verbal prompt",
+        "Gestural prompt",
+        "Full physical prompt",
+        "Independent (no prompt)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most-to-least prompting starts with the most intrusive prompt (full physical) to ensure errorless learning, then systematically fades to less intrusive prompts as the learner demonstrates competence. The hierarchy typically goes: physical → model → gestural → verbal → independent. This approach minimizes errors but requires careful fading to avoid prompt dependency. It's contrasted with least-to-most, which starts with minimal support and increases only as needed.",
+      "tags": ["prompting", "most-to-least", "errorless-learning"]
+    },
+    {
+      "id": "q78",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "What is behavioral contrast?",
+      "options": [
+        "Comparing two different behaviors",
+        "When a change in reinforcement in one context leads to an opposite change in behavior in another context",
+        "Teaching discrimination between two stimuli",
+        "The difference between baseline and intervention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behavioral contrast occurs when a change in reinforcement conditions in one setting or for one behavior leads to an inverse change in responding in another unchanged setting or for another behavior. For example, if reinforcement for a behavior decreases in one setting (causing behavior to decrease there), the same behavior may increase in another setting where reinforcement hasn't changed. This is important to anticipate when implementing differential reinforcement or setting-specific interventions.",
+      "tags": ["behavioral-contrast", "side-effects", "generalization"]
+    },
+    {
+      "id": "q79",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A client engages in pica (eating non-food items). Which procedure directly blocks the response?",
+      "options": [
+        "Response blocking",
+        "Extinction",
+        "DRA",
+        "Timeout"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Response blocking involves physically preventing a behavior from occurring or reaching completion, typically for safety reasons. For pica, this might involve gently blocking hand-to-mouth movements. Response blocking is a crisis management procedure used when behavior poses immediate danger. It should always be paired with teaching appropriate alternatives (FCT, DRA) and addressing function. Extinction wouldn't prevent ingestion, DRA teaches alternatives but doesn't block, and timeout occurs after behavior completes.",
+      "tags": ["response-blocking", "crisis-management", "pica"]
+    },
+    {
+      "id": "q80",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Group contingencies involve:",
+      "options": [
+        "Consequences applied to an entire group based on group performance",
+        "Teaching groups of behaviors at once",
+        "Gathering people into groups",
+        "Group therapy sessions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Group contingencies deliver consequences to a group based on group performance. Three types: 1) Independent (each person earns based on own performance), 2) Interdependent (everyone earns based on entire group meeting criterion), and 3) Dependent (everyone earns based on one person's or subset's performance). Group contingencies can be efficient and promote peer support, but require careful implementation to avoid negative peer pressure or unfair situations.",
+      "tags": ["group-contingency", "classroom-management", "intervention"]
+    },
+    {
+      "id": "q81",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A student pulls hair to get peer attention. You teach peers to ignore hair-pulling and provide attention when the student uses appropriate greetings. This is:",
+      "options": [
+        "Peer-mediated intervention with extinction and DRA",
+        "Punishment only",
+        "Timeout",
+        "Response cost"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a peer-mediated intervention because peers are trained to implement the procedure. It combines extinction (ignoring hair-pulling removes attention) with DRA (attention for appropriate greetings). Peer-mediated interventions are effective for behaviors maintained by peer attention, promote generalization, teach peers appropriate responses, and can be more natural and sustainable than adult-delivered interventions. Careful peer training and monitoring are essential.",
+      "tags": ["peer-mediated", "extinction", "dra"]
+    },
+    {
+      "id": "q82",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "Habit reversal training typically includes:",
+      "options": [
+        "Awareness training and competing response training",
+        "Punishment for each instance",
+        "Extinction only",
+        "Token economy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Habit reversal is a multi-component intervention for habits and repetitive behaviors (nail-biting, hair-pulling, tics). Core components include: 1) Awareness training (recognizing when behavior occurs or is about to occur), 2) Competing response training (engaging in a behavior physically incompatible with the habit for a brief period), and often includes motivation procedures, relaxation training, and generalization training. It has strong evidence for treating body-focused repetitive behaviors.",
+      "tags": ["habit-reversal", "repetitive-behaviors", "self-management"]
+    },
+    {
+      "id": "q83",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "You implement a token economy and notice the client hoards tokens rather than exchanging them. What might address this?",
+      "options": [
+        "Forced exchange at end of day",
+        "Response cost for hoarding",
+        "Add a bonus for exchanging tokens promptly",
+        "Remove the token system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adding a bonus for prompt exchange uses positive reinforcement to encourage the desired behavior (exchanging tokens). This addresses the issue while maintaining a positive approach. Forced exchange might create power struggles. Response cost might be aversive. Some hoarding is normal and acceptable as long as the person eventually exchanges tokens. If hoarding persists despite bonuses, assess whether backup reinforcers are sufficiently valuable or if tokens have acquired their own reinforcing properties (which can be good).",
+      "tags": ["token-economy", "problem-solving", "reinforcement"]
+    },
+    {
+      "id": "q84",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Positive practice overcorrection involves:",
+      "options": [
+        "Practicing the correct form of behavior repeatedly after an error",
+        "Giving positive feedback only",
+        "Praising all behaviors",
+        "Removing reinforcement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positive practice overcorrection is a Type I punishment procedure where the individual must repeatedly practice the correct form of a behavior contingent on an error or problem behavior. For example, if a child throws trash on the floor, they might be required to practice throwing trash in the can 10 times. The 'overcorrection' comes from practicing more than once. While sometimes effective, it can be aversive and time-intensive, so less restrictive procedures should be tried first.",
+      "tags": ["overcorrection", "punishment", "positive-practice"]
+    },
+    {
+      "id": "q85",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A child engages in tantrum behavior throughout the day in multiple settings. What assessment approach would be MOST efficient initially?",
+      "options": [
+        "Functional analysis in all settings",
+        "Indirect assessment through interviews and questionnaires",
+        "24-hour video observation",
+        "Trial-based functional analysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Starting with indirect assessment (interviews, questionnaires) is most efficient for gathering broad information quickly from multiple informants across settings. This generates initial hypotheses about function, antecedents, and consequences. Indirect assessment should typically be followed by direct observation (descriptive ABC data) and possibly functional analysis to validate hypotheses. Functional analysis in all settings would be time-intensive and potentially impractical. 24-hour observation is not feasible. Trial-based FA might come later.",
+      "tags": ["assessment-sequence", "indirect-assessment", "efficiency"]
+    },
+    {
+      "id": "q86",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "advanced",
+      "questionType": "analysis",
+      "question": "During functional analysis, problem behavior is high in the attention and tangible conditions, moderate in escape, and low in the alone condition. The most likely function is:",
+      "options": [
+        "Automatic reinforcement",
+        "Multiple functions (attention and tangible)",
+        "Escape only",
+        "No clear function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When behavior is elevated in multiple test conditions compared to their respective control conditions, this suggests multiple controlling variables or functions. This client's behavior appears maintained by both social positive reinforcement (attention and tangibles). Low behavior in alone condition rules out strong automatic reinforcement. Treatment would need to address both functions, perhaps through FCT with multiple communication responses or addressing both functions with the same response. Multi-function behavior requires comprehensive intervention.",
+      "tags": ["functional-analysis", "interpretation", "multiple-functions"]
+    },
+    {
+      "id": "q87",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "What is a scatterplot used for in functional assessment?",
+      "options": [
+        "Calculating interobserver agreement",
+        "Identifying temporal patterns and possible setting events for behavior",
+        "Graphing intervention data",
+        "Recording ABC data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A scatterplot is a grid showing times of day (columns) and days (rows), with cells marked to indicate if behavior occurred at high, medium, or low rates during that time. Patterns can reveal temporal trends (behavior worse in afternoons), setting events (worse on days after poor sleep), or problem activities (worse during specific classes). This helps identify when behavior is most/least likely, suggesting environmental variables to explore further in functional assessment.",
+      "tags": ["scatterplot", "descriptive-assessment", "temporal-patterns"]
+    },
+    {
+      "id": "q88",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "A setting event is:",
+      "options": [
+        "The same as an antecedent",
+        "An environmental or internal condition that makes reinforcement more/less effective",
+        "The location where behavior occurs",
+        "A consequence that maintains behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Setting events (or establishing operations) are environmental or physiological conditions that temporarily alter the effectiveness of reinforcers and the frequency of behaviors that have produced those reinforcers. Examples: lack of sleep, illness, medication changes, or previous unpleasant interactions. Setting events don't directly trigger behavior (that's the antecedent) but make certain antecedents more or less likely to evoke behavior. Understanding setting events helps explain behavioral variability and improve intervention effectiveness.",
+      "tags": ["setting-events", "establishing-operations", "context"]
+    },
+    {
+      "id": "q89",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "In a brief functional analysis, how does it differ from a traditional functional analysis?",
+      "options": [
+        "Sessions are shorter (e.g., 5-10 minutes) and may involve fewer replications",
+        "Only interviews are conducted",
+        "It takes several weeks to complete",
+        "No baseline is required"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Brief functional analysis (BFA) uses shorter sessions (typically 5-10 minutes vs. 15-30 minutes in standard FA) and may involve fewer replications or condition presentations. BFA can be more practical in applied settings, reduces exposure to potentially dangerous behavior, and can provide results more quickly. However, brief sessions may not allow sufficient time for behavior to occur or for clear patterns to emerge, so results should be interpreted carefully and confirmed with additional data when possible.",
+      "tags": ["brief-fa", "functional-analysis", "assessment-methods"]
+    },
+    {
+      "id": "q90",
+      "category": "assessment",
+      "section": "F",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "During preference assessment, a child consistently selects the same item first but never completes engagement with it. This might indicate:",
+      "options": [
+        "The item is highly preferred",
+        "The item functions as a conditioned reinforcer but rapidly loses effectiveness (satiation) or isn't actually reinforcing",
+        "The assessment is invalid",
+        "The child doesn't understand the task"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Selection in preference assessment indicates preference, but engagement duration and willingness to work for items provide additional information about reinforcer effectiveness. If a child selects an item but doesn't engage with it, the item may have initial salience but limited reinforcing value, or rapid satiation occurs. This highlights why preference assessments should be validated through reinforcer assessments where you test whether the individual will work for the item. Always assess both selection and engagement/interaction.",
+      "tags": ["preference-assessment", "reinforcer-effectiveness", "interpretation"]
+    },
+    {
+      "id": "q91",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "intermediate",
+      "questionType": "calculation",
+      "question": "In 30 intervals, Observer 1 scores 18 intervals with behavior. Observer 2 scores 15 intervals with behavior. They agree on 12 intervals with behavior and 10 intervals without behavior. What is the interval-by-interval IOA?",
+      "options": [
+        "73%",
+        "67%",
+        "80%",
+        "83%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Interval-by-interval IOA = (Agreements / Total intervals) × 100. Total agreements = intervals both scored same way = 12 (both yes) + 10 (both no) = 22 agreements. IOA = (22 / 30) × 100 = 73.3%, which rounds to 73%. This method is more conservative than total count IOA because it requires agreement on each specific interval, not just overall count. It's considered the gold standard for IOA in interval recording.",
+      "tags": ["ioa", "interval-by-interval", "calculation"]
+    },
+    {
+      "id": "q92",
+      "category": "assessment",
+      "section": "C",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "Scored-interval IOA differs from standard interval-by-interval IOA because it:",
+      "options": [
+        "Only considers intervals where at least one observer recorded behavior",
+        "Only considers intervals where both observers recorded behavior",
+        "Doesn't require any calculations",
+        "Is easier to calculate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scored-interval IOA only examines intervals where at least one observer recorded the behavior (scored intervals), ignoring intervals where both recorded no behavior. This is more stringent and conservative than interval-by-interval IOA. Formula: (Agreements on occurrence / Intervals with occurrence recorded by either or both) × 100. It's particularly useful for low-rate behaviors where standard IOA might be artificially inflated by agreement on non-occurrence intervals. More challenging to achieve high scored-interval IOA.",
+      "tags": ["scored-interval-ioa", "interobserver-agreement", "measurement"]
+    },
+    {
+      "id": "q93",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A child receives stickers for completing homework. Over time, homework completion decreases even though stickers are still provided. This is most likely:",
+      "options": [
+        "Punishment",
+        "Satiation",
+        "Extinction",
+        "Habituation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Satiation occurs when a reinforcer loses effectiveness due to repeated or excessive presentation. The child has received so many stickers that they no longer function as effective reinforcers. Solutions include: varying reinforcers, using tokens that can be exchanged for variety of backup reinforcers, increasing response requirements (thinning schedule), or assessing current preferences. This differs from extinction (reinforcement is still provided) and punishment (behavior would be suppressed, not decreased due to reinforcer ineffectiveness).",
+      "tags": ["satiation", "reinforcer-effectiveness", "troubleshooting"]
+    },
+    {
+      "id": "q94",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "A fixed interval 5-minute schedule would typically produce:",
+      "options": [
+        "High steady rate of responding",
+        "A scalloped pattern with responding increasing as interval end approaches",
+        "Random responding throughout",
+        "No responding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fixed interval (FI) schedules reinforce the first response after a fixed time period elapses. This typically produces a scalloped response pattern: low or no responding immediately after reinforcement (post-reinforcement pause), with responding increasing as the interval end approaches and reinforcement becomes available. Example: checking email—you check more frequently as you near the expected time for an important message. Variable ratio schedules produce steady, high rates without pausing.",
+      "tags": ["fixed-interval", "schedules", "response-patterns"]
+    },
+    {
+      "id": "q95",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "advanced",
+      "questionType": "conceptual",
+      "question": "What is the difference between a conditioned motivating operation (CMO) and an unconditioned motivating operation (UMO)?",
+      "options": [
+        "CMOs are learned; UMOs are innate/unlearned",
+        "CMOs are more powerful than UMOs",
+        "There is no difference",
+        "UMOs only work with food"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unconditioned motivating operations (UMOs) have value-altering effects without prior learning (e.g., food deprivation increases food value). Conditioned motivating operations (CMOs) acquire their value-altering effects through learning. Three types of CMOs: surrogate (paired with UMO), reflexive (related to own onset/offset), and transitive (related to other reinforcer). Example CMO: seeing an empty gas tank (creates value for gas station locations and increases looking behavior) is learned, not innate. Understanding MOs is critical for antecedent interventions.",
+      "tags": ["motivating-operations", "cmo", "umo", "advanced"]
+    },
+    {
+      "id": "q96",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A student is taught to identify colors in discrete trial format at a table. Later, the student cannot identify colors of objects during play. This represents a failure of:",
+      "options": [
+        "Stimulus discrimination",
+        "Response acquisition",
+        "Generalization",
+        "Attention"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a failure of stimulus generalization—the skill doesn't transfer from the trained context (table, discrete trials) to the natural context (play). This is common when teaching occurs in only one context with limited exemplars. Solutions include: teaching with multiple exemplars, teaching in natural environment (NET), using varied materials, programming common stimuli between training and generalization settings, and involving natural reinforcers. Generalization must be actively programmed, not assumed.",
+      "tags": ["generalization", "programming-generalization", "skill-transfer"]
+    },
+    {
+      "id": "q97",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "What is a behavioral contract?",
+      "options": [
+        "A legal document",
+        "A written agreement specifying behavior-consequence contingencies",
+        "An employment contract",
+        "A parenting style"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A behavioral contract (or contingency contract) is a written agreement between parties that specifies: 1) Target behaviors, 2) When/where behaviors should occur, 3) Criteria for successful performance, 4) Consequences for meeting/not meeting criteria, and 5) Signatures of all parties. Contracts are useful for older children/adults, clarify expectations, provide documentation, increase commitment, and can be negotiated to increase buy-in. All parties should have input and receive copies.",
+      "tags": ["behavioral-contract", "contingency-contract", "intervention"]
+    },
+    {
+      "id": "q98",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Video modeling involves:",
+      "options": [
+        "The learner watching a video of someone performing the target skill",
+        "Recording the learner's behavior for analysis",
+        "Using videos as reinforcers",
+        "Teaching through video games"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Video modeling involves showing the learner videos of someone (a model) correctly performing a target behavior, then providing opportunities for the learner to imitate. Models can be adults, peers, or the learner themselves (video self-modeling). Video modeling is effective for teaching social skills, play skills, daily living skills, and more. Advantages include: repeatability, ability to edit for clarity, appeal to visual learners, and efficiency. Particularly effective for individuals with autism.",
+      "tags": ["video-modeling", "observational-learning", "teaching-methods"]
+    },
+    {
+      "id": "q99",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A behavior analyst implements a high-probability request sequence (behavior momentum). This involves:",
+      "options": [
+        "Presenting several easy requests the client typically complies with, then presenting the difficult request",
+        "Only giving high-priority requests",
+        "Giving very fast instructions",
+        "Using only physical prompts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High-probability (high-p) request sequence leverages behavioral momentum: deliver 3-5 easy requests that typically evoke compliance (high-p requests), provide brief praise for compliance, then immediately present the difficult request (low-p request). The momentum from complying with easy requests increases likelihood of complying with the difficult one. Requests should be quick, reinforcement brief (to maintain momentum), and the target request presented immediately. Effective for increasing compliance and reducing escape-motivated behavior.",
+      "tags": ["high-p-requests", "behavioral-momentum", "compliance"]
+    },
+    {
+      "id": "q100",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "questionType": "analysis",
+      "question": "After FCT is implemented, the problem behavior decreases initially but then returns even though the communication response is still reinforced. This is likely:",
+      "options": [
+        "Extinction burst",
+        "Resurgence of the problem behavior",
+        "Spontaneous recovery",
+        "Proof that FCT doesn't work"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resurgence is the reappearance of a previously effective behavior when a more recently reinforced alternative behavior contacts extinction or reduced reinforcement. This can occur in FCT if: 1) The schedule is thinned too quickly, 2) Communication response is intermittently unreinforced, 3) Quality of reinforcement decreases, or 4) Delays to reinforcement increase too much. Solutions include slowing schedule thinning, ensuring consistent reinforcement of communication, and using tolerance training. Resurgence is different from spontaneous recovery (time-based) and extinction burst (initial increase).",
+      "tags": ["resurgence", "fct", "relapse", "maintenance"]
     }
   ],
   "flashcards": [
@@ -996,10 +2271,10 @@
     }
   ],
   "metadata": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "lastUpdated": "2025-10-17",
     "totalTopics": 38,
-    "totalQuestions": 25,
+    "totalQuestions": 100,
     "totalFlashcards": 25,
     "developer": "Bradley Virtual Solutions, LLC"
   }
