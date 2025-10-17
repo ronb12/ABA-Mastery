@@ -36,6 +36,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# Firebase Service Account (NEVER COMMIT!)
+firebase-service-account.json
+*-service-account.json
+
 # Build
 dist/
 build/
