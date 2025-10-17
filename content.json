@@ -2116,6 +2116,431 @@
       "correctAnswer": 1,
       "explanation": "Resurgence is the reappearance of a previously effective behavior when a more recently reinforced alternative behavior contacts extinction or reduced reinforcement. This can occur in FCT if: 1) The schedule is thinned too quickly, 2) Communication response is intermittently unreinforced, 3) Quality of reinforcement decreases, or 4) Delays to reinforcement increase too much. Solutions include slowing schedule thinning, ensuring consistent reinforcement of communication, and using tolerance training. Resurgence is different from spontaneous recovery (time-based) and extinction burst (initial increase).",
       "tags": ["resurgence", "fct", "relapse", "maintenance"]
+    },
+    {
+      "id": "q101",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A BCBA is asked to provide services to their neighbor's child. According to the ethics code, what should they do?",
+      "options": [
+        "Provide services since they're qualified",
+        "Carefully evaluate the multiple relationship for potential harm and conflicts",
+        "Immediately refuse without consideration",
+        "Charge a reduced fee since they're neighbors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The BACB Ethics Code requires behavior analysts to carefully evaluate multiple relationships (personal and professional) for potential harm, exploitation, or impaired objectivity. While not all multiple relationships are prohibited, they must be thoughtfully assessed. If the relationship could impair judgment, harm the client, or create conflicts, services should be declined. The behavior analyst should document their reasoning and may need to consult with colleagues or refer to another provider.",
+      "tags": ["multiple-relationships", "ethics", "boundaries"]
+    },
+    {
+      "id": "q102",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A parent offers a BCBA an expensive gift after their child makes significant progress. What should the BCBA do according to ethical guidelines?",
+      "options": [
+        "Accept it as appreciation for good work",
+        "Politely decline or accept only modest gifts that don't create obligations",
+        "Accept it only if the child is discharged",
+        "Accept it and document in treatment records"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behavior analysts should not accept gifts that could reasonably create conflicts of interest, impair objectivity, or exploit the professional relationship. Modest gifts consistent with cultural norms may be acceptable if they don't obligate the professional or client. Expensive or extravagant gifts should be politely declined with appreciation. The power differential in therapeutic relationships requires heightened awareness of exploitation risks. This protects both client and professional.",
+      "tags": ["gifts", "boundaries", "exploitation", "ethics"]
+    },
+    {
+      "id": "q103",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "What is the primary purpose of the BACB Ethics Code?",
+      "options": [
+        "To punish behavior analysts who make mistakes",
+        "To protect clients and maintain the integrity of the profession",
+        "To reduce liability for practitioners",
+        "To create barriers to entry in the field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The BACB Professional and Ethical Compliance Code exists primarily to protect clients and maintain the integrity and reputation of the behavior analysis profession. It establishes minimum standards for professional conduct, guides ethical decision-making, and provides a basis for accountability. While it may reduce liability and establish standards, the core purpose is client protection and professional integrity.",
+      "tags": ["ethics-code", "purpose", "client-protection"]
+    },
+    {
+      "id": "q104",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A behavior analyst discovers their supervisor is falsifying data on client progress reports. What is the most ethical course of action?",
+      "options": [
+        "Ignore it to maintain the working relationship",
+        "Report the violation through appropriate channels according to the Ethics Code",
+        "Quit immediately without reporting",
+        "Tell the clients directly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behavior analysts have an ethical obligation to report suspected ethics violations through appropriate channels (supervisor's supervisor, organization ethics committee, or BACB). This protects clients from harm and maintains professional integrity. Ignoring violations makes one complicit. The process should follow organizational policies and the Ethics Code reporting guidelines. Documentation of concerns and steps taken is important. Client welfare is paramount.",
+      "tags": ["reporting-violations", "data-integrity", "ethical-obligations"]
+    },
+    {
+      "id": "q105",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A BCBA is subpoenaed to testify in court about a client. The parents haven't consented to release information. What should the BCBA do?",
+      "options": [
+        "Refuse to testify to protect confidentiality",
+        "Testify freely since it's a court order",
+        "Seek legal counsel and attempt to limit testimony to what's legally required while protecting client confidentiality",
+        "Only testify if paid extra"
+      ],
+      "correctAnswer": 2,
+      "explanation": "While court orders create a legal obligation, behavior analysts should still take steps to protect confidentiality to the extent possible. Appropriate actions include: seeking legal counsel, requesting the court limit the scope of testimony, attempting to obtain client consent if possible, and only disclosing information legally required. The BACB Ethics Code requires balancing legal obligations with confidentiality protections. Simply refusing could result in contempt of court, while freely sharing all information violates ethical principles.",
+      "tags": ["confidentiality", "legal-issues", "court-orders", "ethics"]
+    },
+    {
+      "id": "q106",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Which of the following requires the behavior analyst to break confidentiality?",
+      "options": [
+        "The client's teacher requests progress information",
+        "Suspected child abuse or neglect (mandated reporting)",
+        "The client's friend is curious about treatment",
+        "A researcher wants de-identified data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mandated reporting of suspected abuse or neglect is a legal requirement that overrides confidentiality. Other situations requiring disclosure include: imminent danger to self or others, and court orders. Teacher requests require parental consent. Friends have no right to information. Researchers may receive de-identified data without consent, but this is optional, not required. Limits to confidentiality should be discussed with clients at the outset of services.",
+      "tags": ["confidentiality-limits", "mandated-reporting", "ethics"]
+    },
+    {
+      "id": "q107",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Practicing within one's scope of competence means:",
+      "options": [
+        "Only working with clients you've worked with before",
+        "Only providing services based on your education, training, and supervised experience",
+        "Only working in one setting",
+        "Never learning new skills"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ethics code requires behavior analysts to practice only within their scope of competence, defined by education, training, and supervised experience. When working with new populations or procedures, appropriate training and supervision are required before independent practice. This protects clients from harm due to practitioner inexperience. Continuing education and supervised practice allow scope to expand over time, but practitioners shouldn't provide services they're not qualified to deliver.",
+      "tags": ["competence", "scope-of-practice", "training"]
+    },
+    {
+      "id": "q108",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A behavior analyst realizes they made an error in data analysis that led to continuing an ineffective intervention for 3 months. What is the most ethical response?",
+      "options": [
+        "Say nothing to avoid liability",
+        "Blame the data collection staff",
+        "Acknowledge the error to the client/guardian, correct the analysis, and modify the intervention",
+        "Continue the current intervention to avoid admitting the mistake"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Ethics Code requires behavior analysts to acknowledge and correct errors that could harm clients. This includes: promptly informing affected parties, taking steps to minimize harm, correcting the error, and learning from the mistake. Attempting to hide errors or shift blame violates ethical principles of integrity and client protection. While acknowledging errors can be uncomfortable, it's essential for client welfare and professional integrity. Documentation of the error and corrective actions is important.",
+      "tags": ["errors", "integrity", "accountability", "client-welfare"]
+    },
+    {
+      "id": "q109",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "When obtaining informed consent from a parent for services to their child, the behavior analyst must:",
+      "options": [
+        "Use highly technical language to sound professional",
+        "Provide information in language the parent can understand about procedures, risks, and alternatives",
+        "Only explain the procedures, not the risks",
+        "Get written consent once at the start and never again"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Informed consent requires providing information in understandable language (not technical jargon) about: procedures, expected benefits, potential risks, alternatives, right to refuse or withdraw, and limits to confidentiality. Consent must be voluntary and ongoing - clients can withdraw at any time. Complex procedures should be explained clearly, questions answered, and consent documented. For minors, guardian consent and child assent (when appropriate) should both be sought.",
+      "tags": ["informed-consent", "client-rights", "communication"]
+    },
+    {
+      "id": "q110",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "A behavior analyst should discontinue services when:",
+      "options": [
+        "The client can't afford to pay anymore",
+        "Services are no longer needed, benefiting the client, or the professional can't provide appropriate services",
+        "The behavior analyst gets a better job offer",
+        "The client questions their recommendations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Services should be discontinued when: treatment goals are met, services no longer benefit the client, the professional cannot provide appropriate care, or the professional-client relationship is compromised. Discontinuation should be planned, not abrupt, with appropriate transition support and referrals provided. Financial concerns should be addressed through fee adjustments or payment plans when possible. Client questioning is healthy and should be addressed through communication, not service termination.",
+      "tags": ["service-discontinuation", "client-welfare", "transitions"]
+    },
+    {
+      "id": "q111",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A BCBA is asked to write a letter supporting a client's family in a custody dispute. What ethical considerations apply?",
+      "options": [
+        "Write the letter if the family pays extra",
+        "Write only if it supports the client's best interests, based on objective data and professional judgment",
+        "Refuse all such requests to avoid involvement",
+        "Write whatever the family wants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When asked to provide professional opinions or documentation in legal matters, behavior analysts must base statements on objective data and professional judgment, focusing on the client's best interests. They should: clearly state the basis for opinions, acknowledge limitations, avoid advocacy beyond their role, and consider potential impacts on the therapeutic relationship. Writing whatever clients want or refusing all requests both fail to serve client welfare appropriately. Objectivity and professional boundaries must be maintained.",
+      "tags": ["professional-testimony", "objectivity", "legal-matters"]
+    },
+    {
+      "id": "q112",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "What is required when delegating tasks to unlicensed staff (e.g., RBTs)?",
+      "options": [
+        "Nothing - they can work independently once trained",
+        "Adequate training, ongoing supervision, and ensuring tasks are within their competence",
+        "Just initial training",
+        "Only supervision when problems occur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When delegating to unlicensed personnel, the supervisor remains responsible for the quality of services. Requirements include: ensuring adequate training, providing ongoing supervision, confirming tasks are within the supervisee's competence, monitoring performance, and being available for consultation. RBTs must practice under BCBA/BCaBA supervision with specific contact requirements (5% of service hours + monthly face-to-face). The supervisor is ethically and legally responsible for supervisee actions.",
+      "tags": ["delegation", "supervision", "rbt-oversight"]
+    },
+    {
+      "id": "q113",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Client records must be:",
+      "options": [
+        "Kept for at least 7 years as required by the BACB",
+        "Destroyed immediately after services end",
+        "Shared publicly for research",
+        "Kept only in paper form"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The BACB requires maintaining client records for at least 7 years from the last date of service (or longer if required by law or institutional policy). Records must be stored securely, protected from unauthorized access, and eventually destroyed appropriately. Electronic records are acceptable if properly secured. Records are confidential and can only be shared with proper authorization. Adequate documentation supports continuity of care, professional accountability, and legal protection.",
+      "tags": ["record-keeping", "documentation", "retention"]
+    },
+    {
+      "id": "q114",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A behavior analyst's research could benefit their private practice clients. How should they handle this potential conflict of interest?",
+      "options": [
+        "Avoid all research to prevent conflicts",
+        "Disclose the potential conflict, ensure voluntary participation, and have independent oversight of the research",
+        "Secretly conduct research without informing clients",
+        "Only research clients who aren't paying"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conflicts of interest must be disclosed and managed, not hidden. For research involving one's own clients: fully disclose the dual role, ensure truly voluntary participation (clients can decline without affecting services), obtain informed consent specifically for research, have independent oversight or data analysis when possible, and avoid coercion. The Ethics Code allows research with proper safeguards. Transparency and client protection are paramount. Institutional Review Board (IRB) approval is typically required.",
+      "tags": ["conflicts-of-interest", "research-ethics", "dual-relationships"]
+    },
+    {
+      "id": "q115",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "When is it ethical to use punishment procedures?",
+      "options": [
+        "Never - punishment is always unethical",
+        "When less restrictive alternatives have been tried and documented, and the benefits outweigh risks",
+        "Whenever the behavior analyst thinks it's best",
+        "Only with written permission from the BACB"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Punishment may be ethical when: less restrictive interventions have been attempted and documented as ineffective, the behavior poses significant risk, a functional assessment has been conducted, the intervention is function-based, ongoing data collection monitors effects, informed consent is obtained, and proper oversight exists. The principle of least restrictive intervention requires trying positive approaches first. Punishment should never be used as a first-line intervention or without proper justification and monitoring.",
+      "tags": ["punishment", "least-restrictive", "intervention-ethics"]
+    },
+    {
+      "id": "q116",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A BCBA notices a colleague making ethical violations. What should they do first?",
+      "options": [
+        "Post about it on social media",
+        "Attempt to resolve informally by discussing concerns with the colleague if appropriate",
+        "Immediately report to the BACB",
+        "Tell all the other colleagues"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ethics Code recommends attempting informal resolution first when appropriate and safe to do so. This might involve discussing concerns directly with the colleague, allowing them to correct the behavior. If informal resolution fails, is inappropriate (serious harm), or the colleague is unresponsive, formal reporting is required. The goal is protecting clients while maintaining professional relationships when possible. Serious violations (client harm, fraud) should be reported immediately. Social media posting violates confidentiality.",
+      "tags": ["reporting-ethics", "colleague-violations", "informal-resolution"]
+    },
+    {
+      "id": "q117",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "What does 'integrity' mean in the context of professional ethics?",
+      "options": [
+        "Being physically strong",
+        "Being honest, truthful, and accurate in professional communications and conduct",
+        "Making a lot of money",
+        "Having advanced degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integrity in professional ethics means honesty, truthfulness, and accuracy in all professional activities. This includes: accurately representing qualifications, being truthful about service outcomes, honestly reporting data, acknowledging limitations, giving appropriate credit, and avoiding deception. Integrity is fundamental to public trust in the profession. It requires saying 'I don't know' when appropriate, admitting mistakes, and maintaining transparency in professional dealings.",
+      "tags": ["integrity", "honesty", "professional-conduct"]
+    },
+    {
+      "id": "q118",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A behavior analyst is asked to conduct an FBA but believes the referring psychologist's diagnosis is incorrect. What should they do?",
+      "options": [
+        "Refuse the referral",
+        "Conduct the FBA and share concerns professionally, noting they don't diagnose but can provide behavioral perspective",
+        "Diagnose the client themselves",
+        "Ignore the diagnosis and proceed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behavior analysts don't diagnose psychiatric or developmental conditions (outside scope of practice) but can conduct FBAs and provide behavioral assessments regardless of diagnosis. If there are concerns about diagnosis, they should: conduct the behavioral assessment professionally, share behavioral findings and concerns with the treatment team, recommend consultation with appropriate diagnosticians if needed, and maintain professional respect for other disciplines. Behavior analysts work collaboratively, providing behavioral expertise while respecting others' professional domains.",
+      "tags": ["scope-of-practice", "interdisciplinary", "diagnosis"]
+    },
+    {
+      "id": "q119",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A client posts positively about their behavior analyst on social media and tags them. The appropriate response is:",
+      "options": [
+        "Like and share the post",
+        "Respond professionally thanking them but maintaining boundaries, or politely request they remove the tag",
+        "Post details about the client's progress",
+        "Ignore completely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social media requires careful boundary maintenance. Appropriate responses include: responding briefly and professionally without disclosing client information, thanking them for kind words while redirecting to private communication, or politely requesting they remove the tag to maintain privacy. Behavior analysts should NOT: share client information online, engage in extended social media interactions with clients, or post about client progress. Professional boundaries extend to online interactions. Privacy settings should be carefully managed.",
+      "tags": ["social-media", "boundaries", "privacy", "modern-ethics"]
+    },
+    {
+      "id": "q120",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A funding source requests that goals be written in a way that ensures continued authorization, even though the client has met their actual treatment goals. What should the behavior analyst do?",
+      "options": [
+        "Comply with the request to continue getting paid",
+        "Accurately report progress and advocate for the client, even if it means discharge",
+        "Create new goals that aren't really needed",
+        "Slow down treatment to extend services"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behavior analysts must prioritize client welfare over financial interests. This means: accurately reporting progress, not extending unnecessary services, advocating for appropriate discharge when goals are met, and resisting pressure to compromise professional judgment for financial gain. If additional services ARE needed, this should be based on objective data and clinical judgment, not funding considerations. Integrity in reporting and client advocacy are paramount, even when it means reduced income.",
+      "tags": ["conflicts-of-interest", "integrity", "client-advocacy", "financial-pressures"]
+    },
+    {
+      "id": "q121",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "What is required before implementing restrictive or aversive procedures?",
+      "options": [
+        "Nothing special - just implement them",
+        "Informed consent, review by oversight committee when required, and trial of less restrictive alternatives",
+        "Just get consent from anyone",
+        "Only supervisor approval"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Restrictive or aversive procedures require: informed consent with clear description of procedures and risks, trial and documentation of less restrictive alternatives, review by human rights or behavior review committee when required, ongoing data collection, regular review of necessity, and a plan for fading or discontinuing. The principle of least restrictive intervention requires using the least intrusive effective procedures. Proper oversight and accountability are essential when using procedures that could cause discomfort or distress.",
+      "tags": ["restrictive-procedures", "informed-consent", "least-restrictive"]
+    },
+    {
+      "id": "q122",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "beginner",
+      "questionType": "conceptual",
+      "question": "Public statements and advertising by behavior analysts must be:",
+      "options": [
+        "Exaggerated to attract clients",
+        "Truthful, accurate, and not deceptive or misleading",
+        "Guaranteed to promise results",
+        "Focused on criticizing competitors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ethics Code requires all public statements and advertising to be truthful, accurate, and not misleading. Behavior analysts must: accurately represent their qualifications, avoid guaranteeing outcomes, not use testimonials that are deceptive, provide only claims supported by evidence, and avoid disparaging colleagues. False or misleading advertising harms public trust, exploits potential clients, and damages the profession. Honesty in marketing protects consumers and maintains professional integrity.",
+      "tags": ["advertising", "public-statements", "truthfulness"]
+    },
+    {
+      "id": "q123",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "questionType": "application",
+      "question": "A behavior analyst is asked to provide testimony against another BCBA in a lawsuit. The behavior analyst has concerns about that BCBA's practice. What should they do?",
+      "options": [
+        "Refuse to maintain professional loyalty",
+        "Provide honest, objective testimony based on professional standards and available evidence",
+        "Exaggerate concerns to help the plaintiff",
+        "Testify only if paid a high fee"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When providing professional testimony or expert opinions, behavior analysts must be honest, objective, and base statements on professional standards and available evidence. This means: reviewing relevant facts, basing opinions on data and professional standards, acknowledging limitations of available information, avoiding bias, and providing truthful testimony. Professional loyalty doesn't mean protecting unethical practice - client protection and professional integrity are paramount. However, testimony should be objective, not adversarial or exaggerated.",
+      "tags": ["professional-testimony", "objectivity", "legal-proceedings"]
+    },
+    {
+      "id": "q124",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "application",
+      "question": "A parent asks the behavior analyst to share another client's intervention plan because their children have similar behaviors. What should the behavior analyst do?",
+      "options": [
+        "Share it since both children have similar needs",
+        "Decline due to confidentiality, but offer to discuss general intervention strategies",
+        "Share it if the parent signs a waiver",
+        "Share only the goals, not the procedures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Client information, including intervention plans, is confidential and cannot be shared with other clients without explicit consent from the client whose information would be shared. The appropriate response is to decline sharing specific client information while offering to discuss general strategies, review the requestor's child's assessment, and develop an individualized plan. Each client deserves individualized assessment and intervention. Confidentiality protects all clients' privacy rights.",
+      "tags": ["confidentiality", "individualization", "professional-boundaries"]
+    },
+    {
+      "id": "q125",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "questionType": "conceptual",
+      "question": "Behavior analysts should base treatment decisions on:",
+      "options": [
+        "What's most convenient for the therapist",
+        "Scientific evidence and client data",
+        "What the latest trend is",
+        "Personal preferences only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ethics Code requires behavior analysts to base treatment decisions on scientific evidence and client data. This means: using evidence-based practices, collecting and analyzing client data, making data-based decisions, considering individual client needs and preferences, and staying current with research. Convenience, trends, and unsupported personal preferences should not drive treatment selection. The principle of evidence-based practice protects clients from ineffective or harmful interventions and maintains the scientific foundation of the field.",
+      "tags": ["evidence-based-practice", "data-based-decisions", "scientific-foundation"]
     }
   ],
   "flashcards": [
@@ -2271,12 +2696,14 @@
     }
   ],
   "metadata": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "lastUpdated": "2025-10-17",
     "totalTopics": 38,
-    "totalQuestions": 100,
+    "totalQuestions": 125,
     "totalFlashcards": 25,
-    "developer": "Bradley Virtual Solutions, LLC"
+    "developer": "Bradley Virtual Solutions, LLC",
+    "targetQuestions": 1000,
+    "progress": "12.5%"
   }
 }
 
