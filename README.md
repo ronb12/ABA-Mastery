@@ -6,6 +6,12 @@ A comprehensive Progressive Web App (PWA) for Applied Behavior Analysis (ABA) th
 
 **A product of Bradley Virtual Solutions, LLC**
 
+## 🌐 Live Application
+
+- **Live App**: https://aba-mastery-app.web.app
+- **GitHub**: https://github.com/ronb12/ABA-Mastery
+- **Firebase Console**: https://console.firebase.google.com/project/aba-mastery-app/overview
+
 ## 🎯 Features
 
 ### 📚 **Comprehensive Study Materials**
