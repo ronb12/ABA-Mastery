@@ -1,0 +1,24 @@
+{
+  "name": "aba-mastery",
+  "version": "1.0.0",
+  "description": "![ABA Mastery](icons/icon-192.png)",
+  "main": "app.js",
+  "scripts": {
+    "test": "node browser-test.js",
+    "browser-test": "node browser-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronb12/ABA-Mastery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronb12/ABA-Mastery/issues"
+  },
+  "homepage": "https://github.com/ronb12/ABA-Mastery#readme",
+  "devDependencies": {
+    "puppeteer": "^24.25.0"
+  }
+}
