@@ -50,6 +50,9 @@
                     <h1>ABA Mastery</h1>
                 </div>
                 <div class="header-actions">
+                    <button id="logout-btn" class="icon-btn" aria-label="Sign Out" style="display: none;" title="Sign Out">
+                        <span class="icon">👤</span>
+                    </button>
                     <button id="dark-mode-toggle" class="icon-btn" aria-label="Toggle dark mode">
                         <span class="icon">🌙</span>
                     </button>
@@ -420,7 +423,17 @@
     </script>
     
     <!-- Scripts -->
+    <script src="auth.js?v=1.1.0"></script>
     <script src="app.js?v=1.1.0"></script>
+    
+    <script>
+        // Initialize authentication when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initAuth);
+        } else {
+            initAuth();
+        }
+    </script>
     
     <!-- Test Users Module (for development/testing only) -->
     <!-- <script src="create-test-users.js"></script> -->

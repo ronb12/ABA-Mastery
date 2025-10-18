@@ -45,25 +45,28 @@ function onUserLoggedOut() {
 
 // Update UI for logged in user
 function updateUIForLoggedInUser(user) {
-    const userSection = document.getElementById('user-section');
-    if (userSection) {
-        userSection.innerHTML = `
-            <div class="user-info">
-                <span>Welcome, ${user.displayName || user.email}</span>
-                <button onclick="signOut()" class="btn btn-secondary">Sign Out</button>
-            </div>
-        `;
+    const logoutBtn = document.getElementById('logout-btn');
+    if (logoutBtn) {
+        logoutBtn.style.display = 'block';
+        logoutBtn.title = `Sign Out (${user.email})`;
+        
+        // Remove existing listeners and add new one
+        const newBtn = logoutBtn.cloneNode(true);
+        logoutBtn.parentNode.replaceChild(newBtn, logoutBtn);
+        newBtn.addEventListener('click', signOut);
     }
+    
+    console.log(`✅ User logged in: ${user.email}`);
 }
 
 // Update UI for guest user
 function updateUIForGuestUser() {
-    const userSection = document.getElementById('user-section');
-    if (userSection) {
-        userSection.innerHTML = `
-            <a href="landing.html" class="btn btn-primary">Sign In for Cloud Sync</a>
-        `;
+    const logoutBtn = document.getElementById('logout-btn');
+    if (logoutBtn) {
+        logoutBtn.style.display = 'none';
     }
+    
+    console.log('ℹ️ Guest mode - Sign in for cloud sync');
 }
 
 // Sign in with email and password
@@ -110,7 +113,12 @@ async function signInWithGoogle() {
 async function signOut() {
     try {
         await firebase.auth().signOut();
-        window.location.href = 'landing.html';
+        // Clear local data
+        localStorage.removeItem('abaUserData');
+        // Show success message
+        alert('Successfully signed out!');
+        // Reload the page to reset to guest mode
+        window.location.reload();
     } catch (error) {
         console.error('Sign out error:', error);
         alert('Error signing out. Please try again.');
