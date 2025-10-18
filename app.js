@@ -138,6 +138,19 @@ function switchView(viewName) {
         loadFlashcards();
     } else if (viewName === 'progress') {
         updateProgressView();
+    } else if (viewName === 'study-groups') {
+        if (typeof studyGroupsManager !== 'undefined') {
+            studyGroupsManager.displayStudyGroupsView();
+        }
+    } else if (viewName === 'success-rates') {
+        // Load success rates asynchronously
+        setTimeout(() => {
+            if (typeof examPassTracker !== 'undefined') {
+                examPassTracker.displayPassRateDashboard().catch(err => {
+                    console.error('Error loading success rates:', err);
+                });
+            }
+        }, 100);
     }
 }
 
@@ -179,6 +192,23 @@ function createTopicCard(topic, category) {
 
 // Show topic detail modal/view
 function showTopicDetail(topic, category) {
+    // Format content: convert \n\n to paragraphs and \n to line breaks
+    // Also make section headers (ALL CAPS followed by colon) bold
+    const formattedContent = topic.content
+        .split('\n\n')
+        .map(para => {
+            // Check if paragraph starts with section header (ALL CAPS text followed by colon)
+            const headerMatch = para.match(/^([A-Z\s&,'()]+:)/);
+            if (headerMatch) {
+                // Make the header bold
+                const header = headerMatch[1];
+                const rest = para.substring(header.length);
+                return `<p><strong class="section-header">${header}</strong>${rest.replace(/\n/g, '<br>')}</p>`;
+            }
+            return `<p>${para.replace(/\n/g, '<br>')}</p>`;
+        })
+        .join('');
+    
     const modal = document.createElement('div');
     modal.className = 'modal';
     modal.innerHTML = `
@@ -189,7 +219,7 @@ function showTopicDetail(topic, category) {
             </div>
             <div class="modal-body">
                 <div class="topic-category">${category.icon} ${category.name}</div>
-                <p class="topic-full-content">${topic.content}</p>
+                <div class="topic-full-content">${formattedContent}</div>
                 ${topic.keyPoints ? `
                     <h3>Key Points</h3>
                     <ul>
@@ -213,6 +243,23 @@ function showTopicDetail(topic, category) {
         const style = document.createElement('style');
         style.id = 'modal-styles';
         style.textContent = `
+            .topic-full-content p {
+                margin-bottom: 1.5em;
+                line-height: 1.7;
+            }
+            
+            .topic-full-content p:last-child {
+                margin-bottom: 0;
+            }
+            
+            .section-header {
+                display: block;
+                color: var(--primary);
+                font-size: 1.1em;
+                margin-bottom: 0.5em;
+                letter-spacing: 0.5px;
+            }
+            
             .modal {
                 position: fixed;
                 top: 0;

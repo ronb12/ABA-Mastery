@@ -212,8 +212,13 @@ async function signUpWithEmail(email, password, displayName) {
     }
 }
 
-// Sign in with Google
+// Sign in with Google (temporarily disabled - not configured in Firebase Console)
 async function signInWithGoogle() {
+    console.warn('Google Sign-In is not currently enabled in Firebase Console');
+    alert('Google Sign-In is temporarily unavailable.\n\nPlease use email/password authentication or continue in Guest Mode.');
+    return { success: false, error: 'Google Sign-In not enabled' };
+    
+    /* Uncomment when Google Sign-In is enabled in Firebase Console
     try {
         const provider = new firebase.auth.GoogleAuthProvider();
         const userCredential = await firebase.auth().signInWithPopup(provider);
@@ -222,6 +227,7 @@ async function signInWithGoogle() {
         console.error('Google sign in error:', error);
         return { success: false, error: error.message };
     }
+    */
 }
 
 // Sign out

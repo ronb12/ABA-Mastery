@@ -1,0 +1,501 @@
+{
+  "newQuestions": [
+    {
+      "id": "q167",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "intermediate",
+      "question": "ABC (Antecedent-Behavior-Consequence) continuous recording is what type of assessment?",
+      "options": [
+        "Indirect assessment",
+        "Descriptive assessment",
+        "Functional analysis (experimental)",
+        "Skills assessment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ABC continuous recording is DESCRIPTIVE ASSESSMENT - direct observation of behavior in natural environment without manipulation. Observer records antecedents, behaviors, and consequences as they occur. This generates hypotheses about function but doesn't demonstrate experimental control (that's functional analysis). More objective than indirect assessments (interviews, checklists).",
+      "reference": "Cooper et al. (2020), Chapter 24; BACB Task List D-2"
+    },
+    {
+      "id": "q168",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "advanced",
+      "question": "Which is a CONTRAINDICATION for conducting a functional analysis?",
+      "options": [
+        "Multiple caregivers are available",
+        "The behavior is severe and dangerous",
+        "Previous interventions have failed",
+        "The behavior occurs at moderate frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SEVERE/DANGEROUS behaviors may contraindicate FA because FA deliberately evokes problem behavior through test conditions. If behavior causes significant harm, risks may outweigh benefits. Consider: brief FA, latency-based FA, trial-based FA, or precursor FA instead. Having multiple caregivers, previous failures, and moderate frequency are actually GOOD conditions for conducting FA.",
+      "reference": "Cooper et al. (2020), Chapter 24; Hanley et al. (2003)"
+    },
+    {
+      "id": "q169",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "intermediate",
+      "question": "In a functional analysis, the 'demand' condition tests for:",
+      "options": [
+        "Attention-maintained behavior",
+        "Escape-maintained behavior",
+        "Tangible-maintained behavior",
+        "Automatic reinforcement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DEMAND (escape) condition presents tasks/demands and removes them contingent on problem behavior, testing if behavior is maintained by NEGATIVE REINFORCEMENT (escape/avoidance). High rates in demand condition suggest escape function. Attention condition tests positive reinforcement (attention), tangible tests access to items, alone/no interaction tests automatic reinforcement.",
+      "reference": "Cooper et al. (2020), Chapter 24; Iwata et al. (1982/1994)"
+    },
+    {
+      "id": "q170",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "beginner",
+      "question": "Before implementing any behavior change program, behavior analysts must obtain:",
+      "options": [
+        "School district approval",
+        "Insurance pre-authorization",
+        "Informed consent from client/guardian",
+        "BACB approval"
+      ],
+      "correctAnswer": 2,
+      "explanation": "INFORMED CONSENT is required (Ethics Code 3.02) before providing services. Clients/guardians must understand proposed services, risks, benefits, alternatives, and right to decline/withdraw. Consent must be voluntary, informed, and documented. School/insurance approval may be needed but doesn't replace informed consent. BACB doesn't pre-approve individual treatment plans.",
+      "reference": "BACB Ethics Code 3.02; BACB Task List E-1"
+    },
+    {
+      "id": "q171",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "question": "A parent wants you to implement a punishment procedure you believe is unnecessarily restrictive. Best practice is to:",
+      "options": [
+        "Refuse and terminate services",
+        "Implement it since the parent requested it",
+        "Recommend and explain less restrictive alternatives first",
+        "Report the parent to authorities"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethics Code 2.15 requires recommending LEAST RESTRICTIVE, scientifically supported procedures. Educate about alternatives, risks/benefits. Try reinforcement-based approaches first. If parent still insists on restrictive approach without clinical justification, you may need to decline services. But first exhaust education/recommendation efforts. Don't automatically comply or terminate without discussion.",
+      "reference": "BACB Ethics Code 2.15; BACB Task List E-1"
+    },
+    {
+      "id": "q172",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "question": "You discover you made an error in data collection that affected treatment decisions. You should:",
+      "options": [
+        "Fix the data and don't mention the error",
+        "Delete the incorrect data",
+        "Acknowledge the error, correct records, and adjust treatment accordingly",
+        "Continue current treatment without mentioning the error"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethics Code 2.09 (c) requires acknowledging and correcting errors. Document the error, correct records with notes explaining the correction, inform relevant parties (supervisor, team), and adjust treatment based on corrected information. Never alter data deceptively or hide errors. Professional integrity requires transparency. Mistakes happen; cover-ups are unethical.",
+      "reference": "BACB Ethics Code 2.09; BACB Task List E-2"
+    },
+    {
+      "id": "q173",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "Response cost involves:",
+      "options": [
+        "Adding an aversive stimulus",
+        "Removing a reinforcer following problem behavior",
+        "Removing demands following problem behavior",
+        "Providing reinforcement on a schedule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RESPONSE COST is negative punishment (Type II punishment) - REMOVING specific amounts of reinforcer contingent on problem behavior. Must have reinforcers to remove (token economy, privileges, points). Example: Lose 5 tokens for swearing. Different from positive punishment (adding aversive). Different from time-out (removing access to all reinforcement). Effectiveness depends on sufficient reinforcers remaining.",
+      "reference": "Cooper et al. (2020), Chapter 14; BACB Task List G-16"
+    },
+    {
+      "id": "q174",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "question": "Which type of time-out involves removing the individual from reinforcing environment to a less reinforcing location?",
+      "options": [
+        "Non-exclusionary time-out",
+        "Exclusionary time-out",
+        "Response cost",
+        "Planned ignoring"
+      ],
+      "correctAnswer": 1,
+      "explanation": "EXCLUSIONARY TIME-OUT physically removes person from reinforcing environment to less reinforcing area (time-out room, different area of room, hallway). NON-EXCLUSIONARY keeps person in environment but denies access to reinforcement (sitting in chair watching others, removing materials). Exclusionary is more restrictive. Both are negative punishment (removing access to positive reinforcement).",
+      "reference": "Cooper et al. (2020), Chapter 14"
+    },
+    {
+      "id": "q175",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "Functional Communication Training (FCT) teaches:",
+      "options": [
+        "How to eliminate all problem behaviors",
+        "An appropriate communicative response that serves the same function as problem behavior",
+        "Advanced language skills",
+        "How to tolerate not getting reinforcement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "FCT teaches functionally equivalent communication response (FER) that achieves the SAME outcome as problem behavior but appropriately. If tantrum = escape, teach 'break please.' If aggression = attention, teach 'help please.' The replacement produces same reinforcer more efficiently. This is DRA (differential reinforcement of alternative) with communication focus. Combines assessment, mand training, and extinction.",
+      "reference": "Cooper et al. (2020), Chapter 21; Carr & Durand (1985)"
+    },
+    {
+      "id": "q176",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "beginner",
+      "question": "Converting frequency to rate involves:",
+      "options": [
+        "Dividing count by time",
+        "Multiplying count by time",
+        "Adding count and time",
+        "Subtracting time from count"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RATE = COUNT ÷ TIME. Rate standardizes frequency across different time periods, allowing comparison. Example: 10 responses in 20 minutes = 0.5 responses/minute. Rate is essential when observation periods vary in length. Frequency (count) alone doesn't account for time differences. Rate is responses per unit time (per minute, per hour, per day).",
+      "reference": "Cooper et al. (2020), Chapter 4; BACB Task List C-1"
+    },
+    {
+      "id": "q177",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "intermediate",
+      "question": "What is a major DISADVANTAGE of partial interval recording?",
+      "options": [
+        "It requires continuous observation",
+        "It tends to overestimate behavior",
+        "It can only be used for discrete behaviors",
+        "It requires permanent products"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PARTIAL INTERVAL marks interval if behavior occurs AT ANY TIME during interval, tending to OVERESTIMATE behavior (especially brief or low-rate behaviors). Even 1 second of behavior in 30-second interval = scored. Better for measuring decrease in behavior. WHOLE INTERVAL (behavior throughout entire interval) UNDERESTIMATES. Both require continuous observation but don't require permanent products or discrete behaviors.",
+      "reference": "Cooper et al. (2020), Chapter 4-5"
+    },
+    {
+      "id": "q178",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "advanced",
+      "question": "Trials-to-criterion is a measure of:",
+      "options": [
+        "How long behavior lasts",
+        "How many teaching trials are needed to reach mastery",
+        "The rate of responding",
+        "Inter-response time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TRIALS-TO-CRITERION measures acquisition efficiency - how many teaching attempts (trials) are required to reach a predetermined mastery level (e.g., 90% accuracy across 3 sessions). Lower trials-to-criterion indicates faster learning. Useful for comparing teaching procedures or tracking learning across skills. Not duration, rate, or IRT.",
+      "reference": "Cooper et al. (2020), Chapter 4"
+    },
+    {
+      "id": "q179",
+      "category": "skill-acquisition",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "What is the primary purpose of conducting a preference assessment?",
+      "options": [
+        "To diagnose developmental delays",
+        "To identify potential reinforcers",
+        "To measure skill acquisition",
+        "To determine function of behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PREFERENCE ASSESSMENTS identify items/activities the individual prefers, which can then be tested as potential reinforcers. Preference ≠ reinforcer (preference is liking; reinforcer is functional increase in behavior), but preferred items are more likely to function as reinforcers. Types: Paired choice (MS), multiple stimulus with replacement (MSW), multiple stimulus without replacement (MSWO), free operant, ask methods.",
+      "reference": "Cooper et al. (2020), Chapter 11; BACB Task List G-1"
+    },
+    {
+      "id": "q180",
+      "category": "skill-acquisition",
+      "section": "G",
+      "difficulty": "advanced",
+      "question": "In a paired-stimulus (forced choice) preference assessment, the individual:",
+      "options": [
+        "Selects from an array of all items simultaneously",
+        "Chooses between two items repeatedly in all possible pairs",
+        "Freely interacts with all items",
+        "Ranks items from most to least preferred"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PAIRED-STIMULUS (Fisher et al., 1992) presents ALL possible pairs of items, one pair at a time. Individual makes forced choice between two items. Each item is paired with every other item. Selections are tallied - most frequently chosen = most preferred. More time-consuming than MSWO but provides detailed preference hierarchy. Useful for individuals who need simplified choices.",
+      "reference": "Cooper et al. (2020), Chapter 11; Fisher et al. (1992)"
+    },
+    {
+      "id": "q181",
+      "category": "skill-acquisition",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "Stimulus prompts involve:",
+      "options": [
+        "Adding cues to the discriminative stimulus to make correct response more likely",
+        "Physically guiding the learner's response",
+        "Verbally telling the learner what to do",
+        "Modeling the correct response"
+      ],
+      "correctAnswer": 0,
+      "explanation": "STIMULUS PROMPTS modify the SD itself by adding cues (highlighting, color-coding, size, position, movement). Example: Making correct answer card larger. RESPONSE PROMPTS involve assistance with the response (physical guidance, modeling, verbal instructions). Stimulus prompts are often easier to fade (gradually reduce the modification). Both help achieve errorless learning.",
+      "reference": "Cooper et al. (2020), Chapter 18; BACB Task List G-6"
+    },
+    {
+      "id": "q182",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "question": "Stimulus generalization has occurred when:",
+      "options": [
+        "A behavior occurs across multiple settings, people, or materials",
+        "A behavior is maintained after reinforcement is withdrawn",
+        "Multiple behaviors change as a result of teaching one behavior",
+        "A new behavior emerges without direct teaching"
+      ],
+      "correctAnswer": 0,
+      "explanation": "STIMULUS GENERALIZATION occurs when behavior occurs in presence of stimuli SIMILAR to the training SD (across settings, people, materials, conditions). The behavior 'spreads' to untrained but similar situations. Different from MAINTENANCE (behavior continues over time), RESPONSE GENERALIZATION (untrained responses occur), or BEHAVIOR CUSPS (pivotal skills leading to new untrained behaviors).",
+      "reference": "Cooper et al. (2020), Chapter 16; BACB Task List B-11"
+    },
+    {
+      "id": "q183",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "advanced",
+      "question": "Teaching multiple exemplars is a strategy to promote:",
+      "options": [
+        "Maintenance",
+        "Stimulus generalization",
+        "Punishment effects",
+        "Extinction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SUFFICIENT EXEMPLAR TRAINING (multiple exemplars) promotes STIMULUS GENERALIZATION by training across enough different examples that the learner extracts the relevant dimensions and responds correctly to novel stimuli. Teach 'dog' with pictures of multiple dog breeds, sizes, colors → child identifies new dogs. Variation in training = variation in generalization. Critical for real-world application.",
+      "reference": "Cooper et al. (2020), Chapter 28; Stokes & Baer (1977)"
+    },
+    {
+      "id": "q184",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "question": "Response generalization occurs when:",
+      "options": [
+        "Untrained responses occur following training of a similar response",
+        "Behavior occurs in untrained settings",
+        "Behavior is maintained over time",
+        "Behavior increases due to reinforcement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RESPONSE GENERALIZATION - after training one response, functionally similar but UNTRAINED responses occur. Example: Teach writing letters with pencil → child can write with pen, crayon, marker (untrained). The response class expands beyond what was directly taught. Different from stimulus generalization (behavior in new situations) or maintenance (same behavior over time).",
+      "reference": "Cooper et al. (2020), Chapter 1 & 28"
+    },
+    {
+      "id": "q185",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "What is a primary advantage of using token economies?",
+      "options": [
+        "Tokens never need to be exchanged for backup reinforcers",
+        "Tokens bridge the delay between behavior and backup reinforcement",
+        "Tokens work for everyone without assessment",
+        "Token systems don't require maintenance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TOKEN ECONOMY advantage: Tokens are CONDITIONED REINFORCERS that bridge delay between behavior and backup reinforcer. Provide immediate token → exchange later for backup reinforcer. Also allows accumulation, less satiation, practical in group settings. Tokens MUST be exchanged (or they lose value). Effectiveness varies by individual. Systems require ongoing management/maintenance.",
+      "reference": "Cooper et al. (2020), Chapter 11; BACB Task List G-10"
+    },
+    {
+      "id": "q186",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "question": "In implementing FCT with extinction, extinction should be applied to:",
+      "options": [
+        "The functional communication response",
+        "All behaviors",
+        "The problem behavior that FCT is replacing",
+        "Only aggressive behaviors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "FCT + EXTINCTION: Reinforce the functional communication response (FCR) while placing the PROBLEM BEHAVIOR on EXTINCTION (withhold maintaining reinforcer for problem behavior). This creates clear differential reinforcement - FCR works, problem behavior doesn't. If problem behavior still produces reinforcement, FCT won't work. Must consistently reinforce FCR and extinguish problem behavior.",
+      "reference": "Cooper et al. (2020), Chapter 21; Carr & Durand (1985)"
+    },
+    {
+      "id": "q187",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "intermediate",
+      "question": "Scatter plots are used to:",
+      "options": [
+        "Calculate IOA",
+        "Identify temporal patterns and correlations with time-based variables",
+        "Conduct functional analysis",
+        "Measure skill acquisition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SCATTER PLOTS display behavior across time periods (days, times of day) to identify TEMPORAL PATTERNS. Grid shows days/rows and time blocks/columns, with cells shaded to show behavior level. Reveals patterns: Does behavior spike at certain times? Days? After specific events? Helps generate hypotheses about environmental correlates. Descriptive assessment tool, not experimental (FA) or for IOA calculation.",
+      "reference": "Cooper et al. (2020), Chapter 24; Touchette et al. (1985)"
+    },
+    {
+      "id": "q188",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "advanced",
+      "question": "What is a limitation of indirect functional assessments (interviews, checklists)?",
+      "options": [
+        "They take too long to complete",
+        "They rely on informant recall and perception, which may be inaccurate",
+        "They always lead to wrong conclusions",
+        "They can only assess attention-maintained behaviors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "INDIRECT ASSESSMENTS (interviews like FAST, MAS; checklists like QABF) rely on INFORMANT REPORT - subject to memory errors, biases, and misinterpretation. Can generate hypotheses quickly but shouldn't be sole source. Combine with direct observation (ABC, FA) for verification. Not always wrong, but less reliable than direct assessment. Can assess all functions. Efficiency is an advantage, not disadvantage.",
+      "reference": "Cooper et al. (2020), Chapter 24"
+    },
+    {
+      "id": "q189",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "question": "Which accurately describes the behavior analyst's responsibility regarding evidence-based practice?",
+      "options": [
+        "Only use procedures published in peer-reviewed journals",
+        "Rely on scientifically supported procedures and adjust based on data",
+        "Never modify published procedures",
+        "Only use procedures taught in graduate school"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethics Code 2.09 requires using scientifically supported, evidence-based interventions. BUT behavior analysts must also collect data and adjust based on INDIVIDUAL CLIENT RESPONSE. Evidence-based practice = Best research evidence + Clinical expertise + Client values/context. May need to modify procedures for individual needs. Clinical decision-making combines science, data, and expertise.",
+      "reference": "BACB Ethics Code 2.09; BACB Task List E-1"
+    },
+    {
+      "id": "q190",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "question": "A BCBA is asked to provide testimony in a custody case involving a former client. The BCBA should:",
+      "options": [
+        "Testify without any restrictions",
+        "Decline to provide any information",
+        "Provide only factual information and avoid making custody recommendations",
+        "Make recommendations based on personal opinion about the parents"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When compelled to testify, provide only FACTUAL, OBJECTIVE information from professional services (dates, services provided, behavioral observations). AVOID making recommendations outside professional scope (custody decisions require expertise beyond behavior analysis). Limit testimony to areas of competence. Maintain client confidentiality as much as legally allowed. Distinguish fact from inference.",
+      "reference": "BACB Ethics Code 2.07, 3.0; BACB Task List E-1"
+    },
+    {
+      "id": "q191",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "intermediate",
+      "question": "Percentage is calculated by:",
+      "options": [
+        "Dividing parts by whole and multiplying by 100",
+        "Adding all values and dividing by number of values",
+        "Multiplying frequency by time",
+        "Subtracting baseline from intervention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PERCENTAGE = (PART ÷ WHOLE) × 100. Expresses ratio as parts per hundred. Examples: (8 correct ÷ 10 trials) × 100 = 80% accuracy; (3 intervals with behavior ÷ 20 intervals) × 100 = 15%. Useful for comparing across different totals. Different from mean (average), rate (count/time), or change scores.",
+      "reference": "Cooper et al. (2020), Chapter 4"
+    },
+    {
+      "id": "q192",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "advanced",
+      "question": "Whole interval recording would be MOST appropriate for measuring:",
+      "options": [
+        "Brief, high-rate behaviors you want to decrease",
+        "Sustained behaviors you want to increase (on-task, engagement)",
+        "Discrete responses like vocalizations",
+        "Low-rate behaviors occurring throughout the day"
+      ],
+      "correctAnswer": 1,
+      "explanation": "WHOLE INTERVAL (behavior must occur throughout ENTIRE interval to be scored) is best for measuring SUSTAINED behaviors you want to INCREASE (on-task, appropriate play, engagement). It provides conservative estimate and tends to UNDERESTIMATE behavior. For behaviors you want to decrease, whole interval would artificially make them look better. Partial interval better for brief or low-rate behaviors to decrease.",
+      "reference": "Cooper et al. (2020), Chapter 5"
+    },
+    {
+      "id": "q193",
+      "category": "verbal-behavior",
+      "section": "B",
+      "difficulty": "intermediate",
+      "question": "A listener response (following instructions) is considered:",
+      "options": [
+        "Speaker behavior controlled by motivating operations",
+        "Listener behavior controlled by verbal discriminative stimuli",
+        "Always echoic behavior",
+        "Automatic reinforcement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LISTENER BEHAVIOR is NONVERBAL behavior under control of VERBAL STIMULI (words, signs as SDs). Following instructions ('touch nose' → touching nose) is listener behavior, not speaker behavior. The verbal stimulus functions as an SD. Different from speaker behavior (mand, tact, echoic, intraverbal). Listener skills are prerequisites for many learning activities.",
+      "reference": "Cooper et al. (2020), Chapter 25; Skinner (1957)"
+    },
+    {
+      "id": "q194",
+      "category": "verbal-behavior",
+      "section": "B",
+      "difficulty": "advanced",
+      "question": "Automatic reinforcement for vocal behavior that has point-to-point correspondence with the verbal stimulus is called:",
+      "options": [
+        "Tact",
+        "Echoic",
+        "Automatic reinforcement (vocal stereotypy)",
+        "Mand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When ECHOIC-like behavior (vocal imitation) occurs due to AUTOMATIC REINFORCEMENT (sounds feel/sound good) rather than social reinforcement, it's VOCAL STEREOTYPY or SELF-ECHOIC. Has point-to-point correspondence but isn't controlled by social consequences or discriminative stimulus. Example: Child repeats phrases from movies for sensory stimulation. Different from functional echoics (socially reinforced) or tacts/mands.",
+      "reference": "Cooper et al. (2020), Chapter 25; Sundberg (2008)"
+    },
+    {
+      "id": "q195",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "beginner",
+      "question": "A stimulus change that follows a behavior and increases the future probability of that behavior is called:",
+      "options": [
+        "Punishment",
+        "Extinction",
+        "Reinforcement",
+        "Habituation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "REINFORCEMENT is any consequence that INCREASES the future probability/frequency of behavior. Must be functional (actually increase behavior), not assumed. Two types: Positive (adding stimulus) and Negative (removing aversive stimulus). Punishment decreases behavior. Extinction withholds reinforcement. Habituation is decreased responding to repeated stimulus.",
+      "reference": "Cooper et al. (2020), Chapter 1-2; BACB Task List B-1"
+    },
+    {
+      "id": "q196",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "intermediate",
+      "question": "The Premack Principle states that:",
+      "options": [
+        "High-probability behavior can reinforce low-probability behavior",
+        "Low-probability behavior can reinforce high-probability behavior",
+        "All behaviors need external reinforcement",
+        "Reinforcement must always be tangible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PREMACK PRINCIPLE: HIGH-probability behaviors (preferred activities) can function as reinforcers for LOW-probability behaviors (less preferred). 'First-then' contingencies: 'First do homework (low-prob), then play video games (high-prob).' Identifies potential reinforcers by observing what individual chooses to do when free to choose. Practical for finding natural reinforcers.",
+      "reference": "Cooper et al. (2020), Chapter 11; Premack (1959)"
+    },
+    {
+      "id": "q197",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "Habit reversal typically includes:",
+      "options": [
+        "Only awareness training",
+        "Awareness training plus competing response training",
+        "Only punishment procedures",
+        "Only extinction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HABIT REVERSAL (Azrin & Nunn, 1973) combines: (1) AWARENESS TRAINING - recognizing early warning signs/chain of habit, and (2) COMPETING RESPONSE TRAINING - engaging in behavior physically incompatible with habit for 1-3 minutes. Used for habits like nail-biting, hair-pulling, tics. May include motivation procedures, social support. Effective for automaticallyoperated behaviors.",
+      "reference": "Cooper et al. (2020), Chapter 21; Azrin & Nunn (1973)"
+    }
+  ]
+}
+

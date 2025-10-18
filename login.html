@@ -317,7 +317,8 @@
             </button>
         </form>
 
-        <div class="divider">or</div>
+        <!-- Google Sign-In temporarily disabled -->
+        <!-- <div class="divider">or</div>
 
         <button class="btn btn-google" onclick="signInWithGoogle()">
             <svg width="20" height="20" viewBox="0 0 20 20">
@@ -327,10 +328,10 @@
                 <path fill="#EA4335" d="M10 3.88c1.88 0 3.13.81 3.85 1.48l2.84-2.76C14.96.99 12.7 0 10 0 6.09 0 2.72 2.25 1.07 5.51l3.24 2.52C5.12 5.62 7.36 3.88 10 3.88z"/>
             </svg>
             Continue with Google
-        </button>
+        </button> -->
 
         <div class="signup-link">
-            Don't have an account? <a href="#" onclick="showSignup(event)">Sign Up</a>
+            Don't have an account? <a href="/signup">Sign Up</a>
         </div>
 
         <div class="back-link">
@@ -488,10 +489,10 @@
             }
         }
 
-        // Show signup
+        // Show signup - redirect to signup page
         function showSignup(e) {
             e.preventDefault();
-            alert('🔜 Sign-up feature coming soon!\n\nFor now, you can:\n• Use Guest Mode to access all features\n• Or sign in if you already have an account');
+            window.location.href = '/signup';
         }
     </script>
 </body>

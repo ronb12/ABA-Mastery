@@ -1,0 +1,76 @@
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VIDEO SCRIPT: Backward Chaining
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[SLIDE 1 - TITLE]
+"Hi everyone! Today we're covering Backward Chaining - an important concept for the BCBA and BCaBA certification exams."
+
+[SLIDE 2 - THE QUESTION]
+"Let's start with a sample exam question:
+In backward chaining, which step of the task is taught FIRST?"
+
+[SLIDE 3 - ANSWER OPTIONS]
+"Your options are:
+A. The first step
+B. The middle step
+C. The last step
+D. All steps simultaneously"
+
+[SLIDE 4 - CORRECT ANSWER]
+"The correct answer is C: The last step"
+
+[SLIDE 5 - DETAILED EXPLANATION]
+"Let me explain why this is correct:
+
+BACKWARD CHAINING teaches the LAST step first. Instructor completes all steps except the final one, learner completes final step and gets natural reinforcement (task completion). Then teach second-to-last step, etc., working backward. Advantage: learner always experiences task completion/natural reinforcement. FORWARD chaining teaches first step first, working forward."
+
+[SLIDE 6 - COMMON MISTAKES]
+"Here's why the other options are incorrect:
+- The first step: This is incorrect because...
+- The middle step: This is incorrect because...
+- All steps simultaneously: This is incorrect because..."
+
+[SLIDE 7 - KEY TAKEAWAY]
+"The key takeaway: Remember this distinction, and you'll be able to answer any exam question on this topic."
+
+[SLIDE 8 - CLOSING]
+"Thanks for watching! Practice more questions like this at ABA Mastery: aba-mastery-app.web.app
+Good luck on your exam!"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECORDING NOTES:
+- Duration: 5-7 minutes
+- Tone: Conversational, educational
+- Pace: Moderate (not too fast)
+- Visuals: Simple slides with text and examples
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+═══════════════════════════════════════════════════════════════
+YOUTUBE UPLOAD INFO:
+═══════════════════════════════════════════════════════════════
+
+Title: Backward Chaining - BCBA Exam Prep | ABA Mastery
+
+Description:
+Backward Chaining explained clearly for BCBA and BCaBA certification exam preparation.
+
+This video covers:
+- Key concept definition
+- Correct answer explanation
+- Common mistakes to avoid
+- Real-world examples
+- Exam strategy tips
+
+Perfect for:
+✅ BCBA exam candidates
+✅ BCaBA exam candidates
+✅ ABA graduate students
+✅ Behavior analysts in training
+
+Practice questions: https://aba-mastery-app.web.app
+
+Tags: BCBA exam, BCaBA exam, ABA certification, behavior analysis, skill-acquisition, exam prep, study guide, ABA mastery
+
+═══════════════════════════════════════════════════════════════

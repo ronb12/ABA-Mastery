@@ -1,0 +1,76 @@
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VIDEO SCRIPT: Discrete Trial Training
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[SLIDE 1 - TITLE]
+"Hi everyone! Today we're covering Discrete Trial Training - an important concept for the BCBA and BCaBA certification exams."
+
+[SLIDE 2 - THE QUESTION]
+"Let's start with a sample exam question:
+In discrete trial training (DTT), what is the typical consequence for an incorrect response?"
+
+[SLIDE 3 - ANSWER OPTIONS]
+"Your options are:
+A. Time-out
+B. Planned ignoring (extinction)
+C. Error correction (neutral redirection, no reinforcement)
+D. Verbal reprimand"
+
+[SLIDE 4 - CORRECT ANSWER]
+"The correct answer is C: Error correction (neutral redirection, no reinforcement)"
+
+[SLIDE 5 - DETAILED EXPLANATION]
+"Let me explain why this is correct:
+
+ERROR CORRECTION in DTT typically involves neutral feedback ('let's try again'), optional prompt to correct response, then moving to next trial WITHOUT reinforcement for the prompted correct response. This prevents reinforcing errors while maintaining learning momentum. Time-out and reprimands are punishers (too harsh for learning trials). Simple extinction might not teach the correct response."
+
+[SLIDE 6 - COMMON MISTAKES]
+"Here's why the other options are incorrect:
+- Time-out: This is incorrect because...
+- Planned ignoring (extinction): This is incorrect because...
+- Verbal reprimand: This is incorrect because..."
+
+[SLIDE 7 - KEY TAKEAWAY]
+"The key takeaway: Remember this distinction, and you'll be able to answer any exam question on this topic."
+
+[SLIDE 8 - CLOSING]
+"Thanks for watching! Practice more questions like this at ABA Mastery: aba-mastery-app.web.app
+Good luck on your exam!"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECORDING NOTES:
+- Duration: 6-8 minutes
+- Tone: Conversational, educational
+- Pace: Moderate (not too fast)
+- Visuals: Simple slides with text and examples
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+═══════════════════════════════════════════════════════════════
+YOUTUBE UPLOAD INFO:
+═══════════════════════════════════════════════════════════════
+
+Title: Discrete Trial Training - BCBA Exam Prep | ABA Mastery
+
+Description:
+Discrete Trial Training explained clearly for BCBA and BCaBA certification exam preparation.
+
+This video covers:
+- Key concept definition
+- Correct answer explanation
+- Common mistakes to avoid
+- Real-world examples
+- Exam strategy tips
+
+Perfect for:
+✅ BCBA exam candidates
+✅ BCaBA exam candidates
+✅ ABA graduate students
+✅ Behavior analysts in training
+
+Practice questions: https://aba-mastery-app.web.app
+
+Tags: BCBA exam, BCaBA exam, ABA certification, behavior analysis, skill-acquisition, exam prep, study guide, ABA mastery
+
+═══════════════════════════════════════════════════════════════
