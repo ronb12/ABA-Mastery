@@ -4,8 +4,9 @@
 const CACHE_NAME = 'aba-mastery-v1.3.4';
 const urlsToCache = [
     '/',
-    '/index.html',
     '/landing.html',
+    '/login.html',
+    '/app.html',
     '/styles.css?v=1.3.4',
     '/app.js?v=1.3.4',
     '/auth.js?v=1.3.4',

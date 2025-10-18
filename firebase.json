@@ -38,6 +38,10 @@
         "destination": "/app.html"
       },
       {
+        "source": "/login",
+        "destination": "/login.html"
+      },
+      {
         "source": "**",
         "destination": "/landing.html"
       }
