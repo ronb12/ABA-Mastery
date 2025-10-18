@@ -1027,6 +1027,11 @@ body {
         right: 20px;
         max-width: 400px;
     }
+    
+    /* Hide hamburger menu on desktop */
+    #menu-toggle {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1048,6 +1053,16 @@ body {
     
     .topics-grid {
         grid-template-columns: 1fr;
+    }
+    
+    /* Mobile menu behavior */
+    .nav-menu {
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .nav-menu.mobile-open {
+        transform: translateY(0);
     }
 }
 

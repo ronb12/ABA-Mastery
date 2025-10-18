@@ -76,6 +76,9 @@ function setupEventListeners() {
     document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
     document.getElementById('dark-mode-setting')?.addEventListener('change', toggleDarkMode);
 
+    // Mobile menu toggle
+    document.getElementById('menu-toggle')?.addEventListener('click', toggleMobileMenu);
+
     // Quick actions
     document.querySelectorAll('.action-card').forEach(card => {
         card.addEventListener('click', () => {
@@ -123,6 +126,12 @@ function switchView(viewName) {
     document.querySelector(`[data-view="${viewName}"]`)?.classList.add('active');
     
     appData.currentView = viewName;
+
+    // Close mobile menu when switching views
+    const navMenu = document.getElementById('nav-menu');
+    if (navMenu.classList.contains('mobile-open')) {
+        toggleMobileMenu();
+    }
 
     if (viewName === 'flashcards') {
         loadFlashcards();
@@ -754,6 +763,18 @@ function toggleDarkMode() {
     
     document.getElementById('dark-mode-setting').checked = !isDark;
     document.getElementById('dark-mode-toggle').querySelector('.icon').textContent = isDark ? '🌙' : '☀️';
+}
+
+// Toggle mobile menu
+function toggleMobileMenu() {
+    const navMenu = document.getElementById('nav-menu');
+    const menuToggle = document.getElementById('menu-toggle');
+    
+    navMenu.classList.toggle('mobile-open');
+    
+    // Update hamburger icon
+    const icon = menuToggle.querySelector('.icon');
+    icon.textContent = navMenu.classList.contains('mobile-open') ? '✕' : '☰';
 }
 
 // Load dark mode preference
