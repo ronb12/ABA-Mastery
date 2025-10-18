@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Load content from JSON
 async function loadContent() {
     try {
-        const response = await fetch('content.json?v=1.3.2');
+        const response = await fetch('content.json?v=1.3.4');
         appData.content = await response.json();
         populateTopics();
         populateCategorySelects();
