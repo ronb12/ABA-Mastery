@@ -304,6 +304,13 @@
                         <button id="export-data" class="btn btn-secondary">Export Study Data</button>
                     </div>
                     <div class="settings-group">
+                        <h3>Account</h3>
+                        <div id="user-account-section">
+                            <p id="user-status">Guest Mode (Data stored locally)</p>
+                            <button id="sign-out-btn" class="btn btn-secondary" style="display: none;">Sign Out</button>
+                        </div>
+                    </div>
+                    <div class="settings-group">
                         <h3>About</h3>
                         <p>ABA Mastery v1.0.0</p>
                         <p>A product of Bradley Virtual Solutions, LLC</p>
@@ -348,12 +355,46 @@
         auth.onAuthStateChanged(user => {
             if (user) {
                 console.log('✅ User logged in:', user.email, 'UID:', user.uid);
+                // Update UI to show user is logged in
+                updateAuthUI(user);
                 // Load user data from Firestore
                 loadUserFromFirestore(user.uid);
             } else {
                 console.log('ℹ️ No user logged in (guest mode)');
+                // Update UI to show guest mode
+                updateAuthUI(null);
             }
         });
+        
+        // Update auth UI based on user state
+        function updateAuthUI(user) {
+            const userStatus = document.getElementById('user-status');
+            const signOutBtn = document.getElementById('sign-out-btn');
+            
+            if (user) {
+                // User is logged in
+                userStatus.textContent = `Logged in as: ${user.email}`;
+                signOutBtn.style.display = 'block';
+            } else {
+                // Guest mode
+                userStatus.textContent = 'Guest Mode (Data stored locally)';
+                signOutBtn.style.display = 'none';
+            }
+        }
+        
+        // Sign out function
+        async function handleSignOut() {
+            if (confirm('Are you sure you want to sign out? Your progress will remain in the cloud but you\'ll need to sign in again to access it.')) {
+                try {
+                    await auth.signOut();
+                    console.log('✅ Successfully signed out');
+                    alert('You have been signed out. Your progress is saved in the cloud.');
+                } catch (error) {
+                    console.error('❌ Error signing out:', error);
+                    alert('Error signing out. Please try again.');
+                }
+            }
+        }
 
         async function loadUserFromFirestore(userId) {
             try {

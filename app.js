@@ -111,6 +111,7 @@ function setupEventListeners() {
     // Settings
     document.getElementById('reset-progress')?.addEventListener('click', resetProgress);
     document.getElementById('export-data')?.addEventListener('click', exportData);
+    document.getElementById('sign-out-btn')?.addEventListener('click', handleSignOut);
 
     // Install prompt
     document.getElementById('install-btn')?.addEventListener('click', installApp);
