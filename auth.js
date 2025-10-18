@@ -72,18 +72,28 @@ function updateUIForLoggedInUser(user) {
 function updateUIForGuestUser() {
     const authBtn = document.getElementById('auth-btn');
     if (authBtn) {
-        authBtn.title = 'Guest Mode (No sign-in available)';
+        authBtn.title = 'Guest Mode - Click for info';
         authBtn.style.background = '';
         authBtn.style.border = '';
-        authBtn.style.opacity = '0.5';
-        authBtn.style.cursor = 'default';
+        authBtn.style.opacity = '0.6';
+        authBtn.style.cursor = 'pointer';
         
-        // Remove click listeners
+        // Add click listener for guest mode
         const newBtn = authBtn.cloneNode(true);
         authBtn.parentNode.replaceChild(newBtn, authBtn);
+        newBtn.addEventListener('click', showGuestModeInfo);
     }
     
     console.log('ℹ️ Guest mode - Sign in for cloud sync');
+}
+
+// Show guest mode information
+function showGuestModeInfo() {
+    alert('📱 Guest Mode Active\n\n' +
+          '✅ You can use all features of ABA Mastery\n' +
+          '✅ Your progress is saved locally on this device\n\n' +
+          '💡 Note: Cloud sync and sign-in features are not currently available.\n\n' +
+          'Your study progress, quiz results, and settings are saved in your browser\'s local storage.');
 }
 
 // Sign in with email and password

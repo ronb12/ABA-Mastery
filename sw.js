@@ -1,15 +1,15 @@
 // Service Worker for ABA Mastery
 // A product of Bradley Virtual Solutions, LLC
 
-const CACHE_NAME = 'aba-mastery-v1.2.1';
+const CACHE_NAME = 'aba-mastery-v1.2.2';
 const urlsToCache = [
     '/',
     '/index.html',
     '/landing.html',
-    '/styles.css?v=1.2.1',
-    '/app.js?v=1.2.1',
-    '/auth.js?v=1.2.1',
-    '/content.json?v=1.2.1',
+    '/styles.css?v=1.2.2',
+    '/app.js?v=1.2.2',
+    '/auth.js?v=1.2.2',
+    '/content.json?v=1.2.2',
     '/manifest.json',
     '/icons/icon-72.png',
     '/icons/icon-96.png',
