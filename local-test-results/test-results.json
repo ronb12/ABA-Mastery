@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-18T11:40:29.806Z",
+  "tests": [
+    {
+      "name": "Landing page loads",
+      "status": "PASSED",
+      "details": "Title: ABA Mastery - Master Your ABA Certification Exam"
+    },
+    {
+      "name": "Navigate to app",
+      "status": "PASSED",
+      "details": "App loaded with auth button"
+    },
+    {
+      "name": "Profile dropdown opens",
+      "status": "PASSED",
+      "details": "Name: Guest User, Email: Not signed in"
+    },
+    {
+      "name": "Logout button present in dropdown footer",
+      "status": "PASSED",
+      "details": "Text: \"🔓Guest Mode\", Icon: 🔓"
+    },
+    {
+      "name": "Logout button click triggers alert",
+      "status": "PASSED",
+      "details": "Alert shown: \"📱 Guest Mode Active\n\n✅ You can use all features o...\""
+    },
+    {
+      "name": "Export Data button present",
+      "status": "PASSED",
+      "details": "Text: \"📥\n                                    Export Data\""
+    },
+    {
+      "name": "Profile stats display",
+      "status": "PASSED",
+      "details": "Questions: 0, Accuracy: 0%, Time: 0m"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0
+  }
+}
