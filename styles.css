@@ -202,14 +202,12 @@ body {
     transform: scale(1.05);
 }
 
-#logout-btn {
-    background: rgba(239, 68, 68, 0.1);
-    border: 1px solid rgba(239, 68, 68, 0.2);
+#auth-btn {
+    transition: all 0.2s ease;
 }
 
-#logout-btn:hover {
-    background: rgba(239, 68, 68, 0.2);
-    border-color: rgba(239, 68, 68, 0.4);
+#auth-btn:hover {
+    transform: scale(1.05);
 }
 
 .progress-bar {

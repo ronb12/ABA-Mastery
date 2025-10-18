@@ -45,15 +45,24 @@ function onUserLoggedOut() {
 
 // Update UI for logged in user
 function updateUIForLoggedInUser(user) {
-    const logoutBtn = document.getElementById('logout-btn');
-    if (logoutBtn) {
-        logoutBtn.style.display = 'block';
-        logoutBtn.title = `Sign Out (${user.email})`;
+    const authBtn = document.getElementById('auth-btn');
+    if (authBtn) {
+        authBtn.title = `Sign Out (${user.email})`;
+        authBtn.style.background = 'rgba(239, 68, 68, 0.1)';
+        authBtn.style.border = '1px solid rgba(239, 68, 68, 0.2)';
         
         // Remove existing listeners and add new one
-        const newBtn = logoutBtn.cloneNode(true);
-        logoutBtn.parentNode.replaceChild(newBtn, logoutBtn);
+        const newBtn = authBtn.cloneNode(true);
+        authBtn.parentNode.replaceChild(newBtn, authBtn);
         newBtn.addEventListener('click', signOut);
+        
+        // Update hover effect
+        newBtn.addEventListener('mouseenter', () => {
+            newBtn.style.background = 'rgba(239, 68, 68, 0.2)';
+        });
+        newBtn.addEventListener('mouseleave', () => {
+            newBtn.style.background = 'rgba(239, 68, 68, 0.1)';
+        });
     }
     
     console.log(`✅ User logged in: ${user.email}`);
@@ -61,9 +70,17 @@ function updateUIForLoggedInUser(user) {
 
 // Update UI for guest user
 function updateUIForGuestUser() {
-    const logoutBtn = document.getElementById('logout-btn');
-    if (logoutBtn) {
-        logoutBtn.style.display = 'none';
+    const authBtn = document.getElementById('auth-btn');
+    if (authBtn) {
+        authBtn.title = 'Guest Mode (No sign-in available)';
+        authBtn.style.background = '';
+        authBtn.style.border = '';
+        authBtn.style.opacity = '0.5';
+        authBtn.style.cursor = 'default';
+        
+        // Remove click listeners
+        const newBtn = authBtn.cloneNode(true);
+        authBtn.parentNode.replaceChild(newBtn, authBtn);
     }
     
     console.log('ℹ️ Guest mode - Sign in for cloud sync');
