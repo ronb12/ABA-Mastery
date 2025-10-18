@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-18T01:10:17.891Z",
+  "tests": [
+    {
+      "name": "Landing page loads with correct content",
+      "status": "PASSED",
+      "details": "H1: \"ABA Mastery\""
+    },
+    {
+      "name": "\"Start Studying\" button exists",
+      "status": "PASSED",
+      "details": "Button text: \"Start Exam\""
+    },
+    {
+      "name": "Navigate to app",
+      "status": "FAILED",
+      "details": "Still on: https://aba-mastery-app.web.app/"
+    },
+    {
+      "name": "App loads successfully",
+      "status": "PASSED",
+      "details": "App container visible with header"
+    },
+    {
+      "name": "Profile icon exists and visible",
+      "status": "PASSED",
+      "details": "Position: top NaNpx"
+    },
+    {
+      "name": "Profile dropdown opens",
+      "status": "PASSED",
+      "details": "Display: block, Size: 320x533px"
+    },
+    {
+      "name": "Logout/Sign-out button in profile dropdown",
+      "status": "PASSED",
+      "details": "Text: \"🔓Guest Mode\", Icon: 🔓, In footer: YES"
+    },
+    {
+      "name": "Profile dropdown has all sections",
+      "status": "PASSED",
+      "details": "Header, Stats, Menu, and Footer sections all present"
+    },
+    {
+      "name": "Logout button clickable",
+      "status": "PASSED",
+      "details": "Alert shown: \"📱 Guest Mode Active\n\n✅ You can use all features of ABA Mastery\n✅ Your progress is saved locally on this device\n\n💡 Note: Cloud sync and sign-in features are not currently available.\n\nYour study progress, quiz results, and settings are saved in your browser's local storage.\""
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 1
+  }
+}
