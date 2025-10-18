@@ -6,6 +6,9 @@ let currentUser = null;
 
 // Initialize auth state
 function initAuth() {
+    // Initialize profile dropdown
+    initProfileDropdown();
+    
     // Check if Firebase is available
     if (typeof firebase !== 'undefined' && firebase.auth) {
         // Listen to auth state changes
@@ -43,26 +46,107 @@ function onUserLoggedOut() {
     updateUIForGuestUser();
 }
 
+// Initialize profile dropdown
+function initProfileDropdown() {
+    const authBtn = document.getElementById('auth-btn');
+    const dropdown = document.getElementById('profile-dropdown');
+    const exportBtn = document.getElementById('profile-export-btn');
+    const authAction = document.getElementById('profile-auth-action');
+    
+    if (!authBtn || !dropdown) return;
+    
+    // Toggle dropdown
+    authBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isVisible = dropdown.style.display === 'block';
+        dropdown.style.display = isVisible ? 'none' : 'block';
+        
+        if (!isVisible) {
+            updateProfileStats();
+        }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!dropdown.contains(e.target) && e.target !== authBtn) {
+            dropdown.style.display = 'none';
+        }
+    });
+    
+    // Export data functionality
+    if (exportBtn) {
+        exportBtn.addEventListener('click', () => {
+            exportUserData();
+            dropdown.style.display = 'none';
+        });
+    }
+    
+    // Auth action (guest mode info or sign out)
+    if (authAction) {
+        authAction.addEventListener('click', () => {
+            if (currentUser) {
+                signOut();
+            } else {
+                showGuestModeInfo();
+            }
+            dropdown.style.display = 'none';
+        });
+    }
+}
+
+// Update profile stats in dropdown
+function updateProfileStats() {
+    const userData = JSON.parse(localStorage.getItem('abaUserData') || '{}');
+    
+    document.getElementById('profile-questions').textContent = userData.questionsAnswered || 0;
+    
+    const accuracy = userData.questionsAnswered > 0 
+        ? Math.round((userData.correctAnswers / userData.questionsAnswered) * 100) 
+        : 0;
+    document.getElementById('profile-accuracy').textContent = accuracy + '%';
+    
+    const hours = Math.floor((userData.studyTime || 0) / 60);
+    const minutes = (userData.studyTime || 0) % 60;
+    const timeText = hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
+    document.getElementById('profile-time').textContent = timeText;
+}
+
+// Export user data
+function exportUserData() {
+    const userData = localStorage.getItem('abaUserData');
+    if (!userData) {
+        alert('No data to export.');
+        return;
+    }
+    
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(userData);
+    const downloadAnchor = document.createElement('a');
+    downloadAnchor.setAttribute("href", dataStr);
+    downloadAnchor.setAttribute("download", `aba-mastery-data-${new Date().toISOString().split('T')[0]}.json`);
+    document.body.appendChild(downloadAnchor);
+    downloadAnchor.click();
+    downloadAnchor.remove();
+    
+    alert('✅ Your study data has been exported!');
+}
+
 // Update UI for logged in user
 function updateUIForLoggedInUser(user) {
     const authBtn = document.getElementById('auth-btn');
     if (authBtn) {
-        authBtn.title = `Sign Out (${user.email})`;
+        authBtn.title = 'Profile';
         authBtn.style.background = 'rgba(239, 68, 68, 0.1)';
         authBtn.style.border = '1px solid rgba(239, 68, 68, 0.2)';
-        
-        // Remove existing listeners and add new one
-        const newBtn = authBtn.cloneNode(true);
-        authBtn.parentNode.replaceChild(newBtn, authBtn);
-        newBtn.addEventListener('click', signOut);
-        
-        // Update hover effect
-        newBtn.addEventListener('mouseenter', () => {
-            newBtn.style.background = 'rgba(239, 68, 68, 0.2)';
-        });
-        newBtn.addEventListener('mouseleave', () => {
-            newBtn.style.background = 'rgba(239, 68, 68, 0.1)';
-        });
+    }
+    
+    // Update profile dropdown info
+    document.getElementById('profile-name').textContent = user.displayName || 'Signed In User';
+    document.getElementById('profile-email').textContent = user.email;
+    
+    const authAction = document.getElementById('profile-auth-action');
+    if (authAction) {
+        authAction.innerHTML = '<span class="menu-icon">🚪</span><span>Sign Out</span>';
+        authAction.classList.add('signed-in');
     }
     
     console.log(`✅ User logged in: ${user.email}`);
@@ -72,16 +156,20 @@ function updateUIForLoggedInUser(user) {
 function updateUIForGuestUser() {
     const authBtn = document.getElementById('auth-btn');
     if (authBtn) {
-        authBtn.title = 'Guest Mode - Click for info';
+        authBtn.title = 'Profile';
         authBtn.style.background = '';
         authBtn.style.border = '';
-        authBtn.style.opacity = '0.6';
-        authBtn.style.cursor = 'pointer';
-        
-        // Add click listener for guest mode
-        const newBtn = authBtn.cloneNode(true);
-        authBtn.parentNode.replaceChild(newBtn, authBtn);
-        newBtn.addEventListener('click', showGuestModeInfo);
+        authBtn.style.opacity = '0.7';
+    }
+    
+    // Update profile dropdown info
+    document.getElementById('profile-name').textContent = 'Guest User';
+    document.getElementById('profile-email').textContent = 'Not signed in';
+    
+    const authAction = document.getElementById('profile-auth-action');
+    if (authAction) {
+        authAction.innerHTML = '<span class="menu-icon">🔓</span><span>Guest Mode</span>';
+        authAction.classList.remove('signed-in');
     }
     
     console.log('ℹ️ Guest mode - Sign in for cloud sync');
