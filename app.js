@@ -339,9 +339,39 @@ function showTopicDetail(topic, category) {
     const modal = document.createElement('div');
     modal.className = 'study-topic-modal';
     
-    // Detect if small screen (iPhone)
-    const isSmallScreen = window.innerWidth < 768;
-    const modalPadding = isSmallScreen ? '8px' : '16px';
+    // Fully responsive for ALL screen sizes
+    const screenWidth = window.innerWidth;
+    let modalMaxWidth, modalHeight, modalPadding, borderRadius, alignment;
+    
+    if (screenWidth < 480) {
+        // Small phones (iPhone SE, 6, 7, 8)
+        modalMaxWidth = 'calc(100% - 16px)';
+        modalHeight = '96vh';
+        modalPadding = '8px';
+        borderRadius = '8px';
+        alignment = 'flex-start';
+    } else if (screenWidth < 768) {
+        // Large phones (iPhone XS, 11, 12, 13, 14, etc)
+        modalMaxWidth = 'calc(100% - 24px)';
+        modalHeight = '94vh';
+        modalPadding = '12px';
+        borderRadius = '12px';
+        alignment = 'flex-start';
+    } else if (screenWidth < 1024) {
+        // Tablets (iPad, iPad Mini)
+        modalMaxWidth = '700px';
+        modalHeight = '88vh';
+        modalPadding = '16px';
+        borderRadius = '16px';
+        alignment = 'center';
+    } else {
+        // Desktops and iPad Pro
+        modalMaxWidth = '800px';
+        modalHeight = '85vh';
+        modalPadding = '20px';
+        borderRadius = '16px';
+        alignment = 'center';
+    }
     
     modal.style.cssText = `
         position: fixed;
@@ -349,31 +379,25 @@ function showTopicDetail(topic, category) {
         left: 0;
         right: 0;
         bottom: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         background: rgba(0, 0, 0, 0.8);
         display: flex;
-        align-items: ${isSmallScreen ? 'flex-start' : 'center'};
+        align-items: ${alignment};
         justify-content: center;
         z-index: 10000;
         padding: ${modalPadding};
-        padding-top: ${isSmallScreen ? '16px' : '16px'};
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         box-sizing: border-box;
     `;
-    
-    // Responsive sizing based on screen
-    const modalHeight = isSmallScreen ? '95vh' : '85vh';
-    const borderRadius = isSmallScreen ? '12px' : '16px';
-    const maxWidth = isSmallScreen ? '100%' : '800px';
     
     modal.innerHTML = `
         <div class="study-modal-inner" style="
             background: white;
             border-radius: ${borderRadius};
             width: 100%;
-            max-width: ${maxWidth};
+            max-width: ${modalMaxWidth};
             max-height: ${modalHeight};
             min-height: 200px;
             height: auto;
