@@ -363,19 +363,26 @@ function showTopicDetail(topic, category) {
         box-sizing: border-box;
     `;
     
+    // Responsive sizing based on screen
+    const modalHeight = isSmallScreen ? '95vh' : '85vh';
+    const borderRadius = isSmallScreen ? '12px' : '16px';
+    const maxWidth = isSmallScreen ? '100%' : '800px';
+    
     modal.innerHTML = `
         <div class="study-modal-inner" style="
             background: white;
-            border-radius: 16px;
+            border-radius: ${borderRadius};
             width: 100%;
-            max-width: 800px;
-            max-height: 85vh;
+            max-width: ${maxWidth};
+            max-height: ${modalHeight};
+            min-height: 200px;
             height: auto;
             display: flex;
             flex-direction: column;
             box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
             position: relative;
             box-sizing: border-box;
+            margin: ${isSmallScreen ? '0' : 'auto'};
         ">
             <div style="
                 padding: 20px 24px;
