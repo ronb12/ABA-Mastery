@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Load content from JSON with retry logic
 async function loadContent(retryCount = 0) {
     try {
-        const response = await fetch('content.json?v=1.4.0');
+        const response = await fetch('content.json?v=2.0.0');
         
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}: ${response.statusText}`);

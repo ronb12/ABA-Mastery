@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "buildNumber": 1,
+  "lastUpdated": "2025-10-20T13:30:00Z",
+  "changelog": [
+    "Added automatic cache busting",
+    "Fixed Chrome on iPad display issues",
+    "Added subscription infrastructure (disabled)",
+    "Updated landing page with Free Access messaging"
+  ]
+}
+

@@ -26,10 +26,10 @@
     <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
     <link rel="apple-touch-icon" href="icons/icon-192.png">
     
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css?v=1.3.5">
-    <link rel="stylesheet" href="styles-study-groups.css?v=1.0.0">
-    <link rel="stylesheet" href="wow-features.css?v=1.0.0">
+    <!-- Stylesheets with auto cache busting -->
+    <link rel="stylesheet" href="styles.css?v=2.0.0">
+    <link rel="stylesheet" href="styles-study-groups.css?v=2.0.0">
+    <link rel="stylesheet" href="wow-features.css?v=2.0.0">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -987,37 +987,54 @@
         }
     </script>
     
-    <!-- Scripts -->
-    <script src="auth.js?v=1.3.9"></script>
-    <script src="cloud-sync.js?v=1.0.0"></script>
-    <script src="ai-study-coach.js?v=1.0.0"></script>
-    <script src="adaptive-learning.js?v=1.0.0"></script>
+    <!-- Scripts with auto cache busting -->
+    <script src="config.js?v=2.0.0"></script>
+    <script src="subscription.js?v=2.0.0"></script>
+    <script src="auth.js?v=2.0.0"></script>
+    <script src="cloud-sync.js?v=2.0.0"></script>
+    <script src="ai-study-coach.js?v=2.0.0"></script>
+    <script src="adaptive-learning.js?v=2.0.0"></script>
     <script src="ai-study-coach-enhanced.js?v=2.0.0"></script>
     <script src="adaptive-learning-enhanced.js?v=2.0.0"></script>
-    <script src="gamification.js?v=1.0.0"></script>
-    <script src="rating-system.js?v=1.0.2"></script>
-    <script src="personalization.js?v=1.0.0"></script>
-    <script src="profile-manager.js?v=1.0.0"></script>
-    <script src="features-integration.js?v=1.0.0"></script>
-    <script src="app.js?v=9.3.0"></script>
-    <script src="analytics.js?v=1.0.0"></script>
-    <script src="app-enhanced-integration.js?v=1.0.0"></script>
-    <script src="multimedia-support.js?v=1.0.0"></script>
-    <script src="video-explanations.js?v=1.0.0"></script>
-    <script src="free-file-storage.js?v=1.0.0"></script>
-    <script src="study-groups.js?v=1.0.0"></script>
-    <script src="exam-pass-tracker.js?v=1.0.0"></script>
+    <script src="gamification.js?v=2.0.0"></script>
+    <script src="rating-system.js?v=2.0.0"></script>
+    <script src="personalization.js?v=2.0.0"></script>
+    <script src="profile-manager.js?v=2.0.0"></script>
+    <script src="features-integration.js?v=2.0.0"></script>
+    <script src="app.js?v=2.0.0"></script>
+    <script src="analytics.js?v=2.0.0"></script>
+    <script src="app-enhanced-integration.js?v=2.0.0"></script>
+    <script src="multimedia-support.js?v=2.0.0"></script>
+    <script src="video-explanations.js?v=2.0.0"></script>
+    <script src="free-file-storage.js?v=2.0.0"></script>
+    <script src="study-groups.js?v=2.0.0"></script>
+    <script src="exam-pass-tracker.js?v=2.0.0"></script>
     
     <!-- HIGH-IMPACT FEATURES (Research-backed for 90-95% pass rates) -->
-    <script src="spaced-repetition-system.js?v=1.0.0"></script>
-    <script src="comparison-tables.js?v=1.0.0"></script>
-    <script src="test-taking-strategies.js?v=1.0.1"></script>
+    <script src="spaced-repetition-system.js?v=2.0.0"></script>
+    <script src="comparison-tables.js?v=2.0.0"></script>
+    <script src="test-taking-strategies.js?v=2.0.0"></script>
     
     <!-- Chart.js for data visualization -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     
     <!-- jsPDF for PDF generation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    
+    <!-- Mobile Debug Console (Eruda) - Add ?debug=true to URL to activate -->
+    <script>
+        // Auto-enable on any device with ?debug=true in URL
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('debug') === 'true') {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/npm/eruda';
+            document.head.appendChild(script);
+            script.onload = function() {
+                eruda.init();
+                console.log('🔧 Debug console activated! Tap the button in the corner to open.');
+            };
+        }
+    </script>
     
     <script>
         // Initialize authentication when DOM is ready
