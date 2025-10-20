@@ -320,45 +320,118 @@ function createTopicCard(topic, category) {
     return card;
 }
 
-// Show topic detail modal/view
+// Show topic detail modal/view - REBUILT FOR MOBILE
 function showTopicDetail(topic, category) {
     // Format content: convert \n\n to paragraphs and \n to line breaks
-    // Also make section headers (ALL CAPS followed by colon) bold
     const formattedContent = topic.content
         .split('\n\n')
         .map(para => {
-            // Check if paragraph starts with section header (ALL CAPS text followed by colon)
             const headerMatch = para.match(/^([A-Z\s&,'()]+:)/);
             if (headerMatch) {
-                // Make the header bold
                 const header = headerMatch[1];
                 const rest = para.substring(header.length);
-                return `<p><strong class="section-header">${header}</strong>${rest.replace(/\n/g, '<br>')}</p>`;
+                return `<p style="margin-bottom: 1.5em; line-height: 1.7; display: block;"><strong style="display: block; color: #2563eb; font-size: 1.1em; margin-bottom: 0.5em;">${header}</strong>${rest.replace(/\n/g, '<br>')}</p>`;
             }
-            return `<p>${para.replace(/\n/g, '<br>')}</p>`;
+            return `<p style="margin-bottom: 1.5em; line-height: 1.7; display: block;">${para.replace(/\n/g, '<br>')}</p>`;
         })
         .join('');
     
     const modal = document.createElement('div');
-    modal.className = 'modal';
+    modal.className = 'study-topic-modal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 16px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    `;
+    
     modal.innerHTML = `
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>${topic.title}</h2>
-                <button class="close-btn" onclick="this.closest('.modal').remove()">×</button>
+        <div class="study-modal-inner" style="
+            background: white;
+            border-radius: 16px;
+            width: 100%;
+            max-width: 800px;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+        ">
+            <div style="
+                padding: 20px 24px;
+                border-bottom: 2px solid #e5e7eb;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-shrink: 0;
+            ">
+                <h2 style="margin: 0; font-size: 22px; color: #0f172a;">${topic.title}</h2>
+                <button onclick="this.closest('.study-topic-modal').remove()" style="
+                    background: none;
+                    border: none;
+                    font-size: 32px;
+                    color: #64748b;
+                    cursor: pointer;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                ">×</button>
             </div>
-            <div class="modal-body">
-                <div class="topic-category">${category.icon} ${category.name}</div>
-                <div class="topic-full-content">${formattedContent}</div>
+            <div style="
+                padding: 24px;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                flex: 1;
+                display: block;
+            ">
+                <div style="
+                    display: inline-block;
+                    background: #2563eb;
+                    color: white;
+                    padding: 6px 12px;
+                    border-radius: 6px;
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    font-weight: 600;
+                ">${category.icon} ${category.name}</div>
+                <div style="display: block; color: #0f172a; font-size: 15px;">
+                    ${formattedContent}
+                </div>
                 ${topic.keyPoints ? `
-                    <h3>Key Points</h3>
-                    <ul>
-                        ${topic.keyPoints.map(point => `<li>${point}</li>`).join('')}
+                    <h3 style="margin-top: 24px; font-size: 18px; color: #0f172a;">Key Points</h3>
+                    <ul style="margin-top: 12px; padding-left: 24px;">
+                        ${topic.keyPoints.map(point => `<li style="margin-bottom: 8px; line-height: 1.6;">${point}</li>`).join('')}
                     </ul>
                 ` : ''}
             </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" onclick="this.closest('.modal').remove()">Close</button>
+            <div style="
+                padding: 16px 24px;
+                border-top: 2px solid #e5e7eb;
+                display: flex;
+                justify-content: flex-end;
+                flex-shrink: 0;
+            ">
+                <button onclick="this.closest('.study-topic-modal').remove()" style="
+                    background: #2563eb;
+                    color: white;
+                    border: none;
+                    padding: 12px 32px;
+                    border-radius: 8px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                ">Close</button>
             </div>
         </div>
     `;
@@ -367,133 +440,6 @@ function showTopicDetail(topic, category) {
     appData.userData.topicsStudied.add(topic.id);
     saveUserData();
     updateStats();
-    
-    // Add modal styles if not already present
-    if (!document.getElementById('modal-styles')) {
-        const style = document.createElement('style');
-        style.id = 'modal-styles';
-        style.textContent = `
-            .topic-full-content {
-                display: block !important;
-                visibility: visible !important;
-                opacity: 1 !important;
-            }
-            
-            .topic-full-content p {
-                margin-bottom: 1.5em;
-                line-height: 1.7;
-                display: block !important;
-                visibility: visible !important;
-            }
-            
-            .topic-full-content p:last-child {
-                margin-bottom: 0;
-            }
-            
-            .section-header {
-                display: block;
-                color: var(--primary);
-                font-size: 1.1em;
-                margin-bottom: 0.5em;
-                letter-spacing: 0.5px;
-            }
-            
-            .modal {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(0, 0, 0, 0.7);
-                display: flex !important;
-                align-items: center;
-                justify-content: center;
-                z-index: 1000;
-                padding: 20px;
-                animation: fadeIn 0.3s;
-                overflow-y: auto;
-                -webkit-overflow-scrolling: touch;
-            }
-            .modal-content {
-                background: var(--bg-primary);
-                border-radius: var(--border-radius);
-                max-width: 800px;
-                width: 100%;
-                max-height: 90vh;
-                overflow-y: auto;
-                -webkit-overflow-scrolling: touch;
-                box-shadow: var(--shadow-xl);
-                position: relative;
-            }
-            .modal-header {
-                padding: 24px;
-                border-bottom: 1px solid var(--border-color);
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-            .modal-header h2 {
-                margin: 0;
-                font-size: 24px;
-            }
-            .close-btn {
-                background: none;
-                border: none;
-                font-size: 32px;
-                cursor: pointer;
-                color: var(--text-secondary);
-                width: 40px;
-                height: 40px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 8px;
-            }
-            .close-btn:hover {
-                background: var(--bg-secondary);
-            }
-            .modal-body {
-                padding: 24px;
-                overflow-y: auto;
-                -webkit-overflow-scrolling: touch;
-                max-height: calc(90vh - 180px);
-                display: block !important;
-                visibility: visible !important;
-            }
-            .topic-category {
-                display: inline-block;
-                background: var(--primary-color);
-                color: white;
-                padding: 6px 12px;
-                border-radius: 6px;
-                margin-bottom: 16px;
-                font-size: 14px;
-                font-weight: 600;
-            }
-            .topic-full-content {
-                line-height: 1.8;
-                margin: 20px 0;
-            }
-            .modal-body h3 {
-                margin-top: 24px;
-                margin-bottom: 12px;
-            }
-            .modal-body ul {
-                margin-left: 20px;
-            }
-            .modal-body li {
-                margin: 8px 0;
-                line-height: 1.6;
-            }
-            .modal-footer {
-                padding: 20px 24px;
-                border-top: 1px solid var(--border-color);
-                display: flex;
-                justify-content: flex-end;
-            }
-        `;
-        document.head.appendChild(style);
-    }
 }
 
 // Filter topics by search
