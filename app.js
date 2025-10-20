@@ -338,6 +338,11 @@ function showTopicDetail(topic, category) {
     
     const modal = document.createElement('div');
     modal.className = 'study-topic-modal';
+    
+    // Detect if small screen (iPhone)
+    const isSmallScreen = window.innerWidth < 768;
+    const modalPadding = isSmallScreen ? '8px' : '16px';
+    
     modal.style.cssText = `
         position: fixed;
         top: 0;
@@ -348,10 +353,11 @@ function showTopicDetail(topic, category) {
         height: 100%;
         background: rgba(0, 0, 0, 0.8);
         display: flex;
-        align-items: center;
+        align-items: ${isSmallScreen ? 'flex-start' : 'center'};
         justify-content: center;
         z-index: 10000;
-        padding: 16px;
+        padding: ${modalPadding};
+        padding-top: ${isSmallScreen ? '16px' : '16px'};
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         box-sizing: border-box;
