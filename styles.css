@@ -839,6 +839,14 @@ body {
     gap: 20px;
     width: 100%;
     min-height: 200px;
+    padding: 0;
+}
+
+/* Force display on all devices */
+#topics-container {
+    display: grid !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 .topic-card {
@@ -1465,12 +1473,32 @@ body {
 
 /* Tablet specific fixes (iPad) */
 @media (min-width: 768px) and (max-width: 1024px) {
+    #study-view {
+        display: block !important;
+    }
+    
     .topics-grid {
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px;
     }
     
     .topic-card {
         padding: 20px;
+        min-height: 150px;
+        display: block !important;
+    }
+    
+    #topics-container {
+        display: grid !important;
+        min-height: 300px;
+    }
+}
+
+/* iPad Pro and larger tablets */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .topics-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 }
 
