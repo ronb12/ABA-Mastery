@@ -835,8 +835,10 @@ body {
 
 .topics-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
+    width: 100%;
+    min-height: 200px;
 }
 
 .topic-card {
@@ -1458,6 +1460,17 @@ body {
     /* Hide hamburger menu on desktop */
     #menu-toggle {
         display: none;
+    }
+}
+
+/* Tablet specific fixes (iPad) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .topics-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+    
+    .topic-card {
+        padding: 20px;
     }
 }
 
