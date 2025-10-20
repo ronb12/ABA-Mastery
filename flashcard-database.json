@@ -1,0 +1,25 @@
+{
+  "flashcards": [
+    {"cat": "reinforcement", "q": "What is automatic reinforcement?", "a": "Reinforcement that occurs independent of social mediation. The behavior itself produces the reinforcing consequence. Example: scratching an itch, rocking for sensory input."},
+    {"cat": "reinforcement", "q": "What is a conditioned reinforcer?", "a": "A previously neutral stimulus that has acquired reinforcing properties through pairing with other reinforcers. Also called secondary or learned reinforcer. Example: money, praise, tokens."},
+    {"cat": "reinforcement", "q": "What is an unconditioned reinforcer?", "a": "A stimulus that functions as reinforcement without prior learning or conditioning. Also called primary reinforcer. Examples: food, water, warmth."},
+    {"cat": "reinforcement", "q": "Define generalized conditioned reinforcer", "a": "A conditioned reinforcer paired with many other reinforcers, therefore effective across many conditions. Examples: money, attention, approval."},
+    {"cat": "reinforcement", "q": "What is the Premack Principle?", "a": "High-probability behaviors can reinforce low-probability behaviors. First/then contingencies: First do homework (low-p), then play video games (high-p)."},
+    {"cat": "reinforcement", "q": "What is deprivation as MO?", "a": "A motivating operation that increases the reinforcing effectiveness of a stimulus and evokes behavior that has produced that stimulus."},
+    {"cat": "reinforcement", "q": "What is satiation as MO?", "a": "A motivating operation that decreases the reinforcing effectiveness of a stimulus and abates behavior that has produced that stimulus."},
+    {"cat": "reinforcement", "q": "What is response-reinforcer dependency?", "a": "The contingent relationship where reinforcement depends on specific response. Essential for operant learning."},
+    {"cat": "reinforcement", "q": "What is contiguity in reinforcement?", "a": "Temporal proximity between response and consequence. Shorter delays produce stronger learning. Immediate reinforcement most effective."},
+    {"cat": "reinforcement", "q": "What is the matching law?", "a": "Organisms allocate responses to alternatives in proportion matching reinforcement allocation. Mathematical description of choice behavior."},
+    {"cat": "reinforcement", "q": "What is a backup reinforcer in token economy?", "a": "Items or activities that tokens can be exchanged for. Must be varied and individualized to maintain token value."},
+    {"cat": "reinforcement", "q": "What is response effort?", "a": "Amount of physical or temporal effort required to emit response. Lower effort responses more likely when reinforcement equal."},
+    {"cat": "reinforcement", "q": "What is reinforcer assessment?", "a": "Systematic process to identify effective reinforcers for individual. Methods: preference assessment, reinforcer sampling, asking/observing."},
+    {"cat": "reinforcement", "q": "What is a preference assessment?", "a": "Formal evaluation of stimulus preferences. Types: free operant, paired-choice (forced-choice), multiple stimulus with/without replacement."},
+    {"cat": "reinforcement", "q": "What is free operant preference assessment?", "a": "Providing access to various items simultaneously and measuring engagement duration/frequency. Most naturalistic method."},
+    {"cat": "reinforcement", "q": "What is paired-choice preference assessment?", "a": "Presenting items two at a time and recording selections. All possible pairs presented. Identifies rank order of preferences."},
+    {"cat": "reinforcement", "q": "What is multiple stimulus without replacement (MSWO)?", "a": "Presenting array of items, person selects one, selected item removed, repeat with remaining. Creates rank order. Common method."},
+    {"cat": "reinforcement", "q": "What is multiple stimulus with replacement (MSW)?", "a": "Like MSWO but selected item returned to array. Can select same item multiple times. Assesses absolute preference."},
+    {"cat": "reinforcement", "q": "What is reinforcer sampling?", "a": "Providing free access to potential reinforcer before assessment/intervention. Lets person experience novel items that may become reinforcers."},
+    {"cat": "reinforcement", "q": "What is conditioned punishment?", "a": "Previously neutral stimulus that acquires punishing properties through pairing with punisher. Example: "No!" paired with time-out."}
+  ]
+}
+

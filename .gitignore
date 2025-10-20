@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Stripe Keys (NEVER COMMIT LIVE KEYS!)
+stripe-keys.txt
+.stripe/
+
+# Firebase Service Account (NEVER COMMIT!)
+firebase-service-account.json
+*-service-account.json
+
+# Build
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+node_modules

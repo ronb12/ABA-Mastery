@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "scenario-151",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three participants at staggered times. Baseline continues for untreated participants while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-152",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three settings at staggered times. Baseline continues for untreated settings while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-153",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three behaviors at staggered times. Baseline continues for untreated behaviors while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-154",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three participants at staggered times. Baseline continues for untreated participants while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-155",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three settings at staggered times. Baseline continues for untreated settings while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-156",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three behaviors at staggered times. Baseline continues for untreated behaviors while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-157",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three participants at staggered times. Baseline continues for untreated participants while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-158",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three settings at staggered times. Baseline continues for untreated settings while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-159",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three behaviors at staggered times. Baseline continues for untreated behaviors while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-160",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three participants at staggered times. Baseline continues for untreated participants while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-161",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three settings at staggered times. Baseline continues for untreated settings while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-162",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three behaviors at staggered times. Baseline continues for untreated behaviors while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-163",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three participants at staggered times. Baseline continues for untreated participants while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-164",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three settings at staggered times. Baseline continues for untreated settings while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-165",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher implements intervention across three behaviors at staggered times. Baseline continues for untreated behaviors while intervention is applied to others. Behavior changes only when intervention is introduced.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline design",
+      "Reversal/withdrawal design",
+      "Alternating treatments design",
+      "Changing criterion design"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline demonstrates control by showing behavior changes only when intervention is introduced at different times across participants, settings, or behaviors, ruling out confounding variables.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental control",
+      "staggered intervention"
+    ]
+  },
+  {
+    "id": "scenario-166",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-167",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-168",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-169",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-170",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-171",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-172",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-173",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-174",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-175",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-176",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-177",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-178",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-179",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-180",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA collects baseline data, implements intervention (behavior decreases), removes intervention (behavior returns to baseline), then reintroduces intervention (behavior decreases again). This pattern is repeated.",
+    "question": "What design is being used?",
+    "options": [
+      "Multiple baseline",
+      "ABAB reversal design",
+      "Alternating treatments",
+      "Multiple probe"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABAB (reversal/withdrawal) design demonstrates functional control by showing behavior changes when intervention is added and removed repeatedly. The pattern A (baseline) - B (intervention) - A (return to baseline) - B (reintroduction) demonstrates the intervention is responsible for behavior change.",
+    "bacbTaskList": [
+      "B-3",
+      "FK-35"
+    ],
+    "keywords": [
+      "reversal design",
+      "ABAB",
+      "withdrawal",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-181",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two prompting procedures by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-182",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two reinforcement schedules by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-183",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two teaching methods by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-184",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares DRA vs DRI by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-185",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two prompting procedures by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-186",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two reinforcement schedules by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-187",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two teaching methods by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-188",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares DRA vs DRI by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-189",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two prompting procedures by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-190",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A BCBA compares two reinforcement schedules by rapidly alternating between them within the same session, counterbalancing order, and using discriminative stimuli to signal which condition is in effect.",
+    "question": "What design allows comparison of multiple treatments?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Alternating treatments design",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design (also called multi-element design) rapidly alternates between two or more conditions to compare their effectiveness. Discriminative stimuli signal which treatment is in effect.",
+    "bacbTaskList": [
+      "B-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "multi-element",
+      "treatment comparison"
+    ]
+  },
+  {
+    "id": "scenario-191",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the study time requirement for reinforcement. Performance matches each new criterion as it's introduced: 5 minutes, then 10 minutes, then 15 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-192",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the work completion requirement for reinforcement. Performance matches each new criterion as it's introduced: 6 minutes, then 11 minutes, then 16 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-193",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the accuracy requirement for reinforcement. Performance matches each new criterion as it's introduced: 7 minutes, then 12 minutes, then 17 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-194",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the independence requirement for reinforcement. Performance matches each new criterion as it's introduced: 8 minutes, then 13 minutes, then 18 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-195",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the study time requirement for reinforcement. Performance matches each new criterion as it's introduced: 9 minutes, then 14 minutes, then 19 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-196",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the work completion requirement for reinforcement. Performance matches each new criterion as it's introduced: 10 minutes, then 15 minutes, then 20 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-197",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the accuracy requirement for reinforcement. Performance matches each new criterion as it's introduced: 11 minutes, then 16 minutes, then 21 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-198",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the independence requirement for reinforcement. Performance matches each new criterion as it's introduced: 12 minutes, then 17 minutes, then 22 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-199",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the study time requirement for reinforcement. Performance matches each new criterion as it's introduced: 13 minutes, then 18 minutes, then 23 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  },
+  {
+    "id": "scenario-200",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A BCBA gradually increases the work completion requirement for reinforcement. Performance matches each new criterion as it's introduced: 14 minutes, then 19 minutes, then 24 minutes.",
+    "question": "What design demonstrates that changing criteria control behavior?",
+    "options": [
+      "Multiple baseline",
+      "Reversal design",
+      "Changing criterion design",
+      "Multiple probe"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Changing criterion design demonstrates control by systematically changing the criterion for reinforcement and showing behavior tracks each new criterion. This shows the criterion (not other variables) controls behavior.",
+    "bacbTaskList": [
+      "B-3",
+      "B-5"
+    ],
+    "keywords": [
+      "changing criterion",
+      "shaping",
+      "experimental design"
+    ]
+  }
+]

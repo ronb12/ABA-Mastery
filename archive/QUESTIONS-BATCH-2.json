@@ -1,0 +1,163 @@
+[
+  {
+    "id": "q136",
+    "category": "foundations",
+    "section": "A",
+    "difficulty": "beginner",
+    "questionType": "conceptual",
+    "question": "Determinism, as a philosophical assumption of behavior analysis, means:",
+    "options": [
+      "Behavior occurs randomly without cause",
+      "All events, including behavior, are caused by preceding events",
+      "People have complete free will",
+      "Only genetic factors determine behavior"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Determinism is the assumption that all events (including behavior) are lawful and caused by environmental and genetic factors that can be discovered through scientific investigation. This rejects the notion of free will or random behavior. Determinism is fundamental to behavior analysis because it suggests behavior can be predicted and influenced by identifying and manipulating its causes. This assumption underlies all behavioral assessment and intervention."
+  },
+  {
+    "id": "q137",
+    "category": "foundations",
+    "section": "A",
+    "difficulty": "intermediate",
+    "questionType": "conceptual",
+    "question": "Empiricism in behavior analysis refers to:",
+    "options": [
+      "Relying on theory rather than observation",
+      "Objective observation and experimentation as the basis for knowledge",
+      "Using intuition to guide practice",
+      "Accepting established authority without question"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Empiricism is reliance on objective observation and experimentation to acquire knowledge. Behavior analysts collect data through direct observation, conduct functional analyses, and test hypotheses systematically rather than relying on theory alone, intuition, or authority. This emphasis on observable, measurable events distinguishes behavior analysis from mentalistic approaches. Empiricism requires that claims be supported by data and subject to experimental verification."
+  },
+  {
+    "id": "q138",
+    "category": "foundations",
+    "section": "A",
+    "difficulty": "intermediate",
+    "questionType": "conceptual",
+    "question": "Parsimony in science means:",
+    "options": [
+      "Spending less money on research",
+      "Preferring simpler explanations over more complex ones when both explain the data equally well",
+      "Always choosing the most complex theory",
+      "Avoiding all explanations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Parsimony (Occam's Razor) is the scientific principle of preferring simpler explanations over more complex ones when both account for the available evidence equally well. In behavior analysis, this means explaining behavior through environmental contingencies rather than invoking complex internal mental states when environmental explanations suffice. Simpler explanations are easier to test and less likely to include unnecessary assumptions. This doesn't mean oversimplifying when complexity is warranted."
+  },
+  {
+    "id": "q139",
+    "category": "foundations",
+    "section": "A",
+    "difficulty": "advanced",
+    "questionType": "conceptual",
+    "question": "Philosophic doubt means:",
+    "options": [
+      "Never believing anything",
+      "Continually questioning and testing the truthfulness of what is regarded as fact",
+      "Doubting clients' reports",
+      "Refusing to make decisions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Philosophic doubt is the scientific attitude of continually questioning and subjecting knowledge claims to empirical testing, even established facts. It means remaining open to new evidence, replicating findings, and revising conclusions when data warrant. This doesn't mean rejecting all knowledge, but rather maintaining healthy skepticism and commitment to empirical verification. Behavior analysts should be willing to modify practices when data suggest current approaches are ineffective."
+  },
+  {
+    "id": "q140",
+    "category": "skill-acquisition",
+    "section": "G",
+    "difficulty": "intermediate",
+    "questionType": "application",
+    "question": "When teaching a child to wash hands, you teach step 1 (turn on water) to mastery, then add step 2 (wet hands), continuing sequentially. This is:",
+    "options": [
+      "Backward chaining",
+      "Forward chaining",
+      "Total task presentation",
+      "Shaping"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Forward chaining teaches steps in chronological order, starting with the first step and adding subsequent steps after each is mastered. Step 1 is taught to criterion before step 2 is introduced. This builds from beginning to end. Backward chaining starts with the last step. Total task presentation teaches all steps from the beginning. Forward chaining is useful when early steps are prerequisites for later ones or when natural task flow aids learning."
+  },
+  {
+    "id": "q141",
+    "category": "skill-acquisition",
+    "section": "G",
+    "difficulty": "advanced",
+    "questionType": "conceptual",
+    "question": "What is the main advantage of backward chaining over forward chaining?",
+    "options": [
+      "It's faster to implement",
+      "The learner experiences natural task completion and reinforcement at the end of each trial",
+      "It requires less prompting",
+      "It works for all skills"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Backward chaining's primary advantage is that the learner completes the final step and experiences the natural reinforcement of task completion on every trial. For example, when learning to put on a shirt (taught backward), the child pulls it down over their head (last step) and experiences being dressed. This natural reinforcement is powerful and doesn't require artificial reinforcers. Forward chaining may require artificial reinforcement for intermediate steps that don't result in task completion."
+  },
+  {
+    "id": "q142",
+    "category": "skill-acquisition",
+    "section": "G",
+    "difficulty": "intermediate",
+    "questionType": "conceptual",
+    "question": "Total task presentation involves:",
+    "options": [
+      "Teaching only one step at a time",
+      "Teaching all steps of the task sequence from the beginning",
+      "Never using prompts",
+      "Only teaching the hardest steps"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total task presentation (whole task training) involves teaching all steps of a task sequence from the first trial, typically using graduated guidance or other prompting strategies. Each trial progresses through the entire sequence. This approach is useful when: steps are interdependent, the learner has some relevant skills, or when the natural flow of the complete task aids learning. It contrasts with chaining methods that teach one step at a time."
+  },
+  {
+    "id": "q143",
+    "category": "intervention",
+    "section": "G",
+    "difficulty": "intermediate",
+    "questionType": "application",
+    "question": "A child tantrums for 30 minutes when denied preferred items. You implement extinction. The first day, tantrums last 60 minutes. This is likely:",
+    "options": [
+      "Proof extinction isn't working",
+      "An extinction burst - expected and temporary",
+        "Spontaneous recovery",
+        "Time to try a different procedure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An extinction burst - a temporary increase in frequency, duration, or intensity of behavior when extinction begins - is expected and normal. The behavior is 'testing' whether it will still produce reinforcement. If extinction is consistently maintained (no reinforcement provided), the burst will subside and behavior will decrease. Abandoning extinction during the burst reinforces the escalated behavior, making future intervention more difficult. Planning for and persisting through extinction bursts is critical for success."
+  },
+  {
+    "id": "q144",
+    "category": "research",
+    "section": "D",
+    "difficulty": "intermediate",
+    "questionType": "conceptual",
+    "question": "In a multiple baseline across participants design, experimental control is demonstrated when:",
+    "options": [
+      "All participants improve at the same time",
+      "Each participant's behavior changes only when intervention is introduced to that participant",
+      "Only one participant improves",
+      "Behavior changes before intervention"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multiple baseline across participants demonstrates control when each participant's behavior changes when and only when the intervention is introduced to that individual, while other participants in baseline remain stable. This temporal relationship between intervention introduction and behavior change rules out alternative explanations (history, maturation). If all changed simultaneously, a confound would be suspected. The staggered introduction across independent participants replicates the effect, strengthening the demonstration of a functional relationship."
+  },
+  {
+    "id": "q145",
+    "category": "research",
+    "section": "D",
+    "difficulty": "advanced",
+    "questionType": "conceptual",
+    "question": "What is a potential limitation of the changing criterion design?",
+    "options": [
+      "It requires reversal of treatment",
+      "Behavior change might not track criterion changes closely, making control unclear",
+      "It can only be used with increasing behaviors",
+      "It requires multiple participants"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Changing criterion design demonstrates control when behavior changes systematically to match stepwise criterion changes. A limitation is that if behavior doesn't track criterion changes closely - either changing before criteria change or not reaching new criteria - experimental control isn't clearly demonstrated. Additionally, the design requires careful criterion setting (achievable but requiring change), can be time-consuming, and may not be suitable for behaviors requiring rapid change. Despite limitations, it's useful for shaping and gradual behavior change programs."
+  }
+]
+

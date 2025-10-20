@@ -1,0 +1,539 @@
+<!-- Enhanced Dashboard Components for ABA Mastery -->
+<!-- These sections can be integrated into the main app.html -->
+
+<style>
+/* Enhanced Dashboard Styles */
+.exam-readiness-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+}
+
+.readiness-score {
+    font-size: 72px;
+    font-weight: 800;
+    margin: 16px 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.readiness-label {
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.readiness-status {
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.stats-grid-enhanced {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.stat-card-enhanced {
+    background: var(--bg-primary);
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--border-color);
+    transition: all 0.3s;
+}
+
+.stat-card-enhanced:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-color);
+}
+
+.stat-icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.stat-value-large {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 8px 0;
+}
+
+.stat-label-enhanced {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.stat-trend {
+    font-size: 12px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.trend-up {
+    color: #10b981;
+}
+
+.trend-down {
+    color: #ef4444;
+}
+
+.recommendations-section {
+    background: var(--bg-secondary);
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.recommendation-card {
+    background: var(--bg-primary);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.recommendation-card.priority {
+    border-left-color: #ef4444;
+    background: #fef2f2;
+}
+
+.recommendation-card.warning {
+    border-left-color: #f59e0b;
+    background: #fffbeb;
+}
+
+.recommendation-card.success {
+    border-left-color: #10b981;
+    background: #f0fdf4;
+}
+
+.recommendation-card.achievement {
+    border-left-color: #8b5cf6;
+    background: #faf5ff;
+}
+
+.recommendation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.recommendation-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.recommendation-message {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.recommendation-action {
+    display: inline-block;
+    padding: 8px 16px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.recommendation-action:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.weak-areas-grid {
+    display: grid;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.weak-area-card {
+    background: var(--bg-primary);
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+}
+
+.weak-area-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.weak-area-name {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.weak-area-accuracy {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.accuracy-low {
+    color: #ef4444;
+}
+
+.accuracy-medium {
+    color: #f59e0b;
+}
+
+.accuracy-high {
+    color: #10b981;
+}
+
+.progress-bar-enhanced {
+    height: 8px;
+    background: var(--border-color);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.progress-fill-enhanced {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    transition: width 0.5s;
+    border-radius: 4px;
+}
+
+.weak-area-stats {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.study-plan-section {
+    background: var(--bg-primary);
+    padding: 24px;
+    border-radius: 12px;
+    border: 2px solid var(--border-color);
+    margin-bottom: 24px;
+}
+
+.study-plan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.study-plan-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.days-remaining {
+    background: var(--primary-color);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.weekly-schedule {
+    display: grid;
+    gap: 16px;
+}
+
+.week-card {
+    background: var(--bg-secondary);
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.week-header {
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--primary-color);
+}
+
+.week-goals {
+    list-style: none;
+    padding: 0;
+}
+
+.week-goals li {
+    padding: 8px 0;
+    padding-left: 24px;
+    position: relative;
+    font-size: 14px;
+}
+
+.week-goals li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.mastered-topics-section {
+    background: #f0fdf4;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #86efac;
+    margin-bottom: 24px;
+}
+
+.mastered-topics-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.mastered-icon {
+    font-size: 32px;
+}
+
+.mastered-topics-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mastered-badge {
+    background: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #065f46;
+    border: 2px solid #86efac;
+}
+
+.bookmarks-section {
+    background: var(--bg-primary);
+    padding: 24px;
+    border-radius: 12px;
+    border: 2px solid var(--border-color);
+}
+
+.bookmark-item {
+    padding: 12px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookmark-item:last-child {
+    border-bottom: none;
+}
+
+.bookmark-question-text {
+    flex: 1;
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.bookmark-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-small {
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btn-review {
+    background: var(--primary-color);
+    color: white;
+}
+
+.btn-unbookmark {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.streak-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.streak-flame {
+    font-size: 24px;
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .exam-readiness-card {
+    background: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
+}
+
+[data-theme="dark"] .recommendation-card.priority {
+    background: #450a0a;
+}
+
+[data-theme="dark"] .recommendation-card.warning {
+    background: #451a03;
+}
+
+[data-theme="dark"] .recommendation-card.success {
+    background: #064e3b;
+}
+
+[data-theme="dark"] .mastered-topics-section {
+    background: #064e3b;
+    border-color: #059669;
+}
+
+[data-theme="dark"] .mastered-badge {
+    background: #0f766e;
+    color: #d1fae5;
+    border-color: #059669;
+}
+</style>
+
+<!-- Enhanced Dashboard HTML Structure -->
+<div class="enhanced-dashboard">
+    <!-- Exam Readiness Card -->
+    <div class="exam-readiness-card">
+        <div class="readiness-label">Exam Readiness Score</div>
+        <div class="readiness-score" id="readiness-score">0%</div>
+        <div class="readiness-status" id="readiness-status">Building Foundation</div>
+        <div style="margin-top: 16px; font-size: 14px; opacity: 0.9;">
+            Based on your performance across all categories
+        </div>
+    </div>
+
+    <!-- Study Streak -->
+    <div id="study-streak-badge" style="text-align: center; margin-bottom: 24px; display: none;">
+        <div class="streak-badge">
+            <span class="streak-flame">🔥</span>
+            <span id="streak-count">0</span> Day Streak!
+        </div>
+    </div>
+
+    <!-- Enhanced Stats Grid -->
+    <div class="stats-grid-enhanced">
+        <div class="stat-card-enhanced">
+            <div class="stat-icon">📊</div>
+            <div class="stat-value-large" id="total-attempts">0</div>
+            <div class="stat-label-enhanced">Total Practice Questions</div>
+            <div class="stat-trend trend-up" id="attempts-trend">
+                ↑ Keep practicing!
+            </div>
+        </div>
+
+        <div class="stat-card-enhanced">
+            <div class="stat-icon">✅</div>
+            <div class="stat-value-large" id="mastered-count">0</div>
+            <div class="stat-label-enhanced">Questions Mastered</div>
+            <div class="stat-trend" id="mastered-trend">
+                3 correct in a row = mastered
+            </div>
+        </div>
+
+        <div class="stat-card-enhanced">
+            <div class="stat-icon">🎯</div>
+            <div class="stat-value-large" id="overall-accuracy-enhanced">0%</div>
+            <div class="stat-label-enhanced">Overall Accuracy</div>
+            <div class="stat-trend" id="accuracy-trend">
+                Target: 80%+
+            </div>
+        </div>
+
+        <div class="stat-card-enhanced">
+            <div class="stat-icon">🏆</div>
+            <div class="stat-value-large" id="categories-mastered">0</div>
+            <div class="stat-label-enhanced">Categories Mastered</div>
+            <div class="stat-trend" id="categories-trend">
+                80%+ accuracy
+            </div>
+        </div>
+    </div>
+
+    <!-- Study Recommendations -->
+    <div class="recommendations-section">
+        <h3 style="margin-bottom: 16px;">📋 Study Recommendations</h3>
+        <div id="recommendations-container">
+            <!-- Recommendations will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <!-- Weak Areas -->
+    <div class="weak-areas-section">
+        <h3 style="margin-bottom: 16px;">🎯 Areas Needing Focus</h3>
+        <div class="weak-areas-grid" id="weak-areas-container">
+            <!-- Weak areas will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <!-- Mastered Topics -->
+    <div class="mastered-topics-section" id="mastered-section" style="display: none;">
+        <div class="mastered-topics-header">
+            <span class="mastered-icon">🏆</span>
+            <div>
+                <h3 style="margin: 0;">Mastered Categories</h3>
+                <p style="margin: 4px 0 0 0; font-size: 14px; opacity: 0.8;">Great work! Keep it up.</p>
+            </div>
+        </div>
+        <div class="mastered-topics-grid" id="mastered-topics-container">
+            <!-- Mastered topics badges -->
+        </div>
+    </div>
+
+    <!-- Study Plan -->
+    <div class="study-plan-section">
+        <div class="study-plan-header">
+            <h3 class="study-plan-title">📅 Your Study Plan</h3>
+            <div class="days-remaining" id="days-remaining">Set exam date</div>
+        </div>
+        <div id="study-plan-content">
+            <p style="color: var(--text-secondary); margin-bottom: 16px;">
+                Set your exam date to generate a personalized study plan.
+            </p>
+            <button class="btn btn-primary" onclick="setExamDate()">Set Exam Date</button>
+        </div>
+    </div>
+
+    <!-- Bookmarked Questions -->
+    <div class="bookmarks-section">
+        <h3 style="margin-bottom: 16px;">🔖 Bookmarked Questions (<span id="bookmark-count">0</span>)</h3>
+        <div id="bookmarks-container">
+            <p style="color: var(--text-secondary); font-size: 14px;">
+                No bookmarked questions yet. Bookmark questions during practice to review them later.
+            </p>
+        </div>
+    </div>
+</div>
+

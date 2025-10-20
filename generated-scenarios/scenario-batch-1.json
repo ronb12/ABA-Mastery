@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "scenario-014",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old client engages in hitting behavior primarily during math instruction. When the behavior occurs, the teacher typically removes the task. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-015",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 7-year-old client engages in screaming behavior primarily during reading tasks. When the behavior occurs, the parent typically provides a break. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-016",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old client engages in throwing materials behavior primarily during writing activities. When the behavior occurs, the therapist typically reduces demand. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-017",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 11-year-old client engages in leaving seat behavior primarily during homework time. When the behavior occurs, the instructor typically ends the activity. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-018",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old client engages in hitting behavior primarily during math instruction. When the behavior occurs, the teacher typically removes the task. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-019",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 7-year-old client engages in screaming behavior primarily during reading tasks. When the behavior occurs, the parent typically provides a break. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-020",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old client engages in throwing materials behavior primarily during writing activities. When the behavior occurs, the therapist typically reduces demand. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-021",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 11-year-old client engages in leaving seat behavior primarily during homework time. When the behavior occurs, the instructor typically ends the activity. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-022",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old client engages in hitting behavior primarily during math instruction. When the behavior occurs, the teacher typically removes the task. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-023",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 7-year-old client engages in screaming behavior primarily during reading tasks. When the behavior occurs, the parent typically provides a break. The behavior is rarely observed during preferred activities.",
+    "question": "What function is this behavior most likely serving?",
+    "options": [
+      "Access to tangible items",
+      "Escape from demands",
+      "Access to attention",
+      "Automatic reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The behavior occurs during non-preferred academic tasks and results in removal or reduction of those tasks, indicating an escape function maintained by negative reinforcement. The low occurrence during preferred activities further supports this hypothesis.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "demand fading"
+    ]
+  },
+  {
+    "id": "scenario-024",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in calling out primarily when staff attention is on others. When the behavior occurs, staff redirect the client. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-025",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in silly noises primarily when teacher is helping another student. When the behavior occurs, teacher provides a reprimand. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-026",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A client engages in inappropriate comments primarily when parent is on phone. When the behavior occurs, parent tells them to stop. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-027",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in interrupting primarily when therapist is taking data. When the behavior occurs, therapist looks at them. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-028",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A client engages in calling out primarily when staff attention is on others. When the behavior occurs, staff redirect the client. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-029",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in silly noises primarily when teacher is helping another student. When the behavior occurs, teacher provides a reprimand. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-030",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in inappropriate comments primarily when parent is on phone. When the behavior occurs, parent tells them to stop. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-031",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A client engages in interrupting primarily when therapist is taking data. When the behavior occurs, therapist looks at them. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-032",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in calling out primarily when staff attention is on others. When the behavior occurs, staff redirect the client. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-033",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in silly noises primarily when teacher is helping another student. When the behavior occurs, teacher provides a reprimand. The behavior decreases during one-on-one activities.",
+    "question": "What is the most likely function of this behavior?",
+    "options": [
+      "Escape from social interaction",
+      "Access to preferred activities",
+      "Access to social attention",
+      "Sensory stimulation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs when attention is diverted to others and produces social attention (even if negative). The decreased rate during one-on-one activities supports an attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "attention function",
+      "social reinforcement",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-034",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A client engages in tantrums specifically when told cannot have iPad. Parents often give in after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-035",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in aggression specifically when preferred toy is removed. Caregivers sometimes relent after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-036",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A client engages in property destruction specifically when denied access to video games. Staff occasionally provide the item after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-037",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in crying specifically when snack is unavailable. Teacher may allow access after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-038",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A client engages in tantrums specifically when told cannot have iPad. Parents often give in after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-039",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in aggression specifically when preferred toy is removed. Caregivers sometimes relent after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-040",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in property destruction specifically when denied access to video games. Staff occasionally provide the item after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-041",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in crying specifically when snack is unavailable. Teacher may allow access after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-042",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in tantrums specifically when told cannot have iPad. Parents often give in after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-043",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in aggression specifically when preferred toy is removed. Caregivers sometimes relent after the behavior occurs. No similar behavior is observed when preferred items are freely available.",
+    "question": "What function does this behavior serve?",
+    "options": [
+      "Escape from demands",
+      "Automatic reinforcement",
+      "Access to tangible items",
+      "Access to social attention"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurs specifically when access to preferred items is denied and sometimes results in obtaining those items, indicating a tangible function maintained by access to preferred items or activities.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1"
+    ],
+    "keywords": [
+      "tangible function",
+      "access maintained",
+      "positive reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-044",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in hand-flapping consistently across all settings and conditions. The behavior occurs when alone and with others. Social consequences have minimal effect.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-045",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in rocking consistently across all settings and conditions. The behavior occurs during play and work. Attention does not increase behavior.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-046",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in vocal stereotypy consistently across all settings and conditions. The behavior occurs with and without audience. Removal of demands does not affect rate.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-047",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in object spinning consistently across all settings and conditions. The behavior occurs throughout the day. Behavior persists regardless of context.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-048",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in hand-flapping consistently across all settings and conditions. The behavior occurs when alone and with others. Social consequences have minimal effect.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-049",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in rocking consistently across all settings and conditions. The behavior occurs during play and work. Attention does not increase behavior.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-050",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in vocal stereotypy consistently across all settings and conditions. The behavior occurs with and without audience. Removal of demands does not affect rate.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-051",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in object spinning consistently across all settings and conditions. The behavior occurs throughout the day. Behavior persists regardless of context.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-052",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A client engages in hand-flapping consistently across all settings and conditions. The behavior occurs when alone and with others. Social consequences have minimal effect.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-053",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A client engages in rocking consistently across all settings and conditions. The behavior occurs during play and work. Attention does not increase behavior.",
+    "question": "What is the most likely maintaining variable for this behavior?",
+    "options": [
+      "Social attention from others",
+      "Escape from aversive situations",
+      "Automatic/sensory reinforcement",
+      "Access to preferred activities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The behavior occurring consistently across all conditions with no clear social function indicates automatic reinforcement. The behavior itself produces reinforcing sensory consequences.",
+    "bacbTaskList": [
+      "FK-26",
+      "FK-31",
+      "G-3"
+    ],
+    "keywords": [
+      "automatic reinforcement",
+      "sensory function",
+      "stereotypy"
+    ]
+  },
+  {
+    "id": "scenario-054",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 8 per 10min, Escape condition = 2 per 10min, Tangible condition = 1 per 10min, Alone condition = 0 per 10min, Play condition = 1 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-055",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 9 per 10min, Escape condition = 3 per 10min, Tangible condition = 2 per 10min, Alone condition = 1 per 10min, Play condition = 2 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-056",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 10 per 10min, Escape condition = 4 per 10min, Tangible condition = 1 per 10min, Alone condition = 0 per 10min, Play condition = 3 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-057",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 11 per 10min, Escape condition = 2 per 10min, Tangible condition = 2 per 10min, Alone condition = 1 per 10min, Play condition = 1 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-058",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 12 per 10min, Escape condition = 3 per 10min, Tangible condition = 1 per 10min, Alone condition = 0 per 10min, Play condition = 2 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-059",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 13 per 10min, Escape condition = 4 per 10min, Tangible condition = 2 per 10min, Alone condition = 1 per 10min, Play condition = 3 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-060",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 14 per 10min, Escape condition = 2 per 10min, Tangible condition = 1 per 10min, Alone condition = 0 per 10min, Play condition = 1 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-061",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 15 per 10min, Escape condition = 3 per 10min, Tangible condition = 2 per 10min, Alone condition = 1 per 10min, Play condition = 2 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-062",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 16 per 10min, Escape condition = 4 per 10min, Tangible condition = 1 per 10min, Alone condition = 0 per 10min, Play condition = 3 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  },
+  {
+    "id": "scenario-063",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "Functional analysis results show behavior rates of: Attention condition = 17 per 10min, Escape condition = 2 per 10min, Tangible condition = 2 per 10min, Alone condition = 1 per 10min, Play condition = 1 per 10min. Results replicated across two separate analyses.",
+    "question": "What conclusion is best supported by these data?",
+    "options": [
+      "Behavior is maintained by automatic reinforcement",
+      "Behavior is maintained by access to attention",
+      "Behavior serves multiple functions",
+      "Results are inconclusive"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clearly elevated and differentiated rates in the attention condition with replication demonstrates experimental control and indicates an attention function. Automatic reinforcement would show high rates in alone condition.",
+    "bacbTaskList": [
+      "G-3",
+      "G-4",
+      "FK-35"
+    ],
+    "keywords": [
+      "functional analysis",
+      "experimental control",
+      "data interpretation"
+    ]
+  }
+]

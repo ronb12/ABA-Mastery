@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing & Subscription - ABA Mastery</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+            color: #0f172a;
+        }
+
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 32px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .status-active {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .status-trial {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .status-inactive {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .status-free {
+            background: #f3e8ff;
+            color: #6b21a8;
+        }
+
+        .price-display {
+            font-size: 48px;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .price-display span {
+            font-size: 24px;
+            font-weight: 400;
+            color: #64748b;
+        }
+
+        .feature-list {
+            list-style: none;
+            margin: 24px 0;
+        }
+
+        .feature-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .btn-primary {
+            background: #2563eb;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #f8fafc;
+            color: #1e293b;
+            border: 2px solid #e2e8f0;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            border-color: #2563eb;
+        }
+
+        .btn-danger {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 2px solid #fecaca;
+        }
+
+        .btn-danger:hover {
+            background: #fecaca;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 24px;
+        }
+
+        .back-link a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 24px 0;
+        }
+
+        .info-box strong {
+            display: block;
+            margin-bottom: 8px;
+            color: #0f172a;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f4f6;
+            border-top: 4px solid #2563eb;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p style="margin-top: 16px; color: #64748b;">Loading subscription details...</p>
+            </div>
+
+            <div id="content" class="hidden">
+                <h1>Billing & Subscription</h1>
+                <p class="subtitle">Manage your ABA Mastery subscription</p>
+
+                <div id="subscription-status"></div>
+
+                <!-- Free Access State -->
+                <div id="free-state" class="hidden">
+                    <div class="status-badge status-free">🎉 Free Beta Access</div>
+                    <div class="price-display">FREE</div>
+                    <p style="color: #64748b; margin-bottom: 24px;">
+                        You're currently enjoying free access during our beta period!
+                    </p>
+                    <div class="info-box">
+                        <strong>What's Included:</strong>
+                        <ul class="feature-list">
+                            <li>✅ 1,000 Practice Questions</li>
+                            <li>✅ 500 Realistic Scenarios</li>
+                            <li>✅ 555 Flashcards</li>
+                            <li>✅ 10 Published Case Studies</li>
+                            <li>✅ Progress Tracking</li>
+                            <li>✅ AI Study Coach</li>
+                        </ul>
+                    </div>
+                    <p style="color: #64748b; font-size: 14px; text-align: center;">
+                        Free access will transition to paid subscription in the future. Early users will receive special pricing!
+                    </p>
+                </div>
+
+                <!-- Active Subscription State -->
+                <div id="active-state" class="hidden">
+                    <div class="status-badge status-active">✅ Active Subscription</div>
+                    <div class="price-display" id="active-price">$30<span>/month</span></div>
+                    <div class="info-box">
+                        <strong>Next billing date:</strong>
+                        <span id="next-billing-date">Loading...</span>
+                    </div>
+                    <button class="btn btn-secondary" onclick="manageSubscription()">
+                        Manage Subscription & Billing
+                    </button>
+                    <p style="color: #64748b; font-size: 14px; text-align: center; margin-top: 16px;">
+                        Update payment method, view invoices, or cancel anytime
+                    </p>
+                </div>
+
+                <!-- No Subscription State -->
+                <div id="no-subscription-state" class="hidden">
+                    <div class="status-badge status-inactive">❌ No Active Subscription</div>
+                    <div class="price-display">$30<span>/month</span></div>
+                    <p style="color: #64748b; margin-bottom: 24px;">
+                        Subscribe to access all premium features and content.
+                    </p>
+                    <div class="info-box">
+                        <strong>What You'll Get:</strong>
+                        <ul class="feature-list">
+                            <li>✅ 1,000 Practice Questions</li>
+                            <li>✅ 500 Realistic Scenarios</li>
+                            <li>✅ 555 Flashcards</li>
+                            <li>✅ 10 Published Case Studies</li>
+                            <li>✅ Progress Tracking & Analytics</li>
+                            <li>✅ AI Study Coach</li>
+                            <li>✅ Mock Exams</li>
+                            <li>✅ Cloud Sync Across Devices</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary" onclick="subscribe()">
+                        Subscribe Now - 7 Day Free Trial
+                    </button>
+                    <p style="color: #64748b; font-size: 14px; text-align: center; margin-top: 16px;">
+                        Cancel anytime • No commitment
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="/app.html">← Back to App</a>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+    
+    <!-- Configuration and Subscription Files -->
+    <script src="config.js"></script>
+    <script src="subscription.js"></script>
+    
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBp2jOcQm7w8X9OJuHZZqQHdRrIw65lZPI",
+            authDomain: "aba-mastery-app.firebaseapp.com",
+            projectId: "aba-mastery-app",
+            storageBucket: "aba-mastery-app.firebasestorage.app",
+            messagingSenderId: "304782196897",
+            appId: "1:304782196897:web:db023c75da94b0546430e0"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+        // Connect to emulators if running locally
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            auth.useEmulator('http://localhost:9099');
+            db.useEmulator('localhost', 8080);
+        }
+
+        // Initialize subscription manager
+        subscriptionManager.initialize(db, auth);
+
+        // Load user subscription details
+        auth.onAuthStateChanged(async (user) => {
+            if (!user) {
+                window.location.href = '/login.html';
+                return;
+            }
+
+            await loadSubscriptionDetails(user);
+        });
+
+        async function loadSubscriptionDetails(user) {
+            const loading = document.getElementById('loading');
+            const content = document.getElementById('content');
+
+            try {
+                // If subscriptions aren't enabled, show free state
+                if (!CONFIG.isSubscriptionRequired()) {
+                    showFreeState();
+                    loading.classList.add('hidden');
+                    content.classList.remove('hidden');
+                    return;
+                }
+
+                // Get subscription details
+                const subDetails = await subscriptionManager.getSubscriptionDetails(user.uid);
+
+                if (subDetails.hasAccess) {
+                    showActiveState(subDetails);
+                } else {
+                    showNoSubscriptionState(subDetails);
+                }
+
+                loading.classList.add('hidden');
+                content.classList.remove('hidden');
+
+            } catch (error) {
+                console.error('Error loading subscription:', error);
+                loading.innerHTML = '<p style="color: #ef4444;">Failed to load subscription details</p>';
+            }
+        }
+
+        function showFreeState() {
+            document.getElementById('free-state').classList.remove('hidden');
+        }
+
+        function showActiveState(details) {
+            document.getElementById('active-state').classList.remove('hidden');
+            
+            // Update price display
+            const priceDisplay = document.getElementById('active-price');
+            priceDisplay.innerHTML = `$${details.price}<span>/month</span>`;
+            
+            if (details.isEarlyAdopter) {
+                const badge = document.createElement('div');
+                badge.className = 'status-badge status-active';
+                badge.style.marginLeft = '12px';
+                badge.textContent = '🎉 Early Adopter Discount';
+                priceDisplay.parentElement.insertBefore(badge, priceDisplay);
+            }
+
+            // Update billing date
+            if (details.subscriptionEnd) {
+                const date = new Date(details.subscriptionEnd);
+                document.getElementById('next-billing-date').textContent = 
+                    date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+            }
+        }
+
+        function showNoSubscriptionState(details) {
+            document.getElementById('no-subscription-state').classList.remove('hidden');
+            
+            // Update price if early adopter
+            if (details && details.isEarlyAdopter) {
+                const priceDisplay = document.querySelector('#no-subscription-state .price-display');
+                priceDisplay.innerHTML = `$${details.price}<span>/month</span>`;
+                
+                const earlyBadge = document.createElement('div');
+                earlyBadge.className = 'info-box';
+                earlyBadge.innerHTML = '<strong>🎉 Early Adopter Discount!</strong><p>As a beta user, you qualify for 50% off forever!</p>';
+                priceDisplay.after(earlyBadge);
+            }
+        }
+
+        async function subscribe() {
+            const user = auth.currentUser;
+            if (!user) {
+                window.location.href = '/signup.html';
+                return;
+            }
+
+            try {
+                await subscriptionManager.createCheckoutSession(user.uid, user.email);
+            } catch (error) {
+                console.error('Subscription error:', error);
+                alert('Failed to start subscription. Please try again.');
+            }
+        }
+
+        async function manageSubscription() {
+            const user = auth.currentUser;
+            if (!user) return;
+
+            try {
+                await subscriptionManager.openCustomerPortal(user.uid);
+            } catch (error) {
+                console.error('Portal error:', error);
+                alert('Failed to open billing portal. Please try again.');
+            }
+        }
+    </script>
+</body>
+</html>
+

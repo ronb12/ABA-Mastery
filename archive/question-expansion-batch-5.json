@@ -1,0 +1,23 @@
+{
+  "batchNumber": 5,
+  "category": "Foundations & Concepts",
+  "questionCount": 50,
+  "newQuestions": [
+    {
+      "id": "q298",
+      "category": "foundations",
+      "section": "B",
+      "difficulty": "intermediate",
+      "question": "A fixed ratio 5 (FR5) schedule delivers reinforcement:",
+      "options": [
+        "After every 5th response",
+        "After an average of 5 responses",
+        "After 5 seconds",
+        "After 5 minutes of no responding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FIXED RATIO (FR) schedules deliver reinforcement after a FIXED number of responses. FR5 = reinforcement after exactly every 5th response (5, 10, 15, 20...). Produces high, steady rates with post-reinforcement pause. VARIABLE ratio would be average of 5. Interval schedules are time-based, not response-based. FR schedules are common in piecework, sales commissions, frequent flyer miles.",
+      "reference": "Cooper et al. (2020), Chapter 12; BACB Task List B-5"
+    }
+  ]
+}

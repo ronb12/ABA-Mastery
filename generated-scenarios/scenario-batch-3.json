@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "scenario-101",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 20 intervals. Observer 2 scored 18 intervals. They agreed on 15 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "75%",
+      "83%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-102",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 21 intervals. Observer 2 scored 19 intervals. They agreed on 16 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "76%",
+      "84%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-103",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 22 intervals. Observer 2 scored 20 intervals. They agreed on 17 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "77%",
+      "85%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-104",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 23 intervals. Observer 2 scored 21 intervals. They agreed on 18 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "78%",
+      "86%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-105",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 24 intervals. Observer 2 scored 22 intervals. They agreed on 19 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "79%",
+      "86%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-106",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 25 intervals. Observer 2 scored 23 intervals. They agreed on 20 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "80%",
+      "87%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-107",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 26 intervals. Observer 2 scored 24 intervals. They agreed on 21 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "81%",
+      "88%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-108",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 27 intervals. Observer 2 scored 25 intervals. They agreed on 22 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "81%",
+      "88%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-109",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 28 intervals. Observer 2 scored 26 intervals. They agreed on 23 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "82%",
+      "88%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-110",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 29 intervals. Observer 2 scored 27 intervals. They agreed on 24 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "83%",
+      "89%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-111",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 30 intervals. Observer 2 scored 28 intervals. They agreed on 25 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "83%",
+      "89%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-112",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 31 intervals. Observer 2 scored 29 intervals. They agreed on 26 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "84%",
+      "90%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-113",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 32 intervals. Observer 2 scored 30 intervals. They agreed on 27 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "84%",
+      "90%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-114",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 33 intervals. Observer 2 scored 31 intervals. They agreed on 28 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "85%",
+      "90%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-115",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "Two observers independently collect data using interval recording. Observer 1 scored 34 intervals. Observer 2 scored 32 intervals. They agreed on 29 intervals with behavior occurring. What is the IOA?",
+    "question": "Calculate the interval-by-interval IOA.",
+    "options": [
+      "85%",
+      "91%",
+      "Cannot be calculated without total intervals",
+      "75%"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interval-by-interval IOA requires knowing agreements AND disagreements. Formula: (Agreements ÷ Total Intervals) × 100. We need the total number of intervals observed, not just how many each observer scored.",
+    "bacbTaskList": [
+      "A-5",
+      "H-2"
+    ],
+    "keywords": [
+      "IOA",
+      "interobserver agreement",
+      "reliability"
+    ]
+  },
+  {
+    "id": "scenario-116",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 10-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 40 of 60 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-117",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 12-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 41 of 61 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-118",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 14-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 42 of 62 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-119",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 16-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 43 of 63 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-120",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 18-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 44 of 64 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-121",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 20-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 45 of 65 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-122",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 22-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 46 of 66 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-123",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 24-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 47 of 67 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-124",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 26-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 48 of 68 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-125",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A technician uses 28-second partial interval recording to measure engagement. Behavior is scored if it occurs at ANY point during the interval. Data shows engagement in 49 of 69 intervals.",
+    "question": "What is a primary characteristic of partial interval recording?",
+    "options": [
+      "It underestimates behavior occurrence",
+      "It provides exact frequency counts",
+      "It tends to overestimate behavior occurrence",
+      "It requires continuous observation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Partial interval recording overestimates behavior, especially brief or intermittent behaviors, because even momentary occurrence scores the entire interval as positive.",
+    "bacbTaskList": [
+      "A-1",
+      "A-2"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "overestimation"
+    ]
+  },
+  {
+    "id": "scenario-126",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 15 minutes. Session 2: 12 minutes. Session 3: 8 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-127",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 17 minutes. Session 2: 13 minutes. Session 3: 9 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-128",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 19 minutes. Session 2: 14 minutes. Session 3: 10 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-129",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 21 minutes. Session 2: 15 minutes. Session 3: 11 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-130",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 23 minutes. Session 2: 16 minutes. Session 3: 12 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-131",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 25 minutes. Session 2: 17 minutes. Session 3: 13 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-132",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 27 minutes. Session 2: 18 minutes. Session 3: 14 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-133",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 29 minutes. Session 2: 19 minutes. Session 3: 15 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-134",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 31 minutes. Session 2: 20 minutes. Session 3: 16 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-135",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A BCBA measures how long tantrums last. Session 1: 33 minutes. Session 2: 21 minutes. Session 3: 17 minutes. The BCBA is measuring total time from tantrum start to end.",
+    "question": "What dimension of behavior is being measured?",
+    "options": [
+      "Frequency",
+      "Duration",
+      "Latency",
+      "Intensity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration measures how long a behavior lasts from onset to offset. This is appropriate for behaviors that vary in length like tantrums, time on-task, or duration of engagement.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "temporal dimensions"
+    ]
+  },
+  {
+    "id": "scenario-136",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A teacher measures time from giving instruction \"Sit down\" until the student sits. Average time is 5 seconds.",
+    "question": "What is being measured?",
+    "options": [
+      "Response duration",
+      "Response latency",
+      "Response frequency",
+      "Inter-response time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Latency is the time from stimulus presentation (instruction) to response initiation. It measures how quickly someone responds to a cue or instruction.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "latency",
+      "measurement",
+      "response time"
+    ]
+  },
+  {
+    "id": "scenario-137",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A teacher measures time from giving instruction \"Start work\" until the student begins. Average time is 8 seconds.",
+    "question": "What is being measured?",
+    "options": [
+      "Response duration",
+      "Response latency",
+      "Response frequency",
+      "Inter-response time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Latency is the time from stimulus presentation (instruction) to response initiation. It measures how quickly someone responds to a cue or instruction.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "latency",
+      "measurement",
+      "response time"
+    ]
+  },
+  {
+    "id": "scenario-138",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A teacher measures time from giving instruction \"Clean up\" until the student starts. Average time is 11 seconds.",
+    "question": "What is being measured?",
+    "options": [
+      "Response duration",
+      "Response latency",
+      "Response frequency",
+      "Inter-response time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Latency is the time from stimulus presentation (instruction) to response initiation. It measures how quickly someone responds to a cue or instruction.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "latency",
+      "measurement",
+      "response time"
+    ]
+  },
+  {
+    "id": "scenario-139",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A teacher measures time from giving instruction \"Line up\" until the student gets in line. Average time is 14 seconds.",
+    "question": "What is being measured?",
+    "options": [
+      "Response duration",
+      "Response latency",
+      "Response frequency",
+      "Inter-response time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Latency is the time from stimulus presentation (instruction) to response initiation. It measures how quickly someone responds to a cue or instruction.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "latency",
+      "measurement",
+      "response time"
+    ]
+  },
+  {
+    "id": "scenario-140",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A teacher measures time from giving instruction \"Come here\" until the student approaches. Average time is 17 seconds.",
+    "question": "What is being measured?",
+    "options": [
+      "Response duration",
+      "Response latency",
+      "Response frequency",
+      "Inter-response time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Latency is the time from stimulus presentation (instruction) to response initiation. It measures how quickly someone responds to a cue or instruction.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "latency",
+      "measurement",
+      "response time"
+    ]
+  },
+  {
+    "id": "scenario-141",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 30-minute session, a client engaged in hand-raising behavior 8 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-142",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 40-minute session, a client engaged in requesting behavior 9 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-143",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 50-minute session, a client engaged in calling out behavior 10 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-144",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 60-minute session, a client engaged in leaving seat behavior 11 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-145",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 70-minute session, a client engaged in hand-raising behavior 12 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-146",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 80-minute session, a client engaged in requesting behavior 13 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-147",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 90-minute session, a client engaged in calling out behavior 14 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-148",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 100-minute session, a client engaged in leaving seat behavior 15 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-149",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 110-minute session, a client engaged in hand-raising behavior 16 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  },
+  {
+    "id": "scenario-150",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "During a 120-minute session, a client engaged in requesting behavior 17 times. The BCBA calculates responses per minute.",
+    "question": "Why is rate preferable to frequency for this measurement?",
+    "options": [
+      "Rate accounts for different observation periods",
+      "Rate is easier to calculate than frequency",
+      "Rate provides information about duration",
+      "Rate is more accurate than frequency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rate (frequency ÷ time) allows comparison across sessions of different lengths. If one session is 30 min and another is 60 min, rate provides a standardized measure (responses per minute) for accurate comparison.",
+    "bacbTaskList": [
+      "A-1",
+      "FK-47"
+    ],
+    "keywords": [
+      "rate",
+      "frequency",
+      "measurement",
+      "standardization"
+    ]
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "scenario-201",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-202",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-203",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-204",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-205",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-206",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-207",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-208",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-209",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-210",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-211",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-212",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-213",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-214",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-215",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-216",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-217",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-218",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-219",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-220",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-221",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-222",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-223",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-224",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-225",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-226",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-227",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-228",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-229",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-230",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-231",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-232",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-233",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-234",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-235",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-236",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-237",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-238",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-239",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-240",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-241",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-242",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-243",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-244",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-245",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-246",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-247",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"cookie\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "echoic",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-248",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A child hears \"what do you eat?\" and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without correspondence.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "intraverbal",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-249",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A child requests cookie saying \"cookie\". Receives cookie.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "mand",
+      "Skinner"
+    ]
+  },
+  {
+    "id": "scenario-250",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A child sees cookie and says \"cookie\". Receives praise.",
+    "question": "What verbal operant is this?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label under nonverbal stimulus control.",
+    "bacbTaskList": [
+      "FK-41",
+      "FK-42",
+      "FK-43"
+    ],
+    "keywords": [
+      "verbal behavior",
+      "tact",
+      "Skinner"
+    ]
+  }
+]

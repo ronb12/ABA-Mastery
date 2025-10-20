@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "scenario-301",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-302",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-303",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using rehearsal component of BST. Staff demonstrate competency through this practice phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "C",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-304",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using feedback component of BST. Staff improve performance through this corrective phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "D",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-305",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-306",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-307",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using rehearsal component of BST. Staff demonstrate competency through this practice phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "C",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-308",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using feedback component of BST. Staff improve performance through this corrective phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "D",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-309",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-310",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-311",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using rehearsal component of BST. Staff demonstrate competency through this practice phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "C",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-312",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using feedback component of BST. Staff improve performance through this corrective phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "D",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-313",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-314",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-315",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using rehearsal component of BST. Staff demonstrate competency through this practice phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "C",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-316",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using feedback component of BST. Staff improve performance through this corrective phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "D",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-317",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-318",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-319",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using rehearsal component of BST. Staff demonstrate competency through this practice phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "C",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-320",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using feedback component of BST. Staff improve performance through this corrective phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "D",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-321",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-322",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-323",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using rehearsal component of BST. Staff demonstrate competency through this practice phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "C",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-324",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using feedback component of BST. Staff improve performance through this corrective phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "D",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-325",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-326",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-327",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using rehearsal component of BST. Staff demonstrate competency through this practice phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "C",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-328",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using feedback component of BST. Staff improve performance through this corrective phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "D",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-329",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using instruction component of BST. Staff learn procedures through this didactic phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "A",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-330",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "skill-acquisition",
+    "scenario": "A BCBA trains staff using modeling component of BST. Staff practice skills through this observational phase.",
+    "question": "Which BST component is described?",
+    "options": [
+      "Instruction",
+      "Modeling",
+      "Rehearsal",
+      "Feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BST (Behavioral Skills Training) has four components: Instruction (tell), Modeling (show), Rehearsal (practice), and Feedback (correct). This is the evidence-based method for staff training.",
+    "bacbTaskList": [
+      "FK-02",
+      "FK-03"
+    ],
+    "keywords": [
+      "BST",
+      "behavioral skills training",
+      "staff training"
+    ]
+  },
+  {
+    "id": "scenario-331",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 5 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-332",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 11. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-333",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 50 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-334",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 60 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-335",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-336",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 10 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-337",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 16. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-338",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 100 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-339",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 85 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-340",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-341",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 5 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-342",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 11. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-343",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 150 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-344",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 110 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-345",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-346",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 10 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-347",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 16. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-348",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 200 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-349",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 135 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-350",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  }
+]

@@ -1,0 +1,501 @@
+{
+  "newQuestions": [
+    {
+      "id": "q136",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "beginner",
+      "question": "Who is considered the founder of radical behaviorism?",
+      "options": [
+        "Ivan Pavlov",
+        "B.F. Skinner",
+        "John Watson",
+        "Edward Thorndike"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B.F. Skinner (1938) founded radical behaviorism, which states that all behavior, including private events (thoughts and feelings), can be explained through environmental variables. Unlike methodological behaviorism (Watson), radical behaviorism acknowledges private events but explains them behaviorally rather than mentalistically.",
+      "reference": "Cooper et al. (2020), Applied Behavior Analysis, 3rd Ed., Chapter 1"
+    },
+    {
+      "id": "q137",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "intermediate",
+      "question": "According to the principle of selectionism, behavior is selected by which three levels?",
+      "options": [
+        "Genetic, cultural, and social",
+        "Phylogenic, ontogenic, and cultural",
+        "Biological, psychological, and environmental",
+        "Natural, artificial, and automatic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Skinner's selectionism proposes three levels: (1) Phylogenic - genetic/evolutionary selection (species survival), (2) Ontogenic - selection through individual's lifetime (operant conditioning), and (3) Cultural - selection of practices by groups (cultural evolution). This parallels Darwin's natural selection.",
+      "reference": "Cooper et al. (2020), Chapter 1; Skinner (1981) Selection by Consequences"
+    },
+    {
+      "id": "q138",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "advanced",
+      "question": "What is the primary difference between respondent and operant behavior?",
+      "options": [
+        "Respondent is voluntary; operant is involuntary",
+        "Respondent is elicited by antecedents; operant is emitted and controlled by consequences",
+        "Respondent involves cognition; operant does not",
+        "Respondent is learned; operant is innate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Respondent (reflexive) behavior is ELICITED by antecedent stimuli automatically (e.g., pupil dilation to light). Operant (voluntary) behavior is EMITTED and selected/maintained by consequences (reinforcement/punishment). Both can be conditioned, but through different processes (classical vs. operant conditioning).",
+      "reference": "Cooper et al. (2020), Chapter 1-3"
+    },
+    {
+      "id": "q139",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "beginner",
+      "question": "What are the three primary areas of the science of behavior analysis?",
+      "options": [
+        "Research, therapy, and education",
+        "Behaviorism, experimental analysis of behavior, and applied behavior analysis",
+        "Assessment, intervention, and evaluation",
+        "Prevention, treatment, and maintenance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The three branches are: (1) Behaviorism - the philosophy of the science, (2) Experimental Analysis of Behavior (EAB) - basic laboratory research discovering principles, and (3) Applied Behavior Analysis (ABA) - application of principles to socially important problems. All three are interconnected.",
+      "reference": "Cooper et al. (2020), Chapter 1"
+    },
+    {
+      "id": "q140",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "intermediate",
+      "question": "Which of the following BEST describes determinism in behavior analysis?",
+      "options": [
+        "People have free will to choose their behaviors",
+        "All behavior is lawful and caused by environmental events",
+        "Behavior is random and unpredictable",
+        "Genetics determines all human behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Determinism is the philosophical assumption that all behavior is lawful and determined by functional relations with environmental events. The universe is orderly and events occur because of other events. This doesn't mean behavior is easily predictable, but that it follows natural laws and can be influenced systematically.",
+      "reference": "Cooper et al. (2020), Chapter 1; BACB Task List A-1"
+    },
+    {
+      "id": "q141",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "In a DRO (Differential Reinforcement of Other Behavior) procedure, reinforcement is delivered:",
+      "options": [
+        "For any behavior except the target problem behavior",
+        "Only for a specific alternative behavior",
+        "When the problem behavior has NOT occurred for a specified interval",
+        "Immediately following the problem behavior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DRO delivers reinforcement contingent on the ABSENCE of the problem behavior for a specified time period. If the problem behavior occurs during the interval, the timer resets. This is different from DRA (reinforcing a specific alternative) or DRI (reinforcing incompatible behavior). DRO is often used when a specific replacement behavior hasn't been identified.",
+      "reference": "Cooper et al. (2020), Chapter 21"
+    },
+    {
+      "id": "q142",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "question": "A BCBA implements a DRL (Differential Reinforcement of Low Rates) procedure for a student who talks out during class. The student currently talks out 20 times per hour. Which schedule would be MOST appropriate to start?",
+      "options": [
+        "Reinforce if talking out occurs 0 times per hour",
+        "Reinforce if talking out occurs 5 or fewer times per hour",
+        "Reinforce if talking out occurs 18 or fewer times per hour",
+        "Reinforce if talking out occurs 30 or fewer times per hour"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DRL should start with a criterion only slightly below current baseline (e.g., 10-20% reduction). Starting at 18/hour from 20/hour allows initial success and reinforcement. Too drastic a reduction (like 5/hour or 0/hour) would result in no reinforcement and treatment failure. The criterion is gradually tightened as progress occurs.",
+      "reference": "Cooper et al. (2020), Chapter 21; BACB Task List G-14"
+    },
+    {
+      "id": "q143",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "Which differential reinforcement procedure reinforces behavior that is physically impossible to perform simultaneously with the problem behavior?",
+      "options": [
+        "DRA (Differential Reinforcement of Alternative Behavior)",
+        "DRI (Differential Reinforcement of Incompatible Behavior)",
+        "DRO (Differential Reinforcement of Other Behavior)",
+        "DRL (Differential Reinforcement of Low Rates)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DRI specifically reinforces behavior that CANNOT occur at the same time as the problem behavior (physically incompatible). Example: reinforcing hands in lap (incompatible with face-slapping). DRA reinforces any appropriate alternative but doesn't require incompatibility. DRI is often more effective because the replacement behavior prevents the problem behavior.",
+      "reference": "Cooper et al. (2020), Chapter 21"
+    },
+    {
+      "id": "q144",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "beginner",
+      "question": "What measurement dimension is MOST appropriate for tracking how long a tantrum lasts?",
+      "options": [
+        "Frequency",
+        "Duration",
+        "Latency",
+        "Interresponse time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DURATION measures how long a behavior lasts from start to finish. This is ideal for tantrums because the length/duration is the socially significant aspect. Frequency counts occurrences, latency measures delay until behavior starts, and IRT measures time between responses. Each dimension matches different behavioral concerns.",
+      "reference": "Cooper et al. (2020), Chapter 4; BACB Task List C-1"
+    },
+    {
+      "id": "q145",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "intermediate",
+      "question": "A behavior analyst records the time between the teacher's instruction and the student beginning to respond. This is measuring:",
+      "options": [
+        "Duration",
+        "Latency",
+        "Interresponse time (IRT)",
+        "Response rate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LATENCY is the time between the onset of a stimulus (SD) and the initiation of the response. This is critical for compliance and following instructions. Duration would measure how long the response lasts. IRT measures time between consecutive responses (no SD involved). Latency helps evaluate prompt control and fluency.",
+      "reference": "Cooper et al. (2020), Chapter 4"
+    },
+    {
+      "id": "q146",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "advanced",
+      "question": "A BCBA wants to measure stereotypy that occurs throughout the day at varying rates. The behavior occurs very frequently (100+ times per hour). Which recording method is MOST appropriate?",
+      "options": [
+        "Event recording (frequency)",
+        "Whole interval recording",
+        "Momentary time sampling",
+        "Duration recording"
+      ],
+      "correctAnswer": 2,
+      "explanation": "MOMENTARY TIME SAMPLING is most practical for high-rate behaviors occurring throughout the day. Observer records if behavior is occurring at specific moments (e.g., every 2 minutes). This provides an estimate of prevalence without requiring continuous observation. Event recording would be too burdensome for 100+ responses/hour. Whole interval would underestimate high-rate behavior.",
+      "reference": "Cooper et al. (2020), Chapter 4-5"
+    },
+    {
+      "id": "q147",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "intermediate",
+      "question": "Which statement about permanent products is TRUE?",
+      "options": [
+        "They require continuous observation during behavior occurrence",
+        "They can be measured after the behavior has occurred",
+        "They are only useful for academic behaviors",
+        "They cannot be used for reliability assessment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PERMANENT PRODUCTS are tangible items or effects produced by behavior that persist after behavior ends (e.g., completed worksheets, dishes washed, items assembled). Major advantage: can be measured at ANY time after occurrence without direct observation of behavior. Excellent for IOA (two observers can score the same product). Useful for academic and non-academic behaviors.",
+      "reference": "Cooper et al. (2020), Chapter 4"
+    },
+    {
+      "id": "q148",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "beginner",
+      "question": "What is the PRIMARY purpose of conducting a functional behavior assessment (FBA)?",
+      "options": [
+        "To diagnose psychological disorders",
+        "To identify the function (purpose) of problem behavior",
+        "To determine if punishment is needed",
+        "To measure baseline frequency of behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PRIMARY purpose of FBA is identifying the FUNCTION (maintaining consequence) of problem behavior - typically attention, escape, tangible access, or automatic reinforcement. Understanding function guides intervention selection. FBA doesn't diagnose disorders, doesn't assume punishment is needed, and while baseline is measured, that's not the primary purpose.",
+      "reference": "Cooper et al. (2020), Chapter 24; BACB Task List D-1"
+    },
+    {
+      "id": "q149",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "intermediate",
+      "question": "Which FBA method involves systematically manipulating antecedents and consequences to verify the function of behavior?",
+      "options": [
+        "Indirect assessment (interviews)",
+        "Descriptive assessment (ABC recording)",
+        "Functional analysis (FA)",
+        "Scatter plot analysis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "FUNCTIONAL ANALYSIS (FA) is experimental manipulation - systematically presenting and removing antecedents/consequences while measuring behavior to demonstrate functional control. This is the 'gold standard' for identifying function. Indirect (interviews) and descriptive (ABC) methods suggest hypotheses but don't demonstrate experimental control. FA provides the strongest evidence of function.",
+      "reference": "Cooper et al. (2020), Chapter 24; Iwata et al. (1982/1994)"
+    },
+    {
+      "id": "q150",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "advanced",
+      "question": "During a functional analysis, problem behavior occurs at high levels in the alone condition but low in all other conditions. What is the MOST likely function?",
+      "options": [
+        "Attention-maintained",
+        "Escape-maintained",
+        "Tangible-maintained",
+        "Automatic reinforcement (sensory)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "High rates ONLY in the alone condition (no social interaction, no demands, no tangibles) indicates AUTOMATIC (sensory) reinforcement. The behavior produces its own reinforcement through sensory stimulation. If behavior were maintained by attention, escape, or tangibles, it would be HIGH in those respective test conditions, not the alone condition.",
+      "reference": "Cooper et al. (2020), Chapter 24; Iwata et al. (1982/1994)"
+    },
+    {
+      "id": "q151",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "question": "A parent asks you to share another client's treatment plan because both children have autism. What should you do?",
+      "options": [
+        "Share the plan since both clients have the same diagnosis",
+        "Share only non-identifying portions of the plan",
+        "Decline to share and explain confidentiality requirements",
+        "Share the plan but remove the client's name"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DECLINE and explain confidentiality (BACB Ethics Code 2.06). You CANNOT share ANY client information without written consent, even if 'de-identified.' Each client's treatment is individualized. Instead, explain you can develop a new plan based on assessment of THEIR child. Confidentiality is absolute except for mandated reporting situations.",
+      "reference": "BACB Ethics Code 2.0; BACB Task List E-1"
+    },
+    {
+      "id": "q152",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "advanced",
+      "question": "You observe a colleague implementing an intervention with a client that is not in the written treatment plan and appears potentially harmful. What is your FIRST step?",
+      "options": [
+        "Report directly to the BACB immediately",
+        "Discuss your concerns directly with the colleague",
+        "Document everything and do nothing else",
+        "Tell the client's family about your concerns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Per BACB Code 7.02, attempt to resolve conflicts INFORMALLY first by discussing directly with the colleague. They may have a valid explanation, or you may be able to redirect them. If issue isn't resolved or if there's imminent danger, THEN escalate through proper channels. Going directly to BACB or family before attempting informal resolution violates the Code's conflict resolution hierarchy.",
+      "reference": "BACB Ethics Code 7.02; BACB Task List E-2"
+    },
+    {
+      "id": "q153",
+      "category": "ethics",
+      "section": "E",
+      "difficulty": "intermediate",
+      "question": "Which of the following is an example of a multiple relationship that should generally be AVOIDED?",
+      "options": [
+        "Supervising an RBT who works with your clients",
+        "Collaborating with a client's teacher",
+        "Providing ABA services to your close friend's child",
+        "Consulting with another BCBA about a difficult case"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethics Code 1.06 states behavior analysts avoid multiple relationships that could impair objectivity or risk exploitation. Providing services to a close friend's child creates dual relationships (professional + personal) that could impair judgment. Supervising RBTs, collaborating with teachers, and consulting with BCBAs are appropriate professional relationships without the conflict.",
+      "reference": "BACB Ethics Code 1.06; BACB Task List E-1"
+    },
+    {
+      "id": "q154",
+      "category": "verbal-behavior",
+      "section": "B",
+      "difficulty": "beginner",
+      "question": "A child says 'cookie' when she sees a cookie on the table. This is an example of a:",
+      "options": [
+        "Mand",
+        "Tact",
+        "Echoic",
+        "Intraverbal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TACT is labeling/naming controlled by a nonverbal discriminative stimulus (the physical cookie). The response is maintained by generalized social reinforcement ('Good talking!'). MAND would be requesting the cookie ('cookie please'). ECHOIC would be repeating someone saying 'cookie.' INTRAVERBAL would be answering 'What do you eat?' with 'cookie.'",
+      "reference": "Cooper et al. (2020), Chapter 25; Skinner (1957) Verbal Behavior"
+    },
+    {
+      "id": "q155",
+      "category": "verbal-behavior",
+      "section": "B",
+      "difficulty": "intermediate",
+      "question": "What is the PRIMARY difference between mands and other verbal operants?",
+      "options": [
+        "Mands require vocal responses",
+        "Mands benefit the speaker directly (specific reinforcement)",
+        "Mands are always easier to teach",
+        "Mands don't require any verbal stimulus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "MANDS are unique because they directly benefit the SPEAKER through SPECIFIC reinforcement (get what you request). Other operants produce generalized social reinforcement that doesn't specifically relate to the response form. Mands can be vocal or nonvocal (signs, pictures). This direct benefit makes mands highly functional and often easiest to teach first.",
+      "reference": "Cooper et al. (2020), Chapter 25; BACB Task List B-13"
+    },
+    {
+      "id": "q156",
+      "category": "verbal-behavior",
+      "section": "B",
+      "difficulty": "advanced",
+      "question": "A child says 'red' when asked 'What color is fire truck?' This is primarily:",
+      "options": [
+        "A tact controlled by the fire truck",
+        "An intraverbal controlled by the verbal stimulus",
+        "A mand for a red item",
+        "An echoic if a fire truck is present"
+      ],
+      "correctAnswer": 1,
+      "explanation": "INTRAVERBAL - verbal behavior controlled by OTHER verbal behavior without point-to-point correspondence (not echoic). The child isn't seeing a fire truck (not a tact), isn't repeating 'red' (not echoic), and isn't requesting red (not mand). The verbal stimulus 'What color is fire truck?' evokes 'red.' Intraverbals include answering questions, conversation, completing phrases.",
+      "reference": "Cooper et al. (2020), Chapter 25"
+    },
+    {
+      "id": "q157",
+      "category": "skill-acquisition",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "In discrete trial training (DTT), what is the typical consequence for an incorrect response?",
+      "options": [
+        "Time-out",
+        "Planned ignoring (extinction)",
+        "Error correction (neutral redirection, no reinforcement)",
+        "Verbal reprimand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ERROR CORRECTION in DTT typically involves neutral feedback ('let's try again'), optional prompt to correct response, then moving to next trial WITHOUT reinforcement for the prompted correct response. This prevents reinforcing errors while maintaining learning momentum. Time-out and reprimands are punishers (too harsh for learning trials). Simple extinction might not teach the correct response.",
+      "reference": "Cooper et al. (2020), Chapter 16; BACB Task List G-4"
+    },
+    {
+      "id": "q158",
+      "category": "skill-acquisition",
+      "section": "G",
+      "difficulty": "advanced",
+      "question": "Which prompt fading procedure moves from MOST to LEAST intrusive prompts?",
+      "options": [
+        "Least-to-most prompting",
+        "Graduated guidance",
+        "Time delay (progressive or constant)",
+        "Most-to-least prompting"
+      ],
+      "correctAnswer": 3,
+      "explanation": "MOST-TO-LEAST prompting starts with maximum assistance (full physical or full model) and gradually fades to less intrusive prompts as learner shows competence (partial physical → gestural → verbal → independent). This minimizes errors. LEAST-TO-MOST does opposite (starts independent, adds prompts if needed - allows more errors but promotes independence). Graduated guidance adjusts dynamically. Time delay inserts pause before prompt.",
+      "reference": "Cooper et al. (2020), Chapter 18"
+    },
+    {
+      "id": "q159",
+      "category": "skill-acquisition",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "Task analysis is the process of:",
+      "options": [
+        "Determining the function of behavior",
+        "Breaking a complex skill into smaller teachable steps",
+        "Analyzing data to make treatment decisions",
+        "Assessing skill acquisition across settings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TASK ANALYSIS breaks complex behaviors into smaller sequential steps that can be taught individually. Example: Handwashing = turn on water, wet hands, apply soap, rub hands together, rinse, turn off water, dry hands. Each step becomes a teaching target. This is foundational for chaining procedures. Not related to functional assessment or data analysis.",
+      "reference": "Cooper et al. (2020), Chapter 20; BACB Task List G-8"
+    },
+    {
+      "id": "q160",
+      "category": "skill-acquisition",
+      "section": "G",
+      "difficulty": "advanced",
+      "question": "In backward chaining, which step of the task is taught FIRST?",
+      "options": [
+        "The first step",
+        "The middle step",
+        "The last step",
+        "All steps simultaneously"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BACKWARD CHAINING teaches the LAST step first. Instructor completes all steps except the final one, learner completes final step and gets natural reinforcement (task completion). Then teach second-to-last step, etc., working backward. Advantage: learner always experiences task completion/natural reinforcement. FORWARD chaining teaches first step first, working forward.",
+      "reference": "Cooper et al. (2020), Chapter 20"
+    },
+    {
+      "id": "q161",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "intermediate",
+      "question": "Establishing operations (EOs) have which two effects on behavior?",
+      "options": [
+        "Increase value of reinforcer; increase behavior",
+        "Momentary effectiveness (value-altering) and evocative/abative (behavior-altering)",
+        "Short-term and long-term behavior change",
+        "Automatic and social reinforcement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "EOs have TWO functions: (1) VALUE-ALTERING effect - temporarily increases/decreases reinforcer effectiveness, and (2) BEHAVIOR-ALTERING effect - increases/decreases behavior that has produced that reinforcer (evocative or abative). Example: Food deprivation (EO) increases value of food AND increases food-seeking behavior. Both effects work together to influence behavior.",
+      "reference": "Cooper et al. (2020), Chapter 13; Michael (1982, 1993)"
+    },
+    {
+      "id": "q162",
+      "category": "foundations",
+      "section": "A",
+      "difficulty": "advanced",
+      "question": "Which BEST describes the difference between unconditioned and conditioned establishing operations?",
+      "options": [
+        "Unconditioned EOs are learned; conditioned EOs are innate",
+        "Unconditioned EOs are unlearned (phylogenic); conditioned EOs are learned (ontogenic)",
+        "Unconditioned EOs affect motivation; conditioned EOs do not",
+        "Unconditioned EOs are temporary; conditioned EOs are permanent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UNCONDITIONED EOs (UEOs) are unlearned motivating operations with phylogenic origins - all humans respond similarly (food deprivation, sleep deprivation, temperature). CONDITIONED EOs (CEOs) are learned through individual's experience - different for each person (studying → taking test; accumulating trash → taking out garbage). CEOs develop when neutral stimuli acquire EO properties through learning.",
+      "reference": "Cooper et al. (2020), Chapter 13; BACB Task List A-10"
+    },
+    {
+      "id": "q163",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "intermediate",
+      "question": "A behavior that has been on a continuous reinforcement schedule is placed on extinction. Compared to intermittent reinforcement, extinction will be:",
+      "options": [
+        "Faster, with smaller extinction burst",
+        "Slower, with larger extinction burst",
+        "The same speed regardless of prior schedule",
+        "Faster, but with larger extinction burst"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Continuous reinforcement (CRF) produces FASTER extinction with SMALLER burst because the change is immediately obvious ('it always worked, now it never works'). Intermittent reinforcement creates greater RESISTANCE to extinction with potentially larger bursts because inconsistent reinforcement was already the norm ('sometimes it works, keep trying'). This is the partial reinforcement effect.",
+      "reference": "Cooper et al. (2020), Chapter 8 & 14"
+    },
+    {
+      "id": "q164",
+      "category": "intervention",
+      "section": "G",
+      "difficulty": "advanced",
+      "question": "Noncontingent reinforcement (NCR) delivers reinforcement:",
+      "options": [
+        "Only when the problem behavior occurs",
+        "On a time-based schedule independent of behavior",
+        "Only when appropriate behavior occurs",
+        "Randomly throughout the day"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NCR delivers the maintaining reinforcer on a FIXED-TIME (FT) or VARIABLE-TIME (VT) schedule REGARDLESS of behavior. This is an abolishing operation - providing 'free' access to reinforcer reduces its value, reducing motivation for problem behavior. Not truly random - schedule is systematic. NCR is effective for attention-maintained and tangible-maintained behaviors.",
+      "reference": "Cooper et al. (2020), Chapter 21; BACB Task List G-13"
+    },
+    {
+      "id": "q165",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "intermediate",
+      "question": "IOA (Interobserver Agreement) is calculated for what primary reason?",
+      "options": [
+        "To determine if behavior change is clinically significant",
+        "To assess measurement reliability and observer accuracy",
+        "To identify the function of behavior",
+        "To calculate effect size"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IOA assesses MEASUREMENT RELIABILITY - the degree to which two independent observers record the same values. High IOA (typically ≥80%) indicates measurement system is reliable and data are trustworthy. Low IOA suggests unclear operational definitions, inadequate observer training, or measurement system problems. IOA doesn't measure clinical significance, function, or effect size.",
+      "reference": "Cooper et al. (2020), Chapter 5; BACB Task List C-9"
+    },
+    {
+      "id": "q166",
+      "category": "measurement",
+      "section": "C",
+      "difficulty": "advanced",
+      "question": "For interval recording, which IOA calculation method is MOST conservative (stringent)?",
+      "options": [
+        "Total count IOA",
+        "Mean count-per-interval IOA",
+        "Exact interval agreement (interval-by-interval)",
+        "Scored-interval IOA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "INTERVAL-BY-INTERVAL (exact agreement) is most conservative - only counts intervals where both observers recorded EXACTLY the same thing (both scored or both didn't score). Total count and mean count-per-interval can show high agreement even when observers disagree on which specific intervals. Scored-interval only considers intervals where at least one observer scored, inflating agreement. Interval-by-interval is recommended standard.",
+      "reference": "Cooper et al. (2020), Chapter 5"
+    }
+  ]
+}
+

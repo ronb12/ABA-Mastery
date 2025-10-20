@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "scenario-051",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old student with developmental disabilities in a after-school program engages in calling out that disrupts instruction. Systematic ABC data collection across 10 sessions reveals calling out occurs 24 times per hour when the teacher is working with other students. When calling out occurs, the teacher provides a verbal redirect immediately. During one-on-one instruction, calling out occurs only 2 times per session. The teacher reports that calling out almost always results in adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (24 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-052",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 6-year-old client with developmental disabilities in a community setting engages in making noises that interferes with therapy. Systematic ABC data collection across 11 sessions reveals making noises occurs 27 times per 30-minute session when staff attention is directed to others. When making noises occurs, staff look at and speak to the client within 5-10 seconds. During individual therapy sessions, making noises occurs only 2 times per session. The therapist reports that making noises typically produces staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (27 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-053",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 7-year-old child with learning disabilities in a home engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 12 sessions reveals inappropriate comments occurs 23 times per 45-minute period when the therapist is taking data. When inappropriate comments occurs, parents tell them to stop consistently. During dyadic interactions, inappropriate comments occurs only 1 time per session. The parent reports that inappropriate comments reliably leads to social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (23 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-054",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old student with developmental disabilities in a after-school program engages in interrupting that disrupts instruction. Systematic ABC data collection across 13 sessions reveals interrupting occurs 30 times per hour when parents are busy with siblings. When interrupting occurs, the therapist provides corrective feedback immediately. During times when adult attention is continuously available, interrupting occurs only 1 time per session. The staff member reports that interrupting consistently generates adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (30 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-055",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 6-year-old client with intellectual disability in a ABA clinic engages in silly behavior that interferes with therapy. Systematic ABC data collection across 14 sessions reveals silly behavior occurs 34 times per 30-minute session when adults are engaged in other activities. When silly behavior occurs, adults approach and interact with the client within 5-10 seconds. During one-on-one instruction, silly behavior occurs only 2 times per session. The teacher reports that silly behavior almost always results in staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (34 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-056",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 4-year-old child with intellectual disability in a after-school program engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 15 sessions reveals dropping materials occurs 34 times per 45-minute period when the teacher is working with other students. When dropping materials occurs, the teacher provides a verbal redirect consistently. During individual therapy sessions, dropping materials occurs only 3 times per session. The therapist reports that dropping materials typically produces social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (34 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-057",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old student with learning disabilities in a ABA clinic engages in calling out that disrupts instruction. Systematic ABC data collection across 16 sessions reveals calling out occurs 36 times per hour when staff attention is directed to others. When calling out occurs, staff look at and speak to the client immediately. During dyadic interactions, calling out occurs only 1 time per session. The parent reports that calling out reliably leads to adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (36 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-058",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 3-year-old client with autism spectrum disorder in a community setting engages in making noises that interferes with therapy. Systematic ABC data collection across 17 sessions reveals making noises occurs 28 times per 30-minute session when the therapist is taking data. When making noises occurs, parents tell them to stop within 5-10 seconds. During times when adult attention is continuously available, making noises occurs only 1 time per session. The staff member reports that making noises consistently generates staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (28 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-059",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 22-year-old child with intellectual disability in a home engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 18 sessions reveals inappropriate comments occurs 39 times per 45-minute period when parents are busy with siblings. When inappropriate comments occurs, the therapist provides corrective feedback consistently. During one-on-one instruction, inappropriate comments occurs only 3 times per session. The teacher reports that inappropriate comments almost always results in social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (39 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-060",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 14-year-old student with Down syndrome in a ABA clinic engages in interrupting that disrupts instruction. Systematic ABC data collection across 19 sessions reveals interrupting occurs 21 times per hour when adults are engaged in other activities. When interrupting occurs, adults approach and interact with the client immediately. During individual therapy sessions, interrupting occurs only 2 times per session. The therapist reports that interrupting typically produces adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (21 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-061",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old client with cerebral palsy in a community setting engages in silly behavior that interferes with therapy. Systematic ABC data collection across 20 sessions reveals silly behavior occurs 22 times per 30-minute session when the teacher is working with other students. When silly behavior occurs, the teacher provides a verbal redirect within 5-10 seconds. During dyadic interactions, silly behavior occurs only 1 time per session. The parent reports that silly behavior reliably leads to staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (22 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-062",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old child with learning disabilities in a residential facility engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 21 sessions reveals dropping materials occurs 25 times per 45-minute period when staff attention is directed to others. When dropping materials occurs, staff look at and speak to the client consistently. During times when adult attention is continuously available, dropping materials occurs only 1 time per session. The staff member reports that dropping materials consistently generates social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (25 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-063",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old student with Down syndrome in a ABA clinic engages in calling out that disrupts instruction. Systematic ABC data collection across 22 sessions reveals calling out occurs 30 times per hour when the therapist is taking data. When calling out occurs, parents tell them to stop immediately. During one-on-one instruction, calling out occurs only 2 times per session. The teacher reports that calling out almost always results in adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (30 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-064",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 16-year-old client with ADHD in a residential facility engages in making noises that interferes with therapy. Systematic ABC data collection across 23 sessions reveals making noises occurs 31 times per 30-minute session when parents are busy with siblings. When making noises occurs, the therapist provides corrective feedback within 5-10 seconds. During individual therapy sessions, making noises occurs only 1 time per session. The therapist reports that making noises typically produces staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (31 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-065",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 14-year-old child with intellectual disability in a after-school program engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 24 sessions reveals inappropriate comments occurs 39 times per 45-minute period when adults are engaged in other activities. When inappropriate comments occurs, adults approach and interact with the client consistently. During dyadic interactions, inappropriate comments occurs only 3 times per session. The parent reports that inappropriate comments reliably leads to social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (39 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-066",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 30-year-old student with cerebral palsy in a special education classroom engages in interrupting that disrupts instruction. Systematic ABC data collection across 25 sessions reveals interrupting occurs 34 times per hour when the teacher is working with other students. When interrupting occurs, the teacher provides a verbal redirect immediately. During times when adult attention is continuously available, interrupting occurs only 3 times per session. The staff member reports that interrupting consistently generates adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (34 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-067",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 10-year-old client with Down syndrome in a general education classroom engages in silly behavior that interferes with therapy. Systematic ABC data collection across 26 sessions reveals silly behavior occurs 28 times per 30-minute session when staff attention is directed to others. When silly behavior occurs, staff look at and speak to the client within 5-10 seconds. During one-on-one instruction, silly behavior occurs only 2 times per session. The teacher reports that silly behavior almost always results in staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (28 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-068",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old child with Down syndrome in a home engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 27 sessions reveals dropping materials occurs 15 times per 45-minute period when the therapist is taking data. When dropping materials occurs, parents tell them to stop consistently. During individual therapy sessions, dropping materials occurs only 2 times per session. The therapist reports that dropping materials typically produces social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (15 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-069",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old student with developmental disabilities in a special education classroom engages in calling out that disrupts instruction. Systematic ABC data collection across 28 sessions reveals calling out occurs 17 times per hour when parents are busy with siblings. When calling out occurs, the therapist provides corrective feedback immediately. During dyadic interactions, calling out occurs only 3 times per session. The parent reports that calling out reliably leads to adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (17 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-070",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 18-year-old client with autism spectrum disorder in a residential facility engages in making noises that interferes with therapy. Systematic ABC data collection across 29 sessions reveals making noises occurs 31 times per 30-minute session when adults are engaged in other activities. When making noises occurs, adults approach and interact with the client within 5-10 seconds. During times when adult attention is continuously available, making noises occurs only 3 times per session. The staff member reports that making noises consistently generates staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (31 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-071",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 6-year-old child with cerebral palsy in a general education classroom engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 30 sessions reveals inappropriate comments occurs 16 times per 45-minute period when the teacher is working with other students. When inappropriate comments occurs, the teacher provides a verbal redirect consistently. During one-on-one instruction, inappropriate comments occurs only 1 time per session. The teacher reports that inappropriate comments almost always results in social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (16 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-072",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 6-year-old student with ADHD in a home engages in interrupting that disrupts instruction. Systematic ABC data collection across 31 sessions reveals interrupting occurs 37 times per hour when staff attention is directed to others. When interrupting occurs, staff look at and speak to the client immediately. During individual therapy sessions, interrupting occurs only 2 times per session. The therapist reports that interrupting typically produces adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (37 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-073",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 12-year-old client with learning disabilities in a inclusive preschool engages in silly behavior that interferes with therapy. Systematic ABC data collection across 32 sessions reveals silly behavior occurs 15 times per 30-minute session when the therapist is taking data. When silly behavior occurs, parents tell them to stop within 5-10 seconds. During dyadic interactions, silly behavior occurs only 1 time per session. The parent reports that silly behavior reliably leads to staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (15 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-074",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old child with intellectual disability in a community setting engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 33 sessions reveals dropping materials occurs 26 times per 45-minute period when parents are busy with siblings. When dropping materials occurs, the therapist provides corrective feedback consistently. During times when adult attention is continuously available, dropping materials occurs only 3 times per session. The staff member reports that dropping materials consistently generates social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (26 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-075",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 16-year-old student with autism spectrum disorder in a home engages in calling out that disrupts instruction. Systematic ABC data collection across 34 sessions reveals calling out occurs 21 times per hour when adults are engaged in other activities. When calling out occurs, adults approach and interact with the client immediately. During one-on-one instruction, calling out occurs only 1 time per session. The teacher reports that calling out almost always results in adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (21 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-076",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 22-year-old client with autism spectrum disorder in a after-school program engages in making noises that interferes with therapy. Systematic ABC data collection across 35 sessions reveals making noises occurs 37 times per 30-minute session when the teacher is working with other students. When making noises occurs, the teacher provides a verbal redirect within 5-10 seconds. During individual therapy sessions, making noises occurs only 3 times per session. The therapist reports that making noises typically produces staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (37 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-077",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 14-year-old child with intellectual disability in a general education classroom engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 36 sessions reveals inappropriate comments occurs 22 times per 45-minute period when staff attention is directed to others. When inappropriate comments occurs, staff look at and speak to the client consistently. During dyadic interactions, inappropriate comments occurs only 3 times per session. The parent reports that inappropriate comments reliably leads to social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (22 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-078",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 22-year-old student with developmental disabilities in a after-school program engages in interrupting that disrupts instruction. Systematic ABC data collection across 37 sessions reveals interrupting occurs 32 times per hour when the therapist is taking data. When interrupting occurs, parents tell them to stop immediately. During times when adult attention is continuously available, interrupting occurs only 3 times per session. The staff member reports that interrupting consistently generates adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (32 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-079",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 10-year-old client with autism spectrum disorder in a ABA clinic engages in silly behavior that interferes with therapy. Systematic ABC data collection across 38 sessions reveals silly behavior occurs 39 times per 30-minute session when parents are busy with siblings. When silly behavior occurs, the therapist provides corrective feedback within 5-10 seconds. During one-on-one instruction, silly behavior occurs only 3 times per session. The teacher reports that silly behavior almost always results in staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (39 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-080",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 5-year-old child with Down syndrome in a ABA clinic engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 39 sessions reveals dropping materials occurs 37 times per 45-minute period when adults are engaged in other activities. When dropping materials occurs, adults approach and interact with the client consistently. During individual therapy sessions, dropping materials occurs only 3 times per session. The therapist reports that dropping materials typically produces social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (37 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-081",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 18-year-old student with ADHD in a community setting engages in calling out that disrupts instruction. Systematic ABC data collection across 40 sessions reveals calling out occurs 36 times per hour when the teacher is working with other students. When calling out occurs, the teacher provides a verbal redirect immediately. During dyadic interactions, calling out occurs only 1 time per session. The parent reports that calling out reliably leads to adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (36 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-082",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old client with intellectual disability in a home engages in making noises that interferes with therapy. Systematic ABC data collection across 41 sessions reveals making noises occurs 33 times per 30-minute session when staff attention is directed to others. When making noises occurs, staff look at and speak to the client within 5-10 seconds. During times when adult attention is continuously available, making noises occurs only 1 time per session. The staff member reports that making noises consistently generates staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (33 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-083",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 16-year-old child with ADHD in a general education classroom engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 42 sessions reveals inappropriate comments occurs 27 times per 45-minute period when the therapist is taking data. When inappropriate comments occurs, parents tell them to stop consistently. During one-on-one instruction, inappropriate comments occurs only 1 time per session. The teacher reports that inappropriate comments almost always results in social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (27 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-084",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 18-year-old student with learning disabilities in a general education classroom engages in interrupting that disrupts instruction. Systematic ABC data collection across 43 sessions reveals interrupting occurs 16 times per hour when parents are busy with siblings. When interrupting occurs, the therapist provides corrective feedback immediately. During individual therapy sessions, interrupting occurs only 2 times per session. The therapist reports that interrupting typically produces adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (16 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-085",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 8-year-old client with learning disabilities in a residential facility engages in silly behavior that interferes with therapy. Systematic ABC data collection across 44 sessions reveals silly behavior occurs 21 times per 30-minute session when adults are engaged in other activities. When silly behavior occurs, adults approach and interact with the client within 5-10 seconds. During dyadic interactions, silly behavior occurs only 1 time per session. The parent reports that silly behavior reliably leads to staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (21 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-086",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 6-year-old child with autism spectrum disorder in a special education classroom engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 45 sessions reveals dropping materials occurs 39 times per 45-minute period when the teacher is working with other students. When dropping materials occurs, the teacher provides a verbal redirect consistently. During times when adult attention is continuously available, dropping materials occurs only 2 times per session. The staff member reports that dropping materials consistently generates social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (39 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-087",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old student with learning disabilities in a home engages in calling out that disrupts instruction. Systematic ABC data collection across 46 sessions reveals calling out occurs 32 times per hour when staff attention is directed to others. When calling out occurs, staff look at and speak to the client immediately. During one-on-one instruction, calling out occurs only 1 time per session. The teacher reports that calling out almost always results in adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (32 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-088",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 3-year-old client with developmental disabilities in a community setting engages in making noises that interferes with therapy. Systematic ABC data collection across 47 sessions reveals making noises occurs 29 times per 30-minute session when the therapist is taking data. When making noises occurs, parents tell them to stop within 5-10 seconds. During individual therapy sessions, making noises occurs only 2 times per session. The therapist reports that making noises typically produces staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (29 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-089",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 12-year-old child with cerebral palsy in a inclusive preschool engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 48 sessions reveals inappropriate comments occurs 27 times per 45-minute period when parents are busy with siblings. When inappropriate comments occurs, the therapist provides corrective feedback consistently. During dyadic interactions, inappropriate comments occurs only 1 time per session. The parent reports that inappropriate comments reliably leads to social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (27 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-090",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 16-year-old student with cerebral palsy in a ABA clinic engages in interrupting that disrupts instruction. Systematic ABC data collection across 49 sessions reveals interrupting occurs 19 times per hour when adults are engaged in other activities. When interrupting occurs, adults approach and interact with the client immediately. During times when adult attention is continuously available, interrupting occurs only 2 times per session. The staff member reports that interrupting consistently generates adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (19 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-091",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 10-year-old client with learning disabilities in a special education classroom engages in silly behavior that interferes with therapy. Systematic ABC data collection across 50 sessions reveals silly behavior occurs 28 times per 30-minute session when the teacher is working with other students. When silly behavior occurs, the teacher provides a verbal redirect within 5-10 seconds. During one-on-one instruction, silly behavior occurs only 3 times per session. The teacher reports that silly behavior almost always results in staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (28 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-092",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 16-year-old child with oppositional defiant disorder in a after-school program engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 51 sessions reveals dropping materials occurs 19 times per 45-minute period when staff attention is directed to others. When dropping materials occurs, staff look at and speak to the client consistently. During individual therapy sessions, dropping materials occurs only 2 times per session. The therapist reports that dropping materials typically produces social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (19 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-093",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 22-year-old student with Down syndrome in a community setting engages in calling out that disrupts instruction. Systematic ABC data collection across 52 sessions reveals calling out occurs 16 times per hour when the therapist is taking data. When calling out occurs, parents tell them to stop immediately. During dyadic interactions, calling out occurs only 3 times per session. The parent reports that calling out reliably leads to adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (16 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-094",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 10-year-old client with developmental disabilities in a special education classroom engages in making noises that interferes with therapy. Systematic ABC data collection across 53 sessions reveals making noises occurs 16 times per 30-minute session when parents are busy with siblings. When making noises occurs, the therapist provides corrective feedback within 5-10 seconds. During times when adult attention is continuously available, making noises occurs only 1 time per session. The staff member reports that making noises consistently generates staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (16 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-095",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 6-year-old child with intellectual disability in a residential facility engages in inappropriate comments that interrupts classroom activities. Systematic ABC data collection across 54 sessions reveals inappropriate comments occurs 31 times per 45-minute period when adults are engaged in other activities. When inappropriate comments occurs, adults approach and interact with the client consistently. During one-on-one instruction, inappropriate comments occurs only 3 times per session. The teacher reports that inappropriate comments almost always results in social contact.",
+    "question": "What is the most likely maintaining variable (function) for this inappropriate comments behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (31 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-096",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 9-year-old student with autism spectrum disorder in a general education classroom engages in interrupting that disrupts instruction. Systematic ABC data collection across 55 sessions reveals interrupting occurs 38 times per hour when the teacher is working with other students. When interrupting occurs, the teacher provides a verbal redirect immediately. During individual therapy sessions, interrupting occurs only 1 time per session. The therapist reports that interrupting typically produces adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this interrupting behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (38 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (1 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-097",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 7-year-old client with intellectual disability in a residential facility engages in silly behavior that interferes with therapy. Systematic ABC data collection across 56 sessions reveals silly behavior occurs 26 times per 30-minute session when staff attention is directed to others. When silly behavior occurs, staff look at and speak to the client within 5-10 seconds. During dyadic interactions, silly behavior occurs only 3 times per session. The parent reports that silly behavior reliably leads to staff response.",
+    "question": "What is the most likely maintaining variable (function) for this silly behavior behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (26 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-098",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A 25-year-old child with developmental disabilities in a general education classroom engages in dropping materials that interrupts classroom activities. Systematic ABC data collection across 57 sessions reveals dropping materials occurs 33 times per 45-minute period when the therapist is taking data. When dropping materials occurs, parents tell them to stop consistently. During times when adult attention is continuously available, dropping materials occurs only 3 times per session. The staff member reports that dropping materials consistently generates social contact.",
+    "question": "What is the most likely maintaining variable (function) for this dropping materials behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (33 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-099",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A 25-year-old student with cerebral palsy in a special education classroom engages in calling out that disrupts instruction. Systematic ABC data collection across 58 sessions reveals calling out occurs 35 times per hour when parents are busy with siblings. When calling out occurs, the therapist provides corrective feedback immediately. During one-on-one instruction, calling out occurs only 3 times per session. The teacher reports that calling out almost always results in adult interaction.",
+    "question": "What is the most likely maintaining variable (function) for this calling out behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (35 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (3 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  },
+  {
+    "id": "scenario-100",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A 3-year-old client with Down syndrome in a residential facility engages in making noises that interferes with therapy. Systematic ABC data collection across 59 sessions reveals making noises occurs 26 times per 30-minute session when adults are engaged in other activities. When making noises occurs, adults approach and interact with the client within 5-10 seconds. During individual therapy sessions, making noises occurs only 2 times per session. The therapist reports that making noises typically produces staff response.",
+    "question": "What is the most likely maintaining variable (function) for this making noises behavior?",
+    "options": [
+      "Escape or avoidance of task demands",
+      "Access to preferred tangible items",
+      "Access to social attention from adults or peers",
+      "Automatic reinforcement (sensory stimulation)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The data pattern clearly indicates an attention function maintained by positive reinforcement (access to social attention). Converging evidence includes: (1) Temporal pattern: Behavior occurs at high rates (26 per session) specifically when adult attention is diverted to others or unavailable, demonstrating antecedent control by attention deprivation, (2) Consequence: The behavior reliably produces social attention (redirects, reprimands, corrections - all are forms of attention), even though the attention may be intended as \"negative,\" it functions as reinforcement if behavior persists, (3) Absence pattern: Low rates (2 instances) during one-on-one activities when attention is already continuously available, (4) Consistency: Pattern observed across multiple sessions and settings. This is not escape (would correlate with task demands), not tangible (would correlate with specific items), and not automatic (would occur similarly with and without social consequences). The functional relationship between low attention (antecedent) → problem behavior → attention provided (consequence) demonstrates a clear attention function.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-18"
+    ],
+    "keywords": [
+      "attention function",
+      "positive reinforcement",
+      "social attention",
+      "ABC analysis",
+      "attention-maintained behavior"
+    ]
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "scenario-051",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 12-year-old client with cerebral palsy who engages in hand-biting at a baseline rate of 38 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for hand-biting. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-052",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 10-year-old client with intellectual disability who engages in screaming at a baseline rate of 37 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with screaming, while withholding reinforcement for the problem behavior. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-053",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 11-year-old client with cerebral palsy who engages in hitting at a baseline rate of 30 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF hitting has NOT occurred during that interval. If hitting occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-054",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 12-year-old client with ADHD who engages in leaving seat at a baseline rate of 24 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when leaving seat occurs at rates lower than 24 per hour. Initially, criterion set at fewer than 19 instances per hour, with gradual reduction of criterion over time. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 24 per hour, initial criterion might be 19, then 14, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-055",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 9-year-old client with Down syndrome who engages in talking out at a baseline rate of 26 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for talking out. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-056",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 22-year-old client with developmental disabilities who engages in hand-biting at a baseline rate of 33 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with hand-biting, while withholding reinforcement for the problem behavior. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-057",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 14-year-old client with learning disabilities who engages in screaming at a baseline rate of 38 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF screaming has NOT occurred during that interval. If screaming occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-058",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 3-year-old client with learning disabilities who engages in hitting at a baseline rate of 38 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when hitting occurs at rates lower than 38 per hour. Initially, criterion set at fewer than 33 instances per hour, with gradual reduction of criterion over time. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 38 per hour, initial criterion might be 33, then 28, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-059",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 30-year-old client with learning disabilities who engages in leaving seat at a baseline rate of 22 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for leaving seat. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-060",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 10-year-old client with intellectual disability who engages in talking out at a baseline rate of 44 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with talking out, while withholding reinforcement for the problem behavior. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-061",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 16-year-old client with ADHD who engages in hand-biting at a baseline rate of 42 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF hand-biting has NOT occurred during that interval. If hand-biting occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-062",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 3-year-old client with autism spectrum disorder who engages in screaming at a baseline rate of 37 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when screaming occurs at rates lower than 37 per hour. Initially, criterion set at fewer than 32 instances per hour, with gradual reduction of criterion over time. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 37 per hour, initial criterion might be 32, then 27, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-063",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 6-year-old client with Down syndrome who engages in hitting at a baseline rate of 33 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for hitting. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-064",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 3-year-old client with Down syndrome who engages in leaving seat at a baseline rate of 38 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with leaving seat, while withholding reinforcement for the problem behavior. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-065",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 9-year-old client with learning disabilities who engages in talking out at a baseline rate of 23 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF talking out has NOT occurred during that interval. If talking out occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-066",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 25-year-old client with oppositional defiant disorder who engages in hand-biting at a baseline rate of 35 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when hand-biting occurs at rates lower than 35 per hour. Initially, criterion set at fewer than 30 instances per hour, with gradual reduction of criterion over time. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 35 per hour, initial criterion might be 30, then 25, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-067",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 11-year-old client with developmental disabilities who engages in screaming at a baseline rate of 37 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for screaming. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-068",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 16-year-old client with Down syndrome who engages in hitting at a baseline rate of 23 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with hitting, while withholding reinforcement for the problem behavior. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-069",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 4-year-old client with learning disabilities who engages in leaving seat at a baseline rate of 20 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF leaving seat has NOT occurred during that interval. If leaving seat occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-070",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 5-year-old client with Down syndrome who engages in talking out at a baseline rate of 36 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when talking out occurs at rates lower than 36 per hour. Initially, criterion set at fewer than 31 instances per hour, with gradual reduction of criterion over time. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 36 per hour, initial criterion might be 31, then 26, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-071",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 18-year-old client with oppositional defiant disorder who engages in hand-biting at a baseline rate of 43 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for hand-biting. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-072",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 11-year-old client with learning disabilities who engages in screaming at a baseline rate of 35 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with screaming, while withholding reinforcement for the problem behavior. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-073",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 18-year-old client with autism spectrum disorder who engages in hitting at a baseline rate of 30 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF hitting has NOT occurred during that interval. If hitting occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-074",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 6-year-old client with oppositional defiant disorder who engages in leaving seat at a baseline rate of 20 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when leaving seat occurs at rates lower than 20 per hour. Initially, criterion set at fewer than 15 instances per hour, with gradual reduction of criterion over time. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 20 per hour, initial criterion might be 15, then 10, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-075",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 14-year-old client with intellectual disability who engages in talking out at a baseline rate of 28 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for talking out. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-076",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 22-year-old client with oppositional defiant disorder who engages in hand-biting at a baseline rate of 31 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with hand-biting, while withholding reinforcement for the problem behavior. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-077",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 14-year-old client with intellectual disability who engages in screaming at a baseline rate of 23 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF screaming has NOT occurred during that interval. If screaming occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-078",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 6-year-old client with oppositional defiant disorder who engages in hitting at a baseline rate of 28 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when hitting occurs at rates lower than 28 per hour. Initially, criterion set at fewer than 23 instances per hour, with gradual reduction of criterion over time. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 28 per hour, initial criterion might be 23, then 18, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-079",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 14-year-old client with autism spectrum disorder who engages in leaving seat at a baseline rate of 40 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for leaving seat. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-080",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 25-year-old client with intellectual disability who engages in talking out at a baseline rate of 23 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with talking out, while withholding reinforcement for the problem behavior. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-081",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 16-year-old client with oppositional defiant disorder who engages in hand-biting at a baseline rate of 28 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF hand-biting has NOT occurred during that interval. If hand-biting occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-082",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 8-year-old client with ADHD who engages in screaming at a baseline rate of 24 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when screaming occurs at rates lower than 24 per hour. Initially, criterion set at fewer than 19 instances per hour, with gradual reduction of criterion over time. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 24 per hour, initial criterion might be 19, then 14, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-083",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 7-year-old client with developmental disabilities who engages in hitting at a baseline rate of 30 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for hitting. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-084",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 12-year-old client with ADHD who engages in leaving seat at a baseline rate of 26 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with leaving seat, while withholding reinforcement for the problem behavior. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-085",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 22-year-old client with ADHD who engages in talking out at a baseline rate of 34 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF talking out has NOT occurred during that interval. If talking out occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-086",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 5-year-old client with Down syndrome who engages in hand-biting at a baseline rate of 33 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when hand-biting occurs at rates lower than 33 per hour. Initially, criterion set at fewer than 28 instances per hour, with gradual reduction of criterion over time. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 33 per hour, initial criterion might be 28, then 23, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-087",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 14-year-old client with Down syndrome who engages in screaming at a baseline rate of 28 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for screaming. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-088",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 7-year-old client with learning disabilities who engages in hitting at a baseline rate of 21 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with hitting, while withholding reinforcement for the problem behavior. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-089",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 16-year-old client with ADHD who engages in leaving seat at a baseline rate of 36 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF leaving seat has NOT occurred during that interval. If leaving seat occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-090",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 12-year-old client with learning disabilities who engages in talking out at a baseline rate of 40 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when talking out occurs at rates lower than 40 per hour. Initially, criterion set at fewer than 35 instances per hour, with gradual reduction of criterion over time. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 40 per hour, initial criterion might be 35, then 30, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-091",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 5-year-old client with learning disabilities who engages in hand-biting at a baseline rate of 39 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for hand-biting. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-092",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 16-year-old client with intellectual disability who engages in screaming at a baseline rate of 35 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with screaming, while withholding reinforcement for the problem behavior. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-093",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 25-year-old client with cerebral palsy who engages in hitting at a baseline rate of 41 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF hitting has NOT occurred during that interval. If hitting occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-094",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 12-year-old client with intellectual disability who engages in leaving seat at a baseline rate of 23 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when leaving seat occurs at rates lower than 23 per hour. Initially, criterion set at fewer than 18 instances per hour, with gradual reduction of criterion over time. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 23 per hour, initial criterion might be 18, then 13, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-095",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 3-year-old client with oppositional defiant disorder who engages in talking out at a baseline rate of 22 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for talking out. Data collection procedures include duration recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-096",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 4-year-old client with autism spectrum disorder who engages in hand-biting at a baseline rate of 40 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with hand-biting, while withholding reinforcement for the problem behavior. Data collection procedures include frequency recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-097",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 30-year-old client with learning disabilities who engages in screaming at a baseline rate of 29 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRO (Differential Reinforcement of Other behavior). The plan specifies delivering reinforcement every 5 minutes IF screaming has NOT occurred during that interval. If screaming occurs, the timer resets to zero and no reinforcement is delivered for that interval. Data collection procedures include interval recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRO procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Provide reinforcement for absence of problem behavior during specified intervals; reset interval if problem behavior occurs",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO (Differential Reinforcement of Other behavior) provides reinforcement based solely on the absence of problem behavior during specified time intervals, regardless of what other behaviors occur. Implementation requires: (1) Setting initial interval based on baseline (often shorter than average inter-response time), (2) Using timer visible to implementer, (3) Resetting timer if problem behavior occurs (critical), (4) Systematically thinning interval as behavior improves (e.g., 2 min → 3 min → 5 min → 10 min). DRO is effective but doesn't teach specific replacement skills. Often combined with other procedures. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRO",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-098",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 3-year-old client with autism spectrum disorder who engages in hitting at a baseline rate of 27 instances per day in home settings. Functional assessment data indicates the behavior is maintained by tangible function. The BCBA recommends implementing DRL (Differential Reinforcement of Low rates behavior). The plan specifies providing reinforcement when hitting occurs at rates lower than 27 per hour. Initially, criterion set at fewer than 22 instances per hour, with gradual reduction of criterion over time. Data collection procedures include duration recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRL procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Provide reinforcement when behavior occurs below criterion rate; gradually lower criterion over time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRL (Differential Reinforcement of Low rates) is used when the goal is reduction (not elimination) of behavior. Criterion is set below baseline but above zero. For example, if baseline is 27 per hour, initial criterion might be 22, then 17, gradually approaching acceptable level. DRL is appropriate when behavior serves important function but occurs excessively (e.g., question-asking, social initiations). Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRL",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-099",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 4-year-old client with learning disabilities who engages in leaving seat at a baseline rate of 36 instances per hour in classroom settings. Functional assessment data indicates the behavior is maintained by attention function. The BCBA recommends implementing DRA (Differential Reinforcement of Alternative behavior). The plan specifies teaching and reinforcing raising hand appropriately to access the same functional reinforcer, while implementing extinction (no reinforcement) for leaving seat. Data collection procedures include frequency recording of both problem and appropriate behavior.",
+    "question": "Which statement best describes the correct implementation of this DRA procedure?",
+    "options": [
+      "Provide reinforcement for alternative behavior that serves same function; withhold reinforcement (extinction) for problem behavior",
+      "Monitor data and adjust as needed",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA (Differential Reinforcement of Alternative behavior) is most effective when: (1) The alternative behavior is functionally equivalent (produces the same reinforcer as problem behavior), (2) Reinforcement is provided consistently for alternative behavior, (3) Extinction is implemented for problem behavior (critical component often omitted), (4) The alternative is easier/more efficient than problem behavior. The differential between reinforced alternative and extinguished problem behavior drives behavior change. Common error: Reinforcing alternative without extinction often results in both behaviors occurring. DRA is considered gold standard for function-based treatment because it teaches appropriate skills while reducing problem behavior. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRA",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  },
+  {
+    "id": "scenario-100",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A behavior intervention plan is being developed for a 10-year-old client with learning disabilities who engages in talking out at a baseline rate of 29 instances per session in clinic settings. Functional assessment data indicates the behavior is maintained by escape function. The BCBA recommends implementing DRI (Differential Reinforcement of Incompatible behavior). The plan specifies reinforcing sitting with hands in lap, which is physically incompatible with talking out, while withholding reinforcement for the problem behavior. Data collection procedures include interval recording of both target and replacement responses.",
+    "question": "Which statement best describes the correct implementation of this DRI procedure?",
+    "options": [
+      "Implement the procedure exactly as described in the plan",
+      "Provide reinforcement for behavior physically incompatible with problem behavior; withhold reinforcement for problem behavior",
+      "Ensure treatment integrity above 80%",
+      "Use punishment if differential reinforcement insufficient"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI (Differential Reinforcement of Incompatible behavior) works by reinforcing a behavior that cannot physically occur at the same time as the problem behavior. Examples: Hands folded is incompatible with hitting; sitting is incompatible with running. The incompatibility ensures problem behavior decreases as the reinforced behavior increases. However, DRI doesn't teach a functionally equivalent communication response, so it may be less effective than DRA for behaviors with social functions. Best used when teaching a specific incompatible behavior is clinically appropriate. Punishment should not be first-line treatment when differential reinforcement approaches are available and appropriate. The BACB Ethics Code requires using least restrictive effective interventions.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30",
+      "FK-31",
+      "E-01"
+    ],
+    "keywords": [
+      "DRI",
+      "differential reinforcement",
+      "behavior reduction",
+      "positive behavior support"
+    ]
+  }
+]

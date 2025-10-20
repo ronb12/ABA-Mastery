@@ -1,0 +1,1227 @@
+[
+  {
+    "id": "scenario-401",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 1 tokens for completion. Backup reinforcers include preferred activities. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-402",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 2 tokens for participation. Backup reinforcers include prizes. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-403",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 3 tokens for compliance. Backup reinforcers include privileges. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-404",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 4 tokens for cooperation. Backup reinforcers include items. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-405",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 5 tokens for completion. Backup reinforcers include preferred activities. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-406",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 1 tokens for participation. Backup reinforcers include prizes. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-407",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 2 tokens for compliance. Backup reinforcers include privileges. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-408",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 3 tokens for cooperation. Backup reinforcers include items. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-409",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 4 tokens for completion. Backup reinforcers include preferred activities. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-410",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 5 tokens for participation. Backup reinforcers include prizes. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-411",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 1 tokens for compliance. Backup reinforcers include privileges. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-412",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 2 tokens for cooperation. Backup reinforcers include items. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-413",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 3 tokens for completion. Backup reinforcers include preferred activities. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-414",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 4 tokens for participation. Backup reinforcers include prizes. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-415",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 5 tokens for compliance. Backup reinforcers include privileges. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-416",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 1 tokens for cooperation. Backup reinforcers include items. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-417",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 2 tokens for completion. Backup reinforcers include preferred activities. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-418",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 3 tokens for participation. Backup reinforcers include prizes. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-419",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 4 tokens for compliance. Backup reinforcers include privileges. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-420",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 5 tokens for cooperation. Backup reinforcers include items. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-421",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 1 tokens for completion. Backup reinforcers include preferred activities. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-422",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 2 tokens for participation. Backup reinforcers include prizes. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-423",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 3 tokens for compliance. Backup reinforcers include privileges. Exchange occurs weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-424",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 4 tokens for cooperation. Backup reinforcers include items. Exchange occurs twice weekly.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-425",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "token-economy",
+    "scenario": "A classroom token economy awards 5 tokens for completion. Backup reinforcers include preferred activities. Exchange occurs daily.",
+    "question": "What makes this an effective token economy?",
+    "options": [
+      "Clear earning criteria and variety of backup reinforcers",
+      "High token value",
+      "Frequent punishment",
+      "Complex exchange rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective token economies have clear earning rules and varied backup reinforcers to maintain motivation. Complexity should be minimized.",
+    "bacbTaskList": [
+      "G-10"
+    ],
+    "keywords": [
+      "token economy",
+      "backup reinforcers",
+      "classroom management"
+    ]
+  },
+  {
+    "id": "scenario-426",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy occurred with new people without additional training. The BCBA had programmed for generalization using multiple exemplars.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-427",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy appeared in new settings without additional training. The BCBA had programmed for generalization using common stimuli.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-428",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy emerged in varied forms without additional training. The BCBA had programmed for generalization using varied conditions.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-429",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy persisted over months without additional training. The BCBA had programmed for generalization using natural reinforcement.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-430",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy occurred with new people without additional training. The BCBA had programmed for generalization using multiple exemplars.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-431",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy appeared in new settings without additional training. The BCBA had programmed for generalization using common stimuli.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-432",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy emerged in varied forms without additional training. The BCBA had programmed for generalization using varied conditions.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-433",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy persisted over months without additional training. The BCBA had programmed for generalization using natural reinforcement.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-434",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy occurred with new people without additional training. The BCBA had programmed for generalization using multiple exemplars.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-435",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy appeared in new settings without additional training. The BCBA had programmed for generalization using common stimuli.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-436",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy emerged in varied forms without additional training. The BCBA had programmed for generalization using varied conditions.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-437",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy persisted over months without additional training. The BCBA had programmed for generalization using natural reinforcement.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-438",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy occurred with new people without additional training. The BCBA had programmed for generalization using multiple exemplars.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-439",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy appeared in new settings without additional training. The BCBA had programmed for generalization using common stimuli.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-440",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy emerged in varied forms without additional training. The BCBA had programmed for generalization using varied conditions.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-441",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy persisted over months without additional training. The BCBA had programmed for generalization using natural reinforcement.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-442",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy occurred with new people without additional training. The BCBA had programmed for generalization using multiple exemplars.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-443",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy appeared in new settings without additional training. The BCBA had programmed for generalization using common stimuli.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-444",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy emerged in varied forms without additional training. The BCBA had programmed for generalization using varied conditions.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-445",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy persisted over months without additional training. The BCBA had programmed for generalization using natural reinforcement.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-446",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy occurred with new people without additional training. The BCBA had programmed for generalization using multiple exemplars.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-447",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy appeared in new settings without additional training. The BCBA had programmed for generalization using common stimuli.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-448",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy emerged in varied forms without additional training. The BCBA had programmed for generalization using varied conditions.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-449",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy persisted over months without additional training. The BCBA had programmed for generalization using natural reinforcement.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "scenario-450",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "generalization",
+    "scenario": "A skill taught in therapy occurred with new people without additional training. The BCBA had programmed for generalization using multiple exemplars.",
+    "question": "What type of generalization occurred?",
+    "options": [
+      "Stimulus generalization",
+      "Response generalization",
+      "Setting generalization",
+      "Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different types of generalization: stimulus (new stimuli), response (new forms), setting (new locations), maintenance (persistence over time). Must be explicitly programmed.",
+    "bacbTaskList": [
+      "FK-23",
+      "G-21"
+    ],
+    "keywords": [
+      "generalization",
+      "programming generalization",
+      "maintenance"
+    ]
+  }
+]

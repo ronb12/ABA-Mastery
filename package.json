@@ -1,0 +1,33 @@
+{
+  "name": "aba-mastery",
+  "version": "9.1.0",
+  "description": "ABA Mastery - Comprehensive BCBA/BCaBA Exam Preparation Platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "firebase emulators:start",
+    "serve": "firebase serve",
+    "deploy": "firebase deploy --only hosting",
+    "test-study-groups": "node tests/test-study-groups.js",
+    "test-strategy-buttons": "node tests/test-strategy-buttons.js",
+    "add-flashcards": "node batch-add-flashcards.js"
+  },
+  "keywords": [
+    "ABA",
+    "BCBA",
+    "BCaBA",
+    "exam",
+    "preparation",
+    "study"
+  ],
+  "author": "Bradley Virtual Solutions, LLC",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.7.0",
+    "firebase-tools": "^13.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
+
+

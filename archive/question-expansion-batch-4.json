@@ -1,0 +1,23 @@
+{
+  "batchNumber": 4,
+  "category": "Assessment & FBA",
+  "questionCount": 50,
+  "newQuestions": [
+    {
+      "id": "q248",
+      "category": "assessment",
+      "section": "D",
+      "difficulty": "intermediate",
+      "question": "Which component is essential in ALL functional behavior assessments?",
+      "options": [
+        "Experimental manipulation of variables",
+        "Operational definition of the target behavior",
+        "Use of standardized rating scales",
+        "Direct observation by a BCBA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An OPERATIONAL DEFINITION is essential for ALL FBA methods (indirect, descriptive, functional analysis). Without clear, observable, measurable definition of what behavior is being assessed, data collection is unreliable and function cannot be accurately determined. Experimental manipulation is only in FA. Standardized scales are optional. Direct observation by BCBA is ideal but trained staff can collect data.",
+      "reference": "Cooper et al. (2020), Chapter 24; BACB Task List D-1"
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ABA Mastery - Complete exam preparation app for ABA therapist certification">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ABA Mastery">
+    
+    <title>ABA Mastery - Study Platform</title>
+    
+    <!-- Check if user came from landing page, otherwise redirect -->
+    <script>
+        // Optional: Check if user should see landing page first
+        // For now, app is accessible directly
+    </script>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- App Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css?v=1.3.5">
+    <link rel="stylesheet" href="styles-study-groups.css?v=1.0.0">
+    <link rel="stylesheet" href="wow-features.css?v=1.0.0">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader"></div>
+        <p>Loading ABA Mastery...</p>
+    </div>
+
+    <!-- App Container -->
+    <div id="app" class="app-container" style="display: none;">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="icons/icon-192.png" alt="ABA Mastery" class="header-logo">
+                    <h1>ABA Mastery</h1>
+                </div>
+                <div class="header-actions">
+                    <div class="profile-dropdown-container">
+                        <button id="auth-btn" class="icon-btn" aria-label="Account" title="Profile">
+                            <span class="icon">👤</span>
+                        </button>
+                        <div id="profile-dropdown" class="profile-dropdown" style="display: none;">
+                            <div class="profile-header">
+                                <div class="profile-avatar">👤</div>
+                                <div class="profile-info">
+                                    <div class="profile-name" id="profile-name">Guest User</div>
+                                    <div class="profile-email" id="profile-email">Not signed in</div>
+                                </div>
+                            </div>
+                            <div class="profile-divider"></div>
+                            <div class="profile-stats">
+                                <div class="profile-stat">
+                                    <span class="stat-label">Questions Answered</span>
+                                    <span class="stat-value" id="profile-questions">0</span>
+                                </div>
+                                <div class="profile-stat">
+                                    <span class="stat-label">Accuracy Rate</span>
+                                    <span class="stat-value" id="profile-accuracy">0%</span>
+                                </div>
+                                <div class="profile-stat">
+                                    <span class="stat-label">Study Time</span>
+                                    <span class="stat-value" id="profile-time">0h</span>
+                                </div>
+                            </div>
+                            <div class="profile-divider"></div>
+                            <div class="profile-menu">
+                                <button class="profile-menu-item" onclick="switchView('progress')">
+                                    <span class="menu-icon">📊</span>
+                                    <span>View Progress</span>
+                                </button>
+                                <button class="profile-menu-item" onclick="switchView('settings')">
+                                    <span class="menu-icon">⚙️</span>
+                                    <span>Settings</span>
+                                </button>
+                            </div>
+                            <div class="profile-divider"></div>
+                            <div class="profile-footer">
+                                <button class="profile-signout-btn" id="profile-auth-action">
+                                    <span class="menu-icon">🔓</span>
+                                    <span>Guest Mode</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="dark-mode-toggle" class="icon-btn" aria-label="Toggle dark mode">
+                        <span class="icon">🌙</span>
+                    </button>
+                    <button id="menu-toggle" class="icon-btn" aria-label="Menu">
+                        <span class="icon">☰</span>
+                    </button>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div id="overall-progress" class="progress-fill"></div>
+            </div>
+        </header>
+
+        <!-- Navigation Menu -->
+        <nav id="nav-menu" class="nav-menu">
+            <!-- Desktop Navigation (all tabs visible) -->
+            <div class="nav-desktop">
+                <button class="nav-item active" data-view="home">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-label">Home</span>
+                </button>
+                <button class="nav-item" data-view="study">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-label">Study</span>
+                </button>
+                <button class="nav-item" data-view="practice">
+                    <span class="nav-icon">✍️</span>
+                    <span class="nav-label">Practice</span>
+                </button>
+                <button class="nav-item" data-view="flashcards">
+                    <span class="nav-icon">🎴</span>
+                    <span class="nav-label">Flashcards</span>
+                </button>
+                <button class="nav-item" data-view="scenarios">
+                    <span class="nav-icon">🎯</span>
+                    <span class="nav-label">Scenarios</span>
+                </button>
+                <button class="nav-item" data-view="case-studies">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-label">Case Studies</span>
+                </button>
+                <button class="nav-item" data-view="progress">
+                    <span class="nav-icon">📊</span>
+                    <span class="nav-label">Progress</span>
+                </button>
+                <button class="nav-item" data-view="study-groups">
+                    <span class="nav-icon">👥</span>
+                    <span class="nav-label">Study Groups</span>
+                </button>
+                <button class="nav-item" data-view="success-rates">
+                    <span class="nav-icon">🎓</span>
+                    <span class="nav-label">Success Rates</span>
+                </button>
+                <button class="nav-item" data-view="settings">
+                    <span class="nav-icon">⚙️</span>
+                    <span class="nav-label">Settings</span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation (4 primary tabs + dropdown) -->
+            <div class="nav-mobile">
+                <div class="nav-primary">
+                    <button class="nav-item active" data-view="home">
+                        <span class="nav-icon">🏠</span>
+                        <span class="nav-label">Home</span>
+                    </button>
+                    <button class="nav-item" data-view="study">
+                        <span class="nav-icon">📚</span>
+                        <span class="nav-label">Study</span>
+                    </button>
+                    <button class="nav-item" data-view="practice">
+                        <span class="nav-icon">✍️</span>
+                        <span class="nav-label">Practice</span>
+                    </button>
+                    <button class="nav-item" data-view="flashcards">
+                        <span class="nav-icon">🎴</span>
+                        <span class="nav-label">Flashcards</span>
+                    </button>
+                </div>
+                
+                <div class="nav-secondary">
+                    <button class="nav-more-btn" id="nav-more-btn" onclick="toggleMoreMenu()">
+                        <span class="nav-icon">☰</span>
+                        <span class="nav-label">More</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </button>
+                    
+                    <div class="nav-dropdown" id="nav-dropdown">
+                        <button class="nav-item" data-view="scenarios">
+                            <span class="nav-icon">🎯</span>
+                            <span class="nav-label">Scenarios</span>
+                        </button>
+                        <button class="nav-item" data-view="case-studies">
+                            <span class="nav-icon">📚</span>
+                            <span class="nav-label">Case Studies</span>
+                        </button>
+                        <button class="nav-item" data-view="progress">
+                            <span class="nav-icon">📊</span>
+                            <span class="nav-label">Progress</span>
+                        </button>
+                        <button class="nav-item" data-view="study-groups">
+                            <span class="nav-icon">👥</span>
+                            <span class="nav-label">Study Groups</span>
+                        </button>
+                        <button class="nav-item" data-view="success-rates">
+                            <span class="nav-icon">🎓</span>
+                            <span class="nav-label">Success Rates</span>
+                        </button>
+                        <button class="nav-item" data-view="settings">
+                            <span class="nav-icon">⚙️</span>
+                            <span class="nav-label">Settings</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-content" class="main-content">
+            <!-- Home View -->
+            <section id="home-view" class="view active">
+                <div class="welcome-section">
+                    <h2 id="home-greeting">Welcome to ABA Mastery</h2>
+                    <p class="subtitle">Your comprehensive study companion for ABA therapist certification</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="total-topics">0</div>
+                            <div class="stat-label">Topics</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="questions-answered">0</div>
+                            <div class="stat-label">Questions Answered</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="study-time">0h</div>
+                            <div class="stat-label">Study Time</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="accuracy-rate">0%</div>
+                            <div class="stat-label">Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <h3>Quick Start</h3>
+                    <div class="action-grid">
+                        <button class="action-card" data-action="study">
+                            <span class="action-icon">📖</span>
+                            <h4>Study Topics</h4>
+                            <p>Review key ABA concepts</p>
+                        </button>
+                        <button class="action-card" data-action="practice">
+                            <span class="action-icon">🎯</span>
+                            <h4>Practice Exam</h4>
+                            <p>Test your knowledge</p>
+                        </button>
+                        <button class="action-card" data-action="flashcards">
+                            <span class="action-icon">🎴</span>
+                            <h4>Flashcards</h4>
+                            <p>Quick review mode</p>
+                        </button>
+                        <button class="action-card" data-action="weak-areas">
+                            <span class="action-icon">💪</span>
+                            <h4>Weak Areas</h4>
+                            <p>Focus on improvement</p>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- AI Study Coach Dashboard -->
+                <div class="ai-coach-section">
+                    <h3>🤖 AI Study Coach</h3>
+                    <div id="ai-coach-dashboard" class="ai-coach-dashboard">
+                        <div class="readiness-card">
+                            <div class="readiness-header">
+                                <h4>Exam Readiness</h4>
+                                <span class="readiness-score" id="readiness-score">--</span>
+                            </div>
+                            <div class="readiness-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="readiness-progress" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div class="readiness-stats">
+                                <div class="stat-item">
+                                    <span class="stat-icon">📊</span>
+                                    <div>
+                                        <div class="stat-title">Pass Probability</div>
+                                        <div class="stat-value" id="pass-prob">--%</div>
+                                    </div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-icon">📅</span>
+                                    <div>
+                                        <div class="stat-title">Predicted Ready</div>
+                                        <div class="stat-value" id="ready-date">--</div>
+                                    </div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-icon">⏰</span>
+                                    <div>
+                                        <div class="stat-title">Study Time Needed</div>
+                                        <div class="stat-value" id="study-needed">--</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ai-recommendations" id="ai-recommendations"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gamification Dashboard -->
+                <div class="gamification-section">
+                    <div class="gamification-header">
+                        <h3>🏆 Your Progress</h3>
+                    </div>
+                    <div class="gamification-grid">
+                        <div class="gamification-card level-card">
+                            <div class="card-icon" id="level-icon">🌱</div>
+                            <div class="card-content">
+                                <div class="level-title">
+                                    <span>Level <span id="user-level">1</span></span>
+                                    <span id="level-title">Novice Learner</span>
+                                </div>
+                                <div class="xp-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" id="xp-progress" style="width: 0%"></div>
+                                    </div>
+                                    <div class="xp-text">
+                                        <span id="current-xp">0</span> / <span id="next-level-xp">100</span> XP
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="gamification-card streak-card">
+                            <div class="card-icon">🔥</div>
+                            <div class="card-content">
+                                <div class="streak-number" id="streak-number">0</div>
+                                <div class="streak-label">Day Streak</div>
+                                <div class="streak-message" id="streak-message">Start studying to build your streak!</div>
+                            </div>
+                        </div>
+                        
+                        <div class="gamification-card achievements-card">
+                            <div class="card-icon">🎖️</div>
+                            <div class="card-content">
+                                <div class="achievements-count">
+                                    <span id="achievements-unlocked">0</span> / <span id="achievements-total">21</span>
+                                </div>
+                                <div class="achievements-label">Achievements Unlocked</div>
+                                <button class="btn-link" onclick="showAchievements()">View All</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adaptive Learning Indicator -->
+                <div class="adaptive-learning-banner" id="adaptive-banner" style="display: none;">
+                    <div class="adaptive-content">
+                        <span class="adaptive-icon">🎯</span>
+                        <div class="adaptive-text">
+                            <strong>Adaptive Learning Active</strong>
+                            <span id="adaptive-message">Questions adapt to your skill level</span>
+                        </div>
+                        <div class="adaptive-level">
+                            <span id="adaptive-difficulty">Intermediate</span>
+                            <span id="adaptive-stars">⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study View -->
+            <section id="study-view" class="view">
+                <div class="view-header">
+                    <h2>Study Topics</h2>
+                    <div class="search-bar">
+                        <input type="text" id="topic-search" placeholder="Search topics...">
+                    </div>
+                </div>
+                <div id="topics-container" class="topics-grid"></div>
+            </section>
+
+            <!-- Practice View -->
+            <section id="practice-view" class="view">
+                <div id="practice-setup" class="practice-setup">
+                    <h2>Practice Exam</h2>
+                    <div class="setup-form">
+                        <div class="form-group">
+                            <label>Exam Mode</label>
+                            <select id="exam-mode">
+                                <option value="practice">Custom Practice Quiz</option>
+                                <option value="bcba">Full-Length BCBA Exam (100 questions, 2 hours)</option>
+                                <option value="bcaba">Full-Length BCaBA Exam (65 questions, 1.5 hours)</option>
+                            </select>
+                            <p class="help-text" id="exam-mode-help">Create a custom practice quiz with your preferred settings</p>
+                        </div>
+                        <div id="custom-settings">
+                            <div class="form-group">
+                                <label>Select Category</label>
+                                <select id="practice-category">
+                                    <option value="all">All Topics</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Number of Questions</label>
+                                <input type="number" id="question-count" value="20" min="5" max="100">
+                            </div>
+                            <div class="form-group">
+                                <label>Difficulty</label>
+                                <select id="difficulty-level">
+                                    <option value="all">All Levels</option>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="advanced">Advanced</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button id="start-practice" class="btn btn-primary">Start Exam</button>
+                    </div>
+                </div>
+
+                <div id="practice-quiz" class="practice-quiz" style="display: none;">
+                    <div class="quiz-header">
+                        <div class="quiz-progress">
+                            <span id="question-number">Question 1 of 20</span>
+                            <div class="timer" id="timer">00:00</div>
+                        </div>
+                        <div class="quiz-progress-bar">
+                            <div id="quiz-progress-fill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-content">
+                        <h3 id="question-text"></h3>
+                        <div id="answers-container" class="answers-grid"></div>
+                        <div id="explanation-container" class="explanation" style="display: none;"></div>
+                    </div>
+
+                    <div class="quiz-actions">
+                        <button id="prev-question" class="btn btn-secondary" disabled>Previous</button>
+                        <button id="submit-answer" class="btn btn-primary">Submit Answer</button>
+                        <button id="next-question" class="btn btn-primary" style="display: none;">Next Question</button>
+                        <button id="finish-quiz" class="btn btn-success" style="display: none;">Finish Quiz</button>
+                    </div>
+                </div>
+
+                <div id="practice-results" class="practice-results" style="display: none;"></div>
+            </section>
+
+            <!-- Flashcards View -->
+            <section id="flashcards-view" class="view">
+                <div class="view-header">
+                    <h2>Flashcards</h2>
+                    <div style="display: flex; gap: 12px; align-items: center;">
+                        <select id="flashcard-category" class="category-select">
+                            <option value="all">All Categories</option>
+                        </select>
+                        <button id="reshuffle-cards" class="btn btn-secondary" title="Randomize card order">
+                            🔀 Shuffle
+                        </button>
+                    </div>
+                </div>
+                <div id="flashcard-container" class="flashcard-container">
+                    <div class="flashcard-controls">
+                        <button id="prev-card" class="btn btn-secondary">← Previous</button>
+                        <span id="card-counter">0 / 0</span>
+                        <button id="next-card" class="btn btn-secondary">Next →</button>
+                    </div>
+                    <div id="flashcard" class="flashcard" data-flipped="false">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <p id="flashcard-question">Click to start</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <p id="flashcard-answer">Answer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="flip-card" class="btn btn-primary">Flip Card</button>
+                </div>
+            </section>
+
+            <!-- Scenarios View -->
+            <section id="scenarios-view" class="view">
+                <div id="scenario-setup" class="practice-setup">
+                    <div class="view-header">
+                        <h2>Clinical Scenario Quiz</h2>
+                        <p class="subtitle"><strong>500 realistic scenarios available</strong> - Practice with detailed clinical scenarios BCBAs actually encounter</p>
+                    </div>
+                    <div class="form-container">
+                        <div class="form-group">
+                            <label>Select Category</label>
+                            <select id="scenario-category-select">
+                                <option value="all">All Categories</option>
+                                <option value="functional-assessment">Functional Assessment</option>
+                                <option value="intervention-design">Intervention Design</option>
+                                <option value="measurement">Measurement & Data</option>
+                                <option value="experimental-design">Experimental Design</option>
+                                <option value="ethics-professional">Ethics & Professional</option>
+                                <option value="verbal-behavior">Verbal Behavior</option>
+                                <option value="supervision">Supervision</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Number of Scenarios</label>
+                            <input type="number" id="scenario-count" value="10" min="5" max="100">
+                        </div>
+                        <div class="form-group">
+                            <label>Difficulty Level</label>
+                            <select id="scenario-difficulty">
+                                <option value="all">All Levels</option>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="start-scenario-quiz" class="btn btn-primary">Start Scenario Quiz</button>
+                </div>
+                
+                <div id="scenario-quiz-container" style="display: none;">
+                    <div class="quiz-header">
+                        <div class="quiz-progress">
+                            <span>Scenario <span id="scenario-current">1</span> of <span id="scenario-total">10</span></span>
+                        </div>
+                        <div class="quiz-category">
+                            <span id="scenario-current-category"></span>
+                            <span id="scenario-current-difficulty" class="difficulty-badge"></span>
+                        </div>
+                    </div>
+                    
+                    <div id="scenario-question-container" class="question-container">
+                        <div class="scenario-text-box">
+                            <h3>Clinical Scenario:</h3>
+                            <p id="scenario-text"></p>
+                        </div>
+                        
+                        <div class="scenario-question-box">
+                            <h3>Question:</h3>
+                            <p id="scenario-question-text"></p>
+                        </div>
+                        
+                        <div id="scenario-options-container" class="options-container"></div>
+                        
+                        <div id="scenario-feedback" class="feedback-container" style="display: none;"></div>
+                        
+                        <div class="quiz-navigation">
+                            <button id="prev-scenario" class="btn btn-secondary" disabled>← Previous</button>
+                            <button id="next-scenario" class="btn btn-primary" style="display: none;">Next Scenario →</button>
+                            <button id="finish-scenario-quiz" class="btn btn-primary" style="display: none;">Finish Quiz</button>
+                        </div>
+                    </div>
+                    
+                    <div id="scenario-results" class="practice-results" style="display: none;"></div>
+                </div>
+            </section>
+
+            <!-- Case Studies View -->
+            <section id="case-studies-view" class="view">
+                <div class="view-header">
+                    <h2>Published Case Studies (10)</h2>
+                    <p class="subtitle">Peer-reviewed research from JABA, JEAB, and other leading journals</p>
+                </div>
+                <div id="case-studies-container">
+                    <p class="loading-text">Loading published case studies...</p>
+                </div>
+            </section>
+
+            <!-- Progress View -->
+            <section id="progress-view" class="view">
+                <div class="view-header">
+                    <h2>Your Progress</h2>
+                    <div style="margin-left: auto; display: flex; gap: 10px;">
+                        <button id="export-study-data-pdf" class="btn btn-secondary">
+                            <span>📚 Export Study Data</span>
+                        </button>
+                        <button id="export-progress-pdf" class="btn btn-primary">
+                            <span>📄 Export Progress Report</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Enhanced Dashboard -->
+                <div class="enhanced-dashboard">
+                    <!-- Exam Readiness Card -->
+                    <div class="exam-readiness-card">
+                        <div class="readiness-label">Exam Readiness Score</div>
+                        <div class="readiness-score" id="readiness-score">0%</div>
+                        <div class="readiness-status" id="readiness-status">Building Foundation</div>
+                        <div style="margin-top: 16px; font-size: 14px; opacity: 0.9;">
+                            Based on your performance across all categories
+                        </div>
+                    </div>
+
+                    <!-- Study Streak -->
+                    <div id="study-streak-badge" style="text-align: center; margin-bottom: 24px; display: none;">
+                        <div class="streak-badge">
+                            <span class="streak-flame">🔥</span>
+                            <span id="streak-count">0</span> Day Streak!
+                        </div>
+                    </div>
+
+                    <!-- Enhanced Stats Grid -->
+                    <div class="stats-grid-enhanced">
+                        <div class="stat-card-enhanced">
+                            <div class="stat-icon">📊</div>
+                            <div class="stat-value-large" id="total-attempts">0</div>
+                            <div class="stat-label-enhanced">Total Practice Questions</div>
+                            <div class="stat-trend trend-up">↑ Keep practicing!</div>
+                        </div>
+                        <div class="stat-card-enhanced">
+                            <div class="stat-icon">✅</div>
+                            <div class="stat-value-large" id="mastered-count">0</div>
+                            <div class="stat-label-enhanced">Questions Mastered</div>
+                            <div class="stat-trend">3 correct in a row = mastered</div>
+                        </div>
+                        <div class="stat-card-enhanced">
+                            <div class="stat-icon">🎯</div>
+                            <div class="stat-value-large" id="overall-accuracy-enhanced">0%</div>
+                            <div class="stat-label-enhanced">Overall Accuracy</div>
+                            <div class="stat-trend">Target: 80%+</div>
+                        </div>
+                        <div class="stat-card-enhanced">
+                            <div class="stat-icon">🏆</div>
+                            <div class="stat-value-large" id="categories-mastered">0</div>
+                            <div class="stat-label-enhanced">Categories Mastered</div>
+                            <div class="stat-trend">80%+ accuracy</div>
+                        </div>
+                    </div>
+
+                    <!-- Study Recommendations -->
+                    <div class="recommendations-section">
+                        <h3 style="margin-bottom: 16px;">📋 Study Recommendations</h3>
+                        <div id="recommendations-container">
+                            <p style="color: var(--text-secondary);">Complete some practice questions to get personalized recommendations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Weak Areas -->
+                    <div class="weak-areas-section">
+                        <h3 style="margin-bottom: 16px;">🎯 Areas Needing Focus</h3>
+                        <div class="weak-areas-grid" id="weak-areas-container">
+                            <p style="color: var(--text-secondary);">Complete practice questions to identify weak areas.</p>
+                        </div>
+                    </div>
+
+                    <!-- Mastered Topics -->
+                    <div class="mastered-topics-section" id="mastered-section" style="display: none;">
+                        <div class="mastered-topics-header">
+                            <span class="mastered-icon">🏆</span>
+                            <div>
+                                <h3 style="margin: 0;">Mastered Categories</h3>
+                                <p style="margin: 4px 0 0 0; font-size: 14px; opacity: 0.8;">Great work! Keep it up.</p>
+                            </div>
+                        </div>
+                        <div class="mastered-topics-grid" id="mastered-topics-container"></div>
+                    </div>
+
+                    <!-- Study Plan -->
+                    <div class="study-plan-section">
+                        <div class="study-plan-header">
+                            <h3 class="study-plan-title">📅 Your Study Plan</h3>
+                            <div class="days-remaining" id="days-remaining">Set exam date</div>
+                        </div>
+                        <div id="study-plan-content">
+                            <p style="color: var(--text-secondary); margin-bottom: 16px;">
+                                Set your exam date to generate a personalized study plan.
+                            </p>
+                            <button class="btn btn-primary" onclick="setExamDate()">Set Exam Date</button>
+                        </div>
+                    </div>
+
+                    <!-- Bookmarked Questions -->
+                    <div class="bookmarks-section">
+                        <h3 style="margin-bottom: 16px;">🔖 Bookmarked Questions (<span id="bookmark-count">0</span>)</h3>
+                        <div id="bookmarks-container">
+                            <p style="color: var(--text-secondary); font-size: 14px;">
+                                No bookmarked questions yet. Bookmark questions during practice to review them later.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study Groups View -->
+            <section id="study-groups-view" class="view">
+                <div id="study-groups-container">
+                    <div class="study-groups-intro">
+                        <h2>👥 Study Groups</h2>
+                        <p>Join study groups to collaborate with other exam candidates, share progress, and stay motivated!</p>
+                        
+                        <div class="auth-check" id="groups-auth-check">
+                            <p>Sign in to create or join study groups.</p>
+                            <button class="btn btn-primary" onclick="window.location.href='/login.html'">Sign In</button>
+                        </div>
+                        
+                        <div id="groups-main-content" style="display: none;">
+                            <div class="group-actions-bar">
+                                <button class="btn btn-primary" onclick="studyGroupsManager.showCreateGroupModal()">
+                                    <span>➕ Create Group</span>
+                                </button>
+                                <button class="btn btn-secondary" onclick="studyGroupsManager.showJoinGroupModal()">
+                                    <span>🔗 Join with Code</span>
+                                </button>
+                            </div>
+                            
+                            <div class="my-groups-section">
+                                <h3>My Study Groups</h3>
+                                <div id="groups-list" class="groups-grid"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Success Rates View -->
+            <section id="success-rates-view" class="view">
+                <div id="pass-rate-dashboard">
+                    <!-- Content will be populated by exam-pass-tracker.js -->
+                </div>
+            </section>
+
+            <!-- Settings View -->
+            <section id="settings-view" class="view">
+                <h2>Settings</h2>
+                <div class="settings-container">
+                    <!-- Profile Settings -->
+                    <div class="settings-group">
+                        <h3>👤 Profile</h3>
+                        
+                        <!-- Display Name -->
+                        <div class="setting-item" style="margin-bottom: 20px;">
+                            <label style="display: block; font-weight: 600; margin-bottom: 8px;">
+                                Full Name
+                            </label>
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <input type="text" id="profile-display-name" placeholder="Enter your name" 
+                                    style="flex: 1; padding: 10px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 14px;">
+                                <button onclick="updateProfileName()" class="btn-secondary" 
+                                    style="padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                                    Update Name
+                                </button>
+                            </div>
+                            <div id="name-update-status" style="margin-top: 8px; font-size: 13px;"></div>
+                        </div>
+                        
+                        <!-- Current Email Display -->
+                        <div class="setting-item" style="margin-bottom: 20px;">
+                            <label style="display: block; font-weight: 600; margin-bottom: 8px;">
+                                Email Address
+                            </label>
+                            <div style="padding: 10px; background: #f8fafc; border-radius: 8px; color: #64748b;">
+                                <span id="profile-email-display">Loading...</span>
+                            </div>
+                            <button onclick="toggleEmailChange()" class="btn-secondary" 
+                                style="margin-top: 10px; padding: 8px 16px; background: transparent; color: #667eea; border: 2px solid #667eea; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                                Change Email
+                            </button>
+                        </div>
+                        
+                        <!-- Email Change Form (Hidden by default) -->
+                        <div id="email-change-form" style="display: none; margin-bottom: 20px; padding: 20px; background: #f8fafc; border-radius: 10px; border: 2px solid #e2e8f0;">
+                            <h4 style="margin: 0 0 15px 0; color: #0f172a;">Change Email Address</h4>
+                            <div style="margin-bottom: 12px;">
+                                <label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 13px;">
+                                    Current Email
+                                </label>
+                                <div style="padding: 8px; background: white; border-radius: 6px; color: #64748b; font-size: 14px;">
+                                    <span id="current-email">Loading...</span>
+                                </div>
+                            </div>
+                            <div style="margin-bottom: 12px;">
+                                <label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 13px;">
+                                    New Email
+                                </label>
+                                <input type="email" id="new-email" placeholder="newemail@example.com"
+                                    style="width: 100%; padding: 10px; border: 2px solid #e2e8f0; border-radius: 6px; font-size: 14px;">
+                            </div>
+                            <div style="margin-bottom: 15px;">
+                                <label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 13px;">
+                                    Current Password (required)
+                                </label>
+                                <input type="password" id="email-change-password" placeholder="Enter your current password"
+                                    style="width: 100%; padding: 10px; border: 2px solid #e2e8f0; border-radius: 6px; font-size: 14px;">
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <button onclick="updateProfileEmail()" class="btn-primary"
+                                    style="flex: 1; padding: 10px; background: #667eea; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                                    Update Email
+                                </button>
+                                <button onclick="toggleEmailChange()" class="btn-secondary"
+                                    style="padding: 10px 20px; background: #e2e8f0; color: #64748b; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                                    Cancel
+                                </button>
+                            </div>
+                            <div id="email-update-status" style="margin-top: 10px; font-size: 13px;"></div>
+                        </div>
+                        
+                        <!-- Change Password -->
+                        <div class="setting-item">
+                            <button onclick="togglePasswordChange()" class="btn-secondary"
+                                style="padding: 8px 16px; background: transparent; color: #667eea; border: 2px solid #667eea; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                                Change Password
+                            </button>
+                        </div>
+                        
+                        <!-- Password Change Form (Hidden by default) -->
+                        <div id="password-change-form" style="display: none; margin-top: 15px; padding: 20px; background: #f8fafc; border-radius: 10px; border: 2px solid #e2e8f0;">
+                            <h4 style="margin: 0 0 15px 0; color: #0f172a;">Change Password</h4>
+                            <div style="margin-bottom: 12px;">
+                                <label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 13px;">
+                                    Current Password
+                                </label>
+                                <input type="password" id="current-password" placeholder="Enter current password"
+                                    style="width: 100%; padding: 10px; border: 2px solid #e2e8f0; border-radius: 6px; font-size: 14px;">
+                            </div>
+                            <div style="margin-bottom: 15px;">
+                                <label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 13px;">
+                                    New Password (min. 8 characters)
+                                </label>
+                                <input type="password" id="new-password" placeholder="Enter new password"
+                                    style="width: 100%; padding: 10px; border: 2px solid #e2e8f0; border-radius: 6px; font-size: 14px;">
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <button onclick="updateProfilePassword()" class="btn-primary"
+                                    style="flex: 1; padding: 10px; background: #667eea; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                                    Update Password
+                                </button>
+                                <button onclick="togglePasswordChange()" class="btn-secondary"
+                                    style="padding: 10px 20px; background: #e2e8f0; color: #64748b; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                                    Cancel
+                                </button>
+                            </div>
+                            <div id="password-update-status" style="margin-top: 10px; font-size: 13px;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="settings-group">
+                        <h3>Appearance</h3>
+                        <div class="setting-item">
+                            <label>
+                                <input type="checkbox" id="dark-mode-setting">
+                                <span>Dark Mode</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="settings-group">
+                        <h3>Study Preferences</h3>
+                        <div class="setting-item">
+                            <label>
+                                <span>Default Question Count</span>
+                                <input type="number" id="default-questions" value="20" min="5" max="100">
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label>
+                                <input type="checkbox" id="show-explanations">
+                                <span>Show Explanations After Each Question</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="settings-group">
+                        <h3>Data</h3>
+                        <button id="reset-progress" class="btn btn-danger">Reset All Progress</button>
+                    </div>
+                    <div class="settings-group">
+                        <h3>About</h3>
+                        <p>ABA Mastery v1.0.0</p>
+                        <p>A product of Bradley Virtual Solutions, LLC</p>
+                        
+                        <div id="app-rating-display" style="margin: 20px 0; padding: 16px; background: #f8fafc; border-radius: 8px;"></div>
+                        
+                        <button class="btn btn-primary" onclick="if(typeof ratingSystem !== 'undefined') ratingSystem.showRatingModal()" style="width: 100%; margin-top: 12px;">
+                            ⭐ Rate This App
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Achievements Modal -->
+        <div id="achievements-modal" class="modal-overlay" style="display: none;" onclick="closeAchievementsModal(event)">
+            <div class="modal-content achievements-modal-content" onclick="event.stopPropagation()">
+                <div class="modal-header">
+                    <h2>🏆 Achievements</h2>
+                    <button class="modal-close" onclick="closeAchievementsModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="achievements-summary">
+                        <div class="summary-stat">
+                            <span class="summary-value" id="modal-achievements-unlocked">0</span>
+                            <span class="summary-label">Unlocked</span>
+                        </div>
+                        <div class="summary-stat">
+                            <span class="summary-value" id="modal-achievements-total">21</span>
+                            <span class="summary-label">Total</span>
+                        </div>
+                        <div class="summary-stat">
+                            <span class="summary-value" id="modal-achievements-xp">0</span>
+                            <span class="summary-label">XP Earned</span>
+                        </div>
+                    </div>
+                    <div id="achievements-list" class="achievements-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Install Prompt -->
+        <div id="install-prompt" class="install-prompt" style="display: none;">
+            <div class="install-content">
+                <p>Install ABA Mastery for quick access and offline study!</p>
+                <div class="install-actions">
+                    <button id="install-btn" class="btn btn-primary">Install</button>
+                    <button id="dismiss-install" class="btn btn-secondary">Later</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-storage-compat.js"></script>
+    
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBp2jOcQm7w8X9OJuHZZqQHdRrIw65lZPI",
+            authDomain: "aba-mastery-app.firebaseapp.com",
+            projectId: "aba-mastery-app",
+            storageBucket: "aba-mastery-app.firebasestorage.app",
+            messagingSenderId: "304782196897",
+            appId: "1:304782196897:web:db023c75da94b0546430e0"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+        const storage = firebase.storage();
+
+        // Connect to emulators if running on localhost
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            console.log('🔧 Connecting to Firebase Emulators...');
+            auth.useEmulator('http://localhost:9099');
+            db.useEmulator('localhost', 8080);
+            storage.useEmulator('localhost', 9199);
+            console.log('✅ Connected to Firebase Emulators');
+        }
+
+        // Check auth state
+        auth.onAuthStateChanged(user => {
+            if (user) {
+                console.log('✅ User logged in:', user.email, 'UID:', user.uid);
+                // Load user data from Firestore
+                loadUserFromFirestore(user.uid);
+            } else {
+                console.log('ℹ️ No user logged in (guest mode)');
+            }
+        });
+
+        async function loadUserFromFirestore(userId) {
+            try {
+                const doc = await db.collection('users').doc(userId).collection('progress').doc('main').get();
+                if (doc.exists) {
+                    const cloudData = doc.data();
+                    console.log('📥 Loaded user data from Firestore:', cloudData);
+                    
+                    // Merge with localStorage
+                    const localData = JSON.parse(localStorage.getItem('abaUserData') || '{}');
+                    const mergedData = { ...localData, ...cloudData };
+                    localStorage.setItem('abaUserData', JSON.stringify(mergedData));
+                    
+                    // Reload app data
+                    if (typeof loadUserData === 'function') {
+                        loadUserData();
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading user data from Firestore:', error);
+            }
+        }
+    </script>
+    
+    <!-- Scripts -->
+    <script src="auth.js?v=1.3.9"></script>
+    <script src="cloud-sync.js?v=1.0.0"></script>
+    <script src="ai-study-coach.js?v=1.0.0"></script>
+    <script src="adaptive-learning.js?v=1.0.0"></script>
+    <script src="ai-study-coach-enhanced.js?v=2.0.0"></script>
+    <script src="adaptive-learning-enhanced.js?v=2.0.0"></script>
+    <script src="gamification.js?v=1.0.0"></script>
+    <script src="rating-system.js?v=1.0.2"></script>
+    <script src="personalization.js?v=1.0.0"></script>
+    <script src="profile-manager.js?v=1.0.0"></script>
+    <script src="features-integration.js?v=1.0.0"></script>
+    <script src="app.js?v=9.3.0"></script>
+    <script src="analytics.js?v=1.0.0"></script>
+    <script src="app-enhanced-integration.js?v=1.0.0"></script>
+    <script src="multimedia-support.js?v=1.0.0"></script>
+    <script src="video-explanations.js?v=1.0.0"></script>
+    <script src="free-file-storage.js?v=1.0.0"></script>
+    <script src="study-groups.js?v=1.0.0"></script>
+    <script src="exam-pass-tracker.js?v=1.0.0"></script>
+    
+    <!-- HIGH-IMPACT FEATURES (Research-backed for 90-95% pass rates) -->
+    <script src="spaced-repetition-system.js?v=1.0.0"></script>
+    <script src="comparison-tables.js?v=1.0.0"></script>
+    <script src="test-taking-strategies.js?v=1.0.1"></script>
+    
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- jsPDF for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    
+    <script>
+        // Initialize authentication when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initAuth);
+        } else {
+            initAuth();
+        }
+    </script>
+    
+    <!-- Test Users Module (for development/testing only) -->
+    <!-- <script src="create-test-users.js"></script> -->
+    
+    <!-- Profile Management Functions -->
+    <script>
+        // Toggle email change form
+        function toggleEmailChange() {
+            const form = document.getElementById('email-change-form');
+            if (form.style.display === 'none') {
+                form.style.display = 'block';
+                // Clear previous status
+                document.getElementById('email-update-status').innerHTML = '';
+            } else {
+                form.style.display = 'none';
+                // Clear form
+                document.getElementById('new-email').value = '';
+                document.getElementById('email-change-password').value = '';
+            }
+        }
+        
+        // Toggle password change form
+        function togglePasswordChange() {
+            const form = document.getElementById('password-change-form');
+            if (form.style.display === 'none') {
+                form.style.display = 'block';
+                // Clear previous status
+                document.getElementById('password-update-status').innerHTML = '';
+            } else {
+                form.style.display = 'none';
+                // Clear form
+                document.getElementById('current-password').value = '';
+                document.getElementById('new-password').value = '';
+            }
+        }
+        
+        // Update profile name
+        async function updateProfileName() {
+            const nameInput = document.getElementById('profile-display-name');
+            const statusDiv = document.getElementById('name-update-status');
+            const newName = nameInput.value.trim();
+            
+            if (!newName) {
+                statusDiv.innerHTML = '<span style="color: #ef4444;">❌ Please enter your name</span>';
+                return;
+            }
+            
+            try {
+                statusDiv.innerHTML = '<span style="color: #667eea;">🔄 Updating...</span>';
+                
+                const result = await profileManager.updateDisplayName(newName);
+                
+                statusDiv.innerHTML = `<span style="color: #10b981;">✅ ${result.message}</span>`;
+                
+                // Update home greeting
+                if (typeof personalization !== 'undefined') {
+                    personalization.updateAllGreetings();
+                }
+                
+                setTimeout(() => {
+                    statusDiv.innerHTML = '';
+                }, 3000);
+                
+            } catch (error) {
+                statusDiv.innerHTML = `<span style="color: #ef4444;">❌ ${error.message}</span>`;
+            }
+        }
+        
+        // Update email
+        async function updateProfileEmail() {
+            const newEmailInput = document.getElementById('new-email');
+            const passwordInput = document.getElementById('email-change-password');
+            const statusDiv = document.getElementById('email-update-status');
+            
+            const newEmail = newEmailInput.value.trim();
+            const password = passwordInput.value;
+            
+            if (!newEmail || !password) {
+                statusDiv.innerHTML = '<span style="color: #ef4444;">❌ Please fill in all fields</span>';
+                return;
+            }
+            
+            try {
+                statusDiv.innerHTML = '<span style="color: #667eea;">🔄 Updating email...</span>';
+                
+                const result = await profileManager.updateEmail(newEmail, password);
+                
+                statusDiv.innerHTML = `<span style="color: #10b981;">✅ ${result.message}</span>`;
+                
+                // Clear form
+                newEmailInput.value = '';
+                passwordInput.value = '';
+                
+                // Hide form after 2 seconds
+                setTimeout(() => {
+                    toggleEmailChange();
+                }, 2000);
+                
+            } catch (error) {
+                statusDiv.innerHTML = `<span style="color: #ef4444;">❌ ${error.message}</span>`;
+            }
+        }
+        
+        // Update password
+        async function updateProfilePassword() {
+            const currentPwInput = document.getElementById('current-password');
+            const newPwInput = document.getElementById('new-password');
+            const statusDiv = document.getElementById('password-update-status');
+            
+            const currentPassword = currentPwInput.value;
+            const newPassword = newPwInput.value;
+            
+            if (!currentPassword || !newPassword) {
+                statusDiv.innerHTML = '<span style="color: #ef4444;">❌ Please fill in all fields</span>';
+                return;
+            }
+            
+            if (newPassword.length < 8) {
+                statusDiv.innerHTML = '<span style="color: #ef4444;">❌ New password must be at least 8 characters</span>';
+                return;
+            }
+            
+            try {
+                statusDiv.innerHTML = '<span style="color: #667eea;">🔄 Updating password...</span>';
+                
+                const result = await profileManager.updatePassword(currentPassword, newPassword);
+                
+                statusDiv.innerHTML = `<span style="color: #10b981;">✅ ${result.message}</span>`;
+                
+                // Clear form
+                currentPwInput.value = '';
+                newPwInput.value = '';
+                
+                // Hide form after 2 seconds
+                setTimeout(() => {
+                    togglePasswordChange();
+                }, 2000);
+                
+            } catch (error) {
+                statusDiv.innerHTML = `<span style="color: #ef4444;">❌ ${error.message}</span>`;
+            }
+        }
+    </script>
+</body>
+</html>
+

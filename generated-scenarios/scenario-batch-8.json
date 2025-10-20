@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "scenario-351",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 5 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-352",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 11. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-353",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 250 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-354",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 160 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-355",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-356",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 10 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-357",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 16. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-358",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 300 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-359",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 185 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-360",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-361",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 5 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-362",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 11. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-363",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 350 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-364",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 210 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-365",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-366",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 10 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-367",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 16. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-368",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 400 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-369",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 235 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-370",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-371",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 5 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-372",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 11. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-373",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 450 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-374",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 260 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-375",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-376",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every 10 responses. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FR schedule - ratio schedules based on number of responses. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-377",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying numbers of responses, average 16. Response rates are very high and steady.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "B",
+    "explanation": "VR schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VR",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-378",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after 500 seconds, if response occurs. Response rates show scalloping pattern.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FI schedule - interval schedules based on time. Fixed schedules are predictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "FI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-379",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after varying time periods, average 285 seconds. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "VI schedule - interval schedules based on time. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "VI",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-380",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "schedules",
+    "scenario": "Reinforcement is delivered after every single response. Response pattern is characteristic.",
+    "question": "What reinforcement schedule is described?",
+    "options": [
+      "Fixed ratio (FR)",
+      "Variable ratio (VR)",
+      "Fixed interval (FI)",
+      "Variable interval (VI)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CRF schedule - ratio schedules based on number of responses. Variable schedules are unpredictable.",
+    "bacbTaskList": [
+      "FK-33",
+      "FK-34"
+    ],
+    "keywords": [
+      "schedules",
+      "CRF",
+      "reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-381",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-382",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-383",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-384",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-385",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-386",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-387",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-388",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-389",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-390",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-391",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-392",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-393",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-394",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-395",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-396",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-397",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-398",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-399",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-400",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  }
+]

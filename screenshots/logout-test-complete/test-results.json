@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-10-18T00:39:49.100Z",
+  "tests": [
+    {
+      "name": "App loads successfully",
+      "status": "PASSED",
+      "details": "App loaded and #app element is visible"
+    },
+    {
+      "name": "Logout button element exists",
+      "status": "PASSED",
+      "details": "#logout-btn element found in header"
+    },
+    {
+      "name": "Logout button hidden in guest mode",
+      "status": "PASSED",
+      "details": "Logout button correctly hidden when not logged in"
+    },
+    {
+      "name": "User sign-in",
+      "status": "FAILED",
+      "details": "Sign in failed: Firebase: The supplied auth credential is incorrect, malformed or has expired. (auth/invalid-credential)."
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 1
+  }
+}

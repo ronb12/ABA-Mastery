@@ -1,0 +1,45 @@
+==============================================================
+🚀 COPY AND PASTE THESE COMMANDS INTO YOUR TERMINAL
+==============================================================
+
+Open Terminal App (Cmd+Space → type "Terminal" → Enter)
+
+Then copy and paste each command below (one at a time):
+
+==============================================================
+
+cd "/Users/ronellbradley/Desktop/ABA Mastery"
+
+git add .
+
+git commit -m "Update README: fix test credentials, add exam success disclaimer, confirm PWA auto-updates"
+
+git push origin main
+
+==============================================================
+
+WHAT YOU'LL SEE:
+- Line 1: Changes to working directory
+- Line 2: Files staged (no output if successful)
+- Line 3: Commit created with message
+- Line 4: Files pushed to GitHub (shows progress)
+
+EXPECTED OUTPUT FROM PUSH:
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 15.23 KiB | 5.08 MiB/s, done.
+Total 10 (delta 5), reused 0 (delta 0)
+To https://github.com/ronb12/ABA-Mastery.git
+   e68a535..abc1234  main -> main
+
+==============================================================
+
+AFTER SUCCESSFUL PUSH:
+Visit: https://github.com/ronb12/ABA-Mastery
+You should see your new commit at the top!
+
+==============================================================
+
+

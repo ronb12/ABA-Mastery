@@ -1,0 +1,76 @@
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VIDEO SCRIPT: DRL Implementation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[SLIDE 1 - TITLE]
+"Hi everyone! Today we're covering DRL Implementation - an important concept for the BCBA and BCaBA certification exams."
+
+[SLIDE 2 - THE QUESTION]
+"Let's start with a sample exam question:
+A BCBA implements a DRL (Differential Reinforcement of Low Rates) procedure for a student who talks out during class. The student currently talks out 20 times per hour. Which schedule would be MOST appropriate to start?"
+
+[SLIDE 3 - ANSWER OPTIONS]
+"Your options are:
+A. Reinforce if talking out occurs 0 times per hour
+B. Reinforce if talking out occurs 5 or fewer times per hour
+C. Reinforce if talking out occurs 18 or fewer times per hour
+D. Reinforce if talking out occurs 30 or fewer times per hour"
+
+[SLIDE 4 - CORRECT ANSWER]
+"The correct answer is C: Reinforce if talking out occurs 18 or fewer times per hour"
+
+[SLIDE 5 - DETAILED EXPLANATION]
+"Let me explain why this is correct:
+
+DRL should start with a criterion only slightly below current baseline (e.g., 10-20% reduction). Starting at 18/hour from 20/hour allows initial success and reinforcement. Too drastic a reduction (like 5/hour or 0/hour) would result in no reinforcement and treatment failure. The criterion is gradually tightened as progress occurs."
+
+[SLIDE 6 - COMMON MISTAKES]
+"Here's why the other options are incorrect:
+- Reinforce if talking out occurs 0 times per hour: This is incorrect because...
+- Reinforce if talking out occurs 5 or fewer times per hour: This is incorrect because...
+- Reinforce if talking out occurs 30 or fewer times per hour: This is incorrect because..."
+
+[SLIDE 7 - KEY TAKEAWAY]
+"The key takeaway: Remember this distinction, and you'll be able to answer any exam question on this topic."
+
+[SLIDE 8 - CLOSING]
+"Thanks for watching! Practice more questions like this at ABA Mastery: aba-mastery-app.web.app
+Good luck on your exam!"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECORDING NOTES:
+- Duration: 6-8 minutes
+- Tone: Conversational, educational
+- Pace: Moderate (not too fast)
+- Visuals: Simple slides with text and examples
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+═══════════════════════════════════════════════════════════════
+YOUTUBE UPLOAD INFO:
+═══════════════════════════════════════════════════════════════
+
+Title: DRL Implementation - BCBA Exam Prep | ABA Mastery
+
+Description:
+DRL Implementation explained clearly for BCBA and BCaBA certification exam preparation.
+
+This video covers:
+- Key concept definition
+- Correct answer explanation
+- Common mistakes to avoid
+- Real-world examples
+- Exam strategy tips
+
+Perfect for:
+✅ BCBA exam candidates
+✅ BCaBA exam candidates
+✅ ABA graduate students
+✅ Behavior analysts in training
+
+Practice questions: https://aba-mastery-app.web.app
+
+Tags: BCBA exam, BCaBA exam, ABA certification, behavior analysis, intervention, exam prep, study guide, ABA mastery
+
+═══════════════════════════════════════════════════════════════

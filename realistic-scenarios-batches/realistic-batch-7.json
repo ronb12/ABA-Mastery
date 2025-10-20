@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "scenario-301",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-302",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-303",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-304",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-305",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-306",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-307",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-308",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-309",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-310",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-311",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-312",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-313",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-314",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-315",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-316",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-317",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-318",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-319",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-320",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-321",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-322",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-323",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-324",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-325",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-326",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-327",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-328",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-329",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-330",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-331",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-332",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-333",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-334",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-335",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-336",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-337",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-338",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-339",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-340",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-341",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-342",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-343",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-344",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-345",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-346",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-347",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-348",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is supervising an RBT who implemented unauthorized procedures. The supervisor must address the violation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires supervisors to provide training and oversight when violations occur. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-349",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is contacted about providing services for a client currently with another BCBA. The parent wants to switch providers.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires contacting current providers before providing services. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  },
+  {
+    "id": "scenario-350",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "ethics-professional",
+    "scenario": "A BCBA is asked to give professional opinion without conducting assessment. The school wants quick consultation.",
+    "question": "What is the BCBA's primary ethical obligation?",
+    "options": [
+      "Accept immediately",
+      "Contact current provider first / Decline without assessment / Document and provide training",
+      "Decline to avoid conflict",
+      "Provide opinion with disclaimer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "BACB Ethics Code requires conducting appropriate assessment before professional opinions. This protects client welfare and maintains professional standards.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "ethics",
+      "professional conduct",
+      "BACB ethics code"
+    ]
+  }
+]

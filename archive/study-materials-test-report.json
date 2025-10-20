@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-18T15:07:26.407Z",
+  "summary": {
+    "total": 0,
+    "tested": 0,
+    "passed": 0,
+    "failed": 0,
+    "passRate": null
+  },
+  "quality": {
+    "comprehensive": 0,
+    "adequate": 0,
+    "brief": 0,
+    "tooShort": 0
+  },
+  "formatting": {
+    "withParagraphs": 0,
+    "withHeaders": 0,
+    "properFormat": 0
+  },
+  "topics": []
+}

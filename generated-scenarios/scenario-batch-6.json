@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "scenario-251",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-252",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-253",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-254",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-255",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-256",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-257",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-258",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-259",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-260",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-261",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-262",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-263",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-264",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-265",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-266",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-267",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-268",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-269",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-270",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-271",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-272",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-273",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-274",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-275",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-276",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-277",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-278",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-279",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-280",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-281",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-282",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-283",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-284",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-285",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-286",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-287",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-288",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-289",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-290",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-291",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-292",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-293",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-294",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-295",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-296",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-297",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT providing feedback without fidelity. Client welfare may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-298",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT managing behavior improperly. Client outcomes may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-299",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT implementing procedures incorrectly. Client safety may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  },
+  {
+    "id": "scenario-300",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes RBT collecting data inconsistently. Client progress may be affected.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Wait until next supervision meeting",
+      "Provide immediate corrective feedback",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate feedback when errors affect client welfare. Protecting clients is the primary obligation.",
+    "bacbTaskList": [
+      "FK-03",
+      "E-01",
+      "E-02"
+    ],
+    "keywords": [
+      "supervision",
+      "feedback",
+      "RBT oversight",
+      "client protection"
+    ]
+  }
+]

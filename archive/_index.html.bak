@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ABA Mastery - Complete exam preparation app for ABA therapist certification">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ABA Mastery">
+    
+    <title>ABA Mastery - Study Platform</title>
+    
+    <!-- Check if user came from landing page, otherwise redirect -->
+    <script>
+        // Optional: Check if user should see landing page first
+        // For now, app is accessible directly
+    </script>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- App Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css?v=1.3.2">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader"></div>
+        <p>Loading ABA Mastery...</p>
+    </div>
+
+    <!-- App Container -->
+    <div id="app" class="app-container" style="display: none;">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="icons/icon-192.png" alt="ABA Mastery" class="header-logo">
+                    <h1>ABA Mastery</h1>
+                </div>
+                <div class="header-actions">
+                    <div class="profile-dropdown-container">
+                        <button id="auth-btn" class="icon-btn" aria-label="Account" title="Profile">
+                            <span class="icon">👤</span>
+                        </button>
+                        <div id="profile-dropdown" class="profile-dropdown" style="display: none;">
+                            <div class="profile-header">
+                                <div class="profile-avatar">👤</div>
+                                <div class="profile-info">
+                                    <div class="profile-name" id="profile-name">Guest User</div>
+                                    <div class="profile-email" id="profile-email">Not signed in</div>
+                                </div>
+                            </div>
+                            <div class="profile-divider"></div>
+                            <div class="profile-stats">
+                                <div class="profile-stat">
+                                    <span class="stat-label">Questions Answered</span>
+                                    <span class="stat-value" id="profile-questions">0</span>
+                                </div>
+                                <div class="profile-stat">
+                                    <span class="stat-label">Accuracy Rate</span>
+                                    <span class="stat-value" id="profile-accuracy">0%</span>
+                                </div>
+                                <div class="profile-stat">
+                                    <span class="stat-label">Study Time</span>
+                                    <span class="stat-value" id="profile-time">0h</span>
+                                </div>
+                            </div>
+                            <div class="profile-divider"></div>
+                            <div class="profile-menu">
+                                <button class="profile-menu-item" onclick="switchView('progress')">
+                                    <span class="menu-icon">📊</span>
+                                    <span>View Progress</span>
+                                </button>
+                                <button class="profile-menu-item" onclick="switchView('settings')">
+                                    <span class="menu-icon">⚙️</span>
+                                    <span>Settings</span>
+                                </button>
+                                <button class="profile-menu-item" id="profile-export-btn">
+                                    <span class="menu-icon">📥</span>
+                                    <span>Export Data</span>
+                                </button>
+                            </div>
+                            <div class="profile-divider"></div>
+                            <div class="profile-footer">
+                                <button class="profile-signout-btn" id="profile-auth-action">
+                                    <span class="menu-icon">🔓</span>
+                                    <span>Guest Mode</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="dark-mode-toggle" class="icon-btn" aria-label="Toggle dark mode">
+                        <span class="icon">🌙</span>
+                    </button>
+                    <button id="menu-toggle" class="icon-btn" aria-label="Menu">
+                        <span class="icon">☰</span>
+                    </button>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div id="overall-progress" class="progress-fill"></div>
+            </div>
+        </header>
+
+        <!-- Navigation Menu -->
+        <nav id="nav-menu" class="nav-menu">
+            <button class="nav-item active" data-view="home">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" data-view="study">
+                <span class="nav-icon">📚</span>
+                <span class="nav-label">Study</span>
+            </button>
+            <button class="nav-item" data-view="practice">
+                <span class="nav-icon">✍️</span>
+                <span class="nav-label">Practice</span>
+            </button>
+            <button class="nav-item" data-view="flashcards">
+                <span class="nav-icon">🎴</span>
+                <span class="nav-label">Flashcards</span>
+            </button>
+            <button class="nav-item" data-view="progress">
+                <span class="nav-icon">📊</span>
+                <span class="nav-label">Progress</span>
+            </button>
+            <button class="nav-item" data-view="settings">
+                <span class="nav-icon">⚙️</span>
+                <span class="nav-label">Settings</span>
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-content" class="main-content">
+            <!-- Home View -->
+            <section id="home-view" class="view active">
+                <div class="welcome-section">
+                    <h2>Welcome to ABA Mastery</h2>
+                    <p class="subtitle">Your comprehensive study companion for ABA therapist certification</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="total-topics">0</div>
+                            <div class="stat-label">Topics</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="questions-answered">0</div>
+                            <div class="stat-label">Questions Answered</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="study-time">0h</div>
+                            <div class="stat-label">Study Time</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="accuracy-rate">0%</div>
+                            <div class="stat-label">Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <h3>Quick Start</h3>
+                    <div class="action-grid">
+                        <button class="action-card" data-action="study">
+                            <span class="action-icon">📖</span>
+                            <h4>Study Topics</h4>
+                            <p>Review key ABA concepts</p>
+                        </button>
+                        <button class="action-card" data-action="practice">
+                            <span class="action-icon">🎯</span>
+                            <h4>Practice Exam</h4>
+                            <p>Test your knowledge</p>
+                        </button>
+                        <button class="action-card" data-action="flashcards">
+                            <span class="action-icon">🎴</span>
+                            <h4>Flashcards</h4>
+                            <p>Quick review mode</p>
+                        </button>
+                        <button class="action-card" data-action="weak-areas">
+                            <span class="action-icon">💪</span>
+                            <h4>Weak Areas</h4>
+                            <p>Focus on improvement</p>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study View -->
+            <section id="study-view" class="view">
+                <div class="view-header">
+                    <h2>Study Topics</h2>
+                    <div class="search-bar">
+                        <input type="text" id="topic-search" placeholder="Search topics...">
+                    </div>
+                </div>
+                <div id="topics-container" class="topics-grid"></div>
+            </section>
+
+            <!-- Practice View -->
+            <section id="practice-view" class="view">
+                <div id="practice-setup" class="practice-setup">
+                    <h2>Practice Exam</h2>
+                    <div class="setup-form">
+                        <div class="form-group">
+                            <label>Exam Mode</label>
+                            <select id="exam-mode">
+                                <option value="practice">Custom Practice Quiz</option>
+                                <option value="bcba">Full-Length BCBA Exam (100 questions, 2 hours)</option>
+                                <option value="bcaba">Full-Length BCaBA Exam (65 questions, 1.5 hours)</option>
+                            </select>
+                            <p class="help-text" id="exam-mode-help">Create a custom practice quiz with your preferred settings</p>
+                        </div>
+                        <div id="custom-settings">
+                            <div class="form-group">
+                                <label>Select Category</label>
+                                <select id="practice-category">
+                                    <option value="all">All Topics</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Number of Questions</label>
+                                <input type="number" id="question-count" value="20" min="5" max="100">
+                            </div>
+                            <div class="form-group">
+                                <label>Difficulty</label>
+                                <select id="difficulty-level">
+                                    <option value="all">All Levels</option>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="advanced">Advanced</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button id="start-practice" class="btn btn-primary">Start Exam</button>
+                    </div>
+                </div>
+
+                <div id="practice-quiz" class="practice-quiz" style="display: none;">
+                    <div class="quiz-header">
+                        <div class="quiz-progress">
+                            <span id="question-number">Question 1 of 20</span>
+                            <div class="timer" id="timer">00:00</div>
+                        </div>
+                        <div class="quiz-progress-bar">
+                            <div id="quiz-progress-fill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-content">
+                        <h3 id="question-text"></h3>
+                        <div id="answers-container" class="answers-grid"></div>
+                        <div id="explanation-container" class="explanation" style="display: none;"></div>
+                    </div>
+
+                    <div class="quiz-actions">
+                        <button id="prev-question" class="btn btn-secondary" disabled>Previous</button>
+                        <button id="submit-answer" class="btn btn-primary">Submit Answer</button>
+                        <button id="next-question" class="btn btn-primary" style="display: none;">Next Question</button>
+                        <button id="finish-quiz" class="btn btn-success" style="display: none;">Finish Quiz</button>
+                    </div>
+                </div>
+
+                <div id="practice-results" class="practice-results" style="display: none;"></div>
+            </section>
+
+            <!-- Flashcards View -->
+            <section id="flashcards-view" class="view">
+                <div class="view-header">
+                    <h2>Flashcards</h2>
+                    <select id="flashcard-category" class="category-select">
+                        <option value="all">All Categories</option>
+                    </select>
+                </div>
+                <div id="flashcard-container" class="flashcard-container">
+                    <div class="flashcard-controls">
+                        <button id="prev-card" class="btn btn-secondary">← Previous</button>
+                        <span id="card-counter">0 / 0</span>
+                        <button id="next-card" class="btn btn-secondary">Next →</button>
+                    </div>
+                    <div id="flashcard" class="flashcard" data-flipped="false">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <p id="flashcard-question">Click to start</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <p id="flashcard-answer">Answer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="flip-card" class="btn btn-primary">Flip Card</button>
+                </div>
+            </section>
+
+            <!-- Progress View -->
+            <section id="progress-view" class="view">
+                <h2>Your Progress</h2>
+                <div class="progress-dashboard">
+                    <div class="progress-card">
+                        <h3>Overall Performance</h3>
+                        <canvas id="performance-chart"></canvas>
+                    </div>
+                    <div class="progress-card">
+                        <h3>Category Breakdown</h3>
+                        <div id="category-breakdown"></div>
+                    </div>
+                    <div class="progress-card">
+                        <h3>Recent Activity</h3>
+                        <div id="recent-activity"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Settings View -->
+            <section id="settings-view" class="view">
+                <h2>Settings</h2>
+                <div class="settings-container">
+                    <div class="settings-group">
+                        <h3>Appearance</h3>
+                        <div class="setting-item">
+                            <label>
+                                <input type="checkbox" id="dark-mode-setting">
+                                <span>Dark Mode</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="settings-group">
+                        <h3>Study Preferences</h3>
+                        <div class="setting-item">
+                            <label>
+                                <span>Default Question Count</span>
+                                <input type="number" id="default-questions" value="20" min="5" max="100">
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label>
+                                <input type="checkbox" id="show-explanations">
+                                <span>Show Explanations After Each Question</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="settings-group">
+                        <h3>Data</h3>
+                        <button id="reset-progress" class="btn btn-danger">Reset All Progress</button>
+                        <button id="export-data" class="btn btn-secondary">Export Study Data</button>
+                    </div>
+                    <div class="settings-group">
+                        <h3>Account</h3>
+                        <div id="user-account-section">
+                            <p id="user-status">Guest Mode (Data stored locally)</p>
+                            <button id="sign-out-btn" class="btn btn-secondary" style="display: none;">Sign Out</button>
+                        </div>
+                    </div>
+                    <div class="settings-group">
+                        <h3>About</h3>
+                        <p>ABA Mastery v1.0.0</p>
+                        <p>A product of Bradley Virtual Solutions, LLC</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Install Prompt -->
+        <div id="install-prompt" class="install-prompt" style="display: none;">
+            <div class="install-content">
+                <p>Install ABA Mastery for quick access and offline study!</p>
+                <div class="install-actions">
+                    <button id="install-btn" class="btn btn-primary">Install</button>
+                    <button id="dismiss-install" class="btn btn-secondary">Later</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+    
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBp2jOcQm7w8X9OJuHZZqQHdRrIw65lZPI",
+            authDomain: "aba-mastery-app.firebaseapp.com",
+            projectId: "aba-mastery-app",
+            storageBucket: "aba-mastery-app.firebasestorage.app",
+            messagingSenderId: "304782196897",
+            appId: "1:304782196897:web:db023c75da94b0546430e0"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+        // Check auth state
+        auth.onAuthStateChanged(user => {
+            if (user) {
+                console.log('✅ User logged in:', user.email, 'UID:', user.uid);
+                // Update UI to show user is logged in
+                updateAuthUI(user);
+                // Load user data from Firestore
+                loadUserFromFirestore(user.uid);
+            } else {
+                console.log('ℹ️ No user logged in (guest mode)');
+                // Update UI to show guest mode
+                updateAuthUI(null);
+            }
+        });
+        
+        // Update auth UI based on user state
+        function updateAuthUI(user) {
+            const userStatus = document.getElementById('user-status');
+            const signOutBtn = document.getElementById('sign-out-btn');
+            
+            if (user) {
+                // User is logged in
+                userStatus.textContent = `Logged in as: ${user.email}`;
+                signOutBtn.style.display = 'block';
+            } else {
+                // Guest mode
+                userStatus.textContent = 'Guest Mode (Data stored locally)';
+                signOutBtn.style.display = 'none';
+            }
+        }
+        
+        // Sign out function
+        async function handleSignOut() {
+            if (confirm('Are you sure you want to sign out? Your progress will remain in the cloud but you\'ll need to sign in again to access it.')) {
+                try {
+                    await auth.signOut();
+                    console.log('✅ Successfully signed out');
+                    alert('You have been signed out. Your progress is saved in the cloud.');
+                } catch (error) {
+                    console.error('❌ Error signing out:', error);
+                    alert('Error signing out. Please try again.');
+                }
+            }
+        }
+
+        async function loadUserFromFirestore(userId) {
+            try {
+                const doc = await db.collection('users').doc(userId).collection('progress').doc('main').get();
+                if (doc.exists) {
+                    const cloudData = doc.data();
+                    console.log('📥 Loaded user data from Firestore:', cloudData);
+                    
+                    // Merge with localStorage
+                    const localData = JSON.parse(localStorage.getItem('abaUserData') || '{}');
+                    const mergedData = { ...localData, ...cloudData };
+                    localStorage.setItem('abaUserData', JSON.stringify(mergedData));
+                    
+                    // Reload app data
+                    if (typeof loadUserData === 'function') {
+                        loadUserData();
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading user data from Firestore:', error);
+            }
+        }
+    </script>
+    
+    <!-- Scripts -->
+    <script src="auth.js?v=1.3.2"></script>
+    <script src="app.js?v=1.3.2"></script>
+    
+    <script>
+        // Initialize authentication when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initAuth);
+        } else {
+            initAuth();
+        }
+    </script>
+    
+    <!-- Test Users Module (for development/testing only) -->
+    <!-- <script src="create-test-users.js"></script> -->
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+0000000000000000000000000000000000000000 3dfe2f8a00346e58fa383e3a3edadb0c9dd8a02c ronb12 <ronellbradley@gmail.com> 1760729079 -0400	commit (initial): Initial commit: ABA Mastery - Complete PWA exam preparation app
+3dfe2f8a00346e58fa383e3a3edadb0c9dd8a02c 6bb1633b7383f946a68e9d4556164e8f8bd34c55 ronb12 <ronellbradley@gmail.com> 1760729168 -0400	commit: Add deployment guide and changelog
+6bb1633b7383f946a68e9d4556164e8f8bd34c55 5eafb0cbd9996ba01528bc1e2a4b10e70faefde2 ronb12 <ronellbradley@gmail.com> 1760729216 -0400	commit: Add getting started guide
+5eafb0cbd9996ba01528bc1e2a4b10e70faefde2 1ca6e0fb3e929d0a68710c63fcfd5f98cebadedf ronb12 <ronellbradley@gmail.com> 1760729560 -0400	commit: Update: Add live deployment URLs and project info
+1ca6e0fb3e929d0a68710c63fcfd5f98cebadedf 727ee82bedf86a6d03d124f7faf86cbb3111d0d0 ronb12 <ronellbradley@gmail.com> 1760729828 -0400	commit: Add comprehensive content compliance verification
+727ee82bedf86a6d03d124f7faf86cbb3111d0d0 c74fa8b95c8fd2dad9952a473cbae6becb066a3d ronb12 <ronellbradley@gmail.com> 1760730191 -0400	commit: Add Firebase database configuration: Firestore rules, indexes, Storage rules, and Realtime Database rules
+c74fa8b95c8fd2dad9952a473cbae6becb066a3d c1038769b6eb876d8fa684439b1a88084a847d13 ronb12 <ronellbradley@gmail.com> 1760731065 -0400	commit: Remove GitHub Actions workflow - Manual deployment to Firebase hosting only
+c1038769b6eb876d8fa684439b1a88084a847d13 50a438e3cbfe7d388309ba28b66c3b9246bdff43 ronb12 <ronellbradley@gmail.com> 1760731186 -0400	commit: Add landing page with login/signup functionality
+50a438e3cbfe7d388309ba28b66c3b9246bdff43 feba7b20034ea4d0cef66086ef51a535c0f601b8 ronb12 <ronellbradley@gmail.com> 1760731269 -0400	commit: Add landing page documentation
+feba7b20034ea4d0cef66086ef51a535c0f601b8 c4a875bac986dab70d484cfbd9e13709adeed2d7 ronb12 <ronellbradley@gmail.com> 1760731523 -0400	commit: Add comprehensive test suite and test users - All 65 tests passed ✅
+c4a875bac986dab70d484cfbd9e13709adeed2d7 f4c3d59a56c46610d208c6b6491906011405aecb ronb12 <ronellbradley@gmail.com> 1760732261 -0400	commit: Add Puppeteer browser testing with visual confirmation - 16/19 tests passed (84%)
+f4c3d59a56c46610d208c6b6491906011405aecb f156c4c84cf1332094a7804d336e8268da41bdb7 ronb12 <ronellbradley@gmail.com> 1760732453 -0400	commit: Add Firebase test user creation script and documentation
+f156c4c84cf1332094a7804d336e8268da41bdb7 ed77ebd2f6595ee445c568db206b20b35be96efd ronb12 <ronellbradley@gmail.com> 1760732723 -0400	commit: Add quick guide for creating Firebase test users
+ed77ebd2f6595ee445c568db206b20b35be96efd 4cfd8333a7d592efbf3cd3b4231db900f1d2667f ronb12 <ronellbradley@gmail.com> 1760732908 -0400	commit: Integrate Firebase Authentication - Login/Signup now functional with real Firebase Auth
+4cfd8333a7d592efbf3cd3b4231db900f1d2667f 362bd2ac251a9e9821eec270288174db7af17b00 ronb12 <ronellbradley@gmail.com> 1760732969 -0400	commit: Add Firebase Auth test page for credential verification
+362bd2ac251a9e9821eec270288174db7af17b00 7aff200decf5627cfaec1fb175af1371ba2ec261 ronb12 <ronellbradley@gmail.com> 1760733011 -0400	commit: Add comprehensive login testing instructions
+7aff200decf5627cfaec1fb175af1371ba2ec261 18b3ff27e890fcc1c3f67cce52bdcaae2217771d ronb12 <ronellbradley@gmail.com> 1760734217 -0400	commit: Add manual login test guide and troubleshooting
+18b3ff27e890fcc1c3f67cce52bdcaae2217771d 394104a23055c2507d883a9f8a38cc2cd21a4a3b ronb12 <ronellbradley@gmail.com> 1760734601 -0400	commit: Add comprehensive feature test checklist and scripts
+394104a23055c2507d883a9f8a38cc2cd21a4a3b 252c8a49b783ef215fcb584494ba4ad0cc60f2f6 ronb12 <ronellbradley@gmail.com> 1760734926 -0400	commit: Add deployment status confirmation
+252c8a49b783ef215fcb584494ba4ad0cc60f2f6 be04cb84a461111678e937e54867d3293e1e6cc6 ronb12 <ronellbradley@gmail.com> 1760735042 -0400	commit: ✅ Confirmed: GitHub main and Firebase hosting fully updated and deployed
+be04cb84a461111678e937e54867d3293e1e6cc6 aa5929969ca3d0a939603137a1ea54ec28d13053 ronb12 <ronellbradley@gmail.com> 1760735370 -0400	commit: Add comprehensive button testing checklist - 94+ buttons to test
+aa5929969ca3d0a939603137a1ea54ec28d13053 1bf6d6ca8cae183b5b8a60521478c2b5ea0ebcda ronb12 <ronellbradley@gmail.com> 1760736730 -0400	commit: Add button testing scripts and final deployment confirmations
+1bf6d6ca8cae183b5b8a60521478c2b5ea0ebcda d870233a88b214f49768c0e91b33e2838b3bdf91 ronb12 <ronellbradley@gmail.com> 1760736823 -0400	commit: 📊 Final project summary - ABA Mastery complete with 38 topics, Firebase, GitHub, testing
+d870233a88b214f49768c0e91b33e2838b3bdf91 7247ab770a6b53d42d1ba41127c7062c671af5fc ronb12 <ronellbradley@gmail.com> 1760737020 -0400	commit: v1.1.0 - Update cache version to force fresh deployment and fix caching issues
+7247ab770a6b53d42d1ba41127c7062c671af5fc b726d292529c4088a2b9f9f5ab059f056c59e8ea ronb12 <ronellbradley@gmail.com> 1760737191 -0400	commit: Cache cleared and v1.1.0 deployed successfully
+b726d292529c4088a2b9f9f5ab059f056c59e8ea c4c59c7666025ade4e76d251c42e06e965b851db ronb12 <ronellbradley@gmail.com> 1760737333 -0400	commit: Fix landing page: Swap files so landing page is default index.html
+c4c59c7666025ade4e76d251c42e06e965b851db 5f7770be9d6de6899d3b0af88edea4439df5f065 ronb12 <ronellbradley@gmail.com> 1760737373 -0400	commit: Fix all redirects to point to app.html
+5f7770be9d6de6899d3b0af88edea4439df5f065 ca4d1e4c7ddabf2fcde5623f67de52da8c5b2247 ronb12 <ronellbradley@gmail.com> 1760737434 -0400	commit: Document landing page fix and deployment
+ca4d1e4c7ddabf2fcde5623f67de52da8c5b2247 2200bdbb5424d6a22a925f6472de6aa53802790f ronb12 <ronellbradley@gmail.com> 1760737589 -0400	commit: ✅ CONFIRMED: GitHub main and Firebase hosting both fully updated and synced
+2200bdbb5424d6a22a925f6472de6aa53802790f 2645d902601fe2e9c3f6a813b158864b9dbdbbd9 ronb12 <ronellbradley@gmail.com> 1760737798 -0400	commit: Clean up: Exclude test files, logs, and extra docs from Firebase deployment
+2645d902601fe2e9c3f6a813b158864b9dbdbbd9 ec82a44d2f8086450e7efe8fe03d5401d8bc0f15 ronb12 <ronellbradley@gmail.com> 1760737913 -0400	commit: Document resource cleanup - Exclude 90% of non-production files from deployment
+ec82a44d2f8086450e7efe8fe03d5401d8bc0f15 0838998c92bdc9a99d9c1140254ab172805eb09d ronb12 <ronellbradley@gmail.com> 1760738005 -0400	commit: Update Resources section: Remove GitHub links, add ABA International, make all links ABA-relevant
+0838998c92bdc9a99d9c1140254ab172805eb09d fcfcc5798fe5b5111f21637ef498698e0487aced ronb12 <ronellbradley@gmail.com> 1760738211 -0400	commit: Fix BACB Task List link - Update to correct working URL
+fcfcc5798fe5b5111f21637ef498698e0487aced 4f6f307c34f68c6629efd1838b03c48c524653f5 ronb12 <ronellbradley@gmail.com> 1760738852 -0400	commit: Add comprehensive exam requirements analysis and expansion strategy
+4f6f307c34f68c6629efd1838b03c48c524653f5 5a5cadd3cd6fc94405aa40dee5510efc91fdab7d ronb12 <ronellbradley@gmail.com> 1760738961 -0400	commit: Add visual quick-reference summary of exam requirements analysis
+5a5cadd3cd6fc94405aa40dee5510efc91fdab7d 1c2657e53a100b558671553faed1f09a45950834 ronb12 <ronellbradley@gmail.com> 1760740358 -0400	commit: Add 75 new practice questions (total now 100)
+1c2657e53a100b558671553faed1f09a45950834 995fe1c801af0e5052031747d7b45e3219bde21c ronb12 <ronellbradley@gmail.com> 1760740559 -0400	commit: Add full-length exam feature with countdown timer and enhanced results
+995fe1c801af0e5052031747d7b45e3219bde21c 78130755797882be7618d29c55f47aa4ad5a5768 ronb12 <ronellbradley@gmail.com> 1760740683 -0400	commit: Add comprehensive session summary for v1.1.0 update
+78130755797882be7618d29c55f47aa4ad5a5768 238c60f488c002de6495767e030e80add839a1ee ronb12 <ronellbradley@gmail.com> 1760741606 -0400	commit: Fix deployment: Copy app.html to index.html and add comprehensive test suite
+238c60f488c002de6495767e030e80add839a1ee 1cbe0bd8d7c803211246743c6320e1173d9a45c6 ronb12 <ronellbradley@gmail.com> 1760741677 -0400	commit: Add comprehensive testing summary and manual test checklist
+1cbe0bd8d7c803211246743c6320e1173d9a45c6 97d86292b558d2fd5e04b4e0bdbfc1716ece8924 ronb12 <ronellbradley@gmail.com> 1760742858 -0400	commit: Add working automated test suite with 95% success rate
+97d86292b558d2fd5e04b4e0bdbfc1716ece8924 526f2a0b10912f98a7b89034976f5dd8a3e041fb ronb12 <ronellbradley@gmail.com> 1760743121 -0400	commit: 🎉 AUTOMATED TESTS: 100% SUCCESS RATE (21/21 PASSING)
+526f2a0b10912f98a7b89034976f5dd8a3e041fb 7f90558435c9e4822a2cd20e8cb0e5e13fcb8617 ronb12 <ronellbradley@gmail.com> 1760743157 -0400	commit: Update test report: 100% success rate achieved! All 21 tests passing
+7f90558435c9e4822a2cd20e8cb0e5e13fcb8617 b9d55bc2be81e78fc26dd9e8b7bf4ab9f53798a4 ronb12 <ronellbradley@gmail.com> 1760743284 -0400	commit: Final cleanup: 100% test success, comprehensive session report
+b9d55bc2be81e78fc26dd9e8b7bf4ab9f53798a4 69a3b833910ecc28cd5f762e68119fe329848599 ronb12 <ronellbradley@gmail.com> 1760743365 -0400	commit: Add visual test success summary - 100% pass rate celebration
+69a3b833910ecc28cd5f762e68119fe329848599 44f6d8cf8df03f69c0f143d826624c23d386738d ronb12 <ronellbradley@gmail.com> 1760743906 -0400	commit: Add comprehensive exam readiness assessment
+44f6d8cf8df03f69c0f143d826624c23d386738d 2f67f2622d97181823caa774b47de64cb30f50e1 ronb12 <ronellbradley@gmail.com> 1760744005 -0400	commit: Add exam readiness quick reference summary
+2f67f2622d97181823caa774b47de64cb30f50e1 5cd2b9f42e970565c0139cdc449fdb4677834c8d ronb12 <ronellbradley@gmail.com> 1760744227 -0400	commit: Add 25 new Ethics questions (Section E) - Total: 125
+5cd2b9f42e970565c0139cdc449fdb4677834c8d c942a227df2575e98a05aab2642313bf7a203fb0 ronb12 <ronellbradley@gmail.com> 1760744512 -0400	commit: Progress checkpoint: 135 questions + calculation module HTML
+c942a227df2575e98a05aab2642313bf7a203fb0 8053c230109b800391262f1dd4a5259a595248b2 ronb12 <ronellbradley@gmail.com> 1760744778 -0400	commit: Session complete: 135 questions + comprehensive roadmap to 1000
+8053c230109b800391262f1dd4a5259a595248b2 2147bffb2e1ea9118d0191bfb85752616fe1c6f2 ronb12 <ronellbradley@gmail.com> 1760744901 -0400	commit: v1.2.0 Complete: Comprehensive README and expansion strategy
+2147bffb2e1ea9118d0191bfb85752616fe1c6f2 84719bc8812c73d207b59ffc921909a66676be25 ronb12 <ronellbradley@gmail.com> 1760745222 -0400	commit: Add textbook comparison - honest assessment
+84719bc8812c73d207b59ffc921909a66676be25 4a8057794a4963964559feff4a63397be78b4fb9 ronb12 <ronellbradley@gmail.com> 1760745450 -0400	commit: v1.3.0: Begin textbook-level content expansion
+4a8057794a4963964559feff4a63397be78b4fb9 ead83819f4d189a8cd983147e07a5616ac1fc9c6 ronb12 <ronellbradley@gmail.com> 1760745564 -0400	commit: Final session summary: Industry-leading app with roadmap to 90-95% standalone pass rate
+ead83819f4d189a8cd983147e07a5616ac1fc9c6 10293ff9bdb551c1a5a99cd235f497f7704ef8b9 ronb12 <ronellbradley@gmail.com> 1760745634 -0400	commit: Add visual achievement summary
+10293ff9bdb551c1a5a99cd235f497f7704ef8b9 ae99a5265e5b922e25e27546f9b38bb11f5e2c5e ronb12 <ronellbradley@gmail.com> 1760746034 -0400	commit: ✅ 100% Test Success: All features verified working
+ae99a5265e5b922e25e27546f9b38bb11f5e2c5e b2aadcf2303308e48e2ad203917aa5d9e9f08d4f ronb12 <ronellbradley@gmail.com> 1760746109 -0400	commit: Add visual test success summary
+b2aadcf2303308e48e2ad203917aa5d9e9f08d4f c88b13b18e99ab113492221e83e520350af23937 ronb12 <ronellbradley@gmail.com> 1760746398 -0400	commit: 🐛 Fix: Hamburger menu now functional on mobile
+c88b13b18e99ab113492221e83e520350af23937 b1abf22c9a44b36c3e40fb2e404ba9adeeadac01 ronb12 <ronellbradley@gmail.com> 1760746443 -0400	commit: Add hamburger menu bug fix documentation
+b1abf22c9a44b36c3e40fb2e404ba9adeeadac01 5e06b45f4f33a5f71ddbfd19880bbd78035d2057 ronb12 <ronellbradley@gmail.com> 1760746732 -0400	commit: ✨ Add Sign Out button for authenticated users
+5e06b45f4f33a5f71ddbfd19880bbd78035d2057 b794ede135d36fec33b2538acaa0c268364863f4 ronb12 <ronellbradley@gmail.com> 1760746808 -0400	commit: Add comprehensive sign out feature documentation
+b794ede135d36fec33b2538acaa0c268364863f4 a03c5db48c6c141a3ac76805497688518ab498fb ronb12 <ronellbradley@gmail.com> 1760747127 -0400	commit: 📚 Complete documentation update & realistic to-do roadmap
+a03c5db48c6c141a3ac76805497688518ab498fb c5f2f9ff78a98f0b1b35fdc34cc041b485f77ffb ronb12 <ronellbradley@gmail.com> 1760747229 -0400	commit: ✅ To-Do Completion Summary: 7/15 Complete (47%)
+c5f2f9ff78a98f0b1b35fdc34cc041b485f77ffb 043a44713370bf275fad408a716bdeb4c040443c ronb12 <ronellbradley@gmail.com> 1760748113 -0400	commit: Add logout button to header next to dark mode button
+043a44713370bf275fad408a716bdeb4c040443c d5ebcfad8549e96a936028e6e160dec609768ce0 ronb12 <ronellbradley@gmail.com> 1760748332 -0400	commit: Update to v1.2.0 - Force cache refresh for logout button
+d5ebcfad8549e96a936028e6e160dec609768ce0 7c7a777db2c2bfe0e1f8926e7f4b23a18cb21ec8 ronb12 <ronellbradley@gmail.com> 1760748542 -0400	commit: Fix auth button visibility - now always visible in header
+7c7a777db2c2bfe0e1f8926e7f4b23a18cb21ec8 a92efa376732b204e1dcd50297d8fabfbb23c3e7 ronb12 <ronellbradley@gmail.com> 1760748637 -0400	commit: Add documentation for auth button visibility fix
+a92efa376732b204e1dcd50297d8fabfbb23c3e7 e8b066a1996fbe700de544f171dffc27b82c04a7 ronb12 <ronellbradley@gmail.com> 1760748869 -0400	commit: Add click functionality to auth button in guest mode
+e8b066a1996fbe700de544f171dffc27b82c04a7 f0bdba4e03b6ae88595b0321acf1b2814c112fd3 ronb12 <ronellbradley@gmail.com> 1760749130 -0400	commit: Add professional profile dropdown feature - v1.3.0
+f0bdba4e03b6ae88595b0321acf1b2814c112fd3 782d9f07d1aaadf7215ef71d29af6cfe92f61874 ronb12 <ronellbradley@gmail.com> 1760749194 -0400	commit: Add comprehensive documentation for new profile dropdown feature
+782d9f07d1aaadf7215ef71d29af6cfe92f61874 8b5ebdde07cd03930fdb5d4016ae589471f5ca1b ronb12 <ronellbradley@gmail.com> 1760749430 -0400	commit: Add landing page and confirm logout in profile dropdown - v1.3.1
+8b5ebdde07cd03930fdb5d4016ae589471f5ca1b 56cc06e49baf6e56d87fd58d9bdef24e762cbdd1 ronb12 <ronellbradley@gmail.com> 1760749504 -0400	commit: Add comprehensive documentation confirming landing page and logout button
+56cc06e49baf6e56d87fd58d9bdef24e762cbdd1 e11f1e1e8d53818ed83af7fe00259e26b9767888 ronb12 <ronellbradley@gmail.com> 1760787257 -0400	commit: Add Firebase deployment verification and confirmation
+e11f1e1e8d53818ed83af7fe00259e26b9767888 d5971b1ea1c3c5822c15483320480d6deee76ea6 ronb12 <ronellbradley@gmail.com> 1760787811 -0400	commit: Fix logout button visibility - Make it highly prominent v1.3.2
+d5971b1ea1c3c5822c15483320480d6deee76ea6 4475883641237c8871104c97176695cd91db3f17 ronb12 <ronellbradley@gmail.com> 1760787874 -0400	commit: Add documentation for logout button visibility fix
+4475883641237c8871104c97176695cd91db3f17 61cfe5dc084703badf0bd9a820edb21524a94cb7 ronb12 <ronellbradley@gmail.com> 1760788278 -0400	commit: Fix landing page navigation - Remove index.html conflict
+61cfe5dc084703badf0bd9a820edb21524a94cb7 c6d517b39cb43b69ff747ba04a932b185d464f96 ronb12 <ronellbradley@gmail.com> 1760788348 -0400	commit: Add comprehensive documentation for page navigation fix
+c6d517b39cb43b69ff747ba04a932b185d464f96 847fd819d272c6e33fc275e5075e8fb1ecdca491 ronb12 <ronellbradley@gmail.com> 1760788373 -0400	commit: Clean up temporary test files
+847fd819d272c6e33fc275e5075e8fb1ecdca491 891f2e5e7cd00aa332905467ec24961fd4f44e49 ronb12 <ronellbradley@gmail.com> 1760788946 -0400	commit: Remove 'Landing' button from app navigation - Clean UX v1.3.4
+891f2e5e7cd00aa332905467ec24961fd4f44e49 7ba98b78b7aa49c538529ae7fce1cd35e2948f4e ronb12 <ronellbradley@gmail.com> 1760789404 -0400	commit: Create dedicated login page with full authentication - v1.3.4
+7ba98b78b7aa49c538529ae7fce1cd35e2948f4e 001d465a6cc2487b1175e6f1d4a1761eedefbdba ronb12 <ronellbradley@gmail.com> 1760789489 -0400	commit: Add comprehensive documentation for dedicated login page
+001d465a6cc2487b1175e6f1d4a1761eedefbdba 301d2373a6c54ad1374fe3f3d2880a1af9933eec ronb12 <ronellbradley@gmail.com> 1760789776 -0400	commit: Organize project folder structure - Clean and professional
+301d2373a6c54ad1374fe3f3d2880a1af9933eec 362ac652b1af5c5290a12a240cb6f153b9518f89 ronb12 <ronellbradley@gmail.com> 1760789858 -0400	commit: Add organization completion documentation
+362ac652b1af5c5290a12a240cb6f153b9518f89 414fd79ad7453e4d5354c4ad8e6dd86a7aa6bfba ronb12 <ronellbradley@gmail.com> 1760808604 -0400	commit: 🎉 v6.0.0 - Complete Platform: 1000 Questions + 47 Comprehensive Study Topics
+414fd79ad7453e4d5354c4ad8e6dd86a7aa6bfba d708c6ba693b59ee165a4fee9e5b9c1cfe8a8101 ronb12 <ronellbradley@gmail.com> 1760878871 -0400	commit: Organize all test files into tests/ folder
+d708c6ba693b59ee165a4fee9e5b9c1cfe8a8101 d288acb8b08dc1e02c37033166d4e8012bc14c11 ronb12 <ronellbradley@gmail.com> 1760879626 -0400	commit: Add professional PDF progress report export feature
+d288acb8b08dc1e02c37033166d4e8012bc14c11 5b5b51053e0582a2dfc7ca23840e3677840bebb1 ronb12 <ronellbradley@gmail.com> 1760906100 -0400	commit: Major update: Profile management, personalization system, rating system, enhanced features and bug fixes
+5b5b51053e0582a2dfc7ca23840e3677840bebb1 48a97e9b5cbc41584f3c2d9e57ad29b9627b62b7 ronb12 <ronellbradley@gmail.com> 1760906363 -0400	commit: Major update: Profile management, personalization system, rating system, enhanced AI features, bug fixes, and comprehensive documentation
+48a97e9b5cbc41584f3c2d9e57ad29b9627b62b7 92dbd756721a53e1d32d0a06f8c1b4290c0cbf40 ronb12 <ronellbradley@gmail.com> 1760906604 -0400	commit: Update ABA Mastery content and features

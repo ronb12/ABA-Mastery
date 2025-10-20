@@ -1,0 +1,28 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="102" fill="#2563eb"/>
+  
+  <!-- Book outline -->
+  <rect x="140" y="106" width="232" height="300" rx="8" fill="none" stroke="#ffffff" stroke-width="16"/>
+  
+  <!-- Book spine -->
+  <line x1="256" y1="106" x2="256" y2="406" stroke="#ffffff" stroke-width="16"/>
+  
+  <!-- Page lines -->
+  <line x1="170" y1="180" x2="340" y2="180" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+  <line x1="170" y1="230" x2="340" y2="230" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+  <line x1="170" y1="280" x2="340" y2="280" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+  <line x1="170" y1="330" x2="340" y2="330" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+  
+  <!-- ABA Text -->
+  <text x="256" y="270" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#ffffff" text-anchor="middle">ABA</text>
+  
+  <!-- Checkmark for mastery -->
+  <g stroke="#10b981" stroke-width="20" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="340,100 370,130 420,60"/>
+  </g>
+  
+  <!-- Brain/puzzle piece decoration -->
+  <circle cx="380" cy="370" r="50" fill="#7c3aed" opacity="0.3"/>
+  <text x="380" y="385" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#ffffff" text-anchor="middle">🧩</text>
+</svg>

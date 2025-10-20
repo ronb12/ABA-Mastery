@@ -1,0 +1,502 @@
+[
+  {
+    "id": "scenario-401",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-402",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-403",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-404",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-405",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-406",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-407",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-408",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-409",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-410",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-411",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-412",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-413",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-414",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-415",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-416",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-417",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses physical prompting to teach handwashing. Hand-over-hand guidance provided. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical prompts involve physical contact/guidance. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "physical prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-418",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses model prompting to teach tooth brushing. Therapist demonstrates the action. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Model prompts demonstrate the behavior. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "model prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-419",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses verbal prompting to teach shoe tying. Therapist states instruction. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Verbal prompts provide vocal instructions. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "verbal prompt",
+      "prompt fading"
+    ]
+  },
+  {
+    "id": "scenario-420",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "prompting",
+    "scenario": "A therapist uses gestural prompting to teach bed making. Therapist points or gestures toward materials. Prompts systematically faded over time.",
+    "question": "What type of prompt is being used?",
+    "options": [
+      "Physical prompt",
+      "Model prompt",
+      "Verbal prompt",
+      "Gestural prompt"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gestural prompts use gestures or pointing. Prompt fading is critical to transfer stimulus control.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "prompting",
+      "gestural prompt",
+      "prompt fading"
+    ]
+  }
+]

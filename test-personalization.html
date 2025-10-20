@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Personalization - ABA Mastery</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .test-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .test-section h2 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 5px;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        .result {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+        .result.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .result.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .result.warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+        .message-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #667eea;
+            margin: 15px 0;
+            font-size: 18px;
+            text-align: center;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Test Personalization System</h1>
+        
+        <div id="status"></div>
+        
+        <!-- Step 1: Login -->
+        <div class="test-section">
+            <h2>📝 Step 1: Login</h2>
+            <button onclick="loginTestUser()">Login as test123@aba.com</button>
+            <div id="login-status"></div>
+        </div>
+        
+        <!-- Step 2: Check Current Name -->
+        <div class="test-section">
+            <h2>👤 Step 2: Check Current Name</h2>
+            <button onclick="checkCurrentName()">Check Current Name</button>
+            <div id="name-status"></div>
+        </div>
+        
+        <!-- Step 3: Update Name -->
+        <div class="test-section">
+            <h2>✏️ Step 3: Update Name (Optional)</h2>
+            <input type="text" id="new-name" placeholder="Enter your name (e.g., Sarah Johnson)">
+            <button onclick="updateName()">Update My Name</button>
+            <div id="update-status"></div>
+        </div>
+        
+        <!-- Step 4: Test Greetings -->
+        <div class="test-section">
+            <h2>👋 Step 4: Test Personalized Greetings</h2>
+            <div class="grid">
+                <button onclick="testGreeting()">Test Time-Based Greeting</button>
+                <button onclick="testQuizMessage()">Test Quiz Message</button>
+                <button onclick="testExamMessage()">Test Exam Message (Pass)</button>
+                <button onclick="testExamMessage(false)">Test Exam Message (Fail)</button>
+                <button onclick="testAchievement()">Test Achievement</button>
+                <button onclick="testStreak()">Test Streak</button>
+                <button onclick="testEncouragement()">Test Encouragement</button>
+                <button onclick="testMotivation()">Test Motivation</button>
+            </div>
+            <div class="message-box" id="message-display">
+                Click any button above to see personalized messages!
+            </div>
+        </div>
+        
+        <!-- Step 5: Verify in Main App -->
+        <div class="test-section">
+            <h2>🔍 Step 5: Verify in Main App</h2>
+            <a href="/app" target="_blank">
+                <button>Open Main App</button>
+            </a>
+            <div class="result info" style="margin-top: 15px;">
+                After updating your name, refresh the main app to see the personalized greeting on the home page!
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    
+    <!-- Firebase Config -->
+    <script src="/firebase-config.js"></script>
+    
+    <!-- Personalization Module -->
+    <script src="/personalization.js"></script>
+    
+    <script>
+        let currentUser = null;
+        
+        function showStatus(elementId, message, type = 'info') {
+            const el = document.getElementById(elementId);
+            el.innerHTML = `<div class="result ${type}">${message}</div>`;
+        }
+        
+        // Monitor auth state
+        firebase.auth().onAuthStateChanged((user) => {
+            currentUser = user;
+            if (user) {
+                showStatus('login-status', `✅ Logged in as: ${user.email}`, 'success');
+                
+                // Auto-check name
+                setTimeout(() => {
+                    checkCurrentName();
+                }, 500);
+            }
+        });
+        
+        // Step 1: Login
+        async function loginTestUser() {
+            try {
+                showStatus('login-status', '🔄 Logging in...', 'info');
+                
+                const result = await firebase.auth().signInWithEmailAndPassword(
+                    'test123@aba.com',
+                    'TestABA2024!'
+                );
+                
+                showStatus('login-status', 
+                    `✅ Successfully logged in as: ${result.user.email}`, 
+                    'success'
+                );
+                
+            } catch (error) {
+                showStatus('login-status', `❌ Login failed: ${error.message}`, 'error');
+            }
+        }
+        
+        // Step 2: Check current name
+        async function checkCurrentName() {
+            if (!currentUser) {
+                showStatus('name-status', '❌ Please login first', 'warning');
+                return;
+            }
+            
+            try {
+                // Refresh user to get latest data
+                await currentUser.reload();
+                const user = firebase.auth().currentUser;
+                
+                const displayName = user.displayName;
+                const firstName = displayName ? displayName.split(' ')[0] : '';
+                
+                if (displayName) {
+                    showStatus('name-status', 
+                        `✅ Current Name: <strong>${displayName}</strong><br>` +
+                        `First Name: <strong>${firstName}</strong><br>` +
+                        `Personalization: <strong>ACTIVE</strong> ✨`, 
+                        'success'
+                    );
+                } else {
+                    showStatus('name-status', 
+                        `⚠️ No name set yet.<br>` +
+                        `Set your name below to enable personalization!`, 
+                        'warning'
+                    );
+                }
+                
+                // Also check Firestore
+                const db = firebase.firestore();
+                const userDoc = await db.collection('users').doc(user.uid).get();
+                
+                if (userDoc.exists) {
+                    const data = userDoc.data();
+                    console.log('Firestore user data:', data);
+                }
+                
+            } catch (error) {
+                showStatus('name-status', `❌ Error: ${error.message}`, 'error');
+            }
+        }
+        
+        // Step 3: Update name
+        async function updateName() {
+            if (!currentUser) {
+                showStatus('update-status', '❌ Please login first', 'warning');
+                return;
+            }
+            
+            const newName = document.getElementById('new-name').value.trim();
+            
+            if (!newName || newName.length < 2) {
+                showStatus('update-status', '❌ Please enter a valid name (at least 2 characters)', 'warning');
+                return;
+            }
+            
+            try {
+                showStatus('update-status', '🔄 Updating your name...', 'info');
+                
+                // Update Firebase Auth profile
+                await currentUser.updateProfile({
+                    displayName: newName
+                });
+                
+                // Update Firestore
+                const db = firebase.firestore();
+                await db.collection('users').doc(currentUser.uid).set({
+                    displayName: newName,
+                    email: currentUser.email,
+                    updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+                }, { merge: true });
+                
+                // Reload personalization
+                await currentUser.reload();
+                personalization.loadUserInfo(firebase.auth().currentUser);
+                
+                showStatus('update-status', 
+                    `✅ Name updated to: <strong>${newName}</strong><br>` +
+                    `Personalization is now active! ✨`, 
+                    'success'
+                );
+                
+                // Auto-test greeting
+                setTimeout(() => {
+                    testGreeting();
+                    checkCurrentName();
+                }, 1000);
+                
+            } catch (error) {
+                showStatus('update-status', `❌ Error updating name: ${error.message}`, 'error');
+            }
+        }
+        
+        // Test functions
+        function testGreeting() {
+            const { greeting, emoji } = personalization.getTimeBasedGreeting();
+            displayMessage(`${emoji} ${greeting}`);
+        }
+        
+        function testQuizMessage() {
+            const message = personalization.getQuizResultMessage(18, 20);
+            displayMessage(message);
+        }
+        
+        function testExamMessage(passed = true) {
+            const score = passed ? 85 : 72;
+            const result = personalization.getExamResultMessage(passed, score);
+            displayMessage(`<strong>${result.title}</strong><br>${result.message}`);
+        }
+        
+        function testAchievement() {
+            const message = personalization.getCongratulationsMessage('achievement');
+            displayMessage(message);
+        }
+        
+        function testStreak() {
+            const message = personalization.getCongratulationsMessage('streak');
+            displayMessage(message);
+        }
+        
+        function testEncouragement() {
+            const message = personalization.getEncouragementMessage();
+            displayMessage(message);
+        }
+        
+        function testMotivation() {
+            const quote = personalization.getMotivationalQuote();
+            displayMessage(`${quote.emoji} ${quote.text}`);
+        }
+        
+        function displayMessage(html) {
+            const display = document.getElementById('message-display');
+            display.innerHTML = html;
+            display.style.animation = 'none';
+            setTimeout(() => {
+                display.style.animation = 'pulse 0.5s ease-in-out';
+            }, 10);
+        }
+    </script>
+    
+    <style>
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+    </style>
+</body>
+</html>
+

@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "scenario-251",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-252",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-253",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-254",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-255",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-256",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-257",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-258",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-259",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-260",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-261",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-262",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-263",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-264",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-265",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-266",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-267",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-268",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-269",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-270",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-271",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-272",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-273",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-274",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-275",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-276",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-277",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-278",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-279",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-280",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-281",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-282",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-283",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-284",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-285",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-286",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-287",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-288",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-289",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-290",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-291",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-292",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-293",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-294",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-295",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-296",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-297",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-298",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using alternating treatments design. Two treatments rapidly alternated with discriminative stimuli, data shows one more effective.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alternating treatments design demonstrates experimental control by rapid alternation comparing treatment effectiveness.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "alternating treatments",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-299",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using multiple baseline across 3 participants. Intervention introduced at different times for each participant, behavior changes only when intervention starts.",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiple baseline design demonstrates experimental control by staggered intervention showing behavior changes only when intervention introduced.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "multiple baseline",
+      "experimental design",
+      "experimental control"
+    ]
+  },
+  {
+    "id": "scenario-300",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "experimental-design",
+    "scenario": "A researcher evaluates an intervention using ABAB reversal design. Intervention added (behavior improves), removed (behavior worsens), readded (behavior improves again).",
+    "question": "What design demonstrates experimental control?",
+    "options": [
+      "Multiple baseline",
+      "Reversal (ABAB)",
+      "Alternating treatments",
+      "Changing criterion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversal (ABAB) design demonstrates experimental control by systematic addition/removal showing intervention controls behavior.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "reversal (abab)",
+      "experimental design",
+      "experimental control"
+    ]
+  }
+]

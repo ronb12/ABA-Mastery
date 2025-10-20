@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "scenario-401",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 11-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-402",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 10-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-403",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 9-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-404",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 4-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-405",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 9-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-406",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 7-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-407",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 16-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-408",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 9-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-409",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 12-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-410",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 16-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-411",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 11-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-412",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 12-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-413",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 25-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-414",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 6-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-415",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 22-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-416",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 14-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-417",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 22-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-418",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 25-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-419",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 14-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-420",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 6-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-421",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 14-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-422",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 6-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-423",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 9-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-424",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 6-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-425",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 7-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-426",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 11-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-427",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 9-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-428",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 16-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-429",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 5-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-430",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 8-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-431",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 16-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-432",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 5-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-433",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 18-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-434",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 3-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-435",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 22-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-436",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 10-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-437",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 10-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-438",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 12-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-439",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 3-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-440",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 9-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-441",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 8-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-442",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 25-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-443",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 25-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-444",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 18-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-445",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 14-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-446",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 11-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-447",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 4-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-448",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT collecting data with errors during sessions with a 5-year-old client. Data shows no progress. This is ongoing issue.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-449",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT implementing DTT incorrectly during sessions with a 11-year-old client. Client safety may be affected. This is first occurrence.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  },
+  {
+    "id": "scenario-450",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "supervision",
+    "scenario": "A BCBA supervisor observes an RBT using unauthorized punishment during sessions with a 10-year-old client. Treatment integrity is 60%. This is repeated pattern.",
+    "question": "What is the supervisor's immediate responsibility?",
+    "options": [
+      "Terminate RBT",
+      "Provide immediate corrective feedback and retraining",
+      "Document only",
+      "Report to BACB"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Supervisors must provide immediate corrective feedback when errors affect client welfare or treatment integrity. This protects clients and addresses skill deficits. Termination may be premature without training. Documentation alone doesn't address the issue. BACB reporting required only for serious violations. Supervision requires ongoing training and oversight.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "supervision",
+      "RBT oversight",
+      "corrective feedback",
+      "treatment integrity"
+    ]
+  }
+]

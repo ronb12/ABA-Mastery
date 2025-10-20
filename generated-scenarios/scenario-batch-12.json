@@ -1,0 +1,542 @@
+[
+  {
+    "id": "scenario-501",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with multiple functions. Assessment reveals attention and escape functions. Team collaboration needed.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-502",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with complex needs. Assessment reveals automatic and tangible functions. Multi-component approach required.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-503",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with co-occurring behaviors. Assessment reveals multiple maintaining variables. Individualized protocol necessary.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-504",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with severe challenges. Assessment reveals variable functions. Function-based treatment essential.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-505",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with multiple functions. Assessment reveals attention and escape functions. Team collaboration needed.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-506",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with complex needs. Assessment reveals automatic and tangible functions. Multi-component approach required.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-507",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with co-occurring behaviors. Assessment reveals multiple maintaining variables. Individualized protocol necessary.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-508",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with severe challenges. Assessment reveals variable functions. Function-based treatment essential.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-509",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with multiple functions. Assessment reveals attention and escape functions. Team collaboration needed.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-510",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with complex needs. Assessment reveals automatic and tangible functions. Multi-component approach required.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-511",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with co-occurring behaviors. Assessment reveals multiple maintaining variables. Individualized protocol necessary.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-512",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with severe challenges. Assessment reveals variable functions. Function-based treatment essential.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-513",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with multiple functions. Assessment reveals attention and escape functions. Team collaboration needed.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-514",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with complex needs. Assessment reveals automatic and tangible functions. Multi-component approach required.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-515",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with co-occurring behaviors. Assessment reveals multiple maintaining variables. Individualized protocol necessary.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-516",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with severe challenges. Assessment reveals variable functions. Function-based treatment essential.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-517",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with multiple functions. Assessment reveals attention and escape functions. Team collaboration needed.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-518",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with complex needs. Assessment reveals automatic and tangible functions. Multi-component approach required.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-519",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with co-occurring behaviors. Assessment reveals multiple maintaining variables. Individualized protocol necessary.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-520",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for client with severe challenges. Assessment reveals variable functions. Function-based treatment essential.",
+    "question": "What is the most appropriate treatment approach?",
+    "options": [
+      "Address one function at a time sequentially",
+      "Implement comprehensive multi-component function-based intervention",
+      "Use standard protocol regardless of function",
+      "Focus on punishment to suppress all behaviors"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases with multiple functions require comprehensive, individualized approaches that address all maintaining variables simultaneously while teaching replacement skills. Sequential treatment of single functions may be less efficient and could allow untreated behaviors to escalate. Standard protocols ignore individual differences. Punishment-only approaches don't teach skills and violate evidence-based practice standards.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "E-01"
+    ],
+    "keywords": [
+      "multiple functions",
+      "comprehensive treatment",
+      "individualization",
+      "function-based"
+    ]
+  }
+]

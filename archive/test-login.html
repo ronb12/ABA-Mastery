@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Firebase Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2563eb;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background: #2563eb;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background: #1e40af;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        .success {
+            background: #d1fae5;
+            color: #065f46;
+            border-left: 4px solid #10b981;
+        }
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            border-left: 4px solid #ef4444;
+        }
+        .info {
+            background: #e0e7ff;
+            color: #3730a3;
+            border-left: 4px solid #6366f1;
+            margin-bottom: 20px;
+        }
+        pre {
+            background: #f8f8f8;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Test Firebase Login</h1>
+        
+        <div class="info result" style="display: block;">
+            <strong>Test User Credentials:</strong><br>
+            Email: test123@aba.com<br>
+            Password: password123
+        </div>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" value="test123@aba.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" value="password123" required>
+            </div>
+
+            <button type="submit">🔐 Test Login</button>
+        </form>
+
+        <div id="result" class="result"></div>
+
+        <div id="userInfo" style="margin-top: 20px; display: none;">
+            <h3>Current User:</h3>
+            <pre id="userDetails"></pre>
+            <button onclick="testSignOut()" style="background: #ef4444; margin-top: 10px;">Sign Out</button>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBp2jOcQm7w8X9OJuHZZqQHdRrIw65lZPI",
+            authDomain: "aba-mastery-app.firebaseapp.com",
+            projectId: "aba-mastery-app",
+            storageBucket: "aba-mastery-app.firebasestorage.app",
+            messagingSenderId: "304782196897",
+            appId: "1:304782196897:web:db023c75da94b0546430e0"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+        console.log('✅ Firebase initialized');
+        console.log('📧 Testing with: test123@aba.com');
+
+        // Listen to auth state
+        auth.onAuthStateChanged(user => {
+            if (user) {
+                console.log('✅ User is logged in:', user.email);
+                showUserInfo(user);
+            } else {
+                console.log('ℹ️ No user logged in');
+                document.getElementById('userInfo').style.display = 'none';
+            }
+        });
+
+        // Handle login form
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const resultDiv = document.getElementById('result');
+
+            console.log('🔐 Attempting login with:', email);
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.innerHTML = '⏳ Logging in...';
+
+            try {
+                const userCredential = await auth.signInWithEmailAndPassword(email, password);
+                const user = userCredential.user;
+
+                console.log('✅ Login SUCCESS!');
+                console.log('User ID:', user.uid);
+                console.log('Email:', user.email);
+                console.log('Email Verified:', user.emailVerified);
+
+                resultDiv.className = 'result success';
+                resultDiv.innerHTML = `
+                    <strong>✅ Login Successful!</strong><br>
+                    Email: ${user.email}<br>
+                    UID: ${user.uid}<br>
+                    Email Verified: ${user.emailVerified ? 'Yes' : 'No'}
+                `;
+
+                showUserInfo(user);
+
+            } catch (error) {
+                console.error('❌ Login FAILED!');
+                console.error('Error Code:', error.code);
+                console.error('Error Message:', error.message);
+
+                resultDiv.className = 'result error';
+                
+                let errorMessage = '<strong>❌ Login Failed</strong><br>';
+                if (error.code === 'auth/wrong-password') {
+                    errorMessage += 'Incorrect password.';
+                } else if (error.code === 'auth/user-not-found') {
+                    errorMessage += 'No account found with email: ' + email;
+                } else if (error.code === 'auth/invalid-email') {
+                    errorMessage += 'Invalid email format.';
+                } else if (error.code === 'auth/too-many-requests') {
+                    errorMessage += 'Too many failed attempts. Try again later.';
+                } else if (error.code === 'auth/invalid-credential') {
+                    errorMessage += 'Invalid credentials. Check email and password.';
+                } else {
+                    errorMessage += error.message;
+                }
+
+                resultDiv.innerHTML = errorMessage;
+            }
+        });
+
+        function showUserInfo(user) {
+            const userInfoDiv = document.getElementById('userInfo');
+            const userDetailsDiv = document.getElementById('userDetails');
+            
+            userInfoDiv.style.display = 'block';
+            userDetailsDiv.textContent = JSON.stringify({
+                uid: user.uid,
+                email: user.email,
+                displayName: user.displayName,
+                emailVerified: user.emailVerified,
+                createdAt: user.metadata.creationTime,
+                lastSignIn: user.metadata.lastSignInTime
+            }, null, 2);
+        }
+
+        async function testSignOut() {
+            try {
+                await auth.signOut();
+                console.log('✅ Signed out successfully');
+                document.getElementById('result').style.display = 'none';
+                alert('Signed out successfully!');
+            } catch (error) {
+                console.error('❌ Sign out error:', error);
+                alert('Error signing out: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>
+

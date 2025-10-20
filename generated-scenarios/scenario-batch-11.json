@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "scenario-451",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting item pairs and recording which is chosen.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-452",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting array of items and recording selection order.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-453",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by allowing free access to all items and recording engagement duration.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-454",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by testing response effort and recording breakpoint.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-455",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting item pairs and recording which is chosen.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-456",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting array of items and recording selection order.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-457",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by allowing free access to all items and recording engagement duration.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-458",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by testing response effort and recording breakpoint.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-459",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting item pairs and recording which is chosen.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-460",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting array of items and recording selection order.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-461",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by allowing free access to all items and recording engagement duration.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-462",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by testing response effort and recording breakpoint.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-463",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting item pairs and recording which is chosen.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-464",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting array of items and recording selection order.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-465",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by allowing free access to all items and recording engagement duration.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-466",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by testing response effort and recording breakpoint.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-467",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting item pairs and recording which is chosen.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-468",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by presenting array of items and recording selection order.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-469",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by allowing free access to all items and recording engagement duration.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-470",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "preference-assessment",
+    "scenario": "A BCBA assesses preferences by testing response effort and recording breakpoint.",
+    "question": "What assessment type is described?",
+    "options": [
+      "Paired-choice",
+      "MSWO",
+      "Free operant",
+      "Progressive ratio"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each preference assessment method has specific procedures for identifying potential reinforcers through systematic presentation and choice measurement.",
+    "bacbTaskList": [
+      "G-2"
+    ],
+    "keywords": [
+      "preference assessment",
+      "reinforcer identification"
+    ]
+  },
+  {
+    "id": "scenario-471",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces successive approximations toward saying \"mama\". Each improvement reinforced until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-472",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces closer versions toward reaching for items. Each improvement rewarded until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-473",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces improved attempts toward sitting longer. Each improvement acknowledged until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-474",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces gradual improvements toward walking independently. Each improvement reinforced until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-475",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces successive approximations toward saying \"mama\". Each improvement rewarded until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-476",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces closer versions toward reaching for items. Each improvement acknowledged until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-477",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces improved attempts toward sitting longer. Each improvement reinforced until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-478",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces gradual improvements toward walking independently. Each improvement rewarded until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-479",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces successive approximations toward saying \"mama\". Each improvement acknowledged until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-480",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces closer versions toward reaching for items. Each improvement reinforced until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-481",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces improved attempts toward sitting longer. Each improvement rewarded until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-482",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces gradual improvements toward walking independently. Each improvement acknowledged until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-483",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces successive approximations toward saying \"mama\". Each improvement reinforced until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-484",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces closer versions toward reaching for items. Each improvement rewarded until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-485",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "shaping",
+    "scenario": "A therapist reinforces improved attempts toward sitting longer. Each improvement acknowledged until target behavior achieved.",
+    "question": "What procedure is being used?",
+    "options": [
+      "Shaping",
+      "Chaining",
+      "Fading",
+      "Discrete trial training"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shaping involves reinforcing successive approximations (closer and closer versions) toward a terminal behavior. Each step must be reinforced until reliable before advancing criterion.",
+    "bacbTaskList": [
+      "FK-15",
+      "G-8"
+    ],
+    "keywords": [
+      "shaping",
+      "successive approximations",
+      "differential reinforcement"
+    ]
+  },
+  {
+    "id": "scenario-486",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multiple interventions for severe behavior.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-487",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving treatment package for skill deficits.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-488",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multi-component approach for complex case.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-489",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving combined procedures for challenging situation.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-490",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multiple interventions for severe behavior.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-491",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving treatment package for skill deficits.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-492",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multi-component approach for complex case.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-493",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving combined procedures for challenging situation.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-494",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multiple interventions for severe behavior.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-495",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving treatment package for skill deficits.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-496",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multi-component approach for complex case.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-497",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving combined procedures for challenging situation.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-498",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multiple interventions for severe behavior.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-499",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving treatment package for skill deficits.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  },
+  {
+    "id": "scenario-500",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "mixed",
+    "scenario": "Complex scenario involving multi-component approach for complex case.",
+    "question": "What is the best approach?",
+    "options": [
+      "Implement all components simultaneously",
+      "Use function-based individualized approach",
+      "Apply standard protocol",
+      "Refer to another provider"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require individualized, function-based approaches rather than one-size-fits-all protocols. Assessment informs treatment selection.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7"
+    ],
+    "keywords": [
+      "treatment package",
+      "individualization",
+      "function-based"
+    ]
+  }
+]

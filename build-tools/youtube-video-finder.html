@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Finder - ABA Mastery</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f8fafc;
+        }
+        h1 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        .intro {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .video-topic {
+            background: white;
+            padding: 20px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .topic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .topic-title {
+            font-weight: 600;
+            font-size: 18px;
+            color: #1e293b;
+        }
+        .priority {
+            background: #ef4444;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .search-link {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin: 8px 8px 8px 0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .search-link:hover {
+            background: #1e40af;
+        }
+        .video-input-section {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #e2e8f0;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 14px;
+            margin: 8px 0;
+        }
+        button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        button:hover {
+            background: #059669;
+        }
+        .output-section {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 32px;
+            font-family: monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        .copy-btn {
+            background: #3b82f6;
+            margin-top: 12px;
+        }
+        .instructions {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 16px;
+            margin-bottom: 24px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎥 YouTube Video Finder for ABA Mastery</h1>
+    
+    <div class="intro">
+        <h2>How to Add YouTube Videos to Your App</h2>
+        <div class="instructions">
+            <strong>📝 Instructions:</strong>
+            <ol>
+                <li>Click "Search YouTube" for each topic below</li>
+                <li>Find a quality educational video (5-10 minutes ideal)</li>
+                <li>Copy the YouTube video URL (e.g., https://www.youtube.com/watch?v=ABC123)</li>
+                <li>Paste it in the input field</li>
+                <li>Click "Add Video"</li>
+                <li>After adding all videos, copy the generated code</li>
+                <li>Paste it into <code>youtube-video-integration.js</code></li>
+                <li>Deploy your app!</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="topics-container"></div>
+
+    <div class="output-section" id="output">
+        <div><strong>// Generated Video Integration Code</strong></div>
+        <div>// Copy this and paste into youtube-video-integration.js</div>
+        <div style="margin-top: 12px;" id="code-output">// Add videos above to generate code...</div>
+        <button class="copy-btn" onclick="copyCode()">📋 Copy Code</button>
+    </div>
+
+    <script>
+        // Priority topics for video content
+        const videoTopics = [
+            {
+                id: 1,
+                questionId: "q1",
+                category: "foundations",
+                topic: "Positive vs Negative Reinforcement",
+                priority: "HIGH",
+                searchTerms: "BCBA positive reinforcement negative reinforcement explained",
+                idealDuration: "5-8 min",
+                mustInclude: "Clear definitions, examples, comparison"
+            },
+            {
+                id: 2,
+                questionId: "q141",
+                category: "intervention",
+                topic: "DRO, DRA, DRI, DRL Procedures",
+                priority: "HIGH",
+                searchTerms: "differential reinforcement BCBA DRO DRA DRI",
+                idealDuration: "6-10 min",
+                mustInclude: "All 4 types, when to use each"
+            },
+            {
+                id: 3,
+                questionId: "q148",
+                category: "assessment",
+                topic: "Functional Behavior Assessment (FBA)",
+                priority: "HIGH",
+                searchTerms: "functional behavior assessment FBA process BCBA",
+                idealDuration: "8-12 min",
+                mustInclude: "Indirect, descriptive, functional analysis"
+            },
+            {
+                id: 4,
+                questionId: "q152",
+                category: "verbal-behavior",
+                topic: "Verbal Behavior Operants",
+                priority: "HIGH",
+                searchTerms: "Skinner verbal behavior mand tact echoic intraverbal",
+                idealDuration: "6-10 min",
+                mustInclude: "All 4 operants with examples"
+            },
+            {
+                id: 5,
+                questionId: "q298",
+                category: "foundations",
+                topic: "Reinforcement Schedules (FR, VR, FI, VI)",
+                priority: "HIGH",
+                searchTerms: "reinforcement schedules FR VR FI VI BCBA",
+                idealDuration: "6-10 min",
+                mustInclude: "All 4 schedules, schedule effects"
+            },
+            {
+                id: 6,
+                questionId: "q154",
+                category: "skill-acquisition",
+                topic: "Task Analysis and Chaining",
+                priority: "MEDIUM",
+                searchTerms: "task analysis forward backward chaining ABA",
+                idealDuration: "5-8 min",
+                mustInclude: "Task analysis process, forward vs backward"
+            },
+            {
+                id: 7,
+                questionId: "q144",
+                category: "measurement",
+                topic: "Measurement and Data Collection",
+                priority: "MEDIUM",
+                searchTerms: "ABA data collection frequency duration latency",
+                idealDuration: "6-10 min",
+                mustInclude: "Event, duration, latency, interval recording"
+            },
+            {
+                id: 8,
+                questionId: "q151",
+                category: "ethics",
+                topic: "BACB Ethics Code Scenarios",
+                priority: "HIGH",
+                searchTerms: "BACB ethics code scenarios confidentiality",
+                idealDuration: "8-12 min",
+                mustInclude: "Common ethical dilemmas, Code application"
+            },
+            {
+                id: 9,
+                questionId: "q158",
+                category: "skill-acquisition",
+                topic: "Prompting and Prompt Fading",
+                priority: "MEDIUM",
+                searchTerms: "ABA prompting strategies prompt fading BCBA",
+                idealDuration: "5-8 min",
+                mustInclude: "Prompt types, fading strategies"
+            },
+            {
+                id: 10,
+                questionId: "q179",
+                category: "skill-acquisition",
+                topic: "Preference Assessments",
+                priority: "MEDIUM",
+                searchTerms: "preference assessment MSWO paired stimulus ABA",
+                idealDuration: "5-8 min",
+                mustInclude: "Different assessment types, how to conduct"
+            }
+        ];
+
+        // Store added videos
+        let addedVideos = [];
+
+        // Display topics
+        function displayTopics() {
+            const container = document.getElementById('topics-container');
+            container.innerHTML = videoTopics.map(topic => `
+                <div class="video-topic">
+                    <div class="topic-header">
+                        <span class="topic-title">${topic.topic}</span>
+                        <span class="priority" style="background: ${topic.priority === 'HIGH' ? '#ef4444' : '#f59e0b'}">${topic.priority} PRIORITY</span>
+                    </div>
+                    <div style="font-size: 14px; color: #64748b; margin-bottom: 12px;">
+                        <strong>Category:</strong> ${topic.category} | 
+                        <strong>Question ID:</strong> ${topic.questionId} |
+                        <strong>Duration:</strong> ${topic.idealDuration}
+                    </div>
+                    <div style="font-size: 13px; color: #64748b; margin-bottom: 12px;">
+                        <strong>Must include:</strong> ${topic.mustInclude}
+                    </div>
+                    <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(topic.searchTerms)}" 
+                       target="_blank" 
+                       class="search-link">
+                        🔍 Search YouTube
+                    </a>
+                    <div class="video-input-section">
+                        <input type="text" 
+                               id="url-${topic.id}" 
+                               placeholder="Paste YouTube URL here (e.g., https://www.youtube.com/watch?v=ABC123)"
+                               style="margin-bottom: 8px;">
+                        <button onclick="addVideo(${topic.id}, '${topic.questionId}', '${topic.topic}', '${topic.category}')">
+                            ✅ Add This Video
+                        </button>
+                        <span id="status-${topic.id}" style="margin-left: 12px; color: #10b981; font-weight: 600;"></span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Extract YouTube ID from URL
+        function extractYouTubeId(url) {
+            const regex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/;
+            const match = url.match(regex);
+            return match ? match[1] : null;
+        }
+
+        // Add video
+        function addVideo(topicId, questionId, topicTitle, category) {
+            const urlInput = document.getElementById(`url-${topicId}`);
+            const statusSpan = document.getElementById(`status-${topicId}`);
+            const url = urlInput.value.trim();
+
+            if (!url) {
+                statusSpan.textContent = '❌ Please enter a URL';
+                statusSpan.style.color = '#ef4444';
+                return;
+            }
+
+            const youtubeId = extractYouTubeId(url);
+            
+            if (!youtubeId) {
+                statusSpan.textContent = '❌ Invalid YouTube URL';
+                statusSpan.style.color = '#ef4444';
+                return;
+            }
+
+            // Get duration from user or use estimate
+            const duration = prompt('Video duration (e.g., 5:30):', '5:00');
+
+            addedVideos.push({
+                questionId,
+                category,
+                topic: topicTitle,
+                youtubeId,
+                url,
+                embedUrl: `https://www.youtube.com/embed/${youtubeId}`,
+                duration: duration || '5:00'
+            });
+
+            statusSpan.textContent = '✅ Added!';
+            statusSpan.style.color = '#10b981';
+            urlInput.value = '';
+
+            updateOutput();
+        }
+
+        // Generate code output
+        function updateOutput() {
+            const codeOutput = document.getElementById('code-output');
+            
+            if (addedVideos.length === 0) {
+                codeOutput.textContent = '// Add videos above to generate code...';
+                return;
+            }
+
+            const code = `
+// YouTube Video Library for ABA Mastery
+// ${addedVideos.length} videos integrated
+
+const youtubeVideoLibrary = [
+${addedVideos.map(video => `  {
+    questionId: "${video.questionId}",
+    category: "${video.category}",
+    topic: "${video.topic}",
+    title: "${video.topic} - BCBA Exam Prep",
+    youtubeId: "${video.youtubeId}",
+    url: "${video.url}",
+    embedUrl: "${video.embedUrl}",
+    duration: "${video.duration}",
+    description: "Educational video explaining ${video.topic} for BCBA/BCaBA certification exam preparation."
+  }`).join(',\n')}
+];
+
+// Auto-integrate videos
+if (typeof videoExplanationSystem !== 'undefined') {
+    youtubeVideoLibrary.forEach(video => {
+        videoExplanationSystem.addVideoToQuestion(video.questionId, {
+            id: video.youtubeId,
+            title: video.title,
+            url: video.embedUrl,
+            description: video.description,
+            duration: video.duration,
+            isYouTube: true,
+            originalUrl: video.url
+        });
+    });
+    console.log('✅ Integrated ' + youtubeVideoLibrary.length + ' YouTube videos');
+}
+`;
+
+            codeOutput.textContent = code;
+        }
+
+        // Copy code to clipboard
+        function copyCode() {
+            const code = document.getElementById('code-output').textContent;
+            navigator.clipboard.writeText(code).then(() => {
+                alert('✅ Code copied! Paste it into youtube-video-integration.js');
+            });
+        }
+
+        // Initialize
+        displayTopics();
+    </script>
+</head>
+<body>
+    <h1>🎥 YouTube Video Integration Tool</h1>
+    
+    <div class="intro">
+        <h3>Quick Start Guide:</h3>
+        <ol>
+            <li><strong>Search YouTube:</strong> Click the search buttons below for pre-made searches</li>
+            <li><strong>Find Quality Videos:</strong> Look for clear, educational videos (5-10 min ideal)</li>
+            <li><strong>Paste URL:</strong> Copy the YouTube URL and paste in the input field</li>
+            <li><strong>Add Video:</strong> Click the Add button</li>
+            <li><strong>Repeat:</strong> Do this for 10-15 priority topics</li>
+            <li><strong>Copy Code:</strong> Copy the generated code at the bottom</li>
+            <li><strong>Deploy:</strong> Paste into youtube-video-integration.js and deploy!</li>
+        </ol>
+        <p><strong>Goal:</strong> Add 10-15 videos to cover the most critical exam topics.</p>
+    </div>
+
+    <h2>📚 Priority Topics for Video Content</h2>
+    <p style="color: #64748b; margin-bottom: 24px;">
+        Click "Search YouTube" to find videos, then paste the URL to add them to your app.
+    </p>
+
+    <div id="topics-container"></div>
+
+    <div class="output-section">
+        <div><strong>📋 GENERATED CODE (Copy & Paste into youtube-video-integration.js)</strong></div>
+        <div>Videos added: <span id="video-count" style="color: #10b981; font-weight: bold;">0</span></div>
+        <hr style="border-color: #475569; margin: 16px 0;">
+        <div id="code-output"></div>
+        <button class="copy-btn" onclick="copyCode()">📋 Copy All Code</button>
+    </div>
+
+    <script>
+        // Update video count
+        function updateVideoCount() {
+            document.getElementById('video-count').textContent = addedVideos.length;
+        }
+
+        // Override addVideo to update count
+        const originalAddVideo = addVideo;
+        addVideo = function(...args) {
+            originalAddVideo(...args);
+            updateVideoCount();
+        };
+    </script>
+</body>
+</html>
+

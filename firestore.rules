@@ -1,0 +1,175 @@
+rules_version = '2';
+
+// Firestore Security Rules for ABA Mastery
+// A product of Bradley Virtual Solutions, LLC
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // User profiles - users can only read/write their own data
+    match /users/{userId} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId);
+      
+      // User progress data
+      match /progress/{progressId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+      
+      // User quiz results
+      match /quizResults/{quizId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+      
+      // User study sessions
+      match /studySessions/{sessionId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+      
+      // User flashcard progress
+      match /flashcardProgress/{cardId} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+      }
+    }
+    
+    // Public content - read-only for all users
+    match /content/{document=**} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Categories - read-only for all users
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Topics - read-only for all users
+    match /topics/{topicId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Practice questions - read-only for all users
+    match /practiceQuestions/{questionId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Flashcards - read-only for all users
+    match /flashcards/{cardId} {
+      allow read: if true;
+      allow write: if false; // Only admins via Firebase Console
+    }
+    
+    // Global statistics (aggregated, anonymous)
+    match /statistics/{statId} {
+      allow read: if true;
+      allow write: if false; // Updated via Cloud Functions
+    }
+    
+    // Leaderboard (if implemented - anonymous)
+    match /leaderboard/{entryId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update, delete: if false;
+    }
+    
+    // Community features (if implemented)
+    match /community/{postId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update, delete: if isAuthenticated() 
+        && request.auth.uid == resource.data.authorId;
+    }
+    
+    // Study Groups - PREMIUM FEATURE
+    match /studyGroups/{groupId} {
+      // Anyone authenticated can read groups they're a member of
+      allow read: if isAuthenticated();
+      // Only authenticated users can create groups
+      allow create: if isAuthenticated();
+      // Only group admins can update/delete
+      allow update, delete: if isAuthenticated();
+      
+      // Group members sub-collection
+      match /members/{memberId} {
+        allow read: if isAuthenticated();
+        allow write: if isAuthenticated();
+      }
+      
+      // Group messages
+      match /messages/{messageId} {
+        allow read: if isAuthenticated();
+        allow create: if isAuthenticated();
+        allow update, delete: if isAuthenticated();
+      }
+      
+      // Group files
+      match /files/{fileId} {
+        allow read: if isAuthenticated();
+        allow create: if isAuthenticated();
+        allow delete: if isAuthenticated();
+      }
+      
+      // Group quizzes
+      match /quizzes/{quizId} {
+        allow read: if isAuthenticated();
+        allow create: if isAuthenticated();
+        allow update: if isAuthenticated();
+      }
+      
+      // Group sessions/schedule
+      match /sessions/{sessionId} {
+        allow read: if isAuthenticated();
+        allow create: if isAuthenticated();
+        allow update: if isAuthenticated();
+      }
+      
+      // Progress updates
+      match /progressUpdates/{updateId} {
+        allow read: if isAuthenticated();
+        allow create: if isAuthenticated();
+      }
+    }
+    
+    // Exam pass tracking
+    match /examResults/{resultId} {
+      allow read: if true; // Public stats
+      allow create: if isAuthenticated();
+      allow update, delete: if false;
+    }
+    
+    // App Ratings - NEW
+    match /ratings/{ratingId} {
+      allow read: if false; // Keep individual ratings private
+      allow create: if true; // Anyone can submit (authenticated or anonymous)
+      allow update, delete: if false; // Can't modify after submission
+    }
+    
+    // App Stats (aggregate ratings)
+    match /appStats/{statId} {
+      allow read: if true; // Anyone can see aggregate stats
+      allow write: if true; // Allow writes for aggregate stats (controlled by transactions)
+    }
+    
+    // Default deny all other paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

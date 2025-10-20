@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Rating System - ABA Mastery</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .test-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .test-section h2 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin: 10px 0;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .status {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .stats-display {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #667eea;
+            margin: 15px 0;
+        }
+        .stats-display h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+        pre {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Rating System Test</h1>
+        
+        <div id="status"></div>
+        
+        <div class="test-section">
+            <h2>📝 Step 1: Login as Test User</h2>
+            <button onclick="loginTestUser()">Login as test123@aba.com</button>
+            <div id="login-status"></div>
+        </div>
+        
+        <div class="test-section">
+            <h2>⭐ Step 2: Submit Test Rating</h2>
+            <button onclick="submitTestRating()" id="submit-rating-btn" disabled>Submit 5-Star Rating</button>
+            <div id="rating-status"></div>
+        </div>
+        
+        <div class="test-section">
+            <h2>📊 Step 3: Check Aggregate Stats</h2>
+            <button onclick="checkStats()">Load Rating Statistics</button>
+            <div id="stats-display"></div>
+        </div>
+        
+        <div class="test-section">
+            <h2>🔍 Step 4: Verify in Firebase Console</h2>
+            <a href="https://console.firebase.google.com/u/0/project/aba-mastery-app/firestore/data/~2Fratings" target="_blank">
+                <button>Open Firebase Console → Ratings</button>
+            </a>
+            <a href="https://console.firebase.google.com/u/0/project/aba-mastery-app/firestore/data/~2FappStats~2Fratings" target="_blank">
+                <button>Open Firebase Console → App Stats</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    
+    <!-- Firebase Config -->
+    <script src="/firebase-config.js"></script>
+    
+    <script>
+        let currentUser = null;
+        
+        function showStatus(elementId, message, type = 'info') {
+            const el = document.getElementById(elementId);
+            el.innerHTML = `<div class="status ${type}">${message}</div>`;
+        }
+        
+        // Monitor auth state
+        firebase.auth().onAuthStateChanged((user) => {
+            currentUser = user;
+            if (user) {
+                showStatus('login-status', `✅ Logged in as: ${user.email}`, 'success');
+                document.getElementById('submit-rating-btn').disabled = false;
+            } else {
+                showStatus('login-status', 'Not logged in', 'info');
+                document.getElementById('submit-rating-btn').disabled = true;
+            }
+        });
+        
+        // Step 1: Login
+        async function loginTestUser() {
+            try {
+                showStatus('login-status', '🔄 Logging in...', 'info');
+                
+                const result = await firebase.auth().signInWithEmailAndPassword(
+                    'test123@aba.com',
+                    'TestABA2024!'
+                );
+                
+                showStatus('login-status', 
+                    `✅ Successfully logged in as: ${result.user.email}<br>UID: ${result.user.uid}`, 
+                    'success'
+                );
+                
+            } catch (error) {
+                showStatus('login-status', `❌ Login failed: ${error.message}`, 'error');
+            }
+        }
+        
+        // Step 2: Submit Rating
+        async function submitTestRating() {
+            if (!currentUser) {
+                showStatus('rating-status', '❌ Please login first', 'error');
+                return;
+            }
+            
+            try {
+                showStatus('rating-status', '🔄 Submitting rating...', 'info');
+                
+                const db = firebase.firestore();
+                const testRating = {
+                    rating: 5,
+                    feedback: "This app is amazing! The AI Study Coach is incredibly helpful and the adaptive learning keeps me challenged. Love the gamification features too - the streaks keep me motivated!",
+                    userId: currentUser.uid,
+                    userEmail: currentUser.email,
+                    timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                    appVersion: "1.4.0",
+                    platform: "web",
+                    device: navigator.userAgent.includes('Mobile') ? 'mobile' : 'desktop'
+                };
+                
+                // Add rating
+                const ratingRef = await db.collection('ratings').add(testRating);
+                
+                showStatus('rating-status', 
+                    `✅ Rating submitted successfully!<br>Rating ID: ${ratingRef.id}<br>User: ${currentUser.email}<br>Stars: ⭐⭐⭐⭐⭐`, 
+                    'success'
+                );
+                
+                // Now update aggregate stats
+                await updateAggregateStats(5);
+                
+            } catch (error) {
+                showStatus('rating-status', `❌ Failed to submit rating: ${error.message}`, 'error');
+                console.error('Rating error:', error);
+            }
+        }
+        
+        // Update aggregate statistics
+        async function updateAggregateStats(rating) {
+            try {
+                const db = firebase.firestore();
+                const statsRef = db.collection('appStats').doc('ratings');
+                
+                await db.runTransaction(async (transaction) => {
+                    const statsDoc = await transaction.get(statsRef);
+                    
+                    if (!statsDoc.exists) {
+                        // Create initial stats
+                        transaction.set(statsRef, {
+                            totalRatings: 1,
+                            sumOfRatings: rating,
+                            averageRating: rating,
+                            distribution: {
+                                1: rating === 1 ? 1 : 0,
+                                2: rating === 2 ? 1 : 0,
+                                3: rating === 3 ? 1 : 0,
+                                4: rating === 4 ? 1 : 0,
+                                5: rating === 5 ? 1 : 0
+                            },
+                            lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+                        });
+                    } else {
+                        // Update existing stats
+                        const data = statsDoc.data();
+                        const newTotal = (data.totalRatings || 0) + 1;
+                        const newSum = (data.sumOfRatings || 0) + rating;
+                        const newAverage = newSum / newTotal;
+                        
+                        const distribution = data.distribution || { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+                        distribution[rating] = (distribution[rating] || 0) + 1;
+                        
+                        transaction.update(statsRef, {
+                            totalRatings: newTotal,
+                            sumOfRatings: newSum,
+                            averageRating: newAverage,
+                            distribution: distribution,
+                            lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+                        });
+                    }
+                });
+                
+                console.log('✅ Aggregate stats updated');
+                
+                // Auto-load stats
+                setTimeout(checkStats, 1000);
+                
+            } catch (error) {
+                console.error('Error updating stats:', error);
+            }
+        }
+        
+        // Step 3: Check Stats
+        async function checkStats() {
+            try {
+                showStatus('stats-display', '🔄 Loading statistics...', 'info');
+                
+                const db = firebase.firestore();
+                const statsDoc = await db.collection('appStats').doc('ratings').get();
+                
+                if (!statsDoc.exists) {
+                    showStatus('stats-display', 
+                        '📊 No ratings yet. Submit a rating first!', 
+                        'info'
+                    );
+                    return;
+                }
+                
+                const stats = statsDoc.data();
+                
+                let html = `
+                    <div class="stats-display">
+                        <h3>📈 Current Rating Statistics</h3>
+                        <div class="stat-row">
+                            <span><strong>Total Ratings:</strong></span>
+                            <span>${stats.totalRatings}</span>
+                        </div>
+                        <div class="stat-row">
+                            <span><strong>Average Rating:</strong></span>
+                            <span>${stats.averageRating.toFixed(2)} ⭐</span>
+                        </div>
+                        <div class="stat-row">
+                            <span><strong>5 Stars:</strong></span>
+                            <span>${stats.distribution[5] || 0} (${((stats.distribution[5] || 0) / stats.totalRatings * 100).toFixed(0)}%)</span>
+                        </div>
+                        <div class="stat-row">
+                            <span><strong>4 Stars:</strong></span>
+                            <span>${stats.distribution[4] || 0} (${((stats.distribution[4] || 0) / stats.totalRatings * 100).toFixed(0)}%)</span>
+                        </div>
+                        <div class="stat-row">
+                            <span><strong>3 Stars:</strong></span>
+                            <span>${stats.distribution[3] || 0} (${((stats.distribution[3] || 0) / stats.totalRatings * 100).toFixed(0)}%)</span>
+                        </div>
+                        <div class="stat-row">
+                            <span><strong>2 Stars:</strong></span>
+                            <span>${stats.distribution[2] || 0} (${((stats.distribution[2] || 0) / stats.totalRatings * 100).toFixed(0)}%)</span>
+                        </div>
+                        <div class="stat-row">
+                            <span><strong>1 Star:</strong></span>
+                            <span>${stats.distribution[1] || 0} (${((stats.distribution[1] || 0) / stats.totalRatings * 100).toFixed(0)}%)</span>
+                        </div>
+                    </div>
+                    <div class="status success" style="margin-top: 15px;">
+                        ✅ Statistics loaded successfully!
+                    </div>
+                `;
+                
+                document.getElementById('stats-display').innerHTML = html;
+                
+            } catch (error) {
+                showStatus('stats-display', 
+                    `❌ Failed to load statistics: ${error.message}`, 
+                    'error'
+                );
+                console.error('Stats error:', error);
+            }
+        }
+    </script>
+</body>
+</html>
+

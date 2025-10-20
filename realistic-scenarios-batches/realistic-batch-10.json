@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "scenario-451",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 8-year-old with intellectual disability showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-452",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 9-year-old with intellectual disability showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-453",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 7-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-454",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 4-year-old with intellectual disability showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-455",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 8-year-old with ADHD showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-456",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 25-year-old with ADHD showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-457",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 8-year-old with ADHD showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-458",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 18-year-old with developmental disabilities showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-459",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 16-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-460",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 3-year-old with developmental disabilities showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-461",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 5-year-old with autism showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-462",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 14-year-old with intellectual disability showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-463",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 16-year-old with ADHD showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-464",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 18-year-old with developmental disabilities showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-465",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 10-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-466",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 14-year-old with developmental disabilities showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-467",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 18-year-old with developmental disabilities showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-468",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 16-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-469",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 25-year-old with developmental disabilities showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-470",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 22-year-old with intellectual disability showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-471",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 25-year-old with intellectual disability showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-472",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 3-year-old with ADHD showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-473",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 18-year-old with intellectual disability showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-474",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 7-year-old with intellectual disability showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-475",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 22-year-old with autism showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-476",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 12-year-old with ADHD showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-477",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 5-year-old with intellectual disability showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-478",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 4-year-old with developmental disabilities showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-479",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 7-year-old with ADHD showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-480",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 22-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-481",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 12-year-old with ADHD showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-482",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 14-year-old with ADHD showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-483",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 11-year-old with developmental disabilities showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-484",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 25-year-old with autism showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-485",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 16-year-old with intellectual disability showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-486",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 7-year-old with intellectual disability showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-487",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 8-year-old with intellectual disability showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-488",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 12-year-old with intellectual disability showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-489",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 8-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-490",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 22-year-old with intellectual disability showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-491",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 7-year-old with intellectual disability showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-492",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 8-year-old with intellectual disability showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-493",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 14-year-old with autism showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-494",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 6-year-old with intellectual disability showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-495",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 16-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-496",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 4-year-old with autism showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-497",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 7-year-old with ADHD showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-498",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 11-year-old with autism showing co-occurring challenges. Assessment reveals individualized requirements. Treatment must address comprehensive needs using evidence-based practices.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-499",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 3-year-old with intellectual disability showing multiple problem behaviors. Assessment reveals multiple maintaining functions. Treatment must address function-based intervention using multi-component approach.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  },
+  {
+    "id": "scenario-500",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "advanced-application",
+    "scenario": "A BCBA develops comprehensive treatment for a 5-year-old with developmental disabilities showing complex skill deficits. Assessment reveals various skill needs. Treatment must address skill acquisition using individualized protocols.",
+    "question": "What approach is most appropriate for complex cases?",
+    "options": [
+      "Address one issue at a time",
+      "Implement comprehensive individualized function-based treatment",
+      "Use standard protocol regardless of assessment",
+      "Focus only on most severe behavior"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Complex cases require comprehensive, individualized, function-based approaches addressing all maintaining variables and skill deficits simultaneously. Sequential treatment of single issues may be less efficient. Standard protocols ignore individual differences. Addressing only severe behavior neglects other important targets. Best practice combines functional assessment, individualized intervention, and multi-component treatment.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "individualization",
+      "comprehensive treatment",
+      "function-based",
+      "complex cases"
+    ]
+  }
+]

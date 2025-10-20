@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Dropdown Test - 385x643</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        
+        .test-container {
+            width: 385px;
+            height: 643px;
+            border: 2px solid #333;
+            background: white;
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+        }
+        
+        .profile-dropdown-container {
+            position: relative;
+        }
+        
+        .profile-btn {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        
+        .profile-dropdown {
+            position: absolute;
+            top: calc(100% + 12px);
+            right: 10px;
+            left: auto;
+            transform: none;
+            width: calc(100vw - 20px);
+            max-width: 350px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            padding: 20px;
+        }
+        
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .profile-avatar {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        
+        .profile-info h3 {
+            margin: 0;
+            color: #333;
+        }
+        
+        .profile-info p {
+            margin: 5px 0 0 0;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .test-info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        
+        .position-indicator {
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background: #ff6b6b;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div class="test-info">
+            <strong>Test Screen: 385x643</strong><br>
+            Profile dropdown should be positioned from right edge
+        </div>
+        
+        <div class="header">
+            <div>ABA Mastery</div>
+            <div class="profile-dropdown-container">
+                <button class="profile-btn" onclick="toggleDropdown()">👤 Profile</button>
+                <div id="profile-dropdown" class="profile-dropdown" style="display: none;">
+                    <div class="profile-header">
+                        <div class="profile-avatar">👤</div>
+                        <div class="profile-info">
+                            <h3>Test User</h3>
+                            <p>test123@aba.com</p>
+                        </div>
+                    </div>
+                    <div style="border-top: 1px solid #eee; padding-top: 15px;">
+                        <div style="margin-bottom: 10px;">
+                            <strong>Questions Answered:</strong> 0
+                        </div>
+                        <div style="margin-bottom: 10px;">
+                            <strong>Accuracy Rate:</strong> 0%
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Study Time:</strong> 0h
+                        </div>
+                        <button style="background: #ef4444; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer;">
+                            Sign Out
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="position-indicator">
+            Right Edge (10px from right)
+        </div>
+        
+        <div style="padding: 20px;">
+            <h2>Profile Dropdown Test</h2>
+            <p>Click the profile button to test the dropdown positioning.</p>
+            <p><strong>Expected:</strong> Dropdown should appear 10px from the right edge, not cut off.</p>
+            <p><strong>Width:</strong> Should be 365px (385px - 20px margins)</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            const dropdown = document.getElementById('profile-dropdown');
+            dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>

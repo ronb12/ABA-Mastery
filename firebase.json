@@ -1,0 +1,103 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/*.md",
+      "**/tests/**",
+      "**/build-tools/**",
+      "**/scripts/**",
+      "**/*.log",
+      "**/archive/**",
+      "**/backups/**",
+      "**/generated-scenarios/**",
+      "**/generated-case-studies/**",
+      "**/realistic-scenarios/**",
+      "**/realistic-scenarios-batches/**",
+      "**/content-real/**",
+      "**/content-templates/**",
+      "**/video-scripts/**",
+      "**/screenshots/**",
+      "**/*.js.map",
+      "**/*-database.js",
+      "**/add-*.js",
+      "**/batch-*.js",
+      "**/build-*.js",
+      "**/compile-*.js",
+      "**/complete-*.js",
+      "**/create-*.js",
+      "**/deploy-*.js",
+      "**/expand-*.js",
+      "**/fix-*.js",
+      "**/generate-*.js",
+      "**/regenerate-*.js",
+      "**/replace-*.js",
+      "**/run-*.js",
+      "**/test-*.html",
+      "**/landing-test.html",
+      "**/landing-new.html",
+      "**/landing-v2.html",
+      "*.txt",
+      "*.sh",
+      "*.log"
+    ],
+    "cleanUrls": true,
+    "headers": [
+      {
+        "source": "**/*.@(html|js|css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/landing.html"
+      },
+      {
+        "source": "/signup",
+        "destination": "/signup.html"
+      },
+      {
+        "source": "/login",
+        "destination": "/login.html"
+      },
+      {
+        "source": "/app",
+        "destination": "/app.html"
+      },
+      {
+        "source": "/landing",
+        "destination": "/landing.html"
+      }
+    ]
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "storage": {
+      "port": 9199
+    },
+    "hosting": {
+      "port": 5002
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    }
+  }
+}

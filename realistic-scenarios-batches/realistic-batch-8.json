@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "scenario-351",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 6-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-352",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 3-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-353",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 25-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-354",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 9-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-355",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 3-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-356",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 9-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-357",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 18-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-358",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 22-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-359",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 10-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-360",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 6-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-361",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 25-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-362",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 9-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-363",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 12-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-364",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 22-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-365",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 7-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-366",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 7-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-367",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 5-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-368",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 4-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-369",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 9-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-370",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 4-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-371",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 18-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-372",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 16-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-373",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 12-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-374",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 5-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-375",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 25-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-376",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 8-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-377",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 12-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-378",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 4-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-379",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 3-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-380",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 16-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-381",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 4-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-382",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 25-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-383",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 9-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-384",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 6-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-385",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 7-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-386",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 5-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-387",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 25-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-388",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 9-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-389",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 12-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-390",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 14-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-391",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 8-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-392",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 11-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-393",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 8-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-394",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 16-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-395",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 16-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-396",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 18-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-397",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 7-year-old child hears \"say cookie\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus with point-to-point correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Echoic - vocal imitation with point-to-point correspondence and formal similarity.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "echoic",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-398",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "verbal-behavior",
+    "scenario": "A 6-year-old child hears \"what do you eat?\" and says \"cookie\" - receives praise. The verbal response was under control of verbal stimulus without correspondence.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intraverbal - verbal response to verbal stimulus without point-to-point correspondence.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "intraverbal",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-399",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "verbal-behavior",
+    "scenario": "A 9-year-old child wants cookie and says \"cookie\" - receives cookie. The verbal response was under control of motivation (MO) and produced specific reinforcement.",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mand - request under MO control producing specific reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "mand",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  },
+  {
+    "id": "scenario-400",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "verbal-behavior",
+    "scenario": "A 4-year-old child sees cookie and says \"cookie\" - receives praise. The verbal response was under control of nonverbal stimulus (cookie present).",
+    "question": "What verbal operant is demonstrated?",
+    "options": [
+      "Mand",
+      "Tact",
+      "Echoic",
+      "Intraverbal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tact - label evoked by nonverbal stimulus producing generalized reinforcement.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "tact",
+      "verbal behavior",
+      "Skinner",
+      "verbal operants"
+    ]
+  }
+]

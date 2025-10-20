@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABA Mastery Icon Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            margin: 10px;
+        }
+        .size-label {
+            display: inline-block;
+            width: 100px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ABA Mastery Icon Generator</h1>
+        <p>Right-click each icon below and "Save Image As..." to save with the displayed filename.</p>
+        
+        <div id="icons-container"></div>
+    </div>
+
+    <script>
+        const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+        const container = document.getElementById('icons-container');
+
+        sizes.forEach(size => {
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            const ctx = canvas.getContext('2d');
+
+            // Draw icon background
+            ctx.fillStyle = '#2563eb';
+            ctx.fillRect(0, 0, size, size);
+
+            // Add rounded corners
+            ctx.globalCompositeOperation = 'destination-in';
+            ctx.beginPath();
+            const radius = size * 0.2;
+            ctx.moveTo(radius, 0);
+            ctx.lineTo(size - radius, 0);
+            ctx.quadraticCurveTo(size, 0, size, radius);
+            ctx.lineTo(size, size - radius);
+            ctx.quadraticCurveTo(size, size, size - radius, size);
+            ctx.lineTo(radius, size);
+            ctx.quadraticCurveTo(0, size, 0, size - radius);
+            ctx.lineTo(0, radius);
+            ctx.quadraticCurveTo(0, 0, radius, 0);
+            ctx.closePath();
+            ctx.fill();
+
+            ctx.globalCompositeOperation = 'source-over';
+
+            // Draw brain/education symbol
+            ctx.strokeStyle = '#ffffff';
+            ctx.fillStyle = '#ffffff';
+            ctx.lineWidth = size * 0.03;
+
+            // Draw a stylized brain/puzzle piece representing ABA
+            const centerX = size / 2;
+            const centerY = size / 2;
+            const iconSize = size * 0.5;
+
+            // Draw book outline
+            ctx.beginPath();
+            ctx.moveTo(centerX - iconSize * 0.4, centerY - iconSize * 0.5);
+            ctx.lineTo(centerX - iconSize * 0.4, centerY + iconSize * 0.5);
+            ctx.lineTo(centerX + iconSize * 0.4, centerY + iconSize * 0.5);
+            ctx.lineTo(centerX + iconSize * 0.4, centerY - iconSize * 0.5);
+            ctx.closePath();
+            ctx.stroke();
+
+            // Draw book pages
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY - iconSize * 0.5);
+            ctx.lineTo(centerX, centerY + iconSize * 0.5);
+            ctx.stroke();
+
+            // Draw "ABA" text
+            ctx.font = `bold ${size * 0.25}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('ABA', centerX, centerY);
+
+            // Add checkmark for mastery
+            ctx.strokeStyle = '#10b981';
+            ctx.lineWidth = size * 0.05;
+            ctx.beginPath();
+            ctx.moveTo(centerX + iconSize * 0.2, centerY - iconSize * 0.6);
+            ctx.lineTo(centerX + iconSize * 0.35, centerY - iconSize * 0.45);
+            ctx.lineTo(centerX + iconSize * 0.55, centerY - iconSize * 0.75);
+            ctx.stroke();
+
+            // Add to page
+            const div = document.createElement('div');
+            div.style.display = 'inline-block';
+            div.innerHTML = `
+                <div class="size-label">icon-${size}.png</div><br>
+            `;
+            div.appendChild(canvas);
+            container.appendChild(div);
+        });
+
+        console.log('Icons generated! Right-click to save each one.');
+    </script>
+</body>
+</html>
+

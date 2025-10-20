@@ -1,0 +1,637 @@
+[
+  {
+    "id": "scenario-064",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A client's aggression is maintained by escape function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for break",
+      "Request for item",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-065",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A client's tantrums is maintained by attention function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for attention",
+      "Request for help",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-066",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A client's self-injury is maintained by tangible function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for attention",
+      "Request for item",
+      "Request for item",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-067",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A client's property destruction is maintained by escape function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for attention",
+      "Request for item",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-068",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A client's aggression is maintained by escape function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for break",
+      "Request for item",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-069",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A client's tantrums is maintained by attention function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for attention",
+      "Request for help",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-070",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A client's self-injury is maintained by tangible function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for attention",
+      "Request for item",
+      "Request for item",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-071",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A client's property destruction is maintained by escape function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for attention",
+      "Request for item",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-072",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A client's aggression is maintained by escape function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for break",
+      "Request for item",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-073",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A client's tantrums is maintained by attention function. The BCBA wants to implement FCT.",
+    "question": "What would be the most appropriate communication response to teach?",
+    "options": [
+      "Request for attention",
+      "Request for help",
+      "Request for break",
+      "General greetings"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FCT teaches a functionally equivalent communication response that serves the same function as the problem behavior. The mand should produce the same reinforcer (break, attention, or item) that maintains the problem behavior.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "mand training"
+    ]
+  },
+  {
+    "id": "scenario-074",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRA for hand-biting. Reinforcement is provided for appropriate communication while problem behavior is placed on extinction.",
+    "question": "Which best describes the DRA procedure being implemented?",
+    "options": [
+      "Differential reinforcement of alternative behavior",
+      "Extinction only",
+      "Other reinforcement type",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA reinforces an alternative behavior that serves the same function while withholding reinforcement for problem behavior.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dra",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-075",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRI for screaming. Reinforcement is provided for keeping hands in lap, which is incompatible with the problem behavior.",
+    "question": "Which best describes the DRI procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Differential reinforcement of incompatible behavior",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI reinforces a behavior that cannot occur simultaneously with the problem behavior (incompatible).",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dri",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-076",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRO for leaving seat. Reinforcement is provided every 5 minutes if no problem behavior occurred during that interval.",
+    "question": "Which best describes the DRO procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Other reinforcement type",
+      "Differential reinforcement of other behavior"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO reinforces the absence of problem behavior for a specified time period, regardless of what other behaviors occur.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dro",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-077",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRA for throwing items. Reinforcement is provided for appropriate communication while problem behavior is placed on extinction.",
+    "question": "Which best describes the DRA procedure being implemented?",
+    "options": [
+      "Differential reinforcement of alternative behavior",
+      "Extinction only",
+      "Other reinforcement type",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA reinforces an alternative behavior that serves the same function while withholding reinforcement for problem behavior.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dra",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-078",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRI for calling out. Reinforcement is provided for keeping hands in lap, which is incompatible with the problem behavior.",
+    "question": "Which best describes the DRI procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Differential reinforcement of incompatible behavior",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI reinforces a behavior that cannot occur simultaneously with the problem behavior (incompatible).",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dri",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-079",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRO for hand-biting. Reinforcement is provided every 5 minutes if no problem behavior occurred during that interval.",
+    "question": "Which best describes the DRO procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Other reinforcement type",
+      "Differential reinforcement of other behavior"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO reinforces the absence of problem behavior for a specified time period, regardless of what other behaviors occur.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dro",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-080",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRA for screaming. Reinforcement is provided for appropriate communication while problem behavior is placed on extinction.",
+    "question": "Which best describes the DRA procedure being implemented?",
+    "options": [
+      "Differential reinforcement of alternative behavior",
+      "Extinction only",
+      "Other reinforcement type",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA reinforces an alternative behavior that serves the same function while withholding reinforcement for problem behavior.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dra",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-081",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRI for leaving seat. Reinforcement is provided for keeping hands in lap, which is incompatible with the problem behavior.",
+    "question": "Which best describes the DRI procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Differential reinforcement of incompatible behavior",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI reinforces a behavior that cannot occur simultaneously with the problem behavior (incompatible).",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dri",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-082",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRO for throwing items. Reinforcement is provided every 5 minutes if no problem behavior occurred during that interval.",
+    "question": "Which best describes the DRO procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Other reinforcement type",
+      "Differential reinforcement of other behavior"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO reinforces the absence of problem behavior for a specified time period, regardless of what other behaviors occur.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dro",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-083",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRA for calling out. Reinforcement is provided for appropriate communication while problem behavior is placed on extinction.",
+    "question": "Which best describes the DRA procedure being implemented?",
+    "options": [
+      "Differential reinforcement of alternative behavior",
+      "Extinction only",
+      "Other reinforcement type",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA reinforces an alternative behavior that serves the same function while withholding reinforcement for problem behavior.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dra",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-084",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRI for hand-biting. Reinforcement is provided for keeping hands in lap, which is incompatible with the problem behavior.",
+    "question": "Which best describes the DRI procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Differential reinforcement of incompatible behavior",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI reinforces a behavior that cannot occur simultaneously with the problem behavior (incompatible).",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dri",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-085",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRO for screaming. Reinforcement is provided every 5 minutes if no problem behavior occurred during that interval.",
+    "question": "Which best describes the DRO procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Other reinforcement type",
+      "Differential reinforcement of other behavior"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO reinforces the absence of problem behavior for a specified time period, regardless of what other behaviors occur.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dro",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-086",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRA for leaving seat. Reinforcement is provided for appropriate communication while problem behavior is placed on extinction.",
+    "question": "Which best describes the DRA procedure being implemented?",
+    "options": [
+      "Differential reinforcement of alternative behavior",
+      "Extinction only",
+      "Other reinforcement type",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRA reinforces an alternative behavior that serves the same function while withholding reinforcement for problem behavior.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dra",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-087",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRI for throwing items. Reinforcement is provided for keeping hands in lap, which is incompatible with the problem behavior.",
+    "question": "Which best describes the DRI procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Differential reinforcement of incompatible behavior",
+      "Different procedure"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRI reinforces a behavior that cannot occur simultaneously with the problem behavior (incompatible).",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dri",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  },
+  {
+    "id": "scenario-088",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A BCBA implements DRO for calling out. Reinforcement is provided every 5 minutes if no problem behavior occurred during that interval.",
+    "question": "Which best describes the DRO procedure being implemented?",
+    "options": [
+      "Differential reinforcement",
+      "Extinction only",
+      "Other reinforcement type",
+      "Differential reinforcement of other behavior"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DRO reinforces the absence of problem behavior for a specified time period, regardless of what other behaviors occur.",
+    "bacbTaskList": [
+      "G-7",
+      "FK-30"
+    ],
+    "keywords": [
+      "dro",
+      "differential reinforcement",
+      "behavior reduction"
+    ]
+  }
+]

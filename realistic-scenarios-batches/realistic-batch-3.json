@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "scenario-101",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 3-year-old client with autism spectrum disorder who engages in aggression at a rate of 26 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows aggression successfully produces task removal or break provision in 73% of occurrences. The client currently has minimal expressive language and does not appropriately request breaks or assistance. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-102",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 22-year-old client with autism spectrum disorder who engages in tantrums at a rate of 27 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows tantrums reliably results in adult attention and interaction in 76% of occurrences. The client currently has limited communication skills and cannot functionally mand for attention or help. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-103",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 11-year-old client with cerebral palsy who engages in self-injury at a rate of 15 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows self-injury consistently leads to access to desired items in 79% of occurrences. The client currently has emerging verbal repertoire and has not learned to communicate need for preferred items. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-104",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 4-year-old client with oppositional defiant disorder who engages in property destruction at a rate of 33 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows property destruction successfully produces task removal or break provision in 67% of occurrences. The client currently has functional communication deficits and does not appropriately request breaks or assistance. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-105",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 18-year-old client with developmental disabilities who engages in screaming at a rate of 24 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows screaming reliably results in adult attention and interaction in 82% of occurrences. The client currently has minimal expressive language and cannot functionally mand for attention or help. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-106",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 5-year-old client with learning disabilities who engages in aggression at a rate of 21 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows aggression consistently leads to access to desired items in 71% of occurrences. The client currently has limited communication skills and has not learned to communicate need for preferred items. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-107",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 25-year-old client with ADHD who engages in tantrums at a rate of 18 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows tantrums successfully produces task removal or break provision in 62% of occurrences. The client currently has emerging verbal repertoire and does not appropriately request breaks or assistance. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-108",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 18-year-old client with intellectual disability who engages in self-injury at a rate of 16 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows self-injury reliably results in adult attention and interaction in 68% of occurrences. The client currently has functional communication deficits and cannot functionally mand for attention or help. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-109",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 4-year-old client with cerebral palsy who engages in property destruction at a rate of 28 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows property destruction consistently leads to access to desired items in 73% of occurrences. The client currently has minimal expressive language and has not learned to communicate need for preferred items. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-110",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 9-year-old client with Down syndrome who engages in screaming at a rate of 18 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows screaming successfully produces task removal or break provision in 82% of occurrences. The client currently has limited communication skills and does not appropriately request breaks or assistance. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-111",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 12-year-old client with oppositional defiant disorder who engages in aggression at a rate of 19 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows aggression reliably results in adult attention and interaction in 81% of occurrences. The client currently has emerging verbal repertoire and cannot functionally mand for attention or help. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-112",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 18-year-old client with cerebral palsy who engages in tantrums at a rate of 30 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows tantrums consistently leads to access to desired items in 67% of occurrences. The client currently has functional communication deficits and has not learned to communicate need for preferred items. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-113",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 12-year-old client with autism spectrum disorder who engages in self-injury at a rate of 32 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows self-injury successfully produces task removal or break provision in 79% of occurrences. The client currently has minimal expressive language and does not appropriately request breaks or assistance. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-114",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 5-year-old client with oppositional defiant disorder who engages in property destruction at a rate of 29 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows property destruction reliably results in adult attention and interaction in 82% of occurrences. The client currently has limited communication skills and cannot functionally mand for attention or help. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-115",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 3-year-old client with Down syndrome who engages in screaming at a rate of 33 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows screaming consistently leads to access to desired items in 64% of occurrences. The client currently has emerging verbal repertoire and has not learned to communicate need for preferred items. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-116",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 8-year-old client with intellectual disability who engages in aggression at a rate of 22 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows aggression successfully produces task removal or break provision in 61% of occurrences. The client currently has functional communication deficits and does not appropriately request breaks or assistance. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-117",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 18-year-old client with oppositional defiant disorder who engages in tantrums at a rate of 24 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows tantrums reliably results in adult attention and interaction in 76% of occurrences. The client currently has minimal expressive language and cannot functionally mand for attention or help. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-118",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 14-year-old client with ADHD who engages in self-injury at a rate of 19 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows self-injury consistently leads to access to desired items in 76% of occurrences. The client currently has limited communication skills and has not learned to communicate need for preferred items. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-119",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 8-year-old client with oppositional defiant disorder who engages in property destruction at a rate of 17 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows property destruction successfully produces task removal or break provision in 79% of occurrences. The client currently has emerging verbal repertoire and does not appropriately request breaks or assistance. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-120",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 22-year-old client with autism spectrum disorder who engages in screaming at a rate of 25 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows screaming reliably results in adult attention and interaction in 67% of occurrences. The client currently has functional communication deficits and cannot functionally mand for attention or help. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-121",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 14-year-old client with learning disabilities who engages in aggression at a rate of 33 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows aggression consistently leads to access to desired items in 70% of occurrences. The client currently has minimal expressive language and has not learned to communicate need for preferred items. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-122",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 11-year-old client with oppositional defiant disorder who engages in tantrums at a rate of 26 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows tantrums successfully produces task removal or break provision in 82% of occurrences. The client currently has limited communication skills and does not appropriately request breaks or assistance. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-123",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 8-year-old client with intellectual disability who engages in self-injury at a rate of 15 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows self-injury reliably results in adult attention and interaction in 81% of occurrences. The client currently has emerging verbal repertoire and cannot functionally mand for attention or help. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-124",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 14-year-old client with ADHD who engages in property destruction at a rate of 33 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows property destruction consistently leads to access to desired items in 74% of occurrences. The client currently has functional communication deficits and has not learned to communicate need for preferred items. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-125",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 25-year-old client with oppositional defiant disorder who engages in screaming at a rate of 32 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows screaming successfully produces task removal or break provision in 81% of occurrences. The client currently has minimal expressive language and does not appropriately request breaks or assistance. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-126",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 6-year-old client with cerebral palsy who engages in aggression at a rate of 23 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows aggression reliably results in adult attention and interaction in 66% of occurrences. The client currently has limited communication skills and cannot functionally mand for attention or help. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-127",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 9-year-old client with cerebral palsy who engages in tantrums at a rate of 21 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows tantrums consistently leads to access to desired items in 84% of occurrences. The client currently has emerging verbal repertoire and has not learned to communicate need for preferred items. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-128",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 4-year-old client with Down syndrome who engages in self-injury at a rate of 31 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows self-injury successfully produces task removal or break provision in 71% of occurrences. The client currently has functional communication deficits and does not appropriately request breaks or assistance. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-129",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 22-year-old client with Down syndrome who engages in property destruction at a rate of 21 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows property destruction reliably results in adult attention and interaction in 65% of occurrences. The client currently has minimal expressive language and cannot functionally mand for attention or help. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-130",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 25-year-old client with cerebral palsy who engages in screaming at a rate of 25 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows screaming consistently leads to access to desired items in 69% of occurrences. The client currently has limited communication skills and has not learned to communicate need for preferred items. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-131",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 6-year-old client with cerebral palsy who engages in aggression at a rate of 34 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows aggression successfully produces task removal or break provision in 61% of occurrences. The client currently has emerging verbal repertoire and does not appropriately request breaks or assistance. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-132",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 6-year-old client with oppositional defiant disorder who engages in tantrums at a rate of 34 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows tantrums reliably results in adult attention and interaction in 75% of occurrences. The client currently has functional communication deficits and cannot functionally mand for attention or help. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-133",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 30-year-old client with oppositional defiant disorder who engages in self-injury at a rate of 31 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows self-injury consistently leads to access to desired items in 67% of occurrences. The client currently has minimal expressive language and has not learned to communicate need for preferred items. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-134",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 9-year-old client with Down syndrome who engages in property destruction at a rate of 28 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows property destruction successfully produces task removal or break provision in 78% of occurrences. The client currently has limited communication skills and does not appropriately request breaks or assistance. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-135",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 5-year-old client with learning disabilities who engages in screaming at a rate of 18 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows screaming reliably results in adult attention and interaction in 63% of occurrences. The client currently has emerging verbal repertoire and cannot functionally mand for attention or help. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-136",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 10-year-old client with intellectual disability who engages in aggression at a rate of 17 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows aggression consistently leads to access to desired items in 60% of occurrences. The client currently has functional communication deficits and has not learned to communicate need for preferred items. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-137",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 16-year-old client with cerebral palsy who engages in tantrums at a rate of 27 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows tantrums successfully produces task removal or break provision in 78% of occurrences. The client currently has minimal expressive language and does not appropriately request breaks or assistance. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-138",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 8-year-old client with Down syndrome who engages in self-injury at a rate of 20 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows self-injury reliably results in adult attention and interaction in 66% of occurrences. The client currently has limited communication skills and cannot functionally mand for attention or help. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-139",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 8-year-old client with intellectual disability who engages in property destruction at a rate of 22 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows property destruction consistently leads to access to desired items in 68% of occurrences. The client currently has emerging verbal repertoire and has not learned to communicate need for preferred items. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-140",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 12-year-old client with ADHD who engages in screaming at a rate of 27 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows screaming successfully produces task removal or break provision in 77% of occurrences. The client currently has functional communication deficits and does not appropriately request breaks or assistance. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-141",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 18-year-old client with intellectual disability who engages in aggression at a rate of 31 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows aggression reliably results in adult attention and interaction in 65% of occurrences. The client currently has minimal expressive language and cannot functionally mand for attention or help. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-142",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 7-year-old client with intellectual disability who engages in tantrums at a rate of 22 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows tantrums consistently leads to access to desired items in 78% of occurrences. The client currently has limited communication skills and has not learned to communicate need for preferred items. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-143",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 30-year-old client with oppositional defiant disorder who engages in self-injury at a rate of 17 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows self-injury successfully produces task removal or break provision in 76% of occurrences. The client currently has emerging verbal repertoire and does not appropriately request breaks or assistance. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-144",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 14-year-old client with learning disabilities who engages in property destruction at a rate of 23 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows property destruction reliably results in adult attention and interaction in 63% of occurrences. The client currently has functional communication deficits and cannot functionally mand for attention or help. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-145",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 4-year-old client with ADHD who engages in screaming at a rate of 21 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows screaming consistently leads to access to desired items in 60% of occurrences. The client currently has minimal expressive language and has not learned to communicate need for preferred items. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-146",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 3-year-old client with cerebral palsy who engages in aggression at a rate of 32 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows aggression successfully produces task removal or break provision in 82% of occurrences. The client currently has limited communication skills and does not appropriately request breaks or assistance. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained aggression?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-147",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 4-year-old client with intellectual disability who engages in tantrums at a rate of 28 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows tantrums reliably results in adult attention and interaction in 66% of occurrences. The client currently has emerging verbal repertoire and cannot functionally mand for attention or help. The behavior support team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained tantrums?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-148",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 9-year-old client with learning disabilities who engages in self-injury at a rate of 30 instances per day in home settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to preferred tangible items or activities). Treatment integrity data from baseline shows self-injury consistently leads to access to desired items in 74% of occurrences. The client currently has functional communication deficits and has not learned to communicate need for preferred items. The interdisciplinary team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this tangible-maintained self-injury?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for items (\"${mands.tangible[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for tangible-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (access to items) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen tangible-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "tangible function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-149",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 12-year-old client with cerebral palsy who engages in property destruction at a rate of 17 instances per hour in school settings. The functional analysis results clearly demonstrate that the behavior is maintained by negative reinforcement (escape from aversive academic or task demands). Treatment integrity data from baseline shows property destruction successfully produces task removal or break provision in 71% of occurrences. The client currently has minimal expressive language and does not appropriately request breaks or assistance. The treatment team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this escape-maintained property destruction?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for breaks (\"${mands.escape[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for escape-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (breaks/assistance) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen escape-maintained behavior (adding aversives when function is escape), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "escape function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  },
+  {
+    "id": "scenario-150",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "intervention-design",
+    "scenario": "A comprehensive functional assessment has been completed for a 14-year-old client with oppositional defiant disorder who engages in screaming at a rate of 20 instances per session in clinic settings. The functional analysis results clearly demonstrate that the behavior is maintained by positive reinforcement (access to social attention from staff, teachers, or parents). Treatment integrity data from baseline shows screaming reliably results in adult attention and interaction in 82% of occurrences. The client currently has limited communication skills and cannot functionally mand for attention or help. The IEP team wants to implement an evidence-based, function-matched intervention.",
+    "question": "Which intervention approach would be MOST appropriate as the primary component of a function-based treatment plan for this attention-maintained screaming?",
+    "options": [
+      "Response cost: Systematic removal of tokens or privileges contingent on each instance of problem behavior",
+      "Time-out from positive reinforcement: 5-minute exclusion contingent on problem behavior",
+      "Functional Communication Training (FCT): Systematically teach and reinforce appropriate manding for attention (\"${mands.attention[i % 4]}\") combined with extinction for problem behavior",
+      "Noncontingent reinforcement (NCR): Deliver reinforcement on fixed-time schedule independent of behavior"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Functional Communication Training (FCT) is the evidence-based, first-line intervention for attention-maintained problem behavior, as established by Carr and Durand's landmark 1985 JABA study and extensive subsequent research. FCT is appropriate here because: (1) It directly addresses the behavioral function by teaching a functionally equivalent communication response (mand) that produces the same reinforcer (attention/help) as the problem behavior, (2) It teaches a socially appropriate skill that benefits the client long-term, replacing problem behavior with functional communication, (3) Research shows FCT highly effective when combined with extinction for the problem behavior (median 90%+ reduction), (4) It matches the client's skill level by teaching communication at an appropriate modality. The other options are problematic: Response cost and time-out are punishment-based procedures that don't teach alternative skills, may worsen attention-maintained behavior (adding aversives when function is not escape-related), and don't address the skill deficit. NCR may reduce motivation temporarily but doesn't teach functional communication and may not be as effective as FCT. Current best practice guidelines prioritize skill-teaching interventions like FCT over punishment procedures.",
+    "bacbTaskList": [
+      "G-4",
+      "G-7",
+      "FK-24",
+      "FK-42",
+      "E-01"
+    ],
+    "keywords": [
+      "FCT",
+      "functional communication training",
+      "attention function",
+      "mand training",
+      "function-based intervention",
+      "replacement behavior"
+    ]
+  }
+]

@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "scenario-001",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 3-year-old client with oppositional defiant disorder in a special education classroom. The client engages in hitting behavior that is disrupting learning. ABC data collected over 1 week (5 observation sessions) shows hitting occurs an average of 20 times per 30-minute session during math problems. When the task is removed, the hitting behavior immediately stops. During preferred activities like art class, hitting occurs only 2 times per session. The teacher reports the behavior is significantly worse during difficult math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (20 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-002",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 7-year-old client with autism spectrum disorder in a ABA clinic. The client engages in screaming behavior that is disrupting therapy sessions. ABC data collected over 1 week (6 observation sessions) shows screaming occurs an average of 19 times per hour during reading assignments. When a break is provided, the screaming behavior immediately decreases to near-zero. During free play with toys, screaming occurs only 1 time per session. The parent reports the behavior is most problematic during non-preferred reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (19 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-003",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 3-year-old client with oppositional defiant disorder in a residential facility. The client engages in throwing materials behavior that is disrupting classroom instruction. ABC data collected over 1 week (7 observation sessions) shows throwing materials occurs an average of 19 times per 45-minute period during writing tasks. When task difficulty is reduced, the throwing materials behavior immediately terminates within 10 seconds. During choice time, throwing materials occurs only 0 time per session. The therapist reports the behavior is highest during challenging writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (19 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-004",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 11-year-old client with autism spectrum disorder in a special education classroom. The client engages in leaving area behavior that is disrupting daily activities. ABC data collected over 1 week (8 observation sessions) shows leaving area occurs an average of 28 times per 30-minute session during homework. When the activity is terminated, the leaving area behavior immediately ceases. During leisure activities, leaving area occurs only 1 time per session. The staff reports the behavior is most frequent during new homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (28 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-005",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 4-year-old client with intellectual disability in a after-school program. The client engages in flopping to ground behavior that is disrupting learning. ABC data collected over 1 week (9 observation sessions) shows flopping to ground occurs an average of 19 times per hour during cleaning up. When demands are paused, the flopping to ground behavior immediately stops. During preferred subjects, flopping to ground occurs only 0 time per session. The teacher reports the behavior is significantly worse during difficult cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (19 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-006",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 9-year-old client with autism spectrum disorder in a ABA clinic. The client engages in pushing away materials behavior that is disrupting therapy sessions. ABC data collected over 1 week (10 observation sessions) shows pushing away materials occurs an average of 12 times per 45-minute period during transitioning. When the task is removed, the pushing away materials behavior immediately decreases to near-zero. During preferred activities like art class, pushing away materials occurs only 1 time per session. The parent reports the behavior is most problematic during non-preferred transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (12 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-007",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 9-year-old client with intellectual disability in a residential facility. The client engages in hitting behavior that is disrupting classroom instruction. ABC data collected over 1 week (11 observation sessions) shows hitting occurs an average of 29 times per 30-minute session during math problems. When a break is provided, the hitting behavior immediately terminates within 10 seconds. During free play with toys, hitting occurs only 1 time per session. The therapist reports the behavior is highest during challenging math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (29 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-008",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 18-year-old client with cerebral palsy in a ABA clinic. The client engages in screaming behavior that is disrupting daily activities. ABC data collected over 1 week (12 observation sessions) shows screaming occurs an average of 18 times per hour during reading assignments. When task difficulty is reduced, the screaming behavior immediately ceases. During choice time, screaming occurs only 2 times per session. The staff reports the behavior is most frequent during new reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (18 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-009",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 16-year-old client with autism spectrum disorder in a special education classroom. The client engages in throwing materials behavior that is disrupting learning. ABC data collected over 1 week (13 observation sessions) shows throwing materials occurs an average of 12 times per 45-minute period during writing tasks. When the activity is terminated, the throwing materials behavior immediately stops. During leisure activities, throwing materials occurs only 1 time per session. The teacher reports the behavior is significantly worse during difficult writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (12 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-010",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 9-year-old client with oppositional defiant disorder in a after-school program. The client engages in leaving area behavior that is disrupting therapy sessions. ABC data collected over 1 week (14 observation sessions) shows leaving area occurs an average of 21 times per 30-minute session during homework. When demands are paused, the leaving area behavior immediately decreases to near-zero. During preferred subjects, leaving area occurs only 1 time per session. The parent reports the behavior is most problematic during non-preferred homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (21 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 1 week of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-011",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 30-year-old client with autism spectrum disorder in a general education classroom. The client engages in flopping to ground behavior that is disrupting classroom instruction. ABC data collected over 2 weeks (15 observation sessions) shows flopping to ground occurs an average of 22 times per hour during cleaning up. When the task is removed, the flopping to ground behavior immediately terminates within 10 seconds. During preferred activities like art class, flopping to ground occurs only 0 time per session. The therapist reports the behavior is highest during challenging cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (22 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-012",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 25-year-old client with cerebral palsy in a special education classroom. The client engages in pushing away materials behavior that is disrupting daily activities. ABC data collected over 2 weeks (16 observation sessions) shows pushing away materials occurs an average of 27 times per 45-minute period during transitioning. When a break is provided, the pushing away materials behavior immediately ceases. During free play with toys, pushing away materials occurs only 0 time per session. The staff reports the behavior is most frequent during new transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (27 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-013",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 22-year-old client with oppositional defiant disorder in a home. The client engages in hitting behavior that is disrupting learning. ABC data collected over 2 weeks (17 observation sessions) shows hitting occurs an average of 18 times per 30-minute session during math problems. When task difficulty is reduced, the hitting behavior immediately stops. During choice time, hitting occurs only 1 time per session. The teacher reports the behavior is significantly worse during difficult math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (18 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-014",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 30-year-old client with intellectual disability in a special education classroom. The client engages in screaming behavior that is disrupting therapy sessions. ABC data collected over 2 weeks (18 observation sessions) shows screaming occurs an average of 29 times per hour during reading assignments. When the activity is terminated, the screaming behavior immediately decreases to near-zero. During leisure activities, screaming occurs only 1 time per session. The parent reports the behavior is most problematic during non-preferred reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (29 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-015",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 8-year-old client with learning disabilities in a residential facility. The client engages in throwing materials behavior that is disrupting classroom instruction. ABC data collected over 2 weeks (19 observation sessions) shows throwing materials occurs an average of 28 times per 45-minute period during writing tasks. When demands are paused, the throwing materials behavior immediately terminates within 10 seconds. During preferred subjects, throwing materials occurs only 1 time per session. The therapist reports the behavior is highest during challenging writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (28 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-016",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 7-year-old client with intellectual disability in a community setting. The client engages in leaving area behavior that is disrupting daily activities. ABC data collected over 2 weeks (20 observation sessions) shows leaving area occurs an average of 25 times per 30-minute session during homework. When the task is removed, the leaving area behavior immediately ceases. During preferred activities like art class, leaving area occurs only 2 times per session. The staff reports the behavior is most frequent during new homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (25 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-017",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 10-year-old client with learning disabilities in a inclusive preschool. The client engages in flopping to ground behavior that is disrupting learning. ABC data collected over 2 weeks (21 observation sessions) shows flopping to ground occurs an average of 21 times per hour during cleaning up. When a break is provided, the flopping to ground behavior immediately stops. During free play with toys, flopping to ground occurs only 1 time per session. The teacher reports the behavior is significantly worse during difficult cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (21 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-018",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 5-year-old client with ADHD in a residential facility. The client engages in pushing away materials behavior that is disrupting therapy sessions. ABC data collected over 2 weeks (22 observation sessions) shows pushing away materials occurs an average of 30 times per 45-minute period during transitioning. When task difficulty is reduced, the pushing away materials behavior immediately decreases to near-zero. During choice time, pushing away materials occurs only 0 time per session. The parent reports the behavior is most problematic during non-preferred transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (30 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-019",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 3-year-old client with intellectual disability in a general education classroom. The client engages in hitting behavior that is disrupting classroom instruction. ABC data collected over 2 weeks (23 observation sessions) shows hitting occurs an average of 19 times per 30-minute session during math problems. When the activity is terminated, the hitting behavior immediately terminates within 10 seconds. During leisure activities, hitting occurs only 1 time per session. The therapist reports the behavior is highest during challenging math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (19 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-020",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 12-year-old client with oppositional defiant disorder in a special education classroom. The client engages in screaming behavior that is disrupting daily activities. ABC data collected over 2 weeks (24 observation sessions) shows screaming occurs an average of 19 times per hour during reading assignments. When demands are paused, the screaming behavior immediately ceases. During preferred subjects, screaming occurs only 2 times per session. The staff reports the behavior is most frequent during new reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (19 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 2 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-021",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 10-year-old client with Down syndrome in a ABA clinic. The client engages in throwing materials behavior that is disrupting learning. ABC data collected over 3 weeks (25 observation sessions) shows throwing materials occurs an average of 18 times per 45-minute period during writing tasks. When the task is removed, the throwing materials behavior immediately stops. During preferred activities like art class, throwing materials occurs only 1 time per session. The teacher reports the behavior is significantly worse during difficult writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (18 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-022",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 16-year-old client with learning disabilities in a community setting. The client engages in leaving area behavior that is disrupting therapy sessions. ABC data collected over 3 weeks (26 observation sessions) shows leaving area occurs an average of 17 times per 30-minute session during homework. When a break is provided, the leaving area behavior immediately decreases to near-zero. During free play with toys, leaving area occurs only 0 time per session. The parent reports the behavior is most problematic during non-preferred homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (17 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-023",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 9-year-old client with intellectual disability in a home. The client engages in flopping to ground behavior that is disrupting classroom instruction. ABC data collected over 3 weeks (27 observation sessions) shows flopping to ground occurs an average of 17 times per hour during cleaning up. When task difficulty is reduced, the flopping to ground behavior immediately terminates within 10 seconds. During choice time, flopping to ground occurs only 0 time per session. The therapist reports the behavior is highest during challenging cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (17 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-024",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 18-year-old client with ADHD in a special education classroom. The client engages in pushing away materials behavior that is disrupting daily activities. ABC data collected over 3 weeks (28 observation sessions) shows pushing away materials occurs an average of 27 times per 45-minute period during transitioning. When the activity is terminated, the pushing away materials behavior immediately ceases. During leisure activities, pushing away materials occurs only 0 time per session. The staff reports the behavior is most frequent during new transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (27 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-025",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 18-year-old client with autism spectrum disorder in a community setting. The client engages in hitting behavior that is disrupting learning. ABC data collected over 3 weeks (29 observation sessions) shows hitting occurs an average of 27 times per 30-minute session during math problems. When demands are paused, the hitting behavior immediately stops. During preferred subjects, hitting occurs only 0 time per session. The teacher reports the behavior is significantly worse during difficult math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (27 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-026",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 25-year-old client with oppositional defiant disorder in a home. The client engages in screaming behavior that is disrupting therapy sessions. ABC data collected over 3 weeks (30 observation sessions) shows screaming occurs an average of 25 times per hour during reading assignments. When the task is removed, the screaming behavior immediately decreases to near-zero. During preferred activities like art class, screaming occurs only 1 time per session. The parent reports the behavior is most problematic during non-preferred reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (25 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-027",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 18-year-old client with intellectual disability in a inclusive preschool. The client engages in throwing materials behavior that is disrupting classroom instruction. ABC data collected over 3 weeks (31 observation sessions) shows throwing materials occurs an average of 14 times per 45-minute period during writing tasks. When a break is provided, the throwing materials behavior immediately terminates within 10 seconds. During free play with toys, throwing materials occurs only 0 time per session. The therapist reports the behavior is highest during challenging writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (14 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-028",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 14-year-old client with cerebral palsy in a residential facility. The client engages in leaving area behavior that is disrupting daily activities. ABC data collected over 3 weeks (32 observation sessions) shows leaving area occurs an average of 18 times per 30-minute session during homework. When task difficulty is reduced, the leaving area behavior immediately ceases. During choice time, leaving area occurs only 0 time per session. The staff reports the behavior is most frequent during new homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (18 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-029",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 12-year-old client with learning disabilities in a special education classroom. The client engages in flopping to ground behavior that is disrupting learning. ABC data collected over 3 weeks (33 observation sessions) shows flopping to ground occurs an average of 15 times per hour during cleaning up. When the activity is terminated, the flopping to ground behavior immediately stops. During leisure activities, flopping to ground occurs only 0 time per session. The teacher reports the behavior is significantly worse during difficult cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (15 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-030",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 11-year-old client with Down syndrome in a community setting. The client engages in pushing away materials behavior that is disrupting therapy sessions. ABC data collected over 3 weeks (34 observation sessions) shows pushing away materials occurs an average of 17 times per 45-minute period during transitioning. When demands are paused, the pushing away materials behavior immediately decreases to near-zero. During preferred subjects, pushing away materials occurs only 0 time per session. The parent reports the behavior is most problematic during non-preferred transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (17 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 3 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-031",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 10-year-old client with autism spectrum disorder in a general education classroom. The client engages in hitting behavior that is disrupting classroom instruction. ABC data collected over 4 weeks (35 observation sessions) shows hitting occurs an average of 23 times per 30-minute session during math problems. When the task is removed, the hitting behavior immediately terminates within 10 seconds. During preferred activities like art class, hitting occurs only 0 time per session. The therapist reports the behavior is highest during challenging math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (23 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-032",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 16-year-old client with intellectual disability in a community setting. The client engages in screaming behavior that is disrupting daily activities. ABC data collected over 4 weeks (36 observation sessions) shows screaming occurs an average of 31 times per hour during reading assignments. When a break is provided, the screaming behavior immediately ceases. During free play with toys, screaming occurs only 0 time per session. The staff reports the behavior is most frequent during new reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (31 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-033",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 8-year-old client with learning disabilities in a general education classroom. The client engages in throwing materials behavior that is disrupting learning. ABC data collected over 4 weeks (37 observation sessions) shows throwing materials occurs an average of 12 times per 45-minute period during writing tasks. When task difficulty is reduced, the throwing materials behavior immediately stops. During choice time, throwing materials occurs only 2 times per session. The teacher reports the behavior is significantly worse during difficult writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (12 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-034",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 14-year-old client with learning disabilities in a after-school program. The client engages in leaving area behavior that is disrupting therapy sessions. ABC data collected over 4 weeks (38 observation sessions) shows leaving area occurs an average of 31 times per 30-minute session during homework. When the activity is terminated, the leaving area behavior immediately decreases to near-zero. During leisure activities, leaving area occurs only 0 time per session. The parent reports the behavior is most problematic during non-preferred homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (31 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-035",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 6-year-old client with Down syndrome in a special education classroom. The client engages in flopping to ground behavior that is disrupting classroom instruction. ABC data collected over 4 weeks (39 observation sessions) shows flopping to ground occurs an average of 21 times per hour during cleaning up. When demands are paused, the flopping to ground behavior immediately terminates within 10 seconds. During preferred subjects, flopping to ground occurs only 0 time per session. The therapist reports the behavior is highest during challenging cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (21 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-036",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 5-year-old client with ADHD in a general education classroom. The client engages in pushing away materials behavior that is disrupting daily activities. ABC data collected over 4 weeks (40 observation sessions) shows pushing away materials occurs an average of 20 times per 45-minute period during transitioning. When the task is removed, the pushing away materials behavior immediately ceases. During preferred activities like art class, pushing away materials occurs only 0 time per session. The staff reports the behavior is most frequent during new transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (20 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-037",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 14-year-old client with intellectual disability in a residential facility. The client engages in hitting behavior that is disrupting learning. ABC data collected over 4 weeks (41 observation sessions) shows hitting occurs an average of 22 times per 30-minute session during math problems. When a break is provided, the hitting behavior immediately stops. During free play with toys, hitting occurs only 1 time per session. The teacher reports the behavior is significantly worse during difficult math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (22 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-038",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 10-year-old client with developmental disabilities in a ABA clinic. The client engages in screaming behavior that is disrupting therapy sessions. ABC data collected over 4 weeks (42 observation sessions) shows screaming occurs an average of 21 times per hour during reading assignments. When task difficulty is reduced, the screaming behavior immediately decreases to near-zero. During choice time, screaming occurs only 1 time per session. The parent reports the behavior is most problematic during non-preferred reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (21 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-039",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 12-year-old client with ADHD in a general education classroom. The client engages in throwing materials behavior that is disrupting classroom instruction. ABC data collected over 4 weeks (43 observation sessions) shows throwing materials occurs an average of 16 times per 45-minute period during writing tasks. When the activity is terminated, the throwing materials behavior immediately terminates within 10 seconds. During leisure activities, throwing materials occurs only 2 times per session. The therapist reports the behavior is highest during challenging writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (16 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-040",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 5-year-old client with intellectual disability in a ABA clinic. The client engages in leaving area behavior that is disrupting daily activities. ABC data collected over 4 weeks (44 observation sessions) shows leaving area occurs an average of 19 times per 30-minute session during homework. When demands are paused, the leaving area behavior immediately ceases. During preferred subjects, leaving area occurs only 2 times per session. The staff reports the behavior is most frequent during new homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (19 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 4 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-041",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 4-year-old client with developmental disabilities in a residential facility. The client engages in flopping to ground behavior that is disrupting learning. ABC data collected over 5 weeks (45 observation sessions) shows flopping to ground occurs an average of 30 times per hour during cleaning up. When the task is removed, the flopping to ground behavior immediately stops. During preferred activities like art class, flopping to ground occurs only 2 times per session. The teacher reports the behavior is significantly worse during difficult cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (30 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-042",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 9-year-old client with cerebral palsy in a after-school program. The client engages in pushing away materials behavior that is disrupting therapy sessions. ABC data collected over 5 weeks (46 observation sessions) shows pushing away materials occurs an average of 31 times per 45-minute period during transitioning. When a break is provided, the pushing away materials behavior immediately decreases to near-zero. During free play with toys, pushing away materials occurs only 2 times per session. The parent reports the behavior is most problematic during non-preferred transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (31 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-043",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 10-year-old client with developmental disabilities in a community setting. The client engages in hitting behavior that is disrupting classroom instruction. ABC data collected over 5 weeks (47 observation sessions) shows hitting occurs an average of 29 times per 30-minute session during math problems. When task difficulty is reduced, the hitting behavior immediately terminates within 10 seconds. During choice time, hitting occurs only 1 time per session. The therapist reports the behavior is highest during challenging math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (29 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-044",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 16-year-old client with learning disabilities in a general education classroom. The client engages in screaming behavior that is disrupting daily activities. ABC data collected over 5 weeks (48 observation sessions) shows screaming occurs an average of 27 times per hour during reading assignments. When the activity is terminated, the screaming behavior immediately ceases. During leisure activities, screaming occurs only 1 time per session. The staff reports the behavior is most frequent during new reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (27 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-045",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 5-year-old client with Down syndrome in a home. The client engages in throwing materials behavior that is disrupting learning. ABC data collected over 5 weeks (49 observation sessions) shows throwing materials occurs an average of 22 times per 45-minute period during writing tasks. When demands are paused, the throwing materials behavior immediately stops. During preferred subjects, throwing materials occurs only 1 time per session. The teacher reports the behavior is significantly worse during difficult writing tasks.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the throwing materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (22 per session) specifically and consistently during non-preferred or difficult academic tasks (writing tasks), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-046",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 16-year-old client with oppositional defiant disorder in a community setting. The client engages in leaving area behavior that is disrupting therapy sessions. ABC data collected over 5 weeks (50 observation sessions) shows leaving area occurs an average of 12 times per 30-minute session during homework. When the task is removed, the leaving area behavior immediately decreases to near-zero. During preferred activities like art class, leaving area occurs only 0 time per session. The parent reports the behavior is most problematic during non-preferred homework.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the leaving area behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (12 per session) specifically and consistently during non-preferred or difficult academic tasks (homework), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-047",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 8-year-old client with ADHD in a special education classroom. The client engages in flopping to ground behavior that is disrupting classroom instruction. ABC data collected over 5 weeks (51 observation sessions) shows flopping to ground occurs an average of 27 times per hour during cleaning up. When a break is provided, the flopping to ground behavior immediately terminates within 10 seconds. During free play with toys, flopping to ground occurs only 0 time per session. The therapist reports the behavior is highest during challenging cleaning up.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the flopping to ground behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (27 per session) specifically and consistently during non-preferred or difficult academic tasks (cleaning up), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-048",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 5-year-old client with intellectual disability in a after-school program. The client engages in pushing away materials behavior that is disrupting daily activities. ABC data collected over 5 weeks (52 observation sessions) shows pushing away materials occurs an average of 14 times per 45-minute period during transitioning. When task difficulty is reduced, the pushing away materials behavior immediately ceases. During choice time, pushing away materials occurs only 2 times per session. The staff reports the behavior is most frequent during new transitioning.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the pushing away materials behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (14 per session) specifically and consistently during non-preferred or difficult academic tasks (transitioning), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (2 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-049",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 3-year-old client with intellectual disability in a general education classroom. The client engages in hitting behavior that is disrupting learning. ABC data collected over 5 weeks (53 observation sessions) shows hitting occurs an average of 19 times per 30-minute session during math problems. When the activity is terminated, the hitting behavior immediately stops. During leisure activities, hitting occurs only 0 time per session. The teacher reports the behavior is significantly worse during difficult math problems.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the hitting behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (19 per session) specifically and consistently during non-preferred or difficult academic tasks (math problems), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (0 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  },
+  {
+    "id": "scenario-050",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "functional-assessment",
+    "scenario": "A BCBA is consulting with a 8-year-old client with autism spectrum disorder in a general education classroom. The client engages in screaming behavior that is disrupting therapy sessions. ABC data collected over 5 weeks (54 observation sessions) shows screaming occurs an average of 22 times per hour during reading assignments. When demands are paused, the screaming behavior immediately decreases to near-zero. During preferred subjects, screaming occurs only 1 time per session. The parent reports the behavior is most problematic during non-preferred reading assignments.",
+    "question": "Based on this ABC data pattern and the antecedent-behavior-consequence relationships observed, what function is the screaming behavior most likely serving?",
+    "options": [
+      "Access to preferred tangible items or activities",
+      "Escape or avoidance of aversive tasks or demands",
+      "Access to social attention from adults or peers",
+      "Automatic or sensory reinforcement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data strongly indicates an escape function maintained by negative reinforcement. Multiple converging evidence points support this conclusion: (1) The behavior occurs at elevated rates (22 per session) specifically and consistently during non-preferred or difficult academic tasks (reading assignments), showing clear antecedent control, (2) The behavior reliably terminates or produces removal of the aversive task, demonstrating the maintaining consequence (negative reinforcement), (3) The behavior rate is near-zero (1 instances) during preferred activities when escape is not relevant, (4) The pattern is consistent across 5 weeks of systematic observation. This is a textbook example of escape-maintained behavior. Alternative hypotheses are not supported: Automatic reinforcement would show similar rates across all conditions regardless of task demands. Attention function would show increases when attention is provided contingent on behavior. Tangible function would correlate with presence/absence of specific items, not task demands. The functional relationship between demands and behavior termination clearly indicates escape as the maintaining variable.",
+    "bacbTaskList": [
+      "FK-31",
+      "G-1",
+      "G-2",
+      "FK-19"
+    ],
+    "keywords": [
+      "escape function",
+      "negative reinforcement",
+      "ABC data analysis",
+      "functional assessment",
+      "demand avoidance"
+    ]
+  }
+]

@@ -1,0 +1,586 @@
+#!/usr/bin/env node
+// Batch Flashcard Adder - Adds 100 flashcards per run
+// Run multiple times to reach 500 total
+
+const fs = require('fs');
+
+const BATCH_SIZE = 100;
+const TARGET_TOTAL = 500;
+
+console.log('\n╔══════════════════════════════════════════════════════════╗');
+console.log('║       ABA MASTERY - BATCH FLASHCARD GENERATOR           ║');
+console.log('╚══════════════════════════════════════════════════════════╝\n');
+
+// Load current content
+const content = JSON.parse(fs.readFileSync('content.json', 'utf8'));
+const currentCount = content.flashcards.length;
+
+console.log(`📊 Current Status:`);
+console.log(`   Flashcards: ${currentCount}/${TARGET_TOTAL}`);
+console.log(`   Progress: ${Math.round(currentCount/TARGET_TOTAL*100)}%`);
+console.log(`   Remaining: ${TARGET_TOTAL - currentCount}\n`);
+
+if (currentCount >= TARGET_TOTAL) {
+  console.log('✅ Already at target!\n');
+  process.exit(0);
+}
+
+// Comprehensive ABA flashcard content - Batch data
+// Each run adds next 100 cards from different starting point
+
+const BATCH_1 = [
+  // Assessment & FBA (20 cards)
+  {cat:'assessment',q:'What is a setting event?',a:'Antecedent condition that temporarily alters value of reinforcer or makes behavior more/less likely. Not immediate antecedent. Example: lack of sleep makes escape more valuable.'},
+  {cat:'assessment',q:'What is structural analysis?',a:'Examining antecedent conditions systematically without manipulating consequences. Identifies which antecedents evoke behavior.'},
+  {cat:'assessment',q:'What is brief functional analysis?',a:'Shortened FA with fewer sessions per condition. Useful for screening or dangerous behaviors. Less confident conclusions than extended FA.'},
+  {cat:'assessment',q:'What is trial-based functional analysis?',a:'FA embedded in natural routine. Brief test trials conducted throughout day. Less disruptive than analog FA.'},
+  {cat:'assessment',q:'What is latency functional analysis?',a:'Measuring time from opportunity to behavior rather than frequency. Useful when behavior is low-rate but time to occurrence varies.'},
+  {cat:'assessment',q:'What is précis functional analysis?',a:'Very brief FA (5-min sessions). Rapid screening. Iwata et al. Less reliable than full FA but quick.'},
+  {cat:'assessment',q:'What is the alone condition in FA?',a:'Test for automatic reinforcement. No social interaction, minimal materials. If behavior occurs, suggests automatic function.'},
+  {cat:'assessment',q:'What is the play/control condition in FA?',a:'Baseline condition with rich environment, attention, no demands. Low/no problem behavior confirms other conditions are functional.'},
+  {cat:'assessment',q:'What is the attention condition in FA?',a:'Test for attention function. Attention delivered contingent on problem behavior. If behavior high, suggests attention-maintained.'},
+  {cat:'assessment',q:'What is the escape condition in FA?',a:'Test for escape function. Demands presented, removed contingent on problem behavior. High rates suggest escape-maintained.'},
+  {cat:'assessment',q:'What is the tangible condition in FA?',a:'Test for tangible function. Preferred items removed, returned contingent on problem behavior. High rates suggest tangible-maintained.'},
+  {cat:'assessment',q:'What is a pairwise FA design?',a:'Comparing two conditions at a time. Example: attention vs play, escape vs play. Clearer differentiation than multi-element.'},
+  {cat:'assessment',q:'What is synthesized contingencies in FA?',a:'Combining multiple consequences in same condition. Example: attention + tangible together. Used when multiple functions suspected.'},
+  {cat:'assessment',q:'What is hypothesis testing in FBA?',a:'Using assessment data to form hypothesis about function, then testing through systematic manipulation. Links FBA to FA.'},
+  {cat:'assessment',q:'What is the  interview in indirect assessment?',a:'Asking caregivers/teachers about behavior patterns, antecedents, consequences. Quick but subject to bias. Should be supplemented with direct observation.'},
+  {cat:'assessment',q:'What is conditional probability in FBA?',a:'Likelihood of behavior given specific antecedent or consequence. Helps identify functional relationships from descriptive data.'},
+  {cat:'assessment',q:'What is a motivational assessment?',a:'Identifying establishing operations and abolishing operations that influence behavior. What makes reinforcer more/less valuable?'},
+  {cat:'assessment',q:'What is competing behavior model?',a:'Understanding problem behavior, replacement behavior, and desired alternative. Ensures teaching functionally equivalent alternative.'},
+  {cat:'assessment',q:'What is contextual fit in intervention?',a:'How well intervention matches values, skills, resources of implementers and setting. Poor fit leads to poor implementation.'},
+  {cat:'assessment',q:'What is ecological assessment?',a:'Assessing all environments where person functions. Identifies barriers, supports, modification needs across settings.'},
+
+  // Schedules of Reinforcement (25 cards)
+  {cat:'schedules',q:'What is continuous reinforcement (CRF)?',a:'Reinforcement after every response (FR-1). Used initially to establish behavior. Creates rapid learning but quick satiation and low resistance to extinction.'},
+  {cat:'schedules',q:'What is intermittent reinforcement?',a:'Reinforcement after some but not all responses. Creates slower acquisition but higher resistance to extinction. More natural than CRF.'},
+  {cat:'schedules',q:'What produces highest response rate?',a:'Variable Ratio (VR) schedules produce highest, steadiest rate and greatest resistance to extinction. Example: gambling, fishing.'},
+  {cat:'schedules',q:'What is post-reinforcement pause?',a:'Pause in responding after reinforcement. Prominent in Fixed Ratio and Fixed Interval. Longer in FR, occurs at start of FI (scallop).'},
+  {cat:'schedules',q:'What is schedule thinning?',a:'Gradually changing from dense (CRF, FR-2) to leaner schedule (VR-10, VI-5min) to maintain behavior with less reinforcement.'},
+  {cat:'schedules',q:'What schedule is most resistant to extinction?',a:'Variable Ratio (VR) schedules produce greatest resistance to extinction. Unpredictability prevents clear discrimination of extinction.'},
+  {cat:'schedules',q:'What is an FI scallop?',a:'Response pattern in Fixed Interval where rate is low immediately after reinforcement and gradually increases. Graph shows characteristic upward scallop.'},
+  {cat:'schedules',q:'What is ratio strain?',a:'Disruption in responding when ratio requirement increased too rapidly. Causes pausing, extinction-like effects. Thin schedules gradually to avoid.'},
+  {cat:'schedules',q:'What is a limited hold?',a:'Time restriction on reinforcement availability after schedule requirement met. Must respond within time limit or lose reinforcement opportunity.'},
+  {cat:'schedules',q:'What is a conjunctive schedule?',a:'Reinforcement requires satisfying two or more schedule requirements. Example: must wait FI-10s AND emit FR-5 responses.'},
+  {cat:'schedules',q:'What is a concurrent schedule?',a:'Two or more schedules simultaneously available for different responses. Allows study of choice and preference.'},
+  {cat:'schedules',q:'What is a multiple schedule?',a:'Two or more schedules presented sequentially, each with distinct SD. Behavior in presence of each SD produces corresponding reinforcement.'},
+  {cat:'schedules',q:'What is a chained schedule?',a:'Sequence of schedules each with SD. Completing one produces SD for next. Only final schedule produces primary reinforcement.'},
+  {cat:'schedules',q:'What is a mixed schedule?',a:'Like multiple schedule but NO discriminative stimuli. Schedules alternate but no signal which is active. Prevents discrimination.'},
+  {cat:'schedules',q:'What is a tandem schedule?',a:'Like chained schedule but NO discriminative stimuli. Must complete all requirements sequentially but no signals between components.'},
+  {cat:'schedules',q:'What is schedule-induced behavior?',a:'Behavior systematically produced as by-product of schedule. Not required for reinforcement but occurs reliably. Example: polydipsia on FI food schedules.'},
+  {cat:'schedules',q:'What is adjunctive behavior?',a:'Behavior occurring as schedule-induced side effect. Fills time between reinforcement opportunities. Example: excessive drinking between food deliveries.'},
+  {cat:'schedules',q:'What is differential reinforcement of high rates (DRH)?',a:'Reinforcement contingent on emitting behavior at or above specified rate. Used to increase response rate. Example: reinforce if 15+ responses per minute.'},
+  {cat:'schedules',q:'What is differential reinforcement of low rates (DRL)?',a:'Reinforcement for lower response rates or spacing responses. Two types: full-session DRL (total count criterion) or spaced-responding DRL (IRT criterion).'},
+  {cat:'schedules',q:'What is variable moment DRL?',a:'Reinforcement if response follows preceding response by at least minimum IRT. Teaches pausing between responses.'},
+  {cat:'schedules',q:'What is progressive ratio schedule?',a:'Ratio requirement increases after each reinforcement. Example: FR-5, then FR-10, then FR-15. Tests motivation - breaking point where responding stops.'},
+  {cat:'schedules',q:'What is a VI schedule advantage?',a:'Variable Interval produces steady, moderate rate without post-reinforcement pausing. Good for maintaining behavior with less predictability than FI.'},
+  {cat:'schedules',q:'What is behavioral contrast?',a:'Change in responding in one component when conditions change in another component. Example: if rich schedule becomes lean, behavior in other component increases.'},
+  {cat:'schedules',q:'What is positive behavioral contrast?',a:'Increase in responding in one component when other component becomes less favorable. Example: if escape trials increase, attention trials responding also increases.'},
+  {cat:'schedules',q:'What is negative behavioral contrast?',a:'Decrease in responding in one component when other component becomes more favorable. Less common than positive contrast.'},
+
+  // Punishment & Behavior Reduction (25 cards)
+  {cat:'punishment',q:'What are side effects of punishment?',a:'Emotional responses (fear, crying), escape/avoidance, aggression, modeling of punitive behavior, suppression without teaching replacement, negative reinforcement of punisher.'},
+  {cat:'punishment',q:'What is overcorrection?',a:'Punishment requiring environmental restoration plus additional improvement (restitutional overcorrection) or repeated practice of correct form (positive practice overcorrection).'},
+  {cat:'punishment',q:'What is restitutional overcorrection?',a:'Restoring environment to better-than-original state contingent on problem behavior. Example: clean up mess plus clean entire room.'},
+  {cat:'punishment',q:'What is positive practice overcorrection?',a:'Repeatedly practicing correct form of behavior contingent on incorrect response. Example: practice hanging coat 10 times after throwing it.'},
+  {cat:'punishment',q:'What is time-out from positive reinforcement?',a:'Removing access to positive reinforcement for specified period contingent on problem behavior. Two types: exclusion and non-exclusion.'},
+  {cat:'punishment',q:'What is exclusion time-out?',a:'Physically removing person from reinforcing environment. Example: child sent to empty room. Most restrictive time-out form.'},
+  {cat:'punishment',q:'What is non-exclusion time-out?',a:'Person remains in setting but denied access to reinforcement. Example: hands down, no eye contact, or sit and watch. Less restrictive than exclusion.'},
+  {cat:'punishment',q:'What is response cost?',a:'Removal of specified amount of reinforcer contingent on problem behavior. Negative punishment. Example: losing tokens, fines, privilege removal.'},
+  {cat:'punishment',q:'What is bonus response cost?',a:'Giving non-contingent reinforcers that can be lost for problem behavior. Example: start day with 5 tokens, can lose them for misbehavior.'},
+  {cat:'punishment',q:'When is punishment ethically justified?',a:'When: 1) Positive procedures tried first, 2) Behavior dangerous/harmful, 3) Benefits outweigh risks, 4) Informed consent, 5) Oversight provided, 6) Data-based decisions.'},
+  {cat:'punishment',q:'What is punishment contrast?',a:'Increase in behavior in one situation when punished in another situation. Example: behavior increases at home when punished at school.'},
+  {cat:'punishment',q:'What is habituation to punishment?',a:'Decreased effectiveness of punisher with repeated exposure. Punisher becomes less aversive over time. Requires more intense punisher to maintain suppression.'},
+  {cat:'punishment',q:'What is adaptation to punishment?',a:'Reduced effectiveness over time. Person becomes "used to" punisher. Common problem with verbal reprimands.'},
+  {cat:'punishment',q:'What is negative reinforcement trap?',a:'Escape-maintained problem behavior is negatively reinforced when caregiver removes demand. Caregiver giving in is negatively reinforced by problem behavior stopping. Vicious cycle.'},
+  {cat:'punishment',q:'What is the positive reinforcement trap?',a:'Attention to problem behavior positively reinforces problem behavior while desirable behavior ignored. Problem behavior increases while appropriate behavior decreases.'},
+  {cat:'punishment',q:'What makes punishment more effective?',a:'Immediacy, consistency, appropriate intensity, combined with reinforcement of alternative, minimizing escape opportunities.'},
+  {cat:'punishment',q:'What is punishment intensity?',a:'Magnitude of punisher. Too weak ineffective, too strong unethical/harmful. Start sufficient to suppress, not excessive.'},
+  {cat:'punishment',q:'What is consistency in punishment?',a:'Punishing every occurrence. Intermittent punishment less effective and creates confusion about contingencies.'},
+  {cat:'punishment',q:'What is punishment immediacy?',a:'Delivering punisher immediately after behavior. Delays reduce effectiveness because other behaviors may occur between problem behavior and punisher.'},
+  {cat:'punishment',q:'Why combine punishment with reinforcement?',a:'Punishment alone only suppresses - doesn\'t teach what TO do. Reinforcing alternative provides positive direction and is more ethical.'},
+  {cat:'punishment',q:'What is extinction as alternative to punishment?',a:'If can withhold reinforcer maintaining behavior, extinction may eliminate behavior without punishment. More positive but requires identifying maintaining reinforcer.'},
+  {cat:'punishment',q:'What is guided compliance?',a:'Physically guiding person through required task when they don\'t comply. Form of escape extinction - escape unavailable. Minimizes reinforcement of refusal.'},
+  {cat:'punishment',q:'What is planned ignoring?',a:'Extinction procedure for attention-maintained behavior. Completely withhold attention contingent on problem behavior. Must be complete - any attention reinforces.'},
+  {cat:'punishment',q:'What is extinction burst in attention extinction?',a:'Temporary increase in problem behavior when attention first withheld. Behavior may intensify before decreasing. Expected and temporary.'},
+  {cat:'punishment',q:'What is sensory extinction/punishment?',a:'Blocking automatic reinforcement. Example: padded helmet prevents head hitting from producing sensory input. Removes maintaining consequence.'}
+];
+
+const BATCH_2 = [
+  // Skill Acquisition & Teaching (30 cards)
+  {cat:'teaching',q:'What is discrete trial teaching (DTT)?',a:'Structured teaching: clear SD, one response, immediate consequence, inter-trial interval. Effective for teaching discriminations. Mass trial or distributed trial.'},
+  {cat:'teaching',q:'What is a learning trial?',a:'Single instance of teaching opportunity. Includes antecedent, behavior, consequence. Multiple trials make up teaching session.'},
+  {cat:'teaching',q:'What is inter-trial interval (ITI)?',a:'Brief pause between teaching trials. Allows processing, prevents blending trials together, reduces satiation.'},
+  {cat:'teaching',q:'What is massed practice?',a:'Multiple trials of same target in rapid succession. Leads to fast acquisition but potential satiation and limited generalization.'},
+  {cat:'teaching',q:'What is distributed practice?',a:'Spreading trials across time or mixing with other targets. Slower acquisition but better retention and generalization than massed.'},
+  {cat:'teaching',q:'What is errorless learning?',a:'Teaching procedures minimizing errors through controlling prompts, then fading. Prevents error learning and frustration.'},
+  {cat:'teaching',q:'What is trial-and-error learning?',a:'Allowing errors to occur and providing differential consequences. Natural learning but can establish error patterns.'},
+  {cat:'teaching',q:'What is shaping?',a:'Differential reinforcement of successive approximations toward terminal behavior. Reinforcing closer and closer versions of target.'},
+  {cat:'teaching',q:'What is shaping across vs within topographies?',a:'Across: changing form of behavior (wave → thumbs up). Within: same form, different dimension (louder voice, faster running).'},
+  {cat:'teaching',q:'What is response differentiation in shaping?',a:'Consequence of differential reinforcement - variability decreases as specific form is selected. Response becomes more refined.'},
+  {cat:'teaching',q:'What is prompting?',a:'Supplementary antecedent stimulus that increases likelihood of correct response. Temporary - should be faded to transfer control to natural SD.'},
+  {cat:'teaching',q:'What is a physical prompt?',a:'Physically guiding correct response. Most intrusive prompt. Example: hand-over-hand guidance. Must fade to prevent prompt dependency.'},
+  {cat:'teaching',q:'What is a model prompt?',a:'Demonstrating correct response for learner to imitate. Requires imitation skills. Example: showing how to tie shoes.'},
+  {cat:'teaching',q:'What is a verbal prompt?',a:'Vocal cue indicating correct response. Can be direct ("Say ball") or indirect ("It starts with B..."). Fade from more to less specific.'},
+  {cat:'teaching',q:'What is a gestural prompt?',a:'Physical movement indicating correct response without touching. Example: pointing, nodding, eye gaze. Less intrusive than physical.'},
+  {cat:'teaching',q:'What is a positional prompt?',a:'Placing correct item in position easier to select. Example: placing target closer or in typical scanning pattern. Form of stimulus prompt.'},
+  {cat:'teaching',q:'What is visual prompt?',a:'Visual cue indicating correct response. Examples: pictures, written words, highlighted text. Useful for individuals with strong visual skills.'},
+  {cat:'teaching',q:'What is most-to-least prompting (MTL)?',a:'Start with controlling prompt ensuring success, systematically fade to less intrusive. Minimizes errors but risk of prompt dependency.'},
+  {cat:'teaching',q:'What is least-to-most prompting (LTM)?',a:'Start with least intrusive prompt, increase only if needed. System of least prompts. Promotes independence but allows errors.'},
+  {cat:'teaching',q:'What is graduated guidance?',a:'Physically guiding as much as needed, reducing guidance as soon as learner responds correctly. Immediate, dynamic fading based on performance.'},
+  {cat:'teaching',q:'What is shadowing in graduated guidance?',a:'Keeping hands near but not touching, ready to guide if error occurs. Minimal intrusion while maintaining error correction capability.'},
+  {cat:'teaching',q:'What is time delay prompting?',a:'Initially prompt immediately (0-second delay), then insert and gradually increase delay. Progressive delay (0s, 1s, 2s, 4s) or constant delay (0s then 4s).'},
+  {cat:'teaching',q:'What is constant time delay?',a:'Two-step time delay: 0-second delay initially, then jump to fixed delay (typically 3-5 seconds). Simpler than progressive delay.'},
+  {cat:'teaching',q:'What is progressive time delay?',a:'Gradually increasing wait time before prompting. Example: 0s, 1s, 2s, 4s, 6s. More gradual transfer than constant delay.'},
+  {cat:'teaching',q:'What is stimulus fading?',a:'Gradually changing form or intensity of stimulus while maintaining stimulus control. Example: fading from exaggerated to normal, or yellow to white background.'},
+  {cat:'teaching',q:'What is stimulus shaping?',a:'Using stimulus fading across stimulus dimension. Gradually changing stimulus characteristics while response requirement stays same.'},
+  {cat:'teaching',q:'What is prompt dependency?',a:'Over-reliance on prompts - behavior only occurs when prompted. Prevented by systematic prompt fading and transferring control to natural SD.'},
+  {cat:'teaching',q:'What is a controlling prompt?',a:'Prompt that reliably evokes correct response. Used in errorless learning initially. Must identify before teaching begins.'},
+  {cat:'teaching',q:'What is simultaneous prompting?',a:'Controlling prompt delivered simultaneously with task direction. No delay. All trials are prompted. Periodic probe trials (no prompt) assess acquisition.'},
+  {cat:'teaching',q:'What is a probe trial?',a:'Assessment trial without prompts or reinforcement to test if skill is acquired. Provides pure measure of learning without prompt support.'}
+];
+
+const BATCH_3 = [
+  // Verbal Behavior (30 cards)  
+  {cat:'verbal-behavior',q:'What is verbal behavior?',a:'Behavior reinforced through mediation of another person who is specifically trained to provide reinforcement (Skinner, 1957). Distinguished by how it is reinforced, not its form.'},
+  {cat:'verbal-behavior',q:'What is a mand?',a:'Verbal operant controlled by MO, reinforced with specific consequence. Benefits speaker. Example: "Cookie" when hungry → receives cookie.'},
+  {cat:'verbal-behavior',q:'What is a tact?',a:'Verbal operant controlled by nonverbal stimulus, reinforced with generalized social reinforcement. Labels environment. Example: "Dog" when seeing dog → "Nice talking!"'},
+  {cat:'verbal-behavior',q:'What is an intraverbal?',a:'Verbal operant controlled by verbal SD without point-to-point correspondence. Conversation, answering questions. Example: "What\'s your name?" → "Sarah" → social praise.'},
+  {cat:'verbal-behavior',q:'What is an echoic?',a:'Verbal operant controlled by verbal SD with point-to-point correspondence and formal similarity. Vocal imitation. Example: hear "ball" → say "ball".'},
+  {cat:'verbal-behavior',q:'What is point-to-point correspondence?',a:'When parts of verbal stimulus match parts of response product in sequence. Required for echoic, copying text, motor imitation.'},
+  {cat:'verbal-behavior',q:'What is formal similarity?',a:'When stimulus and response are in same mode (both vocal, both visual, both motor). Required for echoic but not other verbal operants.'},
+  {cat:'verbal-behavior',q:'What is an autoclitic?',a:'Verbal behavior that modifies effect of other verbal behavior. Includes grammar, negation, quantification. Example: "I think...", "maybe...", "not..."'},
+  {cat:'verbal-behavior',q:'What is a duplic?',a:'Verbal behavior with point-to-point correspondence AND formal similarity. Includes echoic (vocal-vocal), copying text (visual-visual), imitation (motor-motor).'},
+  {cat:'verbal-behavior',q:'What is a codic?',a:'Verbal behavior with point-to-point correspondence but NO formal similarity. Example: taking dictation (auditory → written), reading aloud (written → vocal).'},
+  {cat:'verbal-behavior',q:'What is a textual?',a:'Reading - verbal operant controlled by written verbal stimulus. Reinforced with generalized social reinforcement. Point-to-point correspondence but different modes.'},
+  {cat:'verbal-behavior',q:'What is transcription?',a:'Writing what is heard (taking dictation) or copying text. Codic with point-to-point correspondence. Example: hear "cat" → write "cat".'},
+  {cat:'verbal-behavior',q:'What is listener behavior?',a:'Responding appropriately to verbal stimuli. Receptive language, following instructions. NOT a verbal operant - different reinforcement pattern.'},
+  {cat:'verbal-behavior',q:'What is transfer of stimulus control in VB?',a:'Shifting control from one type of antecedent to another. Example: echoic-to-mand, echoic-to-tact, mand-to-tact, tact-to-intraverbal.'},
+  {cat:'verbal-behavior',q:'What is multiple control?',a:'Single verbal response simultaneously controlled by more than one variable. Strengthens response, makes it more likely and precise.'},
+  {cat:'verbal-behavior',q:'What is convergent multiple control?',a:'Multiple variables control same response. Example: see cookie (tact) + hungry (mand) + "what do you want?" (intraverbal) all strengthen "cookie".'},
+  {cat:'verbal-behavior',q:'What is divergent multiple control?',a:'Single variable controls multiple responses. Example: seeing dog may evoke "dog", "animal", "puppy", "pet".'},
+  {cat:'verbal-behavior',q:'What is a pure tact?',a:'Tact controlled solely by nonverbal stimulus without MO influence. Pure labeling without requesting.'},
+  {cat:'verbal-behavior',q:'What is an impure tact?',a:'Tact with mand influence - both nonverbal stimulus and MO control response. Example: saying "cookie" when seeing cookie while hungry.'},
+  {cat:'verbal-behavior',q:'What is mand training?',a:'Teaching requests. Create motivation (EO), prompt mand, reinforce with specific requested item. Start with strong MOs.'},
+  {cat:'verbal-behavior',q:'What is tact training?',a:'Teaching labels. Present nonverbal stimulus, prompt tact, reinforce with generalized social reinforcement (not the item). No MO required.'},
+  {cat:'verbal-behavior',q:'What is intraverbal training?',a:'Teaching conversational speech. Present verbal SD, prompt different verbal response, reinforce socially. Example: "What\'s your name?" → prompt "Sarah" → praise.'},
+  {cat:'verbal-behavior',q:'What is echoic training?',a:'Teaching vocal imitation. Model sound/word, prompt echo, reinforce. Foundation for all other vocal verbal operants.'},
+  {cat:'verbal-behavior',q:'What is the verbal behavior approach?',a:'Language teaching based on Skinner\'s analysis. Teaches separate verbal operants (mand, tact, etc.) based on their controlling variables rather than expressive/receptive.'},
+  {cat:'verbal-behavior',q:'What is function-based verbal behavior?',a:'Teaching language based on function (why child should talk) rather than form (what it sounds like). Mands taught first because they benefit speaker.'},
+  {cat:'verbal-behavior',q:'What is a mand repertoire?',a:'All the mands person can emit. Broad mand repertoire allows communication of needs across many situations. Critical for reducing problem behavior.'},
+  {cat:'verbal-behavior',q:'What is a tact repertoire?',a:'All labels/descriptive language person can produce. Broad tact repertoire enables rich description of environment and expression of knowledge.'},
+  {cat:'verbal-behavior',q:'What is an intraverbal repertoire?',a:'Conversational and question-answering abilities. Allows social interaction, answering questions, discussing non-present topics.'},
+  {cat:'verbal-behavior',q:'What is emerging verbal behavior?',a:'New verbal responses appearing through recombination of learned elements. Example: taught "big" and "dog" separately, says "big dog" without specific training.'},
+  {cat:'verbal-behavior',q:'What is establishing operation in manding?',a:'Creating motivation before mand training. Increases value of reinforcer and makes mand more likely. Example: brief deprivation before teaching "Cookie please".'}
+];
+
+const BATCH_4 = [
+  // Measurement & Data Collection (35 cards)
+  {cat:'measurement',q:'What is frequency recording?',a:'Counting each occurrence of behavior. Used for discrete behaviors with clear start/end. Provides exact count.'},
+  {cat:'measurement',q:'What is rate (in measurement)?',a:'Count per unit time (frequency ÷ time). Standard measure in behavior analysis. Allows comparison across different observation lengths.'},
+  {cat:'measurement',q:'What is duration recording?',a:'Measuring total time behavior occurs. Used when length is important dimension. Example: tantrum duration, time on-task.'},
+  {cat:'measurement',q:'What is latency recording?',a:'Time from stimulus onset (usually SD) to response initiation. Measures speed of responding. Example: instruction to compliance.'},
+  {cat:'measurement',q:'What is interresponse time (IRT)?',a:'Time between end of one response and start of next response of same class. Inversely related to rate.'},
+  {cat:'measurement',q:'What is partial interval recording?',a:'Score interval if behavior occurs at ANY point during interval. Overestimates total occurrence. Best for behaviors you want to DECREASE.'},
+  {cat:'measurement',q:'What is whole interval recording?',a:'Score only if behavior occurs for ENTIRE interval. Underestimates total occurrence. Best for behaviors you want to INCREASE.'},
+  {cat:'measurement',q:'What is momentary time sampling?',a:'Record if behavior occurring at exact moment interval ends. Estimates occurrence percentage. Less demanding than continuous.'},
+  {cat:'measurement',q:'When to use partial vs whole interval?',a:'Partial for problem behavior you want to decrease (acceptable overestimate). Whole for appropriate behavior you want to increase (conservative estimate).'},
+  {cat:'measurement',q:'What is planned activity check (PLACHECK)?',a:'Momentary time sampling of group. Scan all individuals at interval end, record who is engaged. Efficient group measurement.'},
+  {cat:'measurement',q:'What is permanent product recording?',a:'Measuring tangible outcomes of behavior rather than behavior itself. Examples: completed worksheets, broken items, artistic creations.'},
+  {cat:'measurement',q:'What is trials to criterion?',a:'Number of teaching trials needed to reach predetermined performance level. Measures learning efficiency.'},
+  {cat:'measurement',q:'What is percent correct?',a:'(Correct responses ÷ total opportunities) × 100. Common in discrete trial teaching to track acquisition.'},
+  {cat:'measurement',q:'What is topography in measurement?',a:'Physical form or shape of behavior - what it looks like. Different topographies can serve same function.'},
+  {cat:'measurement',q:'What is temporal locus?',a:'When behavior occurs in time. Example: onset time, time distribution across day.'},
+  {cat:'measurement',q:'What is temporal extent?',a:'How long behavior lasts. Duration measurement captures temporal extent.'},
+  {cat:'measurement',q:'What is repeatability?',a:'Instances of response class can be counted. Discrete responses with clear start/end have high repeatability.'},
+  {cat:'measurement',q:'What is response class?',a:'Group of responses that share common function, even if topographies differ. Example: hitting, kicking, biting all for escape.'},
+  {cat:'measurement',q:'What is a dead man test?',a:'If a dead man can do it, it\'s not behavior. Ensures behaviors are active, not mere absence. Example: "sitting quietly" fails test - define as "hands folded, eyes forward".'},
+  {cat:'measurement',q:'What makes a good operational definition?',a:'Objective (no interpretation), clear (anyone can understand), complete (includes all examples), prevents measurement drift. Example: "Hitting: closed hand contact with another person\'s body."'},
+  {cat:'measurement',q:'What is measurability criterion?',a:'Behavior must be observable and measurable to be targeted. If can\'t be observed/measured reliably, not appropriate target.'},
+  {cat:'measurement',q:'What is measurement reactivity?',a:'Observation process itself changes behavior being measured. Example: person behaves differently when being watched. Can be positive (therapeutic reactivity) or negative.'},
+  {cat:'measurement',q:'What is observer drift?',a:'Unintended changes in how observer uses measurement system over time. Prevented through ongoing training and IOA checks.'},
+  {cat:'measurement',q:'What is observer bias?',a:'Systematic over- or under-recording. Can result from expectations, consequences for data patterns, or lack of operational definitions.'},
+  {cat:'measurement',q:'What prevents measurement bias?',a:'Clear operational definitions, blind observers (don\'t know condition), frequent IOA, training and retraining, removing consequences for specific data patterns.'},
+  {cat:'measurement',q:'What is artifact in data?',a:'Data pattern resulting from measurement procedure rather than actual behavior change. Example: apparent improvement from observer drift.'},
+  {cat:'measurement',q:'What is IOA calculation?',a:'(Agreements ÷ (Agreements + Disagreements)) × 100. Should meet minimum 80%, preferably 90%+. Higher standards for important decisions.'},
+  {cat:'measurement',q:'What is total count IOA?',a:'(Smaller count ÷ Larger count) × 100. Least stringent - doesn\'t account for agreement on timing. Overestimates agreement.'},
+  {cat:'measurement',q:'What is mean count-per-interval IOA?',a:'Calculate IOA for each interval, then average. More stringent than total count, less than interval-by-interval.'},
+  {cat:'measurement',q:'What is interval-by-interval IOA?',a:'(Agreements ÷ Total intervals) × 100. Most stringent IOA method. Both observers must agree on each interval.'},
+  {cat:'measurement',q:'What is scored-interval IOA?',a:'(Agreements ÷ Intervals scored by either observer) × 100. For low-rate behaviors prevents artificially high IOA from many agreement-on-non-occurrence intervals.'},
+  {cat:'measurement',q:'What is exact count-per-interval IOA?',a:'Agreement only if both observers record same exact count in interval. Very stringent. Example: both record 3 occurrences, not 2 and 4.'},
+  {cat:'measurement',q:'What is trial-by-trial IOA?',a:'Agreement calculated for each teaching trial. Both observers must agree on correct/incorrect/no response. Common in DTT.'},
+  {cat:'measurement',q:'What is occurrence vs non-occurrence IOA?',a:'Calculate agreement separately for intervals with behavior (occurrence) vs without (non-occurrence). Reveals if disagreements are for occurrences or non-occurrences.'},
+  {cat:'measurement',q:'What is kappa coefficient?',a:'IOA calculation accounting for chance agreement. More stringent than simple percent agreement. Removes inflation from agreement by chance.'}
+];
+
+const BATCH_5 = [
+  // Research Methods & Design (30 cards)
+  {cat:'research',q:'What is an ABAB (reversal) design?',a:'Baseline, intervention, return to baseline, reintroduce intervention. Demonstrates control by showing behavior changes when IV manipulated.'},
+  {cat:'research',q:'What is withdrawal design?',a:'Synonym for ABAB/reversal design. "Withdrawing" intervention to show it was responsible for change.'},
+  {cat:'research',q:'When is ABAB design inappropriate?',a:'When: 1) Behavior won\'t reverse (learned skills), 2) Unethical to reverse (safety skills, serious problem behavior), 3) Irreversible changes (understanding concepts).'},
+  {cat:'research',q:'What is multiple baseline design?',a:'Introducing intervention sequentially across different baselines (behaviors, settings, or participants). Only treated baseline changes while others remain stable.'},
+  {cat:'research',q:'What are types of multiple baseline?',a:'Across behaviors (different behaviors, same person, same setting), across settings (same behavior/person, different settings), across participants (same behavior, different people).'},
+  {cat:'research',q:'What is alternating treatments design?',a:'Rapidly alternating between two or more conditions to compare effects. Allows quick comparison. Watch for multiple treatment interference and carryover.'},
+  {cat:'research',q:'What is multielement design?',a:'Synonym for alternating treatments. Multiple elements (treatments) alternated to compare their effects.'},
+  {cat:'research',q:'What is changing criterion design?',a:'Systematically changing performance criterion. If behavior matches each criterion change, demonstrates experimental control. Used for shaping or gradually changing behavior.'},
+  {cat:'research',q:'What is baseline logic?',a:'Foundation of single-subject research: Prediction (baseline predicts future if unchanged), Verification (intervention shows change), Replication (effect demonstrated multiple times).'},
+  {cat:'research',q:'What is steady state responding?',a:'Stable pattern with little variability. Indicates experimental control. Needed before changing conditions to clearly show effects.'},
+  {cat:'research',q:'What is experimental control?',a:'Demonstrating functional relationship - IV causes DV changes. Achieved through prediction, verification, and replication.'},
+  {cat:'research',q:'What is internal validity?',a:'Extent to which study demonstrates IV caused DV changes. Controlling confounds increases internal validity.'},
+  {cat:'research',q:'What is external validity?',a:'Degree to which findings generalize to other people, settings, behaviors. Trade-off with internal validity.'},
+  {cat:'research',q:'What is social validity?',a:'Social significance of goals, social acceptability of procedures, social importance of results. Assessed through consumer feedback.'},
+  {cat:'research',q:'What are threats to internal validity?',a:'Confounding variables, history (external events), maturation, testing effects, instrumentation changes, regression to mean.'},
+  {cat:'research',q:'What is treatment integrity?',a:'Degree to which intervention implemented as designed. Measured via direct observation, checklists, self-reports. Essential for valid conclusions.'},
+  {cat:'research',q:'How to improve treatment integrity?',a:'Clear written protocols, training, ongoing coaching, performance feedback, simplifying procedures, addressing barriers, measuring integrity regularly.'},
+  {cat:'research',q:'What is procedural fidelity?',a:'Synonym for treatment integrity. Fidelity to intended procedures.'},
+  {cat:'research',q:'What is a confounding variable?',a:'Uncontrolled variable that varies systematically with IV, making it impossible to determine what caused change. Example: time of day changes with condition.'},
+  {cat:'research',q:'What is history as threat?',a:'External events occurring during study that could cause observed changes. Example: school break, new sibling born, medication change.'},
+  {cat:'research',q:'What is maturation threat?',a:'Natural developmental changes over time. Problem for longer studies. Example: language naturally improving with age.'},
+  {cat:'research',q:'What is testing threat?',a:'Repeated testing itself causes change. Practice effects, learned test-taking, familiarity with materials.'},
+  {cat:'research',q:'What is instrumentation threat?',a:'Changes in measurement system. Observer drift, calibration changes, different observers. Creates artifact - apparent change is measurement change.'},
+  {cat:'research',q:'What is regression to mean?',a:'Extreme scores tend toward average on retest. If select based on extreme score, may appear to improve/worsen due to regression, not intervention.'},
+  {cat:'research',q:'What is multiple treatment interference?',a:'In alternating treatments, one treatment affects performance in other treatment. Carryover effects. Prevented with counterbalancing, clear discrimination.'},
+  {cat:'research',q:'What is sequence effects?',a:'Order of conditions affects results. Problem in alternating treatments. Use counterbalancing to control.'},
+  {cat:'research',q:'What is carryover effect?',a:'Effects of one condition persist into next condition. Problematic in rapid alternation. Need time between conditions or clear discriminative stimuli.'},
+  {cat:'research',q:'What is baseline length requirement?',a:'Need at least 3 data points minimum. Better: 5+ points showing stable or clear trend. More stable/variable patterns need longer baselines.'},
+  {cat:'research',q:'What is a functional relationship?',a:'Reliable cause-effect relation where IV produces reliable change in DV. Demonstrated through experimental control.'},
+  {cat:'research',q:'What is replication in single-subject?',a:'Demonstrating effect multiple times - across phases, behaviors, participants, settings. Increases confidence in functional relationship.'}
+];
+
+const BATCH_6 = [
+  // Ethics & Professional Conduct (35 cards)
+  {cat:'ethics',q:'What is scope of competence?',a:'Only practice within boundaries of education, training, supervised experience. Seek supervision/consultation or refer when beyond competence.'},
+  {cat:'ethics',q:'What are multiple relationships?',a:'Having professional relationship AND another relationship (personal, business, etc.) with same person. Creates risk of exploitation or impaired judgment - avoid when possible.'},
+  {cat:'ethics',q:'What is exploitive relationship?',a:'Using professional position for personal benefit or harming client. Strictly prohibited. Examples: sexual relationships, financial exploitation, coercion.'},
+  {cat:'ethics',q:'What is conflict of interest?',a:'When personal, financial, or other interests could impair professional objectivity. Must be disclosed and managed appropriately.'},
+  {cat:'ethics',q:'What is informed consent?',a:'Providing clients/guardians understandable information about services, risks, benefits, alternatives, then obtaining voluntary agreement to proceed.'},
+  {cat:'ethics',q:'What must be included in informed consent?',a:'Nature of services, who provides them, costs, risks/benefits, alternatives available, right to refuse/withdraw, confidentiality limits, how to contact if questions.'},
+  {cat:'ethics',q:'What is assent in treatment?',a:'Client\'s ongoing agreement to participate, separate from guardian consent. Watch for signs client wants to withdraw. Respect dissent when possible.'},
+  {cat:'ethics',q:'What is confidentiality?',a:'Protecting client information from unauthorized disclosure. Legal and ethical obligation. Discuss clients only with authorized parties.'},
+  {cat:'ethics',q:'When must confidentiality be broken?',a:'Mandated reporting (suspected abuse/neglect), imminent danger to self/others, court order, client provides informed consent to share.'},
+  {cat:'ethics',q:'What is HIPAA?',a:'Health Insurance Portability and Accountability Act. Federal law protecting patient health information privacy. Requires safeguards for protected health information (PHI).'},
+  {cat:'ethics',q:'What is mandatory reporting?',a:'Legal requirement to report suspected child/vulnerable adult abuse or neglect. Overrides confidentiality. All states require reporting by professionals.'},
+  {cat:'ethics',q:'What is duty to warn?',a:'Obligation to warn potential victims when client makes credible threat of harm. Example: Tarasoff case established duty to protect third parties.'},
+  {cat:'ethics',q:'What is the principle of beneficence?',a:'Acting in client\'s best interest, maximizing benefits, promoting welfare. Proactive obligation to do good, not just avoid harm.'},
+  {cat:'ethics',q:'What is nonmaleficence?',a:'Do no harm. Avoid causing harm through action or inaction. Fundamental ethical principle. When uncertain, err on side of caution.'},
+  {cat:'ethics',q:'What is client dignity?',a:'Treating clients with respect, protecting privacy, using age-appropriate procedures, respecting cultural values, avoiding degrading interventions.'},
+  {cat:'ethics',q:'What is cultural competence?',a:'Understanding and respecting cultural differences. Adapting services to be culturally appropriate. Avoiding cultural bias in assessment/intervention.'},
+  {cat:'ethics',q:'What are professional boundaries?',a:'Maintaining appropriate professional distance. Avoiding personal relationships that could impair judgment or exploit client vulnerability.'},
+  {cat:'ethics',q:'What is appropriate termination?',a:'Ending services when: goals met, services no longer beneficial, client withdraws consent, or continuation would harm client. Provide referrals when needed.'},
+  {cat:'ethics',q:'What is abandonment?',a:'Terminating services without consent when still needed and without appropriate referral. Considered unethical - don\'t abandon clients.'},
+  {cat:'ethics',q:'What is supervision responsibility?',a:'Supervisors ensure supervisees are competent, provide appropriate training/feedback, delegate appropriately, monitor client welfare, maintain ethical practice.'},
+  {cat:'ethics',q:'What is appropriate delegation?',a:'Assigning tasks to supervisees within their competence level. Don\'t delegate beyond training. Provide necessary supervision and oversight.'},
+  {cat:'ethics',q:'What is plagiarism?',a:'Presenting others\' work as your own without attribution. Includes text, data, procedures, ideas. Always cite sources.'},
+  {cat:'ethics',q:'What is fabrication in research?',a:'Making up data or results. Serious scientific misconduct. Undermines scientific integrity.'},
+  {cat:'ethics',q:'What is falsification in research?',a:'Manipulating or misrepresenting data. Changing data to fit desired outcome. Form of scientific misconduct.'},
+  {cat:'ethics',q:'What is scientific integrity?',a:'Conducting research honestly: accurate data collection/reporting, proper credit, transparency about methods/limitations, disclosing conflicts of interest.'},
+  {cat:'ethics',q:'What is authorship ethics?',a:'Credit only those who made substantial contributions. List authors in order of contribution. Don\'t demand or give unearned authorship.'},
+  {cat:'ethics',q:'What is dual relationship risk?',a:'Impaired objectivity, exploitation potential, confused roles, difficulty maintaining boundaries. May not be avoidable in small communities but must be managed.'},
+  {cat:'ethics',q:'What is bartering for services?',a:'Accepting goods/services instead of payment. Generally discouraged due to exploitation risk and unclear value. Only if: customary, no exploitation, documented agreement.'},
+  {cat:'ethics',q:'What is pro bono services?',a:'Providing reduced-fee or free services to those who cannot afford them. Encouraged as professional responsibility to increase access.'},
+  {cat:'ethics',q:'What is accurate public statements obligation?',a:'Ensure advertising, marketing, credentials are truthful. Don\'t exaggerate qualifications or likely outcomes. Avoid misleading claims.'},
+  {cat:'ethics',q:'What is appropriate documentation?',a:'Maintain accurate, current records. Document services provided, progress, decisions made. Retain according to legal/ethical requirements (typically 7 years).'},
+  {cat:'ethics',q:'What are client record retention requirements?',a:'Maintain records for minimum required by law (typically 7 years). Longer for minors (until age of majority + 7 years). Secure storage, proper disposal.'},
+  {cat:'ethics',q:'What is discrimination in service delivery?',a:'Unfair treatment based on protected characteristics (race, gender, age, disability, etc.). Prohibited - must provide equitable services.'},
+  {cat:'ethics',q:'What is least restrictive alternative principle?',a:'Choose effective intervention that is least intrusive, least restrictive, most natural. Only use more restrictive when less restrictive proven ineffective.'},
+  {cat:'ethics',q:'What is the do-no-harm principle application?',a:'Before implementing intervention, assess risks. Choose procedures minimizing harm. Monitor for adverse effects. Stop if causing harm.'}
+];
+
+const BATCH_7 = [
+  // Behavior Change Procedures (35 cards)
+  {cat:'procedures',q:'What is differential reinforcement of other behavior (DRO)?',a:'Reinforcement delivered if target behavior does NOT occur during interval. No specific alternative taught. Example: reinforce if no hitting for 5 minutes.'},
+  {cat:'procedures',q:'What is whole-interval DRO?',a:'Most common DRO. Reinforcement if behavior absent for entire interval. Reset interval if behavior occurs.'},
+  {cat:'procedures',q:'What is momentary DRO?',a:'Reinforcement if behavior not occurring at moment interval ends. Less stringent than whole-interval. May reinforce during problem behavior.'},
+  {cat:'procedures',q:'What is DRA (Differential Reinforcement of Alternative)?',a:'Reinforce specific appropriate alternative while extinguishing problem behavior. Alternative serves same function. Example: reinforce hand-raising instead of calling out.'},
+  {cat:'procedures',q:'What is functional communication training (FCT)?',a:'Type of DRA teaching communicative response as alternative to problem behavior. Replace problem behavior with functionally equivalent communication. Example: teach "break please" for escape-maintained aggression.'},
+  {cat:'procedures',q:'What is DRI (Differential Reinforcement of Incompatible)?',a:'Reinforce behavior physically impossible to do simultaneously with problem behavior. Example: hands in lap is incompatible with hitting.'},
+  {cat:'procedures',q:'What is DRL (Differential Reinforcement of Low Rates)?',a:'Reinforce when behavior occurs at lower rate. Two types: full-session (total count criterion) or spaced-responding (IRT criterion). For behaviors acceptable in moderation.'},
+  {cat:'procedures',q:'What is full-session DRL?',a:'Reinforcement if total behavior count in session is at or below criterion. Example: reinforce if talking out ≤3 times per hour.'},
+  {cat:'procedures',q:'What is spaced-responding DRL?',a:'Reinforcement if response occurs after minimum IRT from previous response. Teaches pausing between responses. Example: reinforce requests if at least 5 minutes since last request.'},
+  {cat:'procedures',q:'What is noncontingent reinforcement (NCR)?',a:'Delivering reinforcers on time-based schedule independent of behavior. Reduces motivation for problem behavior by providing free access to maintaining reinforcer.'},
+  {cat:'procedures',q:'What is fixed-time NCR?',a:'Delivering reinforcers at fixed time intervals regardless of behavior. Example: provide attention every 5 minutes whether or not problem behavior occurs.'},
+  {cat:'procedures',q:'What is variable-time NCR?',a:'Delivering reinforcers at variable time intervals averaging specific duration. Example: average 5 minutes (3min, 7min, 4min, 6min).'},
+  {cat:'procedures',q:'What is high-probability request sequence?',a:'Present several easy requests (high-p) learner typically complies with, then present difficult request (low-p). Behavioral momentum increases low-p compliance.'},
+  {cat:'procedures',q:'What is behavioral momentum theory?',a:'Reinforcement history creates momentum making behavior resistant to change. More reinforcement = greater momentum. Use to increase compliance.'},
+  {cat:'procedures',q:'What is demand fading?',a:'Gradually increasing task demands after reducing them. Start with low demands, slowly increase as tolerance builds. Reduces escape-maintained behavior.'},
+  {cat:'procedures',q:'What is antecedent manipulation?',a:'Modifying events before behavior to prevent problem behavior or evoke appropriate behavior. Proactive approach. Changes setting events, MOs, or discriminative stimuli.'},
+  {cat:'procedures',q:'What is choice provision?',a:'Offering choices to increase sense of control. Can reduce escape-maintained behavior. Example: "Do math or reading first?" Both done, but child chooses order.'},
+  {cat:'procedures',q:'What is activity schedule use?',a:'Visual representation of sequence of activities. Promotes independence, reduces transition problems, increases predictability. Useful for autism.'},
+  {cat:'procedures',q:'What is priming?',a:'Presenting task/materials briefly before instruction. Familiarizes learner, reduces novelty/difficulty. Example: review material day before lesson.'},
+  {cat:'procedures',q:'What is precorrection?',a:'Reminding about expected behavior BEFORE situation where problem behavior typically occurs. Prompts appropriate behavior proactively.'},
+  {cat:'procedures',q:'What is habit reversal?',a:'Multi-component intervention for habits/nervous habits/tics: awareness training, competing response training, motivation procedures, generalization training.'},
+  {cat:'procedures',q:'What is awareness training in habit reversal?',a:'Teaching person to recognize when target behavior occurring or about to occur. Increases self-monitoring.'},
+  {cat:'procedures',q:'What is competing response training?',a:'Teaching behavior incompatible with habit when urge occurs. Example: clench fists when urge to pick skin. Hold for 1 minute.'},
+  {cat:'procedures',q:'What is self-management?',a:'Personal application of behavior change procedures to produce desired change in own behavior. Includes self-monitoring, self-evaluation, self-reinforcement.'},
+  {cat:'procedures',q:'What is self-monitoring?',a:'Observing and recording own behavior. First step in self-management. Reactive effect - recording itself often changes behavior.'},
+  {cat:'procedures',q:'What is self-evaluation?',a:'Comparing performance against standard or goal. Judging own behavior. Example: "Did I meet my goal of 30 minutes studying?"'},
+  {cat:'procedures',q:'What is self-reinforcement?',a:'Delivering self-administered consequence contingent on meeting self-determined criterion. Example: allow movie after completing homework.'},
+  {cat:'procedures',q:'What is reactivity in self-monitoring?',a:'Behavior change resulting from self-monitoring process itself. Often therapeutic - monitoring improvements desired behavior or decreases undesired.'},
+  {cat:'procedures',q:'What is response blocking?',a:'Physically preventing problem behavior from occurring. Used for dangerous behavior. Doesn\'t reduce behavior alone - must combine with reinforcement of alternative.'},
+  {cat:'procedures',q:'What is stimulus satiation?',a:'Providing unlimited continuous access to reinforcer maintaining problem behavior. Reduces motivation through satiation. Example: unlimited candy access reduces candy-seeking.'},
+  {cat:'procedures',q:'What is extinction for automatically reinforced behavior?',a:'Difficult because reinforcement is intrinsic. Options: sensory extinction (block consequence), provide alternative source of stimulation, enrich environment.'},
+  {cat:'procedures',q:'What is matching stimulation?',a:'Providing alternative source of same type of stimulation produced by problem behavior. Example: provide appropriate oral stimulation to replace mouthing objects.'},
+  {cat:'procedures',q:'What is enriched environment intervention?',a:'Providing continuous access to preferred items/activities. Reduces problem behavior by addressing EOs proactively. Makes problem behavior unnecessary.'},
+  {cat:'procedures',q:'What is escape extinction (EE)?',a:'Continuing task demand despite problem behavior. Escape unavailable. Example: guided compliance, physical prompting through task. Prevents negative reinforcement.'},
+  {cat:'procedures',q:'What is guided compliance in EE?',a:'Physically guiding through required task when problem behavior occurs. Prevents escape reinforcement while ensuring task completion. Form of escape extinction.'}
+];
+
+const BATCH_9 = [
+  // Stimulus Control & Generalization (35 cards)
+  {cat:'stimulus-control',q:'What is stimulus generalization?',a:'Behavior occurring in presence of stimuli similar to training SD though not present during training. Example: trained with red ball, responds to pink ball.'},
+  {cat:'stimulus-control',q:'What is response generalization?',a:'Occurrence of functionally similar but untrained responses. After training one response, similar responses appear. Example: teach wave, thumbs-up also appears.'},
+  {cat:'stimulus-control',q:'What is setting/situation generalization?',a:'Behavior occurring in settings/situations different from training environment. Performing skill across multiple contexts.'},
+  {cat:'stimulus-control',q:'What is maintenance (generalization across time)?',a:'Behavior persists after intervention withdrawn/reduced. Performing skill over time without continued intervention.'},
+  {cat:'stimulus-control',q:'What promotes generalization?',a:'Program common stimuli, use sufficient examples, vary teaching conditions, teach loosely, use natural reinforcers, teach self-management, train to natural maintaining contingencies.'},
+  {cat:'stimulus-control',q:'What is "train and hope" approach?',a:'Teaching in one setting and hoping it generalizes. Least effective approach. Generalization should be programmed/planned, not hoped for.'},
+  {cat:'stimulus-control',q:'What is sequential modification?',a:'If behavior doesn\'t generalize to new setting, train it there too. Systematic - add settings one by one until generalization occurs.'},
+  {cat:'stimulus-control',q:'What is programming common stimuli?',a:'Including elements from generalization setting in teaching setting. Makes settings similar. Example: use actual workplace materials when teaching job skills.'},
+  {cat:'stimulus-control',q:'What is training sufficient stimulus examples?',a:'Using enough varied examples so untrained examples will evoke correct response. Prevents overly narrow stimulus control.'},
+  {cat:'stimulus-control',q:'What is training sufficient response examples?',a:'Teaching enough response variations so other appropriate variations will occur. Establishes response class rather than single response.'},
+  {cat:'stimulus-control',q:'What is teaching loosely?',a:'Varying teaching conditions (materials, instructors, wording, setting) to prevent overly specific stimulus control. Opposite of rigid/standardized teaching.'},
+  {cat:'stimulus-control',q:'What is indiscriminable contingencies?',a:'Making reinforcement schedule unpredictable so learner can\'t discriminate when in training vs generalization. Promotes responding across settings.'},
+  {cat:'stimulus-control',q:'What is general case programming?',a:'Sampling from full range of stimulus and response variations during teaching. Ensures generalization to all untrained instances.'},
+  {cat:'stimulus-control',q:'What is mediated generalization?',a:'Teaching response that facilitates generalization. Example: teach self-management skills that person uses across settings.'},
+  {cat:'stimulus-control',q:'What is train-to-natural-maintaining-contingencies?',a:'Teaching behaviors that will be reinforced in natural environment. Generalization maintained by naturally occurring reinforcement. Most durable.'},
+  {cat:'stimulus-control',q:'What is establishing operation effect on generalization?',a:'Generalization more likely when same MOs present. Example: skill taught when hungry generalizes better to situations where hungry.'},
+  {cat:'stimulus-control',q:'What is negative teaching examples?',a:'Showing what NOT to do. Demonstrates boundaries of appropriate responding. Example: teaching "ask politely" show rude vs polite asking.'},
+  {cat:'stimulus-control',q:'What is multiple exemplar training?',a:'Training with numerous examples from stimulus class. Establishes broader stimulus control. More examples = better generalization.'},
+  {cat:'stimulus-control',q:'What is teach sufficient exemplars strategy?',a:'Use enough examples during training so learner responds correctly to all untrained examples. Key generalization programming tactic.'},
+  {cat:'stimulus-control',q:'What is concept training?',a:'Teaching discrimination of all instances from all non-instances. Requires positive examples and non-examples. Results in conceptual understanding.'},
+  {cat:'stimulus-control',q:'What is faulty stimulus control?',a:'When behavior under control of irrelevant stimulus. Example: answering based on question position not content, responding to unintended prompt.'},
+  {cat:'stimulus-control',q:'What is overselectivity?',a:'Responding to limited features while ignoring others. Restricts generalization. Common in autism - may attend only to color when size is relevant.'},
+  {cat:'stimulus-control',q:'What is compound stimulus control?',a:'Multiple stimuli jointly control response. Removing one stimulus may disrupt control. Example: responding requires both verbal instruction AND visual cue.'},
+  {cat:'stimulus-control',q:'What is conditional discrimination?',a:'Correct response depends on combination of stimuli. If A, then select B; if C, then select D. More complex than simple discrimination.'},
+  {cat:'stimulus-control',q:'What is matching-to-sample (MTS)?',a:'Conditional discrimination procedure. Sample stimulus presented, learner selects matching comparison from array. Used in equivalence and conditional discrimination training.'},
+  {cat:'stimulus-control',q:'What is identity matching-to-sample?',a:'Selecting comparison physically identical to sample. Example: given word "DOG", select identical word "DOG". Tests generalized identity.'},
+  {cat:'stimulus-control',q:'What is arbitrary matching-to-sample?',a:'Selecting comparison based on learned relation, not physical similarity. Example: given spoken "dog", select picture of dog. Establishes arbitrary relations.'},
+  {cat:'stimulus-control',q:'What is delayed matching-to-sample?',a:'Sample presented and removed before comparisons shown. Requires remembering sample. Tests working memory and symbolic behavior.'},
+  {cat:'stimulus-control',q:'What is simultaneous matching-to-sample?',a:'Sample and comparisons presented together. Easier than delayed - can compare directly without memory requirement.'},
+  {cat:'stimulus-control',q:'What is a zero-second delay prompt?',a:'Providing controlling prompt immediately with SD. No opportunity for error. Used in errorless learning initial acquisition.'},
+  {cat:'stimulus-control',q:'What is within-stimulus prompting?',a:'Altering critical features of stimulus to make correct choice more obvious. Example: making target larger/brighter. Gradually fade to normal stimulus.'},
+  {cat:'stimulus-control',q:'What is extra-stimulus prompting?',a:'Adding prompt outside target stimulus. Example: pointing to correct answer. Must fade prompt and transfer control to target stimulus.'},
+  {cat:'stimulus-control',q:'What is textual behavior (reading)?',a:'Vocal response under control of written verbal stimulus with point-to-point correspondence. Reinforced with generalized social reinforcement. Example: see "dog" → say "dog".'},
+  {cat:'stimulus-control',q:'What is comprehension in reading?',a:'Not just textual responding - requires intraverbal relations. Seeing text evokes intraverbals about meaning. True reading = textual + comprehension.'},
+  {cat:'stimulus-control',q:'What is stimulus over-selectivity correction?',a:'Train with multiple examples, highlight critical features initially then fade, use within-stimulus prompts, teach attending to multiple features.'}
+];
+
+const BATCH_10 = [
+  // Chaining & Task Analysis (30 cards)
+  {cat:'chaining',q:'What is a behavior chain?',a:'Sequence of responses where each response produces SD for next response. Last response produces primary reinforcement. Example: making coffee, getting dressed.'},
+  {cat:'chaining',q:'What is task analysis?',a:'Breaking complex behavior into smaller, teachable steps. Each step is prerequisite for next. Foundation for chaining procedures.'},
+  {cat:'chaining',q:'What is forward chaining?',a:'Teaching first step, then adding steps sequentially. Learner completes beginning of chain independently, instructor completes rest. Logical but delayed terminal reinforcement.'},
+  {cat:'chaining',q:'What is backward chaining?',a:'Teaching last step first, adding earlier steps sequentially. Learner completes end of chain (experiences task completion reinforcement). Instructor completes earlier steps.'},
+  {cat:'chaining',q:'What is total task chaining?',a:'Teaching all steps simultaneously from beginning. Learner attempts entire sequence with prompting as needed. Faster but more errors initially.'},
+  {cat:'chaining',q:'What is behavior chain interruption strategy?',a:'Interrupting established chain to teach new skill/communication. Creates motivation for missing link. Example: give empty cup to evoke mand for "drink".'},
+  {cat:'chaining',q:'What are advantages of backward chaining?',a:'Learner experiences task completion/success immediately. Terminal reinforcement delivered every trial. Natural reinforcement contact from start.'},
+  {cat:'chaining',q:'What are advantages of forward chaining?',a:'More logical/natural sequence. Follows typical learning progression. Some learners find it more intuitive.'},
+  {cat:'chaining',q:'What are advantages of total task?',a:'Learner practices entire sequence each trial. Faster acquisition of complete chain. More natural - mimics how skills typically learned.'},
+  {cat:'chaining',q:'What is a conditioned reinforcer in chains?',a:'Each step completion becomes conditioned reinforcer through pairing with next step and eventually terminal reinforcement. SDfor next step functions as conditioned reinforcer for previous step.'},
+  {cat:'chaining',q:'What makes effective task analysis?',a:'Observable/measurable steps, appropriate size/complexity for learner, logical sequence, steps are discriminable, complete (all necessary steps included).'},
+  {cat:'chaining',q:'How to determine task analysis steps?',a:'Perform task yourself and record steps, observe competent person, consult experts, consider learner\'s skills. Individualize to learner.'},
+  {cat:'chaining',q:'What is a discriminative stimulus in chain?',a:'Each step serves as SD for next response and conditioned reinforcer for previous response. Dual function - signals what to do next and confirms previous step correct.'},
+  {cat:'chaining',q:'When is backward chaining preferred?',a:'When task completion reinforcement is strong/natural, learner has history of failure, or experiencing success early is important for motivation.'},
+  {cat:'chaining',q:'When is forward chaining preferred?',a:'When logical sequence is important, steps must be performed in order to work, or learner finds forward more intuitive.'},
+  {cat:'chaining',q:'When is total task chaining preferred?',a:'When learner has some skills in chain already, quicker acquisition needed, or natural learning approach preferred.'},
+  {cat:'chaining',q:'What is a chain break?',a:'Interrupting chain before completion. Can be used diagnostically (which step is weak?) or therapeutically (create motivation for communication).'},
+  {cat:'chaining',q:'What is graduated guidance in chaining?',a:'Providing physical guidance as needed, immediately reducing guidance when learner responds correctly. Dynamic, moment-to-moment prompting.'},
+  {cat:'chaining',q:'What is video modeling for chains?',a:'Showing video of complete chain before/during teaching. Learner watches then performs. Effective for complex chains.'},
+  {cat:'chaining',q:'What is picture prompting in task analysis?',a:'Using photos/drawings showing each step. Promotes independence - learner can reference pictures without instructor prompting.'},
+  {cat:'chaining',q:'What is script fading?',a:'Gradually removing written/verbal scripts while maintaining behavior. Example: fade from full sentence script to partial to independent intraverbals.'},
+  {cat:'chaining',q:'What is response chain vs stimulus-response chain?',a:'Response chain: sequence of responses (motor chain). Stimulus-response chain: each response produces stimulus for next (S-R-S-R). Most real chains are stimulus-response.'},
+  {cat:'chaining',q:'What is limited hold in chains?',a:'Time restriction on completing step. Must complete within time limit or chain reset. Teaches fluency/efficiency.'},
+  {cat:'chaining',q:'What is multiple exemplar training in chains?',a:'Teaching chain in multiple ways/settings/materials. Promotes generalization of chain. Example: teach tooth brushing with different toothbrushes/toothpastes.'},
+  {cat:'chaining',q:'What is self-instruction in chaining?',a:'Teaching person to verbally guide own behavior through chain. Example: saying steps aloud while performing them. Promotes independence.'},
+  {cat:'chaining',q:'How to maintain chain after acquisition?',a:'Intermittent reinforcement, natural consequences, incorporate into daily routine, monitor performance periodically, provide booster training if deteriorates.'},
+  {cat:'chaining',q:'What is component analysis of chain?',a:'Testing which steps are mastered and which need training. Determines where to start teaching.'},
+  {cat:'chaining',q:'What is a pure chain?',a:'All steps must occur in fixed sequence. Example: unlocking door requires steps in order. Contrast with concurrent chain where some steps can vary.'},
+  {cat:'chaining',q:'What is a concurrent chain?',a:'Multiple steps can occur simultaneously or in varying order. Example: cooking where some steps are flexible.'},
+  {cat:'chaining',q:'What indicates mastery of chain?',a:'Performs all steps independently, in correct sequence, to criterion accuracy, without prompts, across multiple conditions/trials.'}
+];
+
+const BATCH_11 = [
+  // Final Comprehensive Batch - Mixed Topics (95 cards to reach 500)
+  // Imitation & Motor Skills
+  {cat:'imitation',q:'What is motor imitation?',a:'Imitating another person\'s motor movements. Example: clapping when someone claps. Foundation for learning through observation.'},
+  {cat:'imitation',q:'What is vocal imitation (echoic)?',a:'Imitating vocal sounds. Duplicating what is heard. Foundation for all vocal verbal behavior.'},
+  {cat:'imitation',q:'What is generalized imitation?',a:'Imitating novel models without specific training on those models. Responds to new demonstrations. Indicates imitation is established as operant class.'},
+  {cat:'imitation',q:'What is imitation training procedure?',a:'Model behavior, prompt if needed, reinforce imitation. Fade prompts. Train sufficient exemplars until generalized imitation emerges.'},
+  {cat:'imitation',q:'What is delayed imitation?',a:'Imitating after time delay from model. Requires remembering model. More complex than immediate imitation.'},
+  // Token Economy
+  {cat:'token-economy',q:'What is a token economy?',a:'System where conditioned reinforcers (tokens) earned for target behaviors, later exchanged for backup reinforcers. Common in classrooms, treatment programs.'},
+  {cat:'token-economy',q:'What are token characteristics?',a:'Must be: durable, portable, easily dispensed, difficult to counterfeit, have no unauthorized sources.'},
+  {cat:'token-economy',q:'What is token exchange schedule?',a:'How often/when tokens can be traded for backups. Initially frequent (immediate), gradually thin to less frequent.'},
+  {cat:'token-economy',q:'What is response cost in token system?',a:'Losing tokens contingent on problem behavior. Form of negative punishment within token economy.'},
+  {cat:'token-economy',q:'How to fade token economy?',a:'Increase ratio (more behaviors per token), delay exchange, increase response requirement, pair with natural reinforcers, gradually remove.'},
+  // Motivating Operations
+  {cat:'motivation',q:'What is unconditioned MO (UMO)?',a:'MO effective without learning. Value-altering effect is unlearned. Examples: food deprivation, painful stimulation, temperature.'},
+  {cat:'motivation',q:'What is conditioned MO (CMO)?',a:'MO that acquires value-altering effect through learning. Types: CMO-S, CMO-R, CMO-T.'},
+  {cat:'motivation',q:'What is CMO-Surrogate?',a:'Stimulus paired with UMO/CMO acquires motivating properties. Example: seeing empty fridge (paired with food deprivation) increases value of shopping.'},
+  {cat:'motivation',q:'What is CMO-Reflexive?',a:'Stimulus that is worsening condition establishes its own removal as reinforcer. Example: painful stimulus establishes escape/pain removal as reinforcer.'},
+  {cat:'motivation',q:'What is CMO-Transitive?',a:'Stimulus establishing something else as reinforcer. Example: giving locked box establishes key as reinforcer (key wasn\'t reinforcing before box).'},
+  // Graph Analysis
+  {cat:'graphs',q:'What is trend direction?',a:'Overall path of data - increasing (ascending), decreasing (descending), or zero/no trend (flat). Critical for predicting future.'},
+  {cat:'graphs',q:'What is trend stability?',a:'Consistency of trend direction. Stable trend shows consistent progression. Variable trend changes direction frequently.'},
+  {cat:'graphs',q:'What is level stability?',a:'Consistency of data values. Stable if points don\'t vary much from mean. Range typically within 50% of median or ±25% of mean.'},
+  {cat:'graphs',q:'What is percentage of non-overlapping data (PND)?',a:'Percentage of intervention points exceeding most extreme baseline point. >90% very effective, 70-90% effective, 50-70% questionable, <50% ineffective.'},
+  {cat:'graphs',q:'What is mean level change?',a:'Difference between average level in adjacent phases. Example: baseline mean = 5, intervention mean = 2, mean level change = -3.'},
+  // Supervision & Training
+  {cat:'supervision',q:'What is behavioral skills training (BST)?',a:'Teaching procedure with: instruction, modeling, rehearsal/practice, feedback. Effective for teaching staff. Repeat until mastery.'},
+  {cat:'supervision',q:'What is performance feedback?',a:'Providing information about performance relative to goal/standard. Can be immediate or delayed, graphical or verbal. Essential for staff training.'},
+  {cat:'supervision',q:'What is direct observation in supervision?',a:'Watching supervisee work with clients. Most reliable assessment of implementation. Provides objective data on performance.'},
+  {cat:'supervision',q:'What is permanence products in supervision?',a:'Reviewing session notes, data sheets, graphs to evaluate quality. Indirect but efficient supervision method.'},
+  {cat:'supervision',q:'What is competency-based supervision?',a:'Demonstrating specific skills to criterion before independent practice allowed. Mastery-based rather than time-based.'},
+  // Preference Assessment Advanced
+  {cat:'assessment',q:'What is concurrent-choice preference assessment?',a:'Free access to multiple items simultaneously. Measures engagement duration/frequency. Most naturalistic.'},
+  {cat:'assessment',q:'What is single-stimulus preference assessment?',a:'Presenting items one at a time, recording approach/engagement. Limited information - doesn\'t show relative preference.'},
+  {cat:'assessment',q:'What is preference stability?',a:'How consistent preferences are over time. Some reinforcers stable (food), others variable (toys). Reassess periodically.'},
+  {cat:'assessment',q:'What is reinforcer efficacy?',a:'How well potential reinforcer actually increases/maintains behavior. Preference doesn\'t guarantee reinforcement - must test.'},
+  {cat:'assessment',q:'What is contingent vs non-contingent preference?',a:'Preference when item freely available vs when must work for it. Some items preferred freely but not as reinforcement (contrafreeloading).'},
+  // Response Classes & Functional Relations
+  {cat:'concepts',q:'What is a response class?',a:'Group of responses producing same effect on environment (same function). May look different but produce same consequence. Example: many ways to get attention.'},
+  {cat:'concepts',q:'What is response class hierarchy?',a:'Response classes can contain other response classes. Example: "Aggression" includes "hitting," which includes "open-hand hitting" and "closed-fist hitting".'},
+  {cat:'concepts',q:'What is a functional response class?',a:'Responses producing same consequence and are affected similarly by motivating variables. True functional relationship, not just similar topography.'},
+  {cat:'concepts',q:'What is stimulus class?',a:'Group of stimuli sharing common effect on behavior. Respond same way to all members. Example: all food items in "food" class.'},
+  {cat:'concepts',q:'What is function-based definition?',a:'Defining behavior by its effect, not form. Example: "behavior producing peer attention" includes many topographies.'},
+  // Positive Behavior Support
+  {cat:'PBS',q:'What is positive behavior support?',a:'Comprehensive approach emphasizing quality of life, environmental redesign, teaching functional skills, reducing problem behavior through positive strategies.'},
+  {cat:'PBS',q:'What is person-centered planning?',a:'Planning process focused on person\'s preferences, strengths, goals. Person/family central in decision-making. Foundation of PBS.'},
+  {cat:'PBS',q:'What is lifestyle intervention?',a:'Broad environmental changes improving quality of life. Makes problem behavior less necessary/likely. Example: meaningful activities, choice, relationships.'},
+  {cat:'PBS',q:'What is multi-component intervention?',a:'Using multiple procedures simultaneously. Addresses multiple variables maintaining behavior. More effective than single-component.'},
+  {cat:'PBS',q:'What is crisis prevention?',a:'Identifying triggers, teaching coping skills, environmental modifications to prevent crises. Proactive approach.'},
+  // Advanced Analysis
+  {cat:'concepts',q:'What is behavioral cusp?',a:'Behavior that opens access to new environments, reinforcers, contingencies. Pivotal - single skill creates many opportunities. Example: learning to read.'},
+  {cat:'concepts',q:'What is pivotal behavior?',a:'Behavior producing widespread collateral improvements in other behaviors. Targeting pivotal behaviors efficient. Example: motivation, self-initiation.'},
+  {cat:'concepts',q:'What is behavioral trap?',a:'Behavior that enters natural community of reinforcement and is maintained by naturally occurring consequences. Self-sustaining.'},
+  {cat:'concepts',q:'What is instructional control?',a:'Learner reliably follows instructor directions. Indicated by high compliance, attending, accepting corrections. Foundation for effective teaching.'},
+  {cat:'concepts',q:'How to establish instructional control?',a:'Pair yourself with reinforcement, start with high-probability requests, reinforce compliance immediately, minimize demands initially, make tasks fun.'},
+  // Natural Environment Teaching
+  {cat:'teaching',q:'What is natural environment teaching (NET)?',a:'Teaching in natural setting using natural materials and consequences. Follows child\'s motivation. Contrast with structured DTT.'},
+  {cat:'teaching',q:'What is incidental teaching?',a:'Capitalizing on naturally occurring teaching opportunities. Child shows interest, adult prompts elaboration, provides natural reinforcement.'},
+  {cat:'teaching',q:'What is milieu teaching?',a:'Naturalistic teaching in everyday settings. Includes incidental teaching, mand-model, time delay, interrupted chain strategies.'},
+  {cat:'teaching',q:'What is mand-model procedure?',a:'Contrived establishing operation, wait for initiation, model/mand response if needed, reinforce. Type of milieu teaching.'},
+  {cat:'teaching',q:'What is time delay in milieu teaching?',a:'Creating opportunity, waiting expectantly for initiation, prompting if no response. Encourages spontaneous communication.'},
+  // Autism-Specific
+  {cat:'autism',q:'What is joint attention?',a:'Coordinated attention between person, another person, and object/event. Critical social-communication skill. Deficit in autism.'},
+  {cat:'autism',q:'What is social referencing?',a:'Looking to others for information about how to respond. Using others\' emotional reactions to guide own behavior. Impaired in autism.'},
+  {cat:'autism',q:'What is theory of mind?',a:'Understanding that others have thoughts, beliefs, desires different from own. Perspective-taking. Develops later/incompletely in autism.'},
+  {cat:'autism',q:'What is central coherence?',a:'Processing information holistically vs focusing on details. Weak central coherence in autism - see trees not forest.'},
+  {cat:'autism',q:'What is executive function?',a:'Higher-level cognitive processes: planning, organization, cognitive flexibility, working memory, inhibition. Often impaired in autism.'},
+  // Advanced Stimulus Control
+  {cat:'stimulus-equivalence',q:'What is reflexivity?',a:'Stimulus equals itself (A=A). Generalized identity matching. First property of equivalence.'},
+  {cat:'stimulus-equivalence',q:'What is symmetry?',a:'If A→B trained, then B→A emerges. Reversibility. Second property of equivalence.'},
+  {cat:'stimulus-equivalence',q:'What is transitivity?',a:'If A→B and B→C trained, then A→C emerges without training. Third property of equivalence.'},
+  {cat:'stimulus-equivalence',q:'What is combined symmetry and transitivity?',a:'Tests for equivalence: if A→B and B→C trained, test C→A and B→A. Demonstrates full equivalence class.'},
+  {cat:'stimulus-equivalence',q:'What is an equivalence class?',a:'Set of stimuli showing reflexivity, symmetry, and transitivity. All members functionally interchangeable. Foundation for symbolic behavior.'},
+  // Data Analysis
+  {cat:'data-analysis',q:'What is celeration?',a:'Rate of change in rate. Acceleration (increasing rate) or deceleration (decreasing rate). Used in precision teaching and Standard Celeration Charts.'},
+  {cat:'data-analysis',q:'What is a Standard Celeration Chart?',a:'Semi-logarithmic chart used in precision teaching. Shows celeration (learning rate). Frequeny on y-axis, time on x-axis, multiplication-based.'},
+  {cat:'data-analysis',q:'What is aimline?',a:'Line on Standard Celeration Chart showing desired learning trajectory. If performance below aimline, modify instruction.'},
+  {cat:'data-analysis',q:'What is split-middle line of progress?',a:'Data-based decision rule. Divide data into halves, find medians, draw line. Helps predict trend and make decisions.'},
+  {cat:'data-analysis',q:'What is the two-standard-deviation-band method?',a:'Statistical control limits for process behavior charts. Data outside 2 SD from mean suggests special cause variation.'},
+  // Conditional Discriminations
+  {cat:'discrimination',q:'What is simple discrimination?',a:'Different responses to different stimuli. Example: if see red circle, clap; if see blue square, wave.'},
+  {cat:'discrimination',q:'What is conditional discrimination?',a:'Correct response depends on combination of stimuli. If A then select B; if C then select D. More complex than simple.'},
+  {cat:'discrimination',q:'What is context-dependent discrimination?',a:'Contextual stimuli signal which discrimination is in effect. Example: raise hand for teacher A, speak freely with teacher B.'},
+  {cat:'discrimination',q:'What is errorless discrimination training?',a:'Using prompts to prevent errors during discrimination training. Gradually fade prompts while maintaining correct responding.'},
+  {cat:'discrimination',q:'What is differential observing response?',a:'Behavior bringing person into contact with relevant stimuli. Example: looking at comparison stimuli in matching-to-sample.'},
+  // Relational Frame Theory Basics
+  {cat:'RFT',q:'What is relational frame theory (RFT)?',a:'Contemporary behavior-analytic account of language and cognition. Explains derived relational responding as learned operant behavior.'},
+  {cat:'RFT',q:'What is derived relational responding?',a:'Responding to stimuli in relational ways without direct training. Example: if A>B and B>C, deriving A>C. Foundation of RFT.'},
+  {cat:'RFT',q:'What is arbitrary applicable relational responding?',a:'Applying relational frames (same, opposite, more, before, etc.) arbitrarily based on contextual cues rather than physical properties.'},
+  {cat:'RFT',q:'What types of relational frames exist?',a:'Coordination (same as), opposition (opposite of), comparison (more/less than), hierarchy (member of), temporal (before/after), spatial (above/below), causal (if-then).'},
+  {cat:'RFT',q:'What is mutual entailment?',a:'In RFT, if A relates to B in one direction, B relates to A in reverse direction. Similar to symmetry in equivalence.'},
+  // Applications & Implementation
+  {cat:'application',q:'What is parent training?',a:'Teaching caregivers to implement behavioral procedures. Includes: instruction, modeling, practice, feedback. Essential for generalization and maintenance.'},
+  {cat:'application',q:'What is staff training in ABA?',a:'Teaching direct care staff behavioral procedures through BST: instruction, modeling, rehearsal, feedback. Ongoing performance monitoring essential.'},
+  {cat:'application',q:'What is consultation model?',a:'Behavior analyst advises/trains others who directly implement. Indirect service delivery. Analyst doesn\'t work directly with client.'},
+  {cat:'application',q:'What is direct service model?',a:'Behavior analyst works directly with client. Implements assessment and intervention personally. Most intensive service model.'},
+  {cat:'application',q:'What is collaborative consultation?',a:'Behavior analyst and other professionals work together. Shared decision-making. Each contributes expertise.'},
+  // Maintenance & Generalization Advanced
+  {cat:'generalization',q:'What is maintenance programming?',a:'Specific strategies to promote behavior persistence: thin schedule, use natural reinforcers, teach self-management, vary conditions, booster sessions.'},
+  {cat:'generalization',q:'What are natural communities of reinforcement?',a:'Naturally occurring contingencies in environment that can maintain behavior without programmed consequences.'},
+  {cat:'generalization',q:'What is trap behavior in natural environment?',a:'Get behavior started, natural environment takes over reinforcement. Behavior "trapped" by natural contingencies.'},
+  {cat:'generalization',q:'What is response class recruitment?',a:'Ensuring response class enters environment where natural reinforcement available. Gets behavior into position to be naturally maintained.'},
+  {cat:'generalization',q:'What is indiscriminable contingency for generalization?',a:'Making reinforcement unpredictable so learner doesn\'t know when "in training." Can\'t discriminate training from generalization settings.'},
+  // Crisis Management
+  {cat:'crisis',q:'What is crisis management plan?',a:'Written procedures for responding to dangerous behavior. Includes: prevention, de-escalation, physical intervention if necessary, debriefing, documentation.'},
+  {cat:'crisis',q:'What is de-escalation?',a:'Strategies to reduce agitation before reaches crisis. Give space, calm voice, remove demands, offer choices, validate feelings.'},
+  {cat:'crisis',q:'What is physical intervention criteria?',a:'Only when: imminent danger to self/others, less restrictive options failed/inappropriate, staff trained, documented in plan, reviewed regularly.'},
+  {cat:'crisis',q:'What is debriefing after crisis?',a:'Reviewing incident with staff and client (when appropriate). Identify triggers, evaluate response, modify prevention/intervention plans.'},
+  {cat:'crisis',q:'What is functional assessment in crisis?',a:'Understanding function even of dangerous behavior. Crisis management addresses safety, FBA addresses function. Both needed.'},
+  // Ethical Decision Making
+  {cat:'ethics',q:'What is risk-benefit analysis?',a:'Weighing potential benefits against risks before intervention. Benefits must clearly outweigh risks. Consider less risky alternatives.'},
+  {cat:'ethics',q:'What is peer review in ethics?',a:'Having colleagues review assessment, intervention plans, data, decisions. Increases objectivity, prevents bias, ensures quality.'},
+  {cat:'ethics',q:'What is ethical decision-making model?',a:'Steps: identify problem, review relevant codes/laws, consider stakeholders, list options, evaluate each option, choose best option, implement, evaluate outcome.'},
+  {cat:'ethics',q:'What is stakeholder analysis?',a:'Identifying all people affected by decision (client, family, staff, etc.). Considering their interests/perspectives in decision-making.'},
+  {cat:'ethics',q:'When to seek ethics consultation?',a:'When: uncertain about ethical course, potential violation, conflict between parties, high-stakes decision, personal involvement clouds judgment.'},
+  // Advanced Measurement
+  {cat:'measurement',q:'What is continuous recording?',a:'Recording every instance throughout observation. Examples: frequency, duration. Complete data but demanding.'},
+  {cat:'measurement',q:'What is discontinuous recording?',a:'Recording only samples. Examples: interval recording, time sampling. Less complete but more practical.'},
+  {cat:'measurement',q:'What is event recording vs time sampling?',a:'Event: count each occurrence (continuous). Time sampling: record at specific moments (discontinuous). Event more accurate, time sampling more practical.'},
+  {cat:'measurement',q:'What is real-time recording?',a:'Recording as behavior occurs. Most accurate. Example: using timer for duration, clicker for frequency.'},
+  {cat:'measurement',q:'What is retrospective recording?',a:'Recording from memory after observation. Less accurate. Only when real-time impossible.'},
+  // Treatment Evaluation
+  {cat:'evaluation',q:'What is treatment integrity measurement?',a:'Methods: direct observation with checklist, permanent products, self-monitoring, video review. Direct observation most reliable.'},
+  {cat:'evaluation',q:'What is low treatment integrity impact?',a:'Weakens internal validity (can\'t conclude IV caused effect), reduces effectiveness, unethical (not providing intended treatment), wastes resources.'},
+  {cat:'evaluation',q:'What improves treatment integrity?',a:'Simple procedures, adequate training, performance feedback, reducing barriers, motivation systems, ongoing support.'},
+  {cat:'evaluation',q:'What is procedural integrity?',a:'Synonym for treatment integrity. Adhering to treatment protocol as designed.'},
+  {cat:'evaluation',q:'What is implementation drift?',a:'Gradual deviation from treatment protocol over time. Prevented through ongoing monitoring and feedback.'},
+  // Respondent Behavior
+  {cat:'respondent',q:'What is respondent conditioning (classical)?',a:'Pairing neutral stimulus with unconditioned stimulus until neutral stimulus elicits response. Pavlov\'s conditioning. Creates conditioned reflexes.'},
+  {cat:'respondent',q:'What is unconditioned stimulus (US)?',a:'Stimulus that elicits response without prior conditioning. Example: food causes salivation, loud noise causes startle.'},
+  {cat:'respondent',q:'What is unconditioned response (UR)?',a:'Response elicited by unconditioned stimulus without prior learning. Reflexive. Example: salivation to food.'},
+  {cat:'respondent',q:'What is conditioned stimulus (CS)?',a:'Previously neutral stimulus that elicits response after pairing with US. Acquires ability to elicit through conditioning.'},
+  {cat:'respondent',q:'What is conditioned response (CR)?',a:'Response elicited by conditioned stimulus. Often similar to UR but may differ. Learned response.'},
+  {cat:'respondent',q:'What is higher-order conditioning?',a:'Using CS as if it were US to condition new neutral stimulus. Second-order or third-order conditioning. Example: tone→food, then light→tone, light now elicits salivation.'},
+  {cat:'respondent',q:'What is respondent extinction?',a:'Presenting CS repeatedly without US. CR gradually diminishes. Example: tone without food, eventually tone stops eliciting salivation.'},
+  {cat:'respondent',q:'What is spontaneous recovery in respondent?',a:'Reappearance of CR after extinction and rest period. Typically weaker and extinguishes faster than originally.'},
+  {cat:'respondent',q:'What is stimulus generalization in respondent?',a:'Stimuli similar to CS also elicit CR. Example: if tone conditioned, similar tones also elicit response.'},
+  {cat:'respondent',q:'What is discrimination in respondent?',a:'Responding to CS but not to similar stimuli. CS paired with US, similar stimuli not paired. CR only to CS.'},
+  // Behavioral Neuroscience Basics
+  {cat:'concepts',q:'What is phylogenic behavior?',a:'Behavior selected through evolution. Unlearned, species-specific. Example: reflexes, fixed action patterns. Contrasts with ontogenic (learned).'},
+  {cat:'concepts',q:'What is ontogenic behavior?',a:'Behavior selected during organism\'s lifetime through operant/respondent conditioning. Learned behavior. Most human behavior is ontogenic.'},
+  {cat:'concepts',q:'What are three levels of selection?',a:'Natural selection (phylogenic), operant conditioning (ontogenic), cultural selection (cultural practices). Explains behavior at different levels.'},
+  {cat:'concepts',q:'What is selectionism?',a:'Behavior selected by consequences - parallel to natural selection. Successful variants increase, unsuccessful decrease. Foundation of behavior analysis.'},
+  {cat:'concepts',q:'What is biological preparedness?',a:'Evolutionary predisposition to learn certain associations easily. Some CS-US pairings learned in single trial (taste aversion), others difficult.'},
+  // Professional Practice
+  {cat:'professional',q:'What is accountability in practice?',a:'Demonstrating treatment effectiveness through data. Measuring outcomes, showing progress/lack thereof. Modifying based on results.'},
+  {cat:'professional',q:'What is evidence-based practice?',a:'Using interventions supported by scientific research. Combining best available evidence, clinical expertise, client values/context.'},
+  {cat:'professional',q:'What is empirically supported treatment?',a:'Intervention with research evidence showing effectiveness. Multiple studies by independent researchers showing positive results.'},
+  {cat:'professional',q:'What is social significance in goals?',a:'Goals should be important to client/family/society. Make meaningful difference in quality of life. Not just what\'s easy to measure.'},
+  {cat:'professional',q:'What is clinical vs statistical significance?',a:'Clinical: change is meaningful in real life. Statistical: change unlikely due to chance. Want both - statistically significant AND clinically meaningful.'},
+  // Quality Indicators
+  {cat:'quality',q:'What is procedural fidelity monitoring?',a:'Regularly measuring implementation accuracy. Provides feedback, prevents drift, ensures treatment delivered as designed.'},
+  {cat:'quality',q:'What is outcome evaluation?',a:'Measuring if intervention achieving desired goals. Separate from process measures. Did client improve in meaningful ways?'},
+  {cat:'quality',q:'What is formative evaluation?',a:'Ongoing evaluation during intervention. Used to modify/improve treatment in real-time. Responsive to data.'},
+  {cat:'quality',q:'What is summative evaluation?',a:'Evaluation at end of intervention. Did it work overall? Meets goals? Worth continuing? Final assessment.'},
+  {cat:'quality',q:'What is continuous quality improvement?',a:'Ongoing process of data review, identifying improvements, implementing changes, measuring effects. Cyclical improvement process.'},
+  // Advanced Teaching
+  {cat:'teaching',q:'What is fluency building?',a:'Teaching beyond accuracy to accuracy + speed. Promotes automatic responding, retention, endurance, application. Precision teaching approach.'},
+  {cat:'teaching',q:'What is overlearning?',a:'Continuing practice after reaching accuracy criterion. Promotes retention and fluency. Example: continue practicing after 100% correct.'},
+  {cat:'teaching',q:'What is distributed practice effect?',a:'Spacing practice over time produces better retention than massing. Even if total time same, distributed superior to massed.'},
+  {cat:'teaching',q:'What is interleaving practice?',a:'Mixing different skills in practice rather than blocking same skill. Improves discrimination and retention despite slower initial acquisition.'},
+  {cat:'teaching',q:'What is cumulative review?',a:'Including previously mastered content in current teaching. Prevents forgetting. Mix old with new.'},
+  // Token Specific Advanced
+  {cat:'token-economy',q:'What is token delivery schedule?',a:'Initially continuous (every target behavior), gradually thin to intermittent. Maintain behavior with fewer tokens over time.'},
+  {cat:'token-economy',q:'What is exchange-production schedule?',a:'Ratio of tokens earned to tokens required for backup. Affects motivation. Too high (work too hard) reduces responding.'},
+  {cat:'token-economy',q:'What are common token economy problems?',a:'Token theft/counterfeit, unauthorized earning sources, satiation with backups, response cost implementation issues, unfair distribution.'},
+  {cat:'token-economy',q:'How to prevent token system problems?',a:'Secure tokens, mark uniquely, rotate backups, appropriate pricing, fair earning opportunities, clear rules, consistent implementation.'},
+  {cat:'token-economy',q:'What is token inflation?',a:'Requiring too many tokens for backups. Reduces motivation. Keep exchange rate reasonable - don\'t price too high.'},
+  // Group Contingencies
+  {cat:'group-contingency',q:'What is independent group contingency?',a:'Same contingency for everyone but reinforcement depends on own performance. Most common classroom system.'},
+  {cat:'group-contingency',q:'What is interdependent group contingency?',a:'Reinforcement for all depends on group performance. All must meet criterion or all-average must. Risk: peer pressure on lower performers.'},
+  {cat:'group-contingency',q:'What is dependent group contingency?',a:'Group reinforcement depends on one person\'s (or subgroup\'s) performance. Example: "If Jayden completes, all get extra recess." Can create peer pressure.'},
+  {cat:'group-contingency',q:'What is "good behavior game"?',a:'Teams compete for lowest problem behavior or highest appropriate behavior. Interdependent contingency. Effective for classroom management.'},
+  {cat:'group-contingency',q:'When are group contingencies appropriate?',a:'When: behavior change needed for multiple individuals, resources limited, peer influence beneficial, competition acceptable, all can reasonably meet criterion.'},
+  // Contextual Variables
+  {cat:'context',q:'What is a setting event?',a:'Environmental condition altering probability of behavior but not immediately preceding it. Example: sick child more likely to tantrum later.'},
+  {cat:'context',q:'What is contextual control?',a:'Broader environmental stimuli signaling which contingencies are in effect. Sets context for discrimination.'},
+  {cat:'context',q:'What is multiple functions of behavior?',a:'Same topography maintained by different functions in different contexts. Example: crying for attention at home, crying for escape at school.'},
+  {cat:'context',q:'What is contextual fit assessment?',a:'Evaluating if intervention matches implementer skills, values, resources, and setting constraints. Poor fit leads to poor implementation.'},
+  {cat:'context',q:'What improves contextual fit?',a:'Include implementers in planning, address barriers, simplify procedures, provide adequate support, respect cultural/value considerations.'}
+];
+
+// Export all batches
+module.exports = { BATCH_1, BATCH_2, BATCH_3, BATCH_4, BATCH_5, BATCH_6, BATCH_7, BATCH_9, BATCH_10, BATCH_11 };
+

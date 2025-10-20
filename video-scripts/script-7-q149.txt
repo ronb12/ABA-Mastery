@@ -1,0 +1,76 @@
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VIDEO SCRIPT: Functional Analysis
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[SLIDE 1 - TITLE]
+"Hi everyone! Today we're covering Functional Analysis - an important concept for the BCBA and BCaBA certification exams."
+
+[SLIDE 2 - THE QUESTION]
+"Let's start with a sample exam question:
+Which FBA method involves systematically manipulating antecedents and consequences to verify the function of behavior?"
+
+[SLIDE 3 - ANSWER OPTIONS]
+"Your options are:
+A. Indirect assessment (interviews)
+B. Descriptive assessment (ABC recording)
+C. Functional analysis (FA)
+D. Scatter plot analysis"
+
+[SLIDE 4 - CORRECT ANSWER]
+"The correct answer is C: Functional analysis (FA)"
+
+[SLIDE 5 - DETAILED EXPLANATION]
+"Let me explain why this is correct:
+
+FUNCTIONAL ANALYSIS (FA) is experimental manipulation - systematically presenting and removing antecedents/consequences while measuring behavior to demonstrate functional control. This is the 'gold standard' for identifying function. Indirect (interviews) and descriptive (ABC) methods suggest hypotheses but don't demonstrate experimental control. FA provides the strongest evidence of function."
+
+[SLIDE 6 - COMMON MISTAKES]
+"Here's why the other options are incorrect:
+- Indirect assessment (interviews): This is incorrect because...
+- Descriptive assessment (ABC recording): This is incorrect because...
+- Scatter plot analysis: This is incorrect because..."
+
+[SLIDE 7 - KEY TAKEAWAY]
+"The key takeaway: Remember this distinction, and you'll be able to answer any exam question on this topic."
+
+[SLIDE 8 - CLOSING]
+"Thanks for watching! Practice more questions like this at ABA Mastery: aba-mastery-app.web.app
+Good luck on your exam!"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECORDING NOTES:
+- Duration: 7-9 minutes
+- Tone: Conversational, educational
+- Pace: Moderate (not too fast)
+- Visuals: Simple slides with text and examples
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+═══════════════════════════════════════════════════════════════
+YOUTUBE UPLOAD INFO:
+═══════════════════════════════════════════════════════════════
+
+Title: Functional Analysis - BCBA Exam Prep | ABA Mastery
+
+Description:
+Functional Analysis explained clearly for BCBA and BCaBA certification exam preparation.
+
+This video covers:
+- Key concept definition
+- Correct answer explanation
+- Common mistakes to avoid
+- Real-world examples
+- Exam strategy tips
+
+Perfect for:
+✅ BCBA exam candidates
+✅ BCaBA exam candidates
+✅ ABA graduate students
+✅ Behavior analysts in training
+
+Practice questions: https://aba-mastery-app.web.app
+
+Tags: BCBA exam, BCaBA exam, ABA certification, behavior analysis, assessment, exam prep, study guide, ABA mastery
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Sample PDF Progress Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.2s;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .stats {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .stat-item:last-child {
+            border-bottom: none;
+        }
+        .success {
+            color: #27ae60;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📄 Sample PDF Progress Report Generator</h1>
+        <p>This will generate a sample PDF progress report with realistic test data so you can see exactly how the progress report looks.</p>
+        
+        <div class="stats">
+            <h3>Sample Test Data:</h3>
+            <div class="stat-item">
+                <span>Student:</span>
+                <strong>testuser@abamastery.com</strong>
+            </div>
+            <div class="stat-item">
+                <span>Exam Readiness:</span>
+                <strong style="color: #27ae60;">87%</strong>
+            </div>
+            <div class="stat-item">
+                <span>Questions Answered:</span>
+                <strong>342</strong>
+            </div>
+            <div class="stat-item">
+                <span>Quizzes Completed:</span>
+                <strong>18</strong>
+            </div>
+            <div class="stat-item">
+                <span>Study Streak:</span>
+                <strong>12 days</strong>
+            </div>
+        </div>
+        
+        <button class="btn" onclick="generateSamplePDF()">
+            📄 Generate Sample PDF Report
+        </button>
+        
+        <div id="success-message" class="success" style="display: none;">
+            ✅ PDF Generated! Check your Downloads folder.
+        </div>
+    </div>
+
+    <script>
+        function generateSamplePDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            
+            // Sample test data
+            const userData = {
+                email: 'testuser@abamastery.com',
+                completedQuizzes: 18,
+                flashcardsReviewed: 245,
+                scenarioQuizzes: 8,
+                studyStreak: 12
+            };
+            
+            const stats = {
+                totalAnswered: 342,
+                totalCorrect: 298,
+                averageScore: 87
+            };
+            
+            const categoryStats = {
+                'Concepts & Principles': { correct: 42, total: 48 },
+                'Measurement': { correct: 35, total: 42 },
+                'Assessment & Analysis': { correct: 38, total: 45 },
+                'Behavior Change Procedures': { correct: 51, total: 58 },
+                'Ethics & Professional Conduct': { correct: 28, total: 32 },
+                'Supervision & Management': { correct: 31, total: 38 },
+                'Research Methods': { correct: 25, total: 30 },
+                'Verbal Behavior': { correct: 22, total: 28 },
+                'Functional Assessment': { correct: 26, total: 21 }
+            };
+            
+            // Page setup
+            const pageWidth = doc.internal.pageSize.width;
+            const pageHeight = doc.internal.pageSize.height;
+            const margin = 20;
+            let yPos = 20;
+            
+            // ===== HEADER =====
+            doc.setFillColor(41, 128, 185);
+            doc.rect(0, 0, pageWidth, 45, 'F');
+            
+            doc.setTextColor(255, 255, 255);
+            doc.setFontSize(20);
+            doc.setFont('helvetica', 'bold');
+            doc.text('ABA MASTERY', pageWidth / 2, 15, { align: 'center' });
+            
+            doc.setFontSize(12);
+            doc.setFont('helvetica', 'normal');
+            doc.text('Exam Preparation Progress Report', pageWidth / 2, 27, { align: 'center' });
+            
+            doc.setFontSize(8);
+            doc.setTextColor(200, 200, 200);
+            doc.text('Professional Exam Preparation Platform', pageWidth / 2, 37, { align: 'center' });
+            
+            yPos = 55;
+            doc.setTextColor(0, 0, 0);
+            
+            // ===== REPORT INFO =====
+            doc.setFontSize(10);
+            const reportDate = new Date().toLocaleDateString('en-US', { 
+                year: 'numeric', month: 'long', day: 'numeric' 
+            });
+            doc.text(`Report Generated: ${reportDate}`, margin, yPos);
+            yPos += 6;
+            doc.text(`Student: ${userData.email}`, margin, yPos);
+            yPos += 15;
+            
+            // ===== EXAM READINESS SECTION =====
+            doc.setFillColor(46, 204, 113);
+            doc.rect(margin - 5, yPos - 5, pageWidth - 2 * margin + 10, 25, 'F');
+            
+            doc.setTextColor(255, 255, 255);
+            doc.setFontSize(16);
+            doc.setFont('helvetica', 'bold');
+            doc.text('EXAM READINESS', pageWidth / 2, yPos + 4, { align: 'center' });
+            
+            doc.setFontSize(24);
+            const readinessScore = stats.averageScore;
+            doc.text(`${readinessScore}%`, pageWidth / 2, yPos + 15, { align: 'center' });
+            
+            yPos += 35;
+            doc.setTextColor(0, 0, 0);
+            
+            // Readiness interpretation
+            doc.setFontSize(11);
+            doc.setFont('helvetica', 'normal');
+            const readinessText = readinessScore >= 90 ? 
+                '✅ EXCELLENT - Ready to pass exam!' :
+                readinessScore >= 80 ? 
+                '✓ GOOD - Nearly ready, review weak areas' :
+                '⚠ FAIR - Additional study recommended';
+            
+            doc.text(readinessText, pageWidth / 2, yPos, { align: 'center' });
+            yPos += 15;
+            
+            // ===== OVERALL STATISTICS =====
+            doc.setFontSize(14);
+            doc.setFont('helvetica', 'bold');
+            doc.text('Overall Statistics', margin, yPos);
+            yPos += 8;
+            
+            doc.setFontSize(10);
+            doc.setFont('helvetica', 'normal');
+            
+            const overallStats = [
+                ['Total Questions Answered:', `${stats.totalAnswered}`],
+                ['Correct Answers:', `${stats.totalCorrect} (${readinessScore}%)`],
+                ['Practice Quizzes Completed:', `${userData.completedQuizzes}`],
+                ['Flashcards Reviewed:', `${userData.flashcardsReviewed}`],
+                ['Scenario Quizzes Taken:', `${userData.scenarioQuizzes}`],
+                ['Study Streak:', `${userData.studyStreak} days`]
+            ];
+            
+            overallStats.forEach(([label, value]) => {
+                doc.text(label, margin + 5, yPos);
+                doc.text(value, pageWidth - margin - 5, yPos, { align: 'right' });
+                yPos += 7;
+            });
+            
+            yPos += 10;
+            
+            // ===== PERFORMANCE BY CATEGORY =====
+            doc.setFontSize(14);
+            doc.setFont('helvetica', 'bold');
+            doc.text('Performance by Category', margin, yPos);
+            yPos += 8;
+            
+            doc.setFontSize(9);
+            doc.setFont('helvetica', 'normal');
+            
+            // Table header
+            doc.setFillColor(230, 230, 230);
+            doc.rect(margin, yPos - 4, pageWidth - 2 * margin, 8, 'F');
+            doc.setFont('helvetica', 'bold');
+            doc.text('Category', margin + 2, yPos + 2);
+            doc.text('Questions', pageWidth - margin - 50, yPos + 2, { align: 'right' });
+            doc.text('Score', pageWidth - margin - 10, yPos + 2, { align: 'right' });
+            yPos += 10;
+            
+            // Category rows
+            doc.setFont('helvetica', 'normal');
+            Object.entries(categoryStats).forEach(([category, data], index) => {
+                const score = Math.round((data.correct / data.total) * 100);
+                
+                // Alternating row colors
+                if (index % 2 === 0) {
+                    doc.setFillColor(245, 245, 245);
+                    doc.rect(margin, yPos - 4, pageWidth - 2 * margin, 7, 'F');
+                }
+                
+                // Category name
+                const displayName = category.length > 30 ? category.substring(0, 27) + '...' : category;
+                doc.text(displayName, margin + 2, yPos + 1);
+                
+                // Questions answered
+                doc.text(`${data.total}`, pageWidth - margin - 50, yPos + 1, { align: 'right' });
+                
+                // Score with color coding
+                if (score >= 80) doc.setTextColor(39, 174, 96);
+                else if (score >= 70) doc.setTextColor(243, 156, 18);
+                else doc.setTextColor(231, 76, 60);
+                
+                doc.text(`${score}%`, pageWidth - margin - 10, yPos + 1, { align: 'right' });
+                doc.setTextColor(0, 0, 0);
+                
+                yPos += 7;
+            });
+            
+            yPos += 10;
+            
+            // ===== STUDY RECOMMENDATIONS =====
+            // Section header with purple background
+            doc.setFillColor(155, 89, 182);
+            doc.rect(margin - 5, yPos - 5, pageWidth - 2 * margin + 10, 20, 'F');
+
+            doc.setTextColor(255, 255, 255);
+            doc.setFontSize(14);
+            doc.setFont('helvetica', 'bold');
+            doc.text('Study Recommendations', pageWidth / 2, yPos + 8, { align: 'center' });
+            yPos += 28;
+            doc.setTextColor(0, 0, 0);
+            
+            // Find weak areas
+            const weakAreas = Object.entries(categoryStats)
+                .filter(([cat, data]) => (data.correct / data.total) < 0.70)
+                .sort((a, b) => (a[1].correct / a[1].total) - (b[1].correct / b[1].total));
+            
+            // Add spacing before weak areas section
+            yPos += 5;
+            
+            // Weak areas list (if any)
+            if (weakAreas.length > 0) {
+                yPos += 5;
+                
+                doc.setFontSize(9);
+                doc.setFont('helvetica', 'normal');
+                
+                weakAreas.forEach(([category, data], index) => {
+                    const score = Math.round((data.correct / data.total) * 100);
+                    
+                    // Highlight box for each weak area
+                    doc.setFillColor(255, 245, 245);
+                    doc.rect(margin, yPos - 2, pageWidth - 2 * margin, 10, 'F');
+                    
+                    doc.setTextColor(231, 76, 60);
+                    doc.setFont('helvetica', 'bold');
+                    doc.text(`${index + 1}.`, margin + 3, yPos + 4);
+                    
+                    doc.setTextColor(0, 0, 0);
+                    doc.setFont('helvetica', 'normal');
+                    doc.text(`${category}`, margin + 10, yPos + 4);
+                    
+                    doc.setTextColor(231, 76, 60);
+                    doc.text(`${score}%`, pageWidth - margin - 15, yPos + 4, { align: 'right' });
+                    
+                    doc.setTextColor(128, 128, 128);
+                    doc.setFontSize(7);
+                    doc.text('needs review', pageWidth - margin - 5, yPos + 4, { align: 'right' });
+                    
+                    doc.setTextColor(0, 0, 0);
+                    yPos += 12;
+                });
+                
+                yPos += 8;
+            }
+            
+            // Add spacing after weak areas
+            yPos += 10;
+            
+            // ===== SPECIFIC STUDY RECOMMENDATIONS =====
+            doc.setFontSize(11);
+            doc.setFont('helvetica', 'bold');
+            doc.setTextColor(155, 89, 182);
+            doc.text('Recommended Study Actions:', margin, yPos);
+            yPos += 10;
+            
+            // Sample recommendations (for 80% readiness score)
+            const specificRecommendations = [
+                'Focus 60% of study time on weaker categories identified above',
+                'Complete 3-4 practice quizzes per week in problem areas',
+                'Review 20-30 flashcards daily (15-20 minutes)',
+                'Complete all 500 scenario questions for application practice',
+                'Schedule 2-3 hour weekly review sessions for challenging topics',
+                'Use spaced repetition system for long-term retention',
+                'Practice active recall by teaching concepts to others',
+                'Take 10-minute breaks every 50 minutes during study sessions',
+                'Review all incorrect answers and understand why you missed them'
+            ];
+            
+            // Display recommendations
+            doc.setFontSize(9);
+            doc.setFont('helvetica', 'normal');
+            doc.setTextColor(0, 0, 0);
+            
+            specificRecommendations.forEach((rec, index) => {
+                // Check if we need a new page
+                if (yPos > pageHeight - 40) {
+                    doc.addPage();
+                    yPos = 20;
+                }
+                
+                // Numbered list item
+                doc.setTextColor(155, 89, 182);
+                doc.setFont('helvetica', 'bold');
+                doc.text(`${index + 1}.`, margin, yPos);
+                
+                doc.setTextColor(0, 0, 0);
+                doc.setFont('helvetica', 'normal');
+                
+                // Wrap text if too long
+                const maxWidth = pageWidth - margin - 15;
+                const lines = doc.splitTextToSize(rec, maxWidth);
+                doc.text(lines, margin + 10, yPos);
+                
+                yPos += (lines.length * 5) + 3;
+            });
+            
+            // ===== FOOTER (on last page, at bottom) =====
+            // Add spacing before footer
+            yPos += 15;
+            
+            // If content is too close to bottom, ensure footer has space
+            if (yPos > pageHeight - 30) {
+                doc.addPage();
+                yPos = pageHeight - 25;
+            } else {
+                yPos = pageHeight - 25;
+            }
+            
+            doc.setFontSize(8);
+            doc.setTextColor(128, 128, 128);
+            doc.text('ABA Mastery - Professional Exam Preparation', pageWidth / 2, yPos, { align: 'center' });
+            doc.text(`Report Generated: ${new Date().toLocaleString()}`, pageWidth / 2, yPos + 5, { align: 'center' });
+            
+            // Save PDF
+            const fileName = `ABA-Mastery-SAMPLE-Progress-Report-${new Date().toISOString().split('T')[0]}.pdf`;
+            doc.save(fileName);
+            
+            // Show success message
+            document.getElementById('success-message').style.display = 'block';
+            
+            console.log('✅ Sample PDF Generated!');
+        }
+    </script>
+</body>
+</html>
+

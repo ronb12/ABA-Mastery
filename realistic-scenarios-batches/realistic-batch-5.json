@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "scenario-201",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 6-year-old with developmental disabilities in clinic. Using partial interval recording during 20 minutes, data shows behavior in 30 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-202",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 22-year-old with autism in classroom. Using whole interval recording during 21 minutes, data shows 20 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-203",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 18-year-old with intellectual disability in community. Using frequency recording during 22 minutes, data shows total duration of 7 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-204",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 14-year-old with autism in community. Using duration recording during 23 minutes, data shows behavior in 33 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-205",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 5-year-old with developmental disabilities in community. Using partial interval recording during 24 minutes, data shows 20 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-206",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 5-year-old with autism in clinic. Using whole interval recording during 25 minutes, data shows total duration of 10 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-207",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 7-year-old with autism in community. Using frequency recording during 26 minutes, data shows behavior in 36 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-208",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 9-year-old with ADHD in community. Using duration recording during 27 minutes, data shows 23 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-209",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 3-year-old with ADHD in clinic. Using partial interval recording during 28 minutes, data shows total duration of 13 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-210",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 12-year-old with autism in classroom. Using whole interval recording during 29 minutes, data shows behavior in 39 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-211",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 10-year-old with ADHD in home. Using frequency recording during 30 minutes, data shows 26 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-212",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 12-year-old with intellectual disability in community. Using duration recording during 31 minutes, data shows total duration of 16 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-213",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 11-year-old with intellectual disability in home. Using partial interval recording during 32 minutes, data shows behavior in 42 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-214",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 10-year-old with intellectual disability in home. Using whole interval recording during 33 minutes, data shows 29 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-215",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 12-year-old with intellectual disability in classroom. Using frequency recording during 34 minutes, data shows total duration of 19 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-216",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 12-year-old with intellectual disability in home. Using duration recording during 35 minutes, data shows behavior in 45 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-217",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 16-year-old with autism in classroom. Using partial interval recording during 36 minutes, data shows 26 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-218",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 25-year-old with ADHD in clinic. Using whole interval recording during 37 minutes, data shows total duration of 22 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-219",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 14-year-old with developmental disabilities in community. Using frequency recording during 38 minutes, data shows behavior in 48 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-220",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 16-year-old with ADHD in home. Using duration recording during 39 minutes, data shows 20 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-221",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 8-year-old with intellectual disability in community. Using partial interval recording during 40 minutes, data shows total duration of 25 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-222",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 5-year-old with developmental disabilities in classroom. Using whole interval recording during 41 minutes, data shows behavior in 51 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-223",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 6-year-old with intellectual disability in classroom. Using frequency recording during 42 minutes, data shows 11 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-224",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 5-year-old with developmental disabilities in classroom. Using duration recording during 43 minutes, data shows total duration of 28 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-225",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 16-year-old with autism in classroom. Using partial interval recording during 44 minutes, data shows behavior in 54 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-226",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 9-year-old with intellectual disability in community. Using whole interval recording during 45 minutes, data shows 27 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-227",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 7-year-old with autism in clinic. Using frequency recording during 46 minutes, data shows total duration of 31 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-228",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 10-year-old with intellectual disability in clinic. Using duration recording during 47 minutes, data shows behavior in 57 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-229",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 8-year-old with autism in community. Using partial interval recording during 48 minutes, data shows 29 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-230",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 25-year-old with autism in home. Using whole interval recording during 49 minutes, data shows total duration of 34 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-231",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 16-year-old with autism in clinic. Using frequency recording during 50 minutes, data shows behavior in 60 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-232",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 25-year-old with autism in home. Using duration recording during 51 minutes, data shows 19 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-233",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 16-year-old with intellectual disability in classroom. Using partial interval recording during 52 minutes, data shows total duration of 37 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-234",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 22-year-old with ADHD in clinic. Using whole interval recording during 53 minutes, data shows behavior in 63 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-235",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 22-year-old with intellectual disability in home. Using frequency recording during 54 minutes, data shows 11 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-236",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 7-year-old with intellectual disability in home. Using duration recording during 55 minutes, data shows total duration of 40 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-237",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 14-year-old with intellectual disability in classroom. Using partial interval recording during 56 minutes, data shows behavior in 66 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-238",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 14-year-old with intellectual disability in classroom. Using whole interval recording during 57 minutes, data shows 20 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-239",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 8-year-old with ADHD in clinic. Using frequency recording during 58 minutes, data shows total duration of 43 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-240",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 9-year-old with autism in classroom. Using duration recording during 59 minutes, data shows behavior in 69 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-241",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 6-year-old with autism in classroom. Using partial interval recording during 60 minutes, data shows 14 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-242",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 3-year-old with autism in home. Using whole interval recording during 61 minutes, data shows total duration of 46 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-243",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 7-year-old with ADHD in clinic. Using frequency recording during 62 minutes, data shows behavior in 72 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-244",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 5-year-old with ADHD in community. Using duration recording during 63 minutes, data shows 23 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-245",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 22-year-old with autism in community. Using partial interval recording during 64 minutes, data shows total duration of 49 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-246",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 7-year-old with intellectual disability in classroom. Using whole interval recording during 65 minutes, data shows behavior in 75 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-247",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on interaction for a 4-year-old with developmental disabilities in clinic. Using frequency recording during 66 minutes, data shows 23 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequency  is being used. This method provides exact count of discrete occurrences.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "frequency",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-248",
+    "type": "scenario",
+    "difficulty": "advanced",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on requesting for a 25-year-old with developmental disabilities in home. Using duration recording during 67 minutes, data shows total duration of 52 minutes.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Duration  is being used. This method measures total time behavior occurs from start to finish.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "duration",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-249",
+    "type": "scenario",
+    "difficulty": "beginner",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on engagement for a 5-year-old with intellectual disability in clinic. Using partial interval recording during 68 minutes, data shows behavior in 78 of 60 intervals.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partial interval  is being used. This method tends to overestimate behavior because any occurrence in interval scores it positive.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "partial interval",
+      "measurement",
+      "data collection"
+    ]
+  },
+  {
+    "id": "scenario-250",
+    "type": "scenario",
+    "difficulty": "intermediate",
+    "category": "measurement",
+    "scenario": "A behavior technician collects data on compliance for a 9-year-old with ADHD in community. Using whole interval recording during 69 minutes, data shows 21 occurrences.",
+    "question": "What measurement method is used and what is its primary characteristic?",
+    "options": [
+      "Partial interval - overestimates",
+      "Whole interval - underestimates",
+      "Frequency - counts instances",
+      "Duration - measures time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whole interval  is being used. This method underestimates because behavior must occur throughout entire interval.",
+    "bacbTaskList": [
+      "FK-01",
+      "G-1"
+    ],
+    "keywords": [
+      "whole interval",
+      "measurement",
+      "data collection"
+    ]
+  }
+]
