@@ -236,20 +236,36 @@ function switchView(viewName) {
 
 // Populate topics in study view
 function populateTopics() {
+    const debugInfo = document.getElementById('debug-info');
+    const debugText = document.getElementById('debug-text');
     const container = document.getElementById('topics-container');
+    
+    // Show debug panel on mobile
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile && debugInfo) {
+        debugInfo.style.display = 'block';
+    }
+    
     if (!container) {
         console.error('❌ Topics container not found');
+        if (debugText) debugText.innerHTML = '❌ ERROR: Topics container element not found in HTML';
         return;
     }
     
+    if (debugText) debugText.innerHTML = 'Container found ✓. Checking content...';
+    
     if (!appData.content) {
         console.error('❌ No content loaded');
+        if (debugText) debugText.innerHTML = '❌ ERROR: Content not loaded from content.json';
         container.innerHTML = '<div style="padding: 40px; text-align: center; color: #ef4444;"><h3>⚠️ Content not loaded</h3><p>Please refresh the page</p></div>';
         return;
     }
     
+    if (debugText) debugText.innerHTML = 'Content loaded ✓. Categories: ' + (appData.content.categories ? appData.content.categories.length : 0);
+    
     if (!appData.content.categories || appData.content.categories.length === 0) {
         console.error('❌ No categories in content');
+        if (debugText) debugText.innerHTML = '❌ ERROR: No categories found in content';
         container.innerHTML = '<div style="padding: 40px; text-align: center;"><h3>⚠️ No study topics available</h3></div>';
         return;
     }
@@ -269,11 +285,16 @@ function populateTopics() {
     });
     
     console.log('✅ Added', topicCount, 'topic cards to container');
+    if (debugText) debugText.innerHTML = '✅ SUCCESS: Added ' + topicCount + ' topics. Device: ' + navigator.userAgent.substring(0, 50);
     
-    // Force display after adding cards (iPad fix)
+    // Force display after adding cards
     setTimeout(() => {
         container.style.display = 'grid';
         container.style.visibility = 'visible';
+        // Hide debug after 3 seconds if successful
+        if (topicCount > 0 && debugInfo) {
+            setTimeout(() => debugInfo.style.display = 'none', 3000);
+        }
     }, 100);
 }
 
@@ -352,9 +373,17 @@ function showTopicDetail(topic, category) {
         const style = document.createElement('style');
         style.id = 'modal-styles';
         style.textContent = `
+            .topic-full-content {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+            
             .topic-full-content p {
                 margin-bottom: 1.5em;
                 line-height: 1.7;
+                display: block !important;
+                visibility: visible !important;
             }
             
             .topic-full-content p:last-child {
@@ -376,20 +405,25 @@ function showTopicDetail(topic, category) {
                 right: 0;
                 bottom: 0;
                 background: rgba(0, 0, 0, 0.7);
-                display: flex;
+                display: flex !important;
                 align-items: center;
                 justify-content: center;
                 z-index: 1000;
                 padding: 20px;
                 animation: fadeIn 0.3s;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
             }
             .modal-content {
                 background: var(--bg-primary);
                 border-radius: var(--border-radius);
                 max-width: 800px;
+                width: 100%;
                 max-height: 90vh;
                 overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
                 box-shadow: var(--shadow-xl);
+                position: relative;
             }
             .modal-header {
                 padding: 24px;
@@ -420,6 +454,11 @@ function showTopicDetail(topic, category) {
             }
             .modal-body {
                 padding: 24px;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                max-height: calc(90vh - 180px);
+                display: block !important;
+                visibility: visible !important;
             }
             .topic-category {
                 display: inline-block;
