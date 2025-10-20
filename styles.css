@@ -834,9 +834,12 @@ body {
 }
 
 .topics-grid {
+    display: -ms-grid;  /* IE 10-11 */
     display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;  /* IE fallback */
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
+    grid-gap: 20px;  /* Chrome older versions */
     width: 100%;
     min-height: 200px;
     padding: 0;
@@ -844,9 +847,12 @@ body {
 
 /* Force display on all devices */
 #topics-container {
+    display: -ms-grid !important;  /* IE 10-11 */
     display: grid !important;
     visibility: visible !important;
     opacity: 1 !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .topic-card {
@@ -857,6 +863,10 @@ body {
     cursor: pointer;
     transition: var(--transition);
     border: 2px solid transparent;
+    display: block;  /* Chrome fallback */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 0;  /* Chrome grid overflow fix */
 }
 
 .topic-card:hover {
