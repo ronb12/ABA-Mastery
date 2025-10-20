@@ -14,14 +14,14 @@ class SubscriptionManager {
         this.db = firestore;
         this.auth = firebaseAuth;
         
-        // Only load Stripe if subscriptions are enabled
-        if (CONFIG.shouldShowSubscriptionUI()) {
+        // Only load Stripe if subscriptions are enabled (check if CONFIG exists)
+        if (typeof CONFIG !== 'undefined' && CONFIG.shouldShowSubscriptionUI()) {
             await this.loadStripe();
         }
         
         this.initialized = true;
-        console.log('✅ SubscriptionManager initialized (Subscriptions: ' + 
-                    (CONFIG.FEATURES.SUBSCRIPTIONS_ENABLED ? 'ON' : 'OFF') + ')');
+        const status = (typeof CONFIG !== 'undefined' && CONFIG.FEATURES.SUBSCRIPTIONS_ENABLED) ? 'ON' : 'OFF';
+        console.log('✅ SubscriptionManager initialized (Subscriptions: ' + status + ')');
     }
 
     // Load Stripe SDK
