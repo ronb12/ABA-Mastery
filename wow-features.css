@@ -329,11 +329,25 @@
     max-width: 700px;
     width: 100%;
     max-height: 90vh;
-    overflow: hidden;
+    overflow: visible;  /* Allow content to be visible */
     display: flex;
     flex-direction: column;
     box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
     -webkit-overflow-scrolling: touch !important;
+}
+
+/* Mobile fix for modal content */
+@media (max-width: 1024px) {
+    .modal-content {
+        max-height: 95vh;
+        overflow: visible !important;
+    }
+    
+    .modal-body {
+        overflow-y: auto !important;
+        max-height: 70vh !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
 }
 
 .modal-header {
