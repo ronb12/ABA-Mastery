@@ -237,15 +237,44 @@ function switchView(viewName) {
 // Populate topics in study view
 function populateTopics() {
     const container = document.getElementById('topics-container');
-    if (!container || !appData.content) return;
+    if (!container) {
+        console.error('❌ Topics container not found');
+        return;
+    }
+    
+    if (!appData.content) {
+        console.error('❌ No content loaded');
+        container.innerHTML = '<div style="padding: 40px; text-align: center; color: #ef4444;"><h3>⚠️ Content not loaded</h3><p>Please refresh the page</p></div>';
+        return;
+    }
+    
+    if (!appData.content.categories || appData.content.categories.length === 0) {
+        console.error('❌ No categories in content');
+        container.innerHTML = '<div style="padding: 40px; text-align: center;"><h3>⚠️ No study topics available</h3></div>';
+        return;
+    }
 
+    console.log('✅ Populating topics...', appData.content.categories.length, 'categories');
     container.innerHTML = '';
+    
+    let topicCount = 0;
     appData.content.categories.forEach(category => {
-        category.topics.forEach(topic => {
-            const card = createTopicCard(topic, category);
-            container.appendChild(card);
-        });
+        if (category.topics && Array.isArray(category.topics)) {
+            category.topics.forEach(topic => {
+                const card = createTopicCard(topic, category);
+                container.appendChild(card);
+                topicCount++;
+            });
+        }
     });
+    
+    console.log('✅ Added', topicCount, 'topic cards to container');
+    
+    // Force display after adding cards (iPad fix)
+    setTimeout(() => {
+        container.style.display = 'grid';
+        container.style.visibility = 'visible';
+    }, 100);
 }
 
 // Create topic card element
