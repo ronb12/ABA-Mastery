@@ -344,6 +344,8 @@ function showTopicDetail(topic, category) {
         left: 0;
         right: 0;
         bottom: 0;
+        width: 100%;
+        height: 100%;
         background: rgba(0, 0, 0, 0.8);
         display: flex;
         align-items: center;
@@ -352,6 +354,7 @@ function showTopicDetail(topic, category) {
         padding: 16px;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
+        box-sizing: border-box;
     `;
     
     modal.innerHTML = `
@@ -360,10 +363,13 @@ function showTopicDetail(topic, category) {
             border-radius: 16px;
             width: 100%;
             max-width: 800px;
-            max-height: 90vh;
+            max-height: 85vh;
+            height: auto;
             display: flex;
             flex-direction: column;
             box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+            position: relative;
+            box-sizing: border-box;
         ">
             <div style="
                 padding: 20px 24px;
@@ -390,10 +396,13 @@ function showTopicDetail(topic, category) {
             </div>
             <div style="
                 padding: 24px;
-                overflow-y: auto;
+                overflow-y: scroll;
                 -webkit-overflow-scrolling: touch;
-                flex: 1;
+                flex: 1 1 auto;
+                min-height: 0;
                 display: block;
+                position: relative;
+                box-sizing: border-box;
             ">
                 <div style="
                     display: inline-block;
