@@ -680,12 +680,14 @@ body {
 }
 
 .view {
-    display: none;
+    display: none !important;
     animation: fadeIn 0.3s ease;
 }
 
 .view.active {
-    display: block;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 @keyframes fadeIn {
@@ -1483,46 +1485,22 @@ body {
 
 /* Tablet specific fixes (iPad) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    #study-view {
-        display: block !important;
-        -webkit-overflow-scrolling: touch;  /* iOS smooth scrolling */
-    }
-    
     .topics-grid {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 16px;
-        -webkit-transform: translateZ(0);  /* Force hardware acceleration on iOS */
-        transform: translateZ(0);
     }
     
     .topic-card {
         padding: 20px;
         min-height: 150px;
-        display: block !important;
-        -webkit-tap-highlight-color: rgba(0,0,0,0.1);  /* iOS tap feedback */
     }
     
     #topics-container {
         display: grid !important;
         min-height: 300px;
-        -webkit-overflow-scrolling: touch;  /* iOS smooth scrolling */
     }
 }
 
-/* iOS Safari specific fixes */
-@supports (-webkit-touch-callout: none) {
-    /* This only applies to iOS Safari */
-    #topics-container {
-        display: grid !important;
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-    }
-    
-    .topic-card {
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-    }
-}
 
 /* iPad Pro and larger tablets */
 @media (min-width: 1025px) and (max-width: 1366px) {
@@ -2658,3 +2636,4 @@ body {
         opacity: 0;
     }
 }
+
