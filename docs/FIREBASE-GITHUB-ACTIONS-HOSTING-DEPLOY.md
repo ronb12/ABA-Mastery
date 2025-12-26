@@ -4,6 +4,8 @@ This repo includes a GitHub Actions workflow at:
 
 - `.github/workflows/firebase-hosting-deploy.yml`
 
+Last updated: 2025-12-26
+
 ### What it does
 
 - **On pull requests**: deploys to a **preview channel** (`pr-<number>`) that expires in 7 days.
