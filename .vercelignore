@@ -1,0 +1,43 @@
+# Large directories to exclude from deployment
+ABA-Update-1760912171/
+.git-corrupted-backup-20251019-194116/
+backups/
+archive/
+tests/
+screenshots/
+docs/
+
+# Build tools
+build-tools/
+
+# Scripts not needed in production
+scripts/
+*.js.map
+
+# Documentation
+*.md
+!README.md
+
+# Development files
+.vscode/
+.idea/
+*.log
+
+# Duplicate files (files ending in " 2")
+* 2.*
+*2.html
+*2.js
+*2.json
+*2.md
+
+# Content templates (keep only final content)
+content-templates/
+generated-scenarios/
+generated-case-studies/
+realistic-scenarios-batches/
+video-scripts/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
