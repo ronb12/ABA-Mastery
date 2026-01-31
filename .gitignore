@@ -47,6 +47,7 @@ firebase-service-account.json
 # Build
 dist/
 build/
+public/
 
 # Temporary files
 *.tmp
