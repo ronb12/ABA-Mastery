@@ -18,6 +18,7 @@ cp *.js public/ 2>/dev/null || true
 # Favicon and config
 cp favicon.ico public/ 2>/dev/null || true
 cp content.json manifest.json public/ 2>/dev/null || true
+cp ads.txt public/ 2>/dev/null || true
 
 # Icons and API
 cp -r icons/* public/icons/ 2>/dev/null || true

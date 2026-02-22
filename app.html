@@ -9,6 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ABA Mastery">
+    <meta name="google-adsense-account" content="ca-pub-3565666509316178">
     
     <title>ABA Mastery - Study Platform</title>
     
@@ -27,7 +28,7 @@
     <link rel="apple-touch-icon" href="icons/icon-192.png">
     
     <!-- Stylesheets with auto cache busting -->
-    <link rel="stylesheet" href="styles.css?v=2.0.0">
+    <link rel="stylesheet" href="styles.css?v=2.0.1">
     <link rel="stylesheet" href="styles-study-groups.css?v=2.0.0">
     <link rel="stylesheet" href="wow-features.css?v=2.0.0">
     
@@ -35,6 +36,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AdSense / Ads Config -->
+    <script src="ads-config.js?v=1.0"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3565666509316178" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Loading Screen -->
@@ -242,6 +247,17 @@
                             <div class="stat-label">Accuracy</div>
                         </div>
                     </div>
+                </div>
+
+                <!-- In-content Ad (Home view) -->
+                <div class="ads-container ads-in-content" style="display: flex; justify-content: center; margin: 20px 0; min-height: 90px;">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-3565666509316178"
+                         data-ad-slot="0000000000"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
 
                 <div class="quick-actions">
@@ -888,6 +904,17 @@
             </section>
         </main>
 
+        <!-- AdSense Footer Banner -->
+        <div class="ads-container" id="ads-banner-footer" style="display: flex; justify-content: center; padding: 12px 0; background: rgba(0,0,0,0.02); min-height: 50px;">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3565666509316178"
+                 data-ad-slot="0000000000"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
         <!-- Achievements Modal -->
         <div id="achievements-modal" class="modal-overlay" style="display: none;" onclick="closeAchievementsModal(event)">
             <div class="modal-content achievements-modal-content" onclick="event.stopPropagation()">
@@ -959,13 +986,32 @@
         }
 
         // Check auth state
+        const setProfileEmailText = (text) => {
+            const emailDisplay = document.getElementById('profile-email-display');
+            const currentEmailSpan = document.getElementById('current-email');
+            const fallback = text || 'Sign in to view your email';
+            if (emailDisplay) emailDisplay.textContent = fallback;
+            if (currentEmailSpan && currentEmailSpan.textContent === 'Loading...') {
+                currentEmailSpan.textContent = fallback;
+            }
+        };
+
+        const cachedEmail = localStorage.getItem('abaUserEmail');
+        if (cachedEmail) {
+            setProfileEmailText(cachedEmail);
+        }
+
         auth.onAuthStateChanged(user => {
             if (user) {
                 console.log('✅ User logged in:', user.email, 'UID:', user.uid);
-                // Load user data from Firestore
+                const emailLabel = user.email || 'No email on record';
+                setProfileEmailText(emailLabel);
+                localStorage.setItem('abaUserEmail', emailLabel);
                 loadUserFromFirestore(user.uid);
             } else {
                 console.log('ℹ️ No user logged in (guest mode)');
+                setProfileEmailText('Sign in to view your email');
+                localStorage.removeItem('abaUserEmail');
             }
         });
 
