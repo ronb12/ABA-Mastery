@@ -341,6 +341,7 @@ function showTopicDetail(topic, category) {
     
     // Fully responsive for ALL screen sizes
     const screenWidth = window.innerWidth;
+    const isSmallScreen = screenWidth < 768;
     let modalMaxWidth, modalHeight, modalPadding, borderRadius, alignment;
     
     if (screenWidth < 480) {
