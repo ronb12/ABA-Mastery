@@ -45,3 +45,8 @@ video-scripts/
 .firebase/
 firebase-debug.log
 firestore-debug.log
+
+# Treat deployment as static (no npm install)
+package.json
+package-lock.json
+npm-shrinkwrap.json
