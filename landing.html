@@ -367,6 +367,22 @@
             font-size: 14px;
         }
         
+        .footer-links {
+            margin-top: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px 16px;
+        }
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .footer-links a:hover {
+            color: rgba(255,255,255,0.95);
+        }
+        
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .hero-container {
@@ -413,12 +429,13 @@
             .cta-btn {
                 width: 100%;
             }
+
+            .footer-links {
+                gap: 10px 14px;
+            }
         }
     </style>
     
-    <!-- Google AdSense -->
-    <script src="ads-config.js?v=1.0"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3565666509316178" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Hero Section -->
@@ -426,8 +443,8 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="app-title">ABA Mastery</div>
-                <h1>🎓 Master Your ABA Certification Exam</h1>
-                <p>The #1 comprehensive study platform with practice questions, flashcards, realistic scenarios, and progress tracking to help you pass your BCBA or BCaBA exam with confidence.</p>
+                <h1>ABA exam prep built for repeated study</h1>
+                <p>Practice questions, flashcards, scenarios, case studies, and progress tools in one place for BCBA and BCaBA exam preparation.</p>
                 
                 <div class="hero-stats">
                     <div class="stat">
@@ -435,8 +452,8 @@
                         <span class="stat-label">Study Items</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">BACB Coverage</span>
+                        <span class="stat-number">9</span>
+                        <span class="stat-label">BCBA domains covered</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">FREE</span>
@@ -466,19 +483,19 @@
                 <div class="feature-card">
                     <span class="feature-icon">📚</span>
                     <h3>1,000 Practice Questions</h3>
-                    <p>Comprehensive question bank covering all BACB Task List areas with detailed explanations and rationales.</p>
+                    <p>Question bank aligned to current BCBA/BCaBA content structure, with explanations designed for active review.</p>
                 </div>
                 
                 <div class="feature-card">
                     <span class="feature-icon">🎯</span>
                     <h3>500 Realistic Scenarios</h3>
-                    <p>Real-world clinical scenarios BCBAs actually encounter in practice. Most realistic prep available.</p>
+                    <p>Applied clinical scenarios covering ethics, assessment, supervision, documentation, and intervention decisions.</p>
                 </div>
                 
                 <div class="feature-card">
                     <span class="feature-icon">🗂️</span>
                     <h3>555 Flashcards</h3>
-                    <p>Complete BACB Task List coverage with spaced repetition system for optimal retention.</p>
+                    <p>Flashcard review for high-frequency concepts, distinctions, and terminology that benefit from repeated retrieval.</p>
                 </div>
                 
                 <div class="feature-card">
@@ -514,42 +531,31 @@
                 <div class="feature-card">
                     <span class="feature-icon">🔄</span>
                     <h3>Cloud Sync</h3>
-                    <p>Study anywhere, anytime. Your progress syncs across all your devices automatically.</p>
+                    <p>Use guest mode on one device or account-based features when available for a more persistent study workflow.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- AdSense Banner -->
-    <div class="ads-section" style="display: flex; justify-content: center; padding: 20px; background: rgba(255,255,255,0.05);">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-3565666509316178"
-             data-ad-slot="0000000000"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
-
     <!-- Stats Section -->
     <section class="stats-section">
-        <h2 class="section-title">Market-Leading Content</h2>
+        <h2 class="section-title">Study Scope at a Glance</h2>
         <div class="stats-grid">
             <div class="stat-card">
-                <span class="stat-card-number">4.3x</span>
-                <span class="stat-card-label">MORE content than best competitor</span>
+                <span class="stat-card-number">1,000</span>
+                <span class="stat-card-label">Practice questions</span>
             </div>
             <div class="stat-card">
-                <span class="stat-card-number">2,565</span>
-                <span class="stat-card-label">Total study items</span>
+                <span class="stat-card-number">500</span>
+                <span class="stat-card-label">Scenario questions</span>
             </div>
             <div class="stat-card">
-                <span class="stat-card-number">100%</span>
-                <span class="stat-card-label">BACB Task List Coverage</span>
+                <span class="stat-card-number">555</span>
+                <span class="stat-card-label">Flashcards</span>
             </div>
             <div class="stat-card">
-                <span class="stat-card-number">FREE</span>
-                <span class="stat-card-label">Limited time offer</span>
+                <span class="stat-card-number">10</span>
+                <span class="stat-card-label">Published case studies</span>
             </div>
         </div>
     </section>
@@ -558,7 +564,7 @@
     <section class="cta-section">
         <div class="cta-container">
             <h2>Ready to Pass Your Exam?</h2>
-            <p>Join thousands of successful BCBA and BCaBA candidates who trust ABA Mastery for their exam preparation. Get free access while it lasts!</p>
+            <p>Use the app to study topics, run practice sets, review scenarios, and track weak areas in one continuous workflow.</p>
             <div class="cta-buttons">
                 <a href="/signup.html" class="cta-btn cta-btn-primary">Get Free Access</a>
                 <a href="/login.html" class="cta-btn cta-btn-secondary">I Have an Account</a>
@@ -571,6 +577,12 @@
     <footer class="footer">
         <p>© 2025 ABA Mastery - A Product of Bradley Virtual Solutions, LLC</p>
         <p style="margin-top: 8px;">Your exam success depends on your dedication to studying the material.</p>
+        <div class="footer-links">
+            <a href="/about.html">About</a>
+            <a href="/privacy.html">Privacy Policy</a>
+            <a href="/support.html">Support</a>
+            <a href="/editorial-policy.html">Editorial Policy</a>
+        </div>
     </footer>
 </body>
 </html>

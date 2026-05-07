@@ -4,7 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": ".",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -44,6 +44,7 @@
       "**/landing-new.html",
       "**/landing-v2.html",
       "*.txt",
+      "!ads.txt",
       "*.sh",
       "*.log"
     ],

@@ -102,7 +102,7 @@ function setupEventListeners() {
     });
 
     // Dark mode toggle
-    document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
+    document.getElementById('dark-mode-toggle')?.addEventListener('click', toggleDarkMode);
     document.getElementById('dark-mode-setting')?.addEventListener('change', toggleDarkMode);
 
     // Mobile menu toggle
@@ -148,7 +148,7 @@ function setupEventListeners() {
     document.getElementById('reset-progress')?.addEventListener('click', resetProgress);
     document.getElementById('export-progress-pdf')?.addEventListener('click', generateProgressPDF);
     document.getElementById('export-study-data-pdf')?.addEventListener('click', generateStudyDataPDF);
-    document.getElementById('sign-out-btn')?.addEventListener('click', handleSignOut);
+    // Sign-out is handled by auth.js (profile-auth-action / profile dropdown)
 
     // Install prompt
     document.getElementById('install-btn')?.addEventListener('click', installApp);
@@ -309,7 +309,7 @@ function createTopicCard(topic, category) {
     
     card.innerHTML = `
         <h3>${topic.title}</h3>
-        <p>${topic.content.substring(0, 150)}...</p>
+        <p>${(topic.content || '').substring(0, 150)}...</p>
         <div class="topic-meta">
             <span class="topic-badge">${category.name}</span>
             ${studied ? '<span>✓ Studied</span>' : ''}
@@ -322,8 +322,9 @@ function createTopicCard(topic, category) {
 
 // Show topic detail modal/view - REBUILT FOR MOBILE
 function showTopicDetail(topic, category) {
+    const content = topic.content || '';
     // Format content: convert \n\n to paragraphs and \n to line breaks
-    const formattedContent = topic.content
+    const formattedContent = content
         .split('\n\n')
         .map(para => {
             const headerMatch = para.match(/^([A-Z\s&,'()]+:)/);
@@ -463,6 +464,22 @@ function showTopicDetail(topic, category) {
                         ${topic.keyPoints.map(point => `<li style="margin-bottom: 8px; line-height: 1.6;">${point}</li>`).join('')}
                     </ul>
                 ` : ''}
+                ${topic.keyPoints && topic.keyPoints.length >= 2 ? `
+                <div class="knowledge-check-section" style="margin-top: 28px; padding-top: 24px; border-top: 2px solid #e5e7eb;">
+                    <h3 style="margin: 0 0 8px 0; font-size: 18px; color: #0f172a;">Knowledge Check</h3>
+                    <p style="margin: 0 0 16px 0; color: #64748b; font-size: 14px;">Test your understanding of this topic.</p>
+                    <button type="button" class="knowledge-check-start-btn" style="
+                        background: #2563eb;
+                        color: white;
+                        border: none;
+                        padding: 12px 24px;
+                        border-radius: 8px;
+                        font-size: 15px;
+                        font-weight: 600;
+                        cursor: pointer;
+                    ">Start Knowledge Check</button>
+                </div>
+                ` : ''}
             </div>
             <div style="
                 padding: 16px 24px;
@@ -486,9 +503,201 @@ function showTopicDetail(topic, category) {
     `;
     
     document.body.appendChild(modal);
+    // Store topic/category for Knowledge Check
+    modal._topic = topic;
+    modal._category = category;
+    const startKcBtn = modal.querySelector('.knowledge-check-start-btn');
+    if (startKcBtn) {
+        startKcBtn.addEventListener('click', () => startKnowledgeCheck(modal));
+    }
     appData.userData.topicsStudied.add(topic.id);
     saveUserData();
     updateStats();
+}
+
+// --- Knowledge Check (topic-level quiz from key points) ---
+function extractKnowledgeCheckFocus(keyPoint) {
+    const cleaned = keyPoint.replace(/\([^)]*\)/g, '').trim();
+    if (!cleaned) return 'this topic';
+    const splitByDelimiter = cleaned.split(/[:|-]/);
+    const candidate = splitByDelimiter[0].trim();
+    if (candidate.length <= 65 && candidate.split(' ').length <= 6) {
+        return candidate;
+    }
+    const words = cleaned.split(/\s+/).slice(0, 6);
+    return words.join(' ');
+}
+
+function buildKnowledgeCheckQuestions(topic) {
+    if (!topic.keyPoints || topic.keyPoints.length < 2) return [];
+    const points = [...topic.keyPoints];
+    const questions = [];
+    for (let i = 0; i < points.length; i++) {
+        const correct = points[i];
+        const focus = extractKnowledgeCheckFocus(correct);
+        const others = points.filter((_, idx) => idx !== i);
+        const options = [correct, ...shuffle(others).slice(0, 3)];
+        if (options.length < 2) continue;
+        const shuffled = shuffle(options);
+        const correctIndex = shuffled.indexOf(correct);
+        questions.push({
+            question: `Which statement correctly describes ${focus}?`,
+            options: shuffled,
+            correctAnswer: correctIndex,
+            keyPoint: correct
+        });
+    }
+    return shuffle(questions);
+}
+
+function startKnowledgeCheck(modal) {
+    const topic = modal._topic;
+    const category = modal._category;
+    if (!topic || !topic.keyPoints || topic.keyPoints.length < 2) return;
+    const questions = buildKnowledgeCheckQuestions(topic);
+    if (questions.length === 0) return;
+    const contentArea = modal.querySelector('.study-modal-inner > div:nth-child(2)');
+    if (!contentArea) return;
+    modal._kcOriginalContent = contentArea.innerHTML;
+    modal._kcState = {
+        questions,
+        currentIndex: 0,
+        answers: new Array(questions.length).fill(null),
+        correctCount: 0,
+        selectedAnswer: null
+    };
+    renderKnowledgeCheckQuestion(modal);
+}
+
+function renderKnowledgeCheckQuestion(modal) {
+    const state = modal._kcState;
+    const contentArea = modal.querySelector('.study-modal-inner > div:nth-child(2)');
+    if (!contentArea || !state) return;
+    const q = state.questions[state.currentIndex];
+    const isLast = state.currentIndex === state.questions.length - 1;
+    const hasAnswered = state.answers[state.currentIndex] !== null;
+    contentArea.innerHTML = `
+        <div class="knowledge-check-quiz" style="padding: 0;">
+            <div style="margin-bottom: 20px;">
+                <span style="display: inline-block; background: #e0e7ff; color: #3730a3; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-weight: 600;">
+                    Question ${state.currentIndex + 1} of ${state.questions.length}
+                </span>
+            </div>
+            <p style="font-size: 16px; color: #0f172a; margin-bottom: 20px; font-weight: 600;">${q.question}</p>
+            <div class="kc-options" style="display: flex; flex-direction: column; gap: 10px;">
+                ${q.options.map((opt, idx) => `
+                    <button type="button" class="kc-option" data-idx="${idx}" style="
+                        text-align: left; padding: 14px 16px; border: 2px solid #e5e7eb; border-radius: 8px;
+                        background: white; font-size: 14px; line-height: 1.5; cursor: pointer;
+                        transition: border-color 0.2s, background 0.2s;
+                    ">${opt}</button>
+                `).join('')}
+            </div>
+            <div class="kc-feedback" style="margin-top: 20px; display: none;"></div>
+            <div class="kc-actions" style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <button type="button" class="kc-back-to-topic" style="
+                    background: #f1f5f9; color: #475569; border: none; padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;
+                ">Back to topic</button>
+                <button type="button" class="kc-submit" style="
+                    background: #2563eb; color: white; border: none; padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; display: none;
+                ">Submit</button>
+                <button type="button" class="kc-next" style="
+                    background: #2563eb; color: white; border: none; padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; display: none;
+                ">Next question</button>
+                <button type="button" class="kc-results" style="
+                    background: #16a34a; color: white; border: none; padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; display: none;
+                ">See results</button>
+            </div>
+        </div>
+    `;
+    const opts = contentArea.querySelectorAll('.kc-option');
+    const submitBtn = contentArea.querySelector('.kc-submit');
+    const nextBtn = contentArea.querySelector('.kc-next');
+    const resultsBtn = contentArea.querySelector('.kc-results');
+    const backBtn = contentArea.querySelector('.kc-back-to-topic');
+    opts.forEach(btn => {
+        if (hasAnswered) {
+            const idx = parseInt(btn.dataset.idx, 10);
+            if (idx === q.correctAnswer) {
+                btn.style.borderColor = '#16a34a';
+                btn.style.background = '#f0fdf4';
+            } else if (idx === state.answers[state.currentIndex] && idx !== q.correctAnswer) {
+                btn.style.borderColor = '#dc2626';
+                btn.style.background = '#fef2f2';
+            }
+            btn.style.pointerEvents = 'none';
+        } else {
+            btn.addEventListener('click', () => {
+                state.selectedAnswer = parseInt(btn.dataset.idx, 10);
+                                contentArea.querySelectorAll('.kc-option').forEach(b => { b.style.borderColor = '#e5e7eb'; b.style.background = 'white'; });
+                                btn.style.borderColor = '#2563eb'; btn.style.background = '#eff6ff';
+                                submitBtn.style.display = 'inline-block';
+                            });
+        }
+    });
+    if (hasAnswered) {
+        contentArea.querySelector('.kc-feedback').style.display = 'block';
+        contentArea.querySelector('.kc-feedback').innerHTML = state.answers[state.currentIndex] === q.correctAnswer
+            ? '<p style="color: #16a34a; font-weight: 600;">✓ Correct!</p>'
+            : '<p style="color: #dc2626; font-weight: 600;">✗ Incorrect.</p><p style="margin-top: 8px; color: #64748b; font-size: 14px;">Key point: ' + q.keyPoint + '</p>';
+        if (isLast) resultsBtn.style.display = 'inline-block'; else nextBtn.style.display = 'inline-block';
+    } else {
+        submitBtn.style.display = state.selectedAnswer !== null ? 'inline-block' : 'none';
+    }
+    backBtn.addEventListener('click', () => backToTopicFromKnowledgeCheck(modal));
+    submitBtn.addEventListener('click', () => submitKnowledgeCheckAnswer(modal));
+    nextBtn.addEventListener('click', () => { state.currentIndex++; state.selectedAnswer = null; renderKnowledgeCheckQuestion(modal); });
+    resultsBtn.addEventListener('click', () => showKnowledgeCheckResults(modal));
+}
+
+function submitKnowledgeCheckAnswer(modal) {
+    const state = modal._kcState;
+    if (!state || state.selectedAnswer === null) return;
+    const q = state.questions[state.currentIndex];
+    state.answers[state.currentIndex] = state.selectedAnswer;
+    if (state.selectedAnswer === q.correctAnswer) state.correctCount++;
+    appData.userData.questionsAnswered++;
+    if (state.selectedAnswer === q.correctAnswer) appData.userData.correctAnswers++;
+    saveUserData();
+    updateStats();
+    renderKnowledgeCheckQuestion(modal);
+}
+
+function showKnowledgeCheckResults(modal) {
+    const state = modal._kcState;
+    const topic = modal._topic;
+    const contentArea = modal.querySelector('.study-modal-inner > div:nth-child(2)');
+    if (!contentArea || !state) return;
+    const pct = Math.round((state.correctCount / state.questions.length) * 100);
+    contentArea.innerHTML = `
+        <div class="knowledge-check-results" style="padding: 0;">
+            <h3 style="margin: 0 0 16px 0; font-size: 20px; color: #0f172a;">Knowledge Check Complete</h3>
+            <p style="margin: 0 0 24px 0; color: #64748b;">You got <strong style="color: #0f172a;">${state.correctCount}</strong> out of <strong style="color: #0f172a;">${state.questions.length}</strong> correct.</p>
+            <div style="margin-bottom: 24px;">
+                <div style="height: 12px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
+                    <div style="height: 100%; width: ${pct}%; background: ${pct >= 70 ? '#16a34a' : pct >= 50 ? '#ca8a04' : '#dc2626'}; border-radius: 6px; transition: width 0.3s;"></div>
+                </div>
+                <p style="margin: 8px 0 0 0; font-size: 18px; font-weight: 700; color: ${pct >= 70 ? '#16a34a' : pct >= 50 ? '#ca8a04' : '#dc2626'};">${pct}%</p>
+            </div>
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                <button type="button" class="kc-retry" style="background: #2563eb; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer;">Retry</button>
+                <button type="button" class="kc-back-from-results" style="background: #f1f5f9; color: #475569; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer;">Back to topic</button>
+            </div>
+        </div>
+    `;
+    contentArea.querySelector('.kc-retry').addEventListener('click', () => startKnowledgeCheck(modal));
+    contentArea.querySelector('.kc-back-from-results').addEventListener('click', () => backToTopicFromKnowledgeCheck(modal));
+}
+
+function backToTopicFromKnowledgeCheck(modal) {
+    const contentArea = modal.querySelector('.study-modal-inner > div:nth-child(2)');
+    const original = modal._kcOriginalContent;
+    if (!contentArea || !original) return;
+    modal._kcState = null;
+    modal._kcOriginalContent = null;
+    contentArea.innerHTML = original;
+    const startKcBtn = modal.querySelector('.knowledge-check-start-btn');
+    if (startKcBtn) startKcBtn.addEventListener('click', () => startKnowledgeCheck(modal));
 }
 
 // Filter topics by search
@@ -521,11 +730,12 @@ function populateCategorySelects() {
 
 // Handle exam mode change
 function handleExamModeChange() {
-    const examMode = document.getElementById('exam-mode').value;
+    const examModeEl = document.getElementById('exam-mode');
     const customSettings = document.getElementById('custom-settings');
     const helpText = document.getElementById('exam-mode-help');
     const startBtn = document.getElementById('start-practice');
-    
+    if (!examModeEl || !customSettings || !helpText || !startBtn) return;
+    const examMode = examModeEl.value;
     if (examMode === 'practice') {
         customSettings.style.display = 'block';
         helpText.textContent = 'Create a custom practice quiz with your preferred settings';
@@ -2108,8 +2318,25 @@ function showError(message) {
 // Hide loading screen
 function hideLoadingScreen() {
     setTimeout(() => {
-        document.getElementById('loading-screen').style.display = 'none';
-        document.getElementById('app').style.display = 'flex';
+        const loadingScreen = document.getElementById('loading-screen');
+        const app = document.getElementById('app');
+        if (loadingScreen) loadingScreen.style.display = 'none';
+        if (app) app.style.display = 'flex';
+        // AdSense: avoid zero-width slot errors in local/dev boot.
+        if (window.ABA_ADS_CONFIG && typeof window.ABA_ADS_CONFIG.refreshAds === 'function') {
+            const isLocalHost = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+            const appWidth = app?.getBoundingClientRect?.().width || 0;
+
+            if (!isLocalHost && appWidth > 0) {
+                setTimeout(() => {
+                    try {
+                        window.ABA_ADS_CONFIG.refreshAds();
+                    } catch (error) {
+                        console.warn('Ad refresh skipped after runtime error:', error);
+                    }
+                }, 350);
+            }
+        }
     }, 500);
 }
 
@@ -2128,7 +2355,8 @@ function initializePWA() {
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
-        document.getElementById('install-prompt').style.display = 'block';
+        const installPrompt = document.getElementById('install-prompt');
+        if (installPrompt) installPrompt.style.display = 'block';
     });
 }
 
@@ -2140,13 +2368,15 @@ function installApp() {
                 console.log('User accepted the install prompt');
             }
             deferredPrompt = null;
-            document.getElementById('install-prompt').style.display = 'none';
+            const installPrompt = document.getElementById('install-prompt');
+        if (installPrompt) installPrompt.style.display = 'none';
         });
     }
 }
 
 function dismissInstall() {
-    document.getElementById('install-prompt').style.display = 'none';
+    const installPrompt = document.getElementById('install-prompt');
+    if (installPrompt) installPrompt.style.display = 'none';
     localStorage.setItem('installDismissed', 'true');
 }
 
@@ -2155,6 +2385,7 @@ let timerInterval;
 
 function startTimer() {
     const timerEl = document.getElementById('timer');
+    if (!timerEl) return;
     const quizState = appData.quizState;
     let seconds;
     let isCountdown = false;

@@ -15,7 +15,7 @@
 - **555 Flashcards** - Complete BACB coverage
 - **10 Published Case Studies** - Peer-reviewed research from JABA, JEAB
 - **2,065 Total Content Items** - #1 in market 🏆
-- **100% BACB Task List Coverage** - Every requirement included
+- **Comprehensive BACB Exam-Domain Coverage** - broad coverage across core certification content
 - **4.3x MORE than best competitor** - Complete market domination
 - **Comprehensive Exam Preparation** - Research-backed study tools
 - **Completely FREE** - Save $300-800 vs competitors
@@ -45,7 +45,7 @@ Password: Test456!
 
 ## 📖 Exam Success Disclaimer
 
-**Your exam success depends on your dedication to studying the material.** ABA Mastery provides comprehensive, research-backed tools and content covering 100% of the BACB Task List. However, passing the BCBA or BCaBA exam requires:
+**Your exam success depends on your dedication to studying the material.** ABA Mastery provides comprehensive, research-backed tools and content across major BACB certification domains. However, passing the BCBA or BCaBA exam requires:
 
 - ✅ **Consistent study habits** - Regular practice over time
 - ✅ **Active engagement** - Using all features (practice questions, flashcards, case studies)
@@ -77,11 +77,11 @@ See **`docs/PROJECT-STRUCTURE.md`** for complete folder organization.
 ### 📚 **Core Content** (Industry-Dominating + Research-Backed)
 - ✅ **1,000 Practice Questions** - Core knowledge testing
 - ✅ **500 Scenario Questions** - Real clinical application scenarios 🔥
-- ✅ **555 Flashcards** - Covers all BACB task list areas
+- ✅ **555 Flashcards** - Covers major ABA certification study areas
 - ✅ **510 Published Case Studies** - Peer-reviewed research from JABA, JEAB, BAP 🔥🆕
 - ✅ **Full Citations & DOI Links** - All case studies properly referenced
 - ✅ **47 Study Topics** - Detailed content with key points
-- ✅ **100% BACB Task List Coverage** - All certification requirements
+- ✅ **Broad BACB Domain Coverage** - aligned to major certification content areas
 - ✅ **98% Cooper Textbook Alignment** - Matches gold standard
 - ✅ **Research-Based Content** - Academic integrity guaranteed
 - ✅ **2,565 Total Items** - More than any platform ever created 🏆
@@ -175,7 +175,7 @@ See **`docs/PROJECT-STRUCTURE.md`** for complete folder organization.
 - ✅ **Zero Cost** - Completely FREE (competitors: $300-800)
 
 ### 🎯 **Expected Study Benefits**
-- **Comprehensive Preparation**: 100% BACB Task List coverage with 2,065+ study items
+- **Comprehensive Preparation**: broad BACB exam-domain coverage with 2,065+ study items
 - **Evidence-Based Learning**: Research-backed methods (spaced repetition, active recall)
 - **Study Efficiency**: Structured learning path reduces unnecessary study time
 - **Enhanced Retention**: Active learning techniques improve long-term memory
@@ -215,7 +215,7 @@ See **`docs/PROJECT-STRUCTURE.md`** for complete folder organization.
 4. **Modern Technology** - PWA, offline, real-time features
 5. **Proven Methods** - Evidence-based learning science
 6. **Community Focused** - Study groups for collaboration
-7. **Comprehensive Coverage** - 100% BACB Task List
+7. **Comprehensive Coverage** - broad ABA certification domain coverage
 8. **Professional Quality** - 9.6/10 rating (rivals $800 platforms)
 
 ---
@@ -308,7 +308,7 @@ All documentation is in the `/docs` folder:
 **Total Items**: **2,065** (More than any competitor!)  
 **Enhancement**: Complete Research-Backed Platform  
 **Rating**: **9.9/10** (Near Perfect) 🏆  
-**Study Coverage**: 100% BACB Task List with evidence-based learning methods  
+**Study Coverage**: Broad ABA certification domain coverage with evidence-based learning methods  
 **Competitive Advantage**: **3.4x MORE content than any platform**  
 **Credibility**: ✅ 10 real case studies from peer-reviewed journals (JABA, JEAB, BAP)  
 **Citations**: ✅ All verified with valid DOI links

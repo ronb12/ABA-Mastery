@@ -34,19 +34,20 @@ function updateEnhancedDashboard() {
     
     if (readinessScore) {
         readinessScore.textContent = stats.examReadiness + '%';
-        
-        if (stats.examReadiness >= 90) {
-            readinessStatus.textContent = 'Exam Ready! 🎉';
-            readinessStatus.style.background = 'rgba(16, 185, 129, 0.3)';
-        } else if (stats.examReadiness >= 70) {
-            readinessStatus.textContent = 'Almost Ready 💪';
-            readinessStatus.style.background = 'rgba(245, 158, 11, 0.3)';
-        } else if (stats.examReadiness >= 50) {
-            readinessStatus.textContent = 'Keep Practicing 📚';
-            readinessStatus.style.background = 'rgba(37, 99, 235, 0.3)';
-        } else {
-            readinessStatus.textContent = 'Building Foundation 🌱';
-            readinessStatus.style.background = 'rgba(255, 255, 255, 0.2)';
+        if (readinessStatus) {
+            if (stats.examReadiness >= 90) {
+                readinessStatus.textContent = 'Exam Ready! 🎉';
+                readinessStatus.style.background = 'rgba(16, 185, 129, 0.3)';
+            } else if (stats.examReadiness >= 70) {
+                readinessStatus.textContent = 'Almost Ready 💪';
+                readinessStatus.style.background = 'rgba(245, 158, 11, 0.3)';
+            } else if (stats.examReadiness >= 50) {
+                readinessStatus.textContent = 'Keep Practicing 📚';
+                readinessStatus.style.background = 'rgba(37, 99, 235, 0.3)';
+            } else {
+                readinessStatus.textContent = 'Building Foundation 🌱';
+                readinessStatus.style.background = 'rgba(255, 255, 255, 0.2)';
+            }
         }
     }
     
@@ -292,12 +293,13 @@ submitAnswer = function() {
     const question = state.questions[state.currentIndex];
     const startTime = state.questionStartTime || Date.now();
     const timeSpent = (Date.now() - startTime) / 1000; // seconds
+    const selectedAnswer = state.selectedAnswer;
+    const isCorrect = selectedAnswer === question.correctAnswer;
     
     // Call original function
     originalSubmitAnswer();
     
     // Track with analytics engine
-    const isCorrect = state.selectedAnswer === question.correctAnswer;
     analyticsEngine.recordQuestionAttempt(
         question.id,
         question.category,
@@ -500,4 +502,3 @@ finishQuiz = function() {
 if (typeof analyticsEngine !== 'undefined') {
     setTimeout(initializeEnhancedFeatures, 1000);
 }
-

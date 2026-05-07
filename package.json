@@ -9,25 +9,20 @@
     "deploy": "firebase deploy --only hosting",
     "test-study-groups": "node tests/test-study-groups.js",
     "test-strategy-buttons": "node tests/test-strategy-buttons.js",
-    "add-flashcards": "node batch-add-flashcards.js"
+    "add-flashcards": "node batch-add-flashcards.js",
+    "audit-alignment": "node scripts/audit-bacb-alignment.js",
+    "sync-public": "bash scripts/sync-public-from-root.sh"
   },
-  "keywords": [
-    "ABA",
-    "BCBA",
-    "BCaBA",
-    "exam",
-    "preparation",
-    "study"
-  ],
+  "keywords": ["ABA", "BCBA", "BCaBA", "exam", "preparation", "study"],
   "author": "Bradley Virtual Solutions, LLC",
   "license": "ISC",
   "dependencies": {
     "firebase": "^10.7.0",
-    "firebase-tools": "^13.0.0"
+    "firebase-tools": "^13.0.0",
+    "firebase-admin": "^11.11.0",
+    "stripe": "^14.10.0"
   },
   "devDependencies": {
     "puppeteer": "^21.0.0"
   }
 }
-
-

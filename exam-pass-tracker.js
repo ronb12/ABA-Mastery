@@ -3,13 +3,49 @@
 
 class ExamPassTracker {
     constructor() {
+        this.currentUser = null;
+        this.firebaseReady =
+            typeof firebase !== 'undefined' &&
+            typeof firebase.auth === 'function' &&
+            typeof firebase.firestore === 'function';
+
+        if (!this.firebaseReady) {
+            this.db = null;
+            this.auth = null;
+            console.warn('Exam pass tracker running without Firebase; showing fallback state.');
+            return;
+        }
+
         this.db = firebase.firestore();
         this.auth = firebase.auth();
-        this.currentUser = null;
-        
+
         this.auth.onAuthStateChanged(user => {
             this.currentUser = user;
         });
+    }
+
+    createEmptyStats() {
+        return {
+            total: 0,
+            passed: 0,
+            failed: 0,
+            passRate: 0,
+            byExamType: {
+                BCBA: { total: 0, passed: 0, passRate: 0 },
+                BCaBA: { total: 0, passed: 0, passRate: 0 }
+            },
+            averageAppUsage: {
+                questionsAnswered: 0,
+                practiceExams: 0,
+                studyHours: 0,
+                readinessScore: 0
+            },
+            appRating: {
+                average: 0,
+                count: 0,
+                distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 }
+            }
+        };
     }
 
     // Submit exam result
@@ -117,33 +153,17 @@ class ExamPassTracker {
 
     // Get aggregated pass rate statistics
     async getPassRateStatistics() {
+        if (!this.firebaseReady || !this.db) {
+            return this.createEmptyStats();
+        }
+
         try {
             const resultsSnapshot = await this.db
                 .collection('examResults')
                 .where('verified', '==', true)
                 .get();
 
-            const stats = {
-                total: 0,
-                passed: 0,
-                failed: 0,
-                passRate: 0,
-                byExamType: {
-                    BCBA: { total: 0, passed: 0, passRate: 0 },
-                    BCaBA: { total: 0, passed: 0, passRate: 0 }
-                },
-                averageAppUsage: {
-                    questionsAnswered: 0,
-                    practiceExams: 0,
-                    studyHours: 0,
-                    readinessScore: 0
-                },
-                appRating: {
-                    average: 0,
-                    count: 0,
-                    distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 }
-                }
-            };
+            const stats = this.createEmptyStats();
 
             let totalQuestionsAnswered = 0;
             let totalPracticeExams = 0;
@@ -212,7 +232,7 @@ class ExamPassTracker {
             return stats;
         } catch (error) {
             console.error('❌ Error calculating pass rate:', error);
-            return null;
+            return this.createEmptyStats();
         }
     }
 
@@ -419,4 +439,3 @@ const examPassTracker = new ExamPassTracker();
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { ExamPassTracker, examPassTracker };
 }
-

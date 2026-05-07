@@ -1,4 +1,4 @@
-# Large directories to exclude from deployment
+# Large directories to exclude from deployment (speeds upload)
 ABA-Update-1760912171/
 .git-corrupted-backup-20251019-194116/
 backups/
@@ -6,6 +6,10 @@ archive/
 tests/
 screenshots/
 docs/
+node_modules/
+content-real/
+realistic-scenarios/
+functions/
 
 # Build tools
 build-tools/

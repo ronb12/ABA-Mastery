@@ -223,6 +223,17 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 32px 24px;
+                border-radius: 16px;
+            }
+
+            .login-header h1 {
+                font-size: 24px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -268,16 +279,9 @@
 
     <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="firebase-config.js"></script>
     <script>
-        const firebaseConfig = {
-            apiKey: "AIzaSyBp2jOcQm7w8X9OJuHZZqQHdRrIw65lZPI",
-            authDomain: "aba-mastery-app.firebaseapp.com",
-            projectId: "aba-mastery-app",
-            storageBucket: "aba-mastery-app.firebasestorage.app",
-            messagingSenderId: "304782196897",
-            appId: "1:304782196897:web:db023c75da94b0546430e0"
-        };
-        firebase.initializeApp(firebaseConfig);
+        firebase.initializeApp(window.FIREBASE_CONFIG);
         const auth = firebase.auth();
 
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {

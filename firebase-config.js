@@ -6,9 +6,9 @@ import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+// Firebase config – API key masked in repo; injected at build from FIREBASE_API_KEY env
 const firebaseConfig = {
-  apiKey: "AIzaSyBp2jOcQm7w8X9OJuHZZqQHdRrIw65lZPI",
+  apiKey: "FIREBASE_API_KEY_MASKED",
   authDomain: "aba-mastery-app.firebaseapp.com",
   projectId: "aba-mastery-app",
   storageBucket: "aba-mastery-app.firebasestorage.app",

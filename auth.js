@@ -4,13 +4,25 @@
 // Firebase Auth integration (when enabled)
 let currentUser = null;
 
+function hasUsableFirebaseAuth() {
+    if (typeof firebase === 'undefined' || typeof firebase.auth !== 'function') {
+        return false;
+    }
+
+    const apiKey = window.FIREBASE_CONFIG && window.FIREBASE_CONFIG.apiKey;
+    const hasValidKey = typeof apiKey === 'string' && apiKey.length > 0 && apiKey !== 'FIREBASE_API_KEY_MASKED';
+    const hasInitializedApp = Array.isArray(firebase.apps) && firebase.apps.length > 0;
+
+    return hasValidKey && hasInitializedApp;
+}
+
 // Initialize auth state
 function initAuth() {
     // Initialize profile dropdown
     initProfileDropdown();
     
     // Check if Firebase is available
-    if (typeof firebase !== 'undefined' && firebase.auth) {
+    if (hasUsableFirebaseAuth()) {
         // Listen to auth state changes
         firebase.auth().onAuthStateChanged(user => {
             if (user) {
@@ -24,6 +36,7 @@ function initAuth() {
     } else {
         // No Firebase auth, use guest mode
         console.log('Running in guest mode (no authentication)');
+        onUserLoggedOut();
     }
 }
 
@@ -186,6 +199,10 @@ function showGuestModeInfo() {
 
 // Sign in with email and password
 async function signInWithEmail(email, password) {
+    if (!hasUsableFirebaseAuth()) {
+        return { success: false, error: 'Cloud sign-in is not available in this build yet.' };
+    }
+
     try {
         const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
         return { success: true, user: userCredential.user };
@@ -197,6 +214,10 @@ async function signInWithEmail(email, password) {
 
 // Sign up with email and password
 async function signUpWithEmail(email, password, displayName) {
+    if (!hasUsableFirebaseAuth()) {
+        return { success: false, error: 'Cloud sign-up is not available in this build yet.' };
+    }
+
     try {
         const userCredential = await firebase.auth().createUserWithEmailAndPassword(email, password);
         
@@ -329,7 +350,7 @@ async function signOut() {
         
         // Redirect to landing page after a brief delay
         setTimeout(() => {
-            window.location.href = '/landing';
+            window.location.href = '/landing.html';
         }, 1500);
         
     } catch (error) {
@@ -423,4 +444,3 @@ if (typeof module !== 'undefined' && module.exports) {
         getCurrentUser
     };
 }
-
