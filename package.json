@@ -16,13 +16,14 @@
   "keywords": ["ABA", "BCBA", "BCaBA", "exam", "preparation", "study"],
   "author": "Bradley Virtual Solutions, LLC",
   "license": "ISC",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "firebase": "^10.7.0",
     "firebase-tools": "^13.0.0",
     "firebase-admin": "^11.11.0",
     "stripe": "^14.10.0"
   },
-  "devDependencies": {
-    "puppeteer": "^21.0.0"
-  }
+  "devDependencies": {}
 }
