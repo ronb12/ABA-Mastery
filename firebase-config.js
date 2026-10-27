@@ -6,7 +6,11 @@ import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Firebase config – API key masked in repo; injected at build from FIREBASE_API_KEY env
+// Firebase web API keys are public identifiers, not server credentials.
+// This repository currently uses a masked placeholder and Firebase Hosting only.
+// Before enabling Firebase SDK services, configure a valid restricted web API key
+// through a build-compatible public configuration mechanism and enforce Security Rules.
+// Do not inject service-account credentials or other secrets into browser code.
 const firebaseConfig = {
   apiKey: "FIREBASE_API_KEY_MASKED",
   authDomain: "aba-mastery-app.firebaseapp.com",
