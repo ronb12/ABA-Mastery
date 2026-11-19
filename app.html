@@ -987,6 +987,8 @@
     
     <script src="firebase-config-browser.js"></script>
     <script>
+        // Authentication remains optional when the public Firebase key is intentionally masked.
+        let auth = null, db = null, storage = null;
         const firebaseApiKey = window.FIREBASE_CONFIG && window.FIREBASE_CONFIG.apiKey;
         const hasValidFirebaseKey = typeof firebaseApiKey === 'string'
             && firebaseApiKey.length > 0
@@ -994,9 +996,9 @@
 
         if (hasValidFirebaseKey) {
             firebase.initializeApp(window.FIREBASE_CONFIG);
-            const auth = firebase.auth();
-            const db = firebase.firestore();
-            const storage = firebase.storage();
+            auth = firebase.auth();
+            db = firebase.firestore();
+            storage = firebase.storage();
 
             // Connect to local emulators only when explicitly requested: app.html?emulators=1
             const useFirebaseEmulators = new URLSearchParams(window.location.search).get('emulators') === '1';
@@ -1027,7 +1029,7 @@
             setProfileEmailText(cachedEmail);
         }
 
-        auth.onAuthStateChanged(user => {
+        if (auth) auth.onAuthStateChanged(user => {
             if (user) {
                 console.log('✅ User logged in:', user.email, 'UID:', user.uid);
                 const emailLabel = user.email || 'No email on record';
