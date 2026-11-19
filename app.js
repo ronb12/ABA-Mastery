@@ -375,8 +375,6 @@ function showTopicDetail(topic, category) {
         alignment = 'center';
     }
     
-    const isSmallScreen = screenWidth < 768;
-    
     modal.style.cssText = `
         position: fixed;
         top: 0;
